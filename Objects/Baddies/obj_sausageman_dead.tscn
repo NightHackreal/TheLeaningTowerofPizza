@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Objects/Baddies/obj_sausageman_dead.gd" type="Script" id=2]
+
+[node name="obj_sausageman_dead" type="Node2D" groups=["obj_sausageman_dead"]]
+script = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+
+[node name="MachAllTimer" type="Timer" parent="."]
+wait_time = 0.083
+one_shot = true
+
+[node name="CamVisibility" type="VisibilityNotifier2D" parent="."]
+rect = Rect2( -128, -128, 256, 256 )
+
+[connection signal="timeout" from="MachAllTimer" to="." method="_on_MachAllTimer_timeout"]

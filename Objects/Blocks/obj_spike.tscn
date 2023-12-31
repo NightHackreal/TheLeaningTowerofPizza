@@ -1,0 +1,38 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://Objects/Blocks/sprites/plug_9.png" type="Texture" id=2]
+[ext_resource path="res://Objects/Blocks/sprites/plug_0.png" type="Texture" id=3]
+[ext_resource path="res://Objects/Blocks/sprites/plug_1.png" type="Texture" id=4]
+[ext_resource path="res://Objects/Blocks/sprites/plug_2.png" type="Texture" id=5]
+[ext_resource path="res://Objects/Blocks/sprites/plug_4.png" type="Texture" id=6]
+[ext_resource path="res://Objects/Blocks/sprites/plug_6.png" type="Texture" id=7]
+[ext_resource path="res://Objects/Blocks/sprites/plug_5.png" type="Texture" id=8]
+[ext_resource path="res://Objects/Blocks/sprites/plug_7.png" type="Texture" id=9]
+[ext_resource path="res://Objects/Blocks/sprites/plug_8.png" type="Texture" id=10]
+[ext_resource path="res://Objects/Blocks/sprites/plug_3.png" type="Texture" id=11]
+[ext_resource path="res://Objects/Blocks/obj_spike.gd" type="Script" id=12]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 11 ), ExtResource( 6 ), ExtResource( 8 ), ExtResource( 7 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 2 ) ],
+"loop": true,
+"name": "plug",
+"speed": 60.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 16, 16 )
+
+[node name="obj_spike" type="Area2D" groups=["obj_hurtbox", "obj_spike"]]
+collision_layer = 4
+collision_mask = 5
+script = ExtResource( 12 )
+
+[node name="Sprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+animation = "plug"
+centered = false
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2( 16, 16 )
+shape = SubResource( 2 )
