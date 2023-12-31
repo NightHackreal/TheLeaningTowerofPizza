@@ -1,19 +1,19 @@
 <p align=center>
-    <img align=center src="GodotTowerLogo.png"/>
+    <img align=center src="title.png"/>
 </p>
 
 <p align=center>
-    Godot Tower is a work-in-progress port/rewrite of Pizza Tower (SAGE 2019 demo) in Godot Engine (3.x).
+    A slice from the past!
 </p>
 
 ## Info
 
-The goal of Godot Tower is to recreate the Pizza Tower SAGE 2019 demo in Godot Engine. In addition to it being a port/recreation of the SAGE 2019 demo, it also aims to be a mod focused on cut content and early versions of content that did make it into the game.  
+The Leaning Tower of Pizza is a PT fangame dedicated to paying homage to Pizza Tower's beta days. 4 worlds, 17 levels, 5 bosses. Yea.
 In its current state, while it does work and is playable, it is very buggy, primarily due to various differences between Godot and GameMaker.
 
 ## How was this done?
 
-This is done by rewriting the original demo's code in GDScript. Obviously, the code simply rewritten won't fully work properly due to various functions missing and differences between GameMaker and Godot in general. Making the code work as intended requires a lot of guesswork and also fixing the rewritten code, with anything collision related being the hardest part of making it work properly.
+I built this off of basiccube's Godot Tower.
 
 ## Credits
 
@@ -21,6 +21,14 @@ I do not own and didn't make any of the assets and music that are used in this p
 
 * Pizza Tower is made by Tour De Pizza. (McPig and Sertif)
 * Pizza Tower's composers are: Mr. Sauceman, ClascyJitto and POST ELVIS.
+The team:
+* Creator/Conceptualizer: NightHack
+* Director: NightHack
+* Composers: RooGoesBoom, IronCzyk, Westboiiz, Bambi Enjoyer
+* Spriters: RooGoesBoom, Takiallah Jamai, Bashuster, Bambi Enjoyer, Naffie Camara, Snackcore Games
+* Level Designers: NightHack, Definetly Real Sgt. Winter
+* Programmers: Ivo, Basiccube
+* Logo by: Bambi Enjoyer (Original by Naffie Camara)
 
 If you don't own [Pizza Tower on Steam](https://store.steampowered.com/app/2231450/Pizza_Tower/) yet, you can [support the developers](https://store.steampowered.com/app/2231450/Pizza_Tower/) by [buying the game](https://store.steampowered.com/app/2231450/Pizza_Tower/).  
 Come on, just [buy the game](https://store.steampowered.com/app/2231450/Pizza_Tower/)! You know you want [it](https://store.steampowered.com/app/2231450/Pizza_Tower/)!
@@ -30,5 +38,5 @@ The following projects are used, which are licensed under the MIT License:
 * [Godot Palette Swap Shader (Godot 3.x version)](https://github.com/KoBeWi/Godot-Palette-Swap-Shader/tree/3.x)
 * [BitmapTextureFont](https://github.com/Digital-Sin/BitmapTextureFont)
 * [Godot Console](https://github.com/quentincaffeino/godot-console)
-
+* [Godot Tower](https://github.com/NightHackreal/TheLeaningTowerofPizza)
 The licenses for these projects can be found in their respective folders.
