@@ -25,8 +25,8 @@ The team:
 * Creator/Conceptualizer: NightHack
 * Director: NightHack
 * Composers: RooGoesBoom, IronCzyk, Westboiiz, Bambi Enjoyer
-* Spriters: RooGoesBoom, Takiallah Jamai, Bashuster, Bambi Enjoyer, Naffie Camara, Snackcore Games
-* Level Designers: NightHack, Snackcore Games, Definetly Real Sgt. Winter
+* Spriters: RooGoesBoom, Takiallah Jamai, Bashuster, Bambi Enjoyer, Naffie Camara
+* Level Designers: NightHack, Definetly Real Sgt. Winter
 * Programmers: Ivo, Basiccube
 * Logo by: Bambi Enjoyer (Original by Naffie Camara)
 
