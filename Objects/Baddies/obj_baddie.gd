@@ -365,18 +365,10 @@ func scr_enemy_grabbed():
 	obj_player.baddiegrabbed = name
 	if (obj_player.state == global.states.grabbing || obj_player.state == global.states.grab || obj_player.state == global.states.throw || obj_player.state == global.states.slam):
 		position.x = obj_player.position.x
-		if (obj_player.sprite_index != "haulingstart"):
-			if (obj_player.character == "P"):
-				position.y = (obj_player.position.y - 55)
-			else:
-				position.y = (obj_player.position.y - 45)
-		elif (floor(obj_player.get_frame()) == 0):
-			position.y = obj_player.position.y - 15
-		elif (floor(obj_player.get_frame()) == 1):
-			position.y = (obj_player.position.y - 25)
-		elif (floor(obj_player.get_frame()) == 2):
-			position.y = (obj_player.position.y - 35)
-		elif (floor(obj_player.get_frame()) == 3):
+		if (obj_player.character == "P"):
+			position.x = obj_player.position.x + (obj_player.xscale * 35)
+			position.y = (obj_player.position.y - 15)
+		else:
 			position.y = (obj_player.position.y - 45)
 		xscale = (-obj_player.xscale)
 	if (!(obj_player.state == global.states.grab || obj_player.state == global.states.finishingblow || obj_player.state == global.states.grabbing || obj_player.state == global.states.throw || obj_player.state == global.states.slam || obj_player.state == global.states.punch || obj_player.state == global.states.superslam || obj_player.state == global.states.backkick || obj_player.state == global.states.uppunch || obj_player.state == global.states.shoulder)):
@@ -482,38 +474,9 @@ func scr_enemy_grabbed():
 			i.shake_mag_acc = (3 / 30)
 	if ((obj_player.state == global.states.superslam && obj_player.sprite_index == "piledriver") || (obj_player.state == global.states.grab && obj_player.sprite_index == "swingding")):
 		if (obj_player.character == "P"):
-			if (floor(obj_player.get_frame()) == 0):
-				z_index = 0
-				position.x = (obj_player.position.x + (obj_player.xscale * 10))
-				position.y = (obj_player.position.y)
-			if (floor(obj_player.get_frame()) == 1):
-				z_index = 0
-				position.x = (obj_player.position.x + (obj_player.xscale * 5))
-				position.y = (obj_player.position.y)
-			if (floor(obj_player.get_frame()) == 2):
-				z_index = 0
-				position.x = obj_player.position.x
-				position.y = (obj_player.position.y)
-			if (floor(obj_player.get_frame()) == 3):
-				z_index = 0
-				position.x = (obj_player.position.x + (obj_player.xscale * -5))
-				position.y = (obj_player.position.y)
-			if (floor(obj_player.get_frame()) == 4):
-				z_index = 0
-				position.x = (obj_player.position.x + (obj_player.xscale * -10))
-				position.y = (obj_player.position.y)
-			if (floor(obj_player.get_frame()) == 5):
-				z_index = 8
-				position.x = (obj_player.position.x + (obj_player.xscale * -5))
-				position.y = (obj_player.position.y)
-			if (floor(obj_player.get_frame()) == 6):
-				z_index = 8
-				position.x = obj_player.position.x
-				position.y = (obj_player.position.y)
-			if (floor(obj_player.get_frame()) == 7):
-				z_index = 8
-				position.x = (obj_player.position.x + (obj_player.xscale * 5))
-				position.y = (obj_player.position.y)
+			z_index = 8
+			position.x = (obj_player.position.x + (5 * obj_player.xscale))
+			position.y = (obj_player.position.y - 55)
 		else:
 			z_index = 7
 			position.x = (obj_player.position.x + (5 * obj_player.xscale))

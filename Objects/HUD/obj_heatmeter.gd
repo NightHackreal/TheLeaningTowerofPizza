@@ -12,7 +12,7 @@ func _process(delta):
 	$Sprite.animation = sprite
 	$HeatMeter.value = global.heatstyle
 	var obj_camera = utils.get_instance("obj_camera")
-	position.x = obj_camera.global_position.x - 190
+	position.x = obj_camera.global_position.x
 	position.y = obj_camera.global_position.y - 174
 	if ((global.targetRoom == "rank_room" || global.targetRoom == "timesuproom" || global.targetRoom == "Realtitlescreen" || global.targetRoom == "characterselect" || global.targetRoom == "rm_levelselect" || !global.hudvisible) || global.heatstyle <= 0):
 		visible = false

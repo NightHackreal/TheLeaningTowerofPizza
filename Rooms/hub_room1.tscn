@@ -131,7 +131,7 @@ targetLevel = "dungeon"
 targetRoom = "dungeon_1"
 
 [node name="obj_startgate6" parent="." instance=ExtResource( 2 )]
-position = Vector2( 1089, 256 )
+position = Vector2( 1088, 256 )
 targetLevel = "ancient"
 targetRoom = "ancient_1"
 

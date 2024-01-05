@@ -26,8 +26,8 @@ _global_script_class_icons={
 
 [application]
 
-config/name="GodotTower"
-config/description="Pizza Tower recreation in Godot Engine."
+config/name="TheLeaningTowerofPizza"
+config/description="A Pizza Tower fangame."
 run/main_scene="res://Main/Game.tscn"
 boot_splash/show_image=false
 config/icon="res://icon.png"

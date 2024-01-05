@@ -10,6 +10,7 @@ var world_array = [
 
 var level_array = [
 	[
+		["YE OLDE LEFTOVERSE", "ancient", "ancient_1"],
 		["ENTRANCE", "entrance", "entrance_1"],
 		["PIZZASCAPE", "medieval", "medieval_1"],
 		["THE ANCIENT CHEESE", "ruin", "ruin_1"],
