@@ -17,7 +17,7 @@ We do not own and didn't make any of Pizza Tower's original assets that are used
 
 * Pizza Tower is made by Tour De Pizza. (McPig and Sertif)
 * Pizza Tower's composers are: Mr. Sauceman, ClascyJitto and POST ELVIS.
-* [Godot Tower](https://github.com/NightHackreal/TheLeaningTowerofPizza) is made by basiccube.
+* [Godot Tower](https://github.com/basiccube/GodotTower) is made by basiccube.
 
 The Leaning Tower of Pizza team:
 * Creator/Conceptualizer: NightHack
