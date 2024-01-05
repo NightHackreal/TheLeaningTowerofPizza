@@ -42,7 +42,7 @@ position = Vector2( 0, 1400 )
 position = Vector2( 1328, 0 )
 
 [node name="HubWorld1" type="Sprite" parent="."]
-z_index = -5
+z_index = -4
 texture = ExtResource( 8 )
 centered = false
 
@@ -132,6 +132,8 @@ targetRoom = "dungeon_1"
 
 [node name="obj_startgate6" parent="." instance=ExtResource( 2 )]
 position = Vector2( 1089, 256 )
+targetLevel = "ancient"
+targetRoom = "ancient_1"
 
 [node name="obj_door" parent="." instance=ExtResource( 17 )]
 position = Vector2( 1104, 1184 )
@@ -150,7 +152,7 @@ targetDoor = "C"
 position = Vector2( 160, 1184 )
 
 [node name="obj_dresser" parent="." instance=ExtResource( 11 )]
-position = Vector2( 384, 1184 )
+position = Vector2( -100, 1191 )
 
 [node name="DebugText" type="Label" parent="."]
 margin_left = 80.0

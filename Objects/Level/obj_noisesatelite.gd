@@ -26,20 +26,20 @@ func destroy():
 			obj.shake_mag = 3
 			obj.shake_mag_acc = 0.1
 		var deadbaddieid = utils.instance_create(global_position.x, global_position.y, "res://Objects/Baddies/obj_sausageman_dead.tscn")
-		deadbaddieid.sprite_index = $Sprite.frames.get_frame("hungrypillar_dead", 0)
+		deadbaddieid.sprite_index = $Sprite.frames.get_frame("noisesatelite_dead", 0)
 		global.combotime = 60
 		global.panic = true
 		utils.instance_create(global_position.x, global_position.y + 600, "res://Objects/Visuals/obj_itspizzatime.tscn")
 		match global.targetLevel:
 			"entrance":
-				global.minutes = 2
-				global.seconds = 30
+				global.minutes = 3
+				global.seconds = 15
 			"medieval":
 				global.minutes = 2
-				global.seconds = 15
+				global.seconds = 35
 			"ruin":
-				global.minutes = 3
-				global.seconds = 30
+				global.minutes = 2
+				global.seconds = 50
 			"dungeon":
 				global.minutes = 3
 				global.seconds = 30

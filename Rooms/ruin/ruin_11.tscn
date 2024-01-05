@@ -12,7 +12,7 @@
 [ext_resource path="res://Objects/Warps/obj_hallway.tscn" type="PackedScene" id=10]
 [ext_resource path="res://Backgrounds/bg_ruinstatue3_0.png" type="Texture" id=11]
 [ext_resource path="res://Collision/obj_solid.tscn" type="PackedScene" id=12]
-[ext_resource path="res://Objects/Level/obj_hungrypillar.tscn" type="PackedScene" id=13]
+[ext_resource path="res://Objects/Level/obj_noisesatelite.tscn" type="PackedScene" id=13]
 [ext_resource path="res://Collision/obj_platform.tscn" type="PackedScene" id=14]
 [ext_resource path="res://Objects/Blocks/obj_spike.tscn" type="PackedScene" id=15]
 [ext_resource path="res://Objects/Blocks/obj_ladder.tscn" type="PackedScene" id=16]
@@ -207,9 +207,6 @@ scale = Vector2( 1, 2 )
 [node name="obj_solid19" parent="." instance=ExtResource( 12 )]
 position = Vector2( 192, 224 )
 scale = Vector2( 7, 2 )
-
-[node name="obj_hungrypillar" parent="." instance=ExtResource( 13 )]
-position = Vector2( 672, 384 )
 
 [node name="obj_platform" parent="." instance=ExtResource( 14 )]
 position = Vector2( 1056, 224 )
@@ -583,3 +580,6 @@ content = ExtResource( 22 )
 
 [node name="obj_portalentrance" parent="." instance=ExtResource( 24 )]
 position = Vector2( 736, 448 )
+
+[node name="obj_noisesatelite" parent="." instance=ExtResource( 13 )]
+position = Vector2( 711, 456 )

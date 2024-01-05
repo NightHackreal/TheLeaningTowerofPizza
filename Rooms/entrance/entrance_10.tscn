@@ -2,7 +2,7 @@
 
 [ext_resource path="res://Collision/obj_solid.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Objects/Warps/obj_hallway.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Objects/Level/obj_hungrypillar.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Objects/Level/obj_noisesatelite.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Objects/Level/obj_camlimit_left.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Objects/Level/obj_camlimit_right.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Objects/Level/obj_camlimit_bottom.tscn" type="PackedScene" id=6]
@@ -89,10 +89,6 @@ targetDoor = "B"
 targetLevel = "entrance"
 targetRoom = "entrance_9"
 
-[node name="obj_hungrypillar" parent="." instance=ExtResource( 3 )]
-position = Vector2( 2144, 256 )
-scale = Vector2( -1, 1 )
-
 [node name="obj_metalblock" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1824, 416 )
 
@@ -158,3 +154,7 @@ position = Vector2( 1536, 448 )
 
 [node name="obj_portalentrance" parent="." instance=ExtResource( 14 )]
 position = Vector2( 2080, 336 )
+
+[node name="obj_noisesatelite" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2104, 328 )
+scale = Vector2( -1, 1 )

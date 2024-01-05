@@ -10,7 +10,7 @@
 [ext_resource path="res://Collision/obj_solid.tscn" type="PackedScene" id=8]
 [ext_resource path="res://Collision/obj_slope.tscn" type="PackedScene" id=9]
 [ext_resource path="res://Shaders/TextureScroll.tres" type="Shader" id=10]
-[ext_resource path="res://Objects/Level/obj_hungrypillar.tscn" type="PackedScene" id=11]
+[ext_resource path="res://Objects/Level/obj_noisesatelite.tscn" type="PackedScene" id=11]
 [ext_resource path="res://Objects/Warps/obj_hallway.tscn" type="PackedScene" id=12]
 [ext_resource path="res://Objects/Collectibles/obj_collect.tscn" type="PackedScene" id=13]
 [ext_resource path="res://Objects/Hazards/obj_pizzacutter.tscn" type="PackedScene" id=14]
@@ -132,10 +132,6 @@ scale = Vector2( 2, 2 )
 position = Vector2( 1056, 256 )
 scale = Vector2( -2, 2 )
 
-[node name="obj_hungrypillar" parent="." instance=ExtResource( 11 )]
-position = Vector2( 1472, 96 )
-scale = Vector2( -1, 1 )
-
 [node name="obj_hallway" parent="." instance=ExtResource( 12 )]
 position = Vector2( -32, 448 )
 scale = Vector2( -2, 1.5 )
@@ -211,3 +207,7 @@ position = Vector2( 1120, 288 )
 
 [node name="obj_escapecollect8" parent="." instance=ExtResource( 16 )]
 position = Vector2( 1152, 288 )
+
+[node name="obj_noisesatelite" parent="." instance=ExtResource( 11 )]
+position = Vector2( 1434, 168 )
+scale = Vector2( -1, 1 )

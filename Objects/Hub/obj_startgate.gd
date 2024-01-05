@@ -46,6 +46,114 @@ func _process(delta):
 					obj.showtext = true
 					obj.resettimer.wait_time = 0.03
 					obj.resettimer.start()
+			"ancient":
+				for obj in get_tree().get_nodes_in_group("obj_tv"):
+					obj.message = "YE OLDE LEFTOVERSE"
+					obj.showtext = true
+					obj.resettimer.wait_time = 0.03
+					obj.resettimer.start()
+			"ravine":
+				for obj in get_tree().get_nodes_in_group("obj_tv"):
+					obj.message = "30 FEET UNDERGROUND"
+					obj.showtext = true
+					obj.resettimer.wait_time = 0.03
+					obj.resettimer.start()
+			"castle":
+				for obj in get_tree().get_nodes_in_group("obj_tv"):
+					obj.message = "CRUST CASTLE"
+					obj.showtext = true
+					obj.resettimer.wait_time = 0.03
+					obj.resettimer.start()
+			"dragonlair":
+				for obj in get_tree().get_nodes_in_group("obj_tv"):
+					obj.message = "DRAGON'S LAIR"
+					obj.showtext = true
+					obj.resettimer.wait_time = 0.03
+					obj.resettimer.start()
+			"water":
+				for obj in get_tree().get_nodes_in_group("obj_tv"):
+					obj.message = "HYDRO HYJINKS"
+					obj.showtext = true
+					obj.resettimer.wait_time = 0.03
+					obj.resettimer.start()
+			"oven":
+				for obj in get_tree().get_nodes_in_group("obj_tv"):
+					obj.message = "OREGANO OVEN"
+					obj.showtext = true
+					obj.resettimer.wait_time = 0.03
+					obj.resettimer.start()
+			"kungfu":
+				for obj in get_tree().get_nodes_in_group("obj_tv"):
+					obj.message = "HAAAIIIYYYAAAHHH!!!"
+					obj.showtext = true
+					obj.resettimer.wait_time = 0.03
+					obj.resettimer.start()
+			"crashedufo":
+				for obj in get_tree().get_nodes_in_group("obj_tv"):
+					obj.message = "UNIDENTIFIED FLYING OLIVE"
+					obj.showtext = true
+					obj.resettimer.wait_time = 0.03
+					obj.resettimer.start()
+			"heaven":
+				for obj in get_tree().get_nodes_in_group("obj_tv"):
+					obj.message = "HEAVENLY SKYSCAPES"
+					obj.showtext = true
+					obj.resettimer.wait_time = 0.03
+					obj.resettimer.start()
+			"golf":
+				for obj in get_tree().get_nodes_in_group("obj_tv"):
+					obj.message = "SWISSSHOT COURSE"
+					obj.showtext = true
+					obj.resettimer.wait_time = 0.03
+					obj.resettimer.start()
+			"canadianwinter":
+				for obj in get_tree().get_nodes_in_group("obj_tv"):
+					obj.message = "OH CANADA!"
+					obj.showtext = true
+					obj.resettimer.wait_time = 0.03
+					obj.resettimer.start()
+			"kitchen":
+				for obj in get_tree().get_nodes_in_group("obj_tv"):
+					obj.message = "KALAMITEE KITCHEN"
+					obj.showtext = true
+					obj.resettimer.wait_time = 0.03
+					obj.resettimer.start()
+			"freezer":
+				for obj in get_tree().get_nodes_in_group("obj_tv"):
+					obj.message = "NOISERATOR-REFRIGERATOR"
+					obj.showtext = true
+					obj.resettimer.wait_time = 0.03
+					obj.resettimer.start()
+			"factory":
+				for obj in get_tree().get_nodes_in_group("obj_tv"):
+					obj.message = "MECHANICAL MADNESS"
+					obj.showtext = true
+					obj.resettimer.wait_time = 0.03
+					obj.resettimer.start()
+			"lightsout":
+				for obj in get_tree().get_nodes_in_group("obj_tv"):
+					obj.message = "YOU BRING A LIGHT?"
+					obj.showtext = true
+					obj.resettimer.wait_time = 0.03
+					obj.resettimer.start()
+			"fnaf":
+				for obj in get_tree().get_nodes_in_group("obj_tv"):
+					obj.message = "5:59 A.M."
+					obj.showtext = true
+					obj.resettimer.wait_time = 0.03
+					obj.resettimer.start()
+			"top":
+				for obj in get_tree().get_nodes_in_group("obj_tv"):
+					obj.message = "THE LIVING TOWER OF PIZZA"
+					obj.showtext = true
+					obj.resettimer.wait_time = 0.03
+					obj.resettimer.start()
+			"exit":
+				for obj in get_tree().get_nodes_in_group("obj_tv"):
+					obj.message = "THE CRUMBLING TOWER OF PIZZA"
+					obj.showtext = true
+					obj.resettimer.wait_time = 0.03
+					obj.resettimer.start()
 			"entrance":
 				for obj in get_tree().get_nodes_in_group("obj_tv"):
 					obj.message = "JOHN GUTTER"

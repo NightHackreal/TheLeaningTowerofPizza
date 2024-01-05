@@ -214,7 +214,7 @@ position = Vector2( 1088, 1216 )
 position = Vector2( 3072, -192 )
 
 [node name="obj_spawnpoint" parent="." instance=ExtResource( 9 )]
-position = Vector2( 192, 320 )
+position = Vector2( 194, 319 )
 targetDoor = "E"
 
 [node name="obj_collect" parent="." instance=ExtResource( 10 )]

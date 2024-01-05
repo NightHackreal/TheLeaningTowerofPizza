@@ -58,7 +58,7 @@
 [ext_resource path="res://Objects/Baddies/sprites/pizzagoblin/pizzagoblin_walk_2.png" type="Texture" id=56]
 [ext_resource path="res://Objects/Baddies/sprites/pizzagoblin/pizzagoblin_recovery_16.png" type="Texture" id=57]
 [ext_resource path="res://Objects/Baddies/sprites/pizzagoblin/pizzagoblin_throwbomb_7.png" type="Texture" id=58]
-[ext_resource path="res://Objects/Baddies/sprites/pizzagoblin/pizzagoblin_stun_2.png" type="Texture" id=59]
+[ext_resource path="res://Objects/Baddies/sprites/pizzagoblin/pizzagoblin_grabbed_0.png" type="Texture" id=59]
 [ext_resource path="res://Objects/Baddies/sprites/pizzagoblin/pizzagoblin_recovery_13.png" type="Texture" id=60]
 [ext_resource path="res://Objects/Baddies/sprites/pizzagoblin/pizzagoblin_throwbomb_13.png" type="Texture" id=61]
 [ext_resource path="res://Objects/Baddies/sprites/pizzagoblin/pizzagoblin_throwbomb_5.png" type="Texture" id=62]
@@ -70,7 +70,7 @@
 [ext_resource path="res://Objects/Baddies/sprites/pizzagoblin/pizzagoblin_recovery_21.png" type="Texture" id=68]
 [ext_resource path="res://Objects/Baddies/sprites/pizzagoblin/pizzagoblin_walk_8.png" type="Texture" id=69]
 [ext_resource path="res://Objects/Baddies/sprites/pizzagoblin/pizzagoblin_recovery_15.png" type="Texture" id=70]
-[ext_resource path="res://Objects/Baddies/sprites/pizzagoblin/pizzagoblin_stun_0.png" type="Texture" id=71]
+[ext_resource path="res://Objects/Baddies/sprites/pizzagoblin/pizzagoblin_grabbed_2.png" type="Texture" id=71]
 [ext_resource path="res://Objects/Baddies/sprites/pizzagoblin/pizzagoblin_throwbomb_11.png" type="Texture" id=72]
 [ext_resource path="res://Objects/Baddies/sprites/pizzagoblin/pizzagoblin_throwbomb_1.png" type="Texture" id=73]
 [ext_resource path="res://Objects/Baddies/sprites/pizzagoblin/pizzagoblin_walk_0.png" type="Texture" id=74]
@@ -83,7 +83,7 @@
 [ext_resource path="res://Objects/Baddies/sprites/pizzagoblin/pizzagoblin_throwbomb_10.png" type="Texture" id=81]
 [ext_resource path="res://Objects/Baddies/sprites/pizzagoblin/pizzagoblin_walk_7.png" type="Texture" id=82]
 [ext_resource path="res://Objects/Baddies/sprites/pizzagoblin/pizzagoblin_scared_0.png" type="Texture" id=83]
-[ext_resource path="res://Objects/Baddies/sprites/pizzagoblin/pizzagoblin_stun_1.png" type="Texture" id=84]
+[ext_resource path="res://Objects/Baddies/sprites/pizzagoblin/pizzagoblin_grabbed_1.png" type="Texture" id=84]
 [ext_resource path="res://Objects/Baddies/sprites/pizzagoblin/pizzagoblin_throwbomb_14.png" type="Texture" id=85]
 [ext_resource path="res://Objects/Baddies/sprites/pizzagoblin/pizzagoblin_throwbomb_17.png" type="Texture" id=86]
 [ext_resource path="res://Objects/Baddies/sprites/pizzagoblin/pizzagoblin_walk_6.png" type="Texture" id=87]
@@ -126,7 +126,7 @@ animations = [ {
 "name": "scared",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 71 ), ExtResource( 84 ), ExtResource( 59 ) ],
+"frames": [ ExtResource( 59 ), ExtResource( 84 ), ExtResource( 71 ) ],
 "loop": true,
 "name": "stun",
 "speed": 60.0

@@ -367,17 +367,17 @@ func scr_enemy_grabbed():
 		position.x = obj_player.position.x
 		if (obj_player.sprite_index != "haulingstart"):
 			if (obj_player.character == "P"):
-				position.y = (obj_player.position.y - 60)
+				position.y = (obj_player.position.y - 55)
 			else:
-				position.y = (obj_player.position.y - 50)
+				position.y = (obj_player.position.y - 45)
 		elif (floor(obj_player.get_frame()) == 0):
-			position.y = obj_player.position.y - 20
+			position.y = obj_player.position.y - 15
 		elif (floor(obj_player.get_frame()) == 1):
-			position.y = (obj_player.position.y - 30)
+			position.y = (obj_player.position.y - 25)
 		elif (floor(obj_player.get_frame()) == 2):
-			position.y = (obj_player.position.y - 40)
+			position.y = (obj_player.position.y - 35)
 		elif (floor(obj_player.get_frame()) == 3):
-			position.y = (obj_player.position.y - 50)
+			position.y = (obj_player.position.y - 45)
 		xscale = (-obj_player.xscale)
 	if (!(obj_player.state == global.states.grab || obj_player.state == global.states.finishingblow || obj_player.state == global.states.grabbing || obj_player.state == global.states.throw || obj_player.state == global.states.slam || obj_player.state == global.states.punch || obj_player.state == global.states.superslam || obj_player.state == global.states.backkick || obj_player.state == global.states.uppunch || obj_player.state == global.states.shoulder)):
 		position.x = (obj_player.position.x + (50 * obj_player.xscale))

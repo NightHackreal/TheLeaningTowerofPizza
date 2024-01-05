@@ -123,12 +123,31 @@ func _process(delta):
 	sprite_index = charactersprite.animation
 	if (character == "P"):
 		charactersprite = $PeppinoSprite
+		$PeppermanSprite.visible = false
 		$PeppinoSprite.visible = true
+		$PizzelleSprite.visible = false
 		$NoiseSprite.visible = false
+		$NoisetteSprite.visible = false
+		$SnickSprite.visible = false
+		$VigilanteSprite.visible = false
 	elif (character == "N"):
 		charactersprite = $NoiseSprite
+		$PeppermanSprite.visible = false
 		$PeppinoSprite.visible = false
+		$PizzelleSprite.visible = false
 		$NoiseSprite.visible = true
+		$NoisetteSprite.visible = false
+		$SnickSprite.visible = false
+		$VigilanteSprite.visible = false
+	elif (character == "E"):
+		charactersprite = $NoisetteSprite
+		$PeppermanSprite.visible = false
+		$PeppinoSprite.visible = false
+		$PizzelleSprite.visible = false
+		$NoiseSprite.visible = false
+		$NoisetteSprite.visible = true
+		$SnickSprite.visible = false
+		$VigilanteSprite.visible = false
 	charactersprite.material.set_shader_param("current_palette", global.peppalette)
 	charactersprite.material.set_shader_param("flash", flash)
 	position.x += velocity.x

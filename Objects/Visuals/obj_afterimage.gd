@@ -14,8 +14,7 @@ func _ready():
 		modulate.r = 0
 		modulate.g = 1
 		modulate.b = 0
-	$AlphaOffTimer.start()
-
+	$AlphaOffTimer.stop()
 func _process(delta):
 	$Sprite.texture = sprite
 

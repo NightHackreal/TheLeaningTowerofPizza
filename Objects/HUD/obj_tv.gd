@@ -17,6 +17,7 @@ var combo_posY = 0
 onready var sprite = $TVSprite
 onready var resettimer = $ResetTimer
 
+# warning-ignore:unused_argument
 func _process(delta):
 	$MessageLabel.text = message
 	$TVSprite.animation = tvsprite
@@ -123,7 +124,7 @@ func _process(delta):
 		shownranka = true
 	elif (global.collect > global.brank && !shownrankb && !global.timeattack):
 		$TVSprite.speed_scale = 0
-		message = "YOU GOT A B RANK. EH...OK!"
+		message = "YOU GOT A B RANK. OK, BASED!"
 		showtext = true
 		$ResetTimer.wait_time = 3.33
 		$ResetTimer.start()
@@ -137,6 +138,7 @@ func _process(delta):
 		$ResetTimer.start()
 		tvsprite = "rankc"
 		shownrankc = true
+# warning-ignore:return_value_discarded
 	elif (obj_player.sprite_index == "levelcomplete"):
 		$TVSprite.speed_scale = 0.1
 		$ResetTimer.wait_time = 0.83
@@ -150,9 +152,9 @@ func _process(delta):
 		if (!chose):
 			var rng = utils.randi_range(1,4)
 			if (rng == 1):
-				message = "OUCH!"
+				message = "DON'T GET TOUCHED BY THAT!"
 			elif (rng == 2):
-				message = "WOH!"
+				message = "YOU CAN DO BETTER THAN THAT!"
 			elif (rng == 3):
 				message = "YOU DINGUS..."
 			elif (rng == 4):

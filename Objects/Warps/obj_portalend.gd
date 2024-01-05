@@ -9,6 +9,7 @@ func _ready():
 	if (global.saveroom.has(global.targetRoom + name)):
 		queue_free()
 
+# warning-ignore:unused_argument
 func _process(delta):
 	$Sprite.material.set_shader_param("current_palette", global.peppalette)
 	if (global.panic):

@@ -15,6 +15,7 @@ var room_arr = [
 	["Titlescreen", "mu_wind", "mu_medievalsecret", false],
 	["hub_room1", "mu_hub", "mu_medievalsecret", false],
 	["hub_special", "mu_hub", "mu_medievalsecret", false],
+	["ancient_1", "mu_ruin", "mu_medievalsecret", false],
 	["entrance_1", "mu_entrance", "mu_medievalsecret", false],
 	["medieval_1", "mu_medievalentrance", "mu_medievalsecret", false],
 	["medieval_2", "mu_medievalentrance", "mu_medievalsecret", true],
