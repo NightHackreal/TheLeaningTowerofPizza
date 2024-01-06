@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=2]
+[gd_scene load_steps=23 format=2]
 
 [ext_resource path="res://Collision/obj_solid.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Collision/obj_platform.tscn" type="PackedScene" id=2]
@@ -21,11 +21,6 @@
 [ext_resource path="res://Objects/Baddies/obj_escapeenemy.tscn" type="PackedScene" id=20]
 [ext_resource path="res://Tilesets/tile_tower.tres" type="TileSet" id=21]
 [ext_resource path="res://Objects/Destructibles/obj_secretbigblock.tscn" type="PackedScene" id=22]
-[ext_resource path="res://Backgrounds/bg_foregroundblock_0.png" type="Texture" id=23]
-[ext_resource path="res://Objects/Visuals/Background/sprites/foregroundblock3.png" type="Texture" id=24]
-[ext_resource path="res://Objects/Visuals/Background/sprites/foregroundblock1.png" type="Texture" id=25]
-[ext_resource path="res://Objects/Visuals/Background/sprites/foregroundblock2.png" type="Texture" id=26]
-[ext_resource path="res://Objects/Visuals/Background/sprites/foregroundblock.png" type="Texture" id=27]
 [ext_resource path="res://Objects/Visuals/Background/sprites/bigpillar.png" type="Texture" id=28]
 
 [node name="entrance_1" type="Node2D"]
@@ -41,41 +36,6 @@ texture = ExtResource( 10 )
 centered = false
 region_enabled = true
 region_rect = Rect2( 0, 0, 1200, 1078 )
-
-[node name="Sprite" type="Sprite" parent="."]
-z_index = -200
-texture = ExtResource( 23 )
-centered = false
-
-[node name="Sprite2" type="Sprite" parent="."]
-position = Vector2( 512, 0 )
-z_index = -200
-texture = ExtResource( 23 )
-centered = false
-
-[node name="Sprite3" type="Sprite" parent="."]
-position = Vector2( 1024, 0 )
-z_index = -200
-texture = ExtResource( 27 )
-centered = false
-
-[node name="Sprite4" type="Sprite" parent="."]
-position = Vector2( 1024, 128 )
-z_index = -200
-texture = ExtResource( 26 )
-centered = false
-
-[node name="Sprite5" type="Sprite" parent="."]
-position = Vector2( 1024, 256 )
-z_index = -200
-texture = ExtResource( 24 )
-centered = false
-
-[node name="Sprite6" type="Sprite" parent="."]
-position = Vector2( 1024, 384 )
-z_index = -200
-texture = ExtResource( 25 )
-centered = false
 
 [node name="Sprite7" type="Sprite" parent="."]
 position = Vector2( 704, -336 )

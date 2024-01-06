@@ -227,7 +227,7 @@ position = Vector2( -1, -235 )
 position = Vector2( 0, -1 )
 
 [node name="obj_camlimit_bottom" parent="." instance=ExtResource( 12 )]
-position = Vector2( 0, 574 )
+position = Vector2( 0, 540 )
 
 [node name="obj_platform" parent="." instance=ExtResource( 15 )]
 position = Vector2( 3368, 282 )
@@ -257,3 +257,5 @@ position = Vector2( 4660, -269 )
 [node name="obj_hallway" parent="." instance=ExtResource( 17 )]
 position = Vector2( 4670, 185 )
 scale = Vector2( 2.2, 3 )
+targetLevel = "ancient"
+targetRoom = "ancient_3"
