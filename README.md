@@ -11,6 +11,14 @@
 The Leaning Tower of Pizza is a PT fangame dedicated to paying homage to Pizza Tower's beta days. 4 worlds, 17 levels, 5 bosses. Yea.
 In its current state, while it does work and is playable, it is very buggy, primarily due to various differences between Godot and GameMaker.
 
+* Play as Peppino Spaghetti! And also the Noise, The Vigilante, Pepperman, Mr. Stick, Snick and Noisette. And sometimes Fake Peppino.
+* Explore 4 floors with 17 levels! And also brutally murder 5 bosses, like a soldier bee and a mayor.
+* Kill EVERYTHING that gets in your way!
+* Get the not-as-elusive-as-a-p-rank-but-still-kinda-elusice W rank!
+And most importantly, once it's Pizza Time...
+* GET THE F%^& OUT!!!
+
+
 ## Credits
 
 We do not own and didn't make any of Pizza Tower's original assets that are used in this project.
