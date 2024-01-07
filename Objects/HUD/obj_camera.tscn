@@ -492,15 +492,16 @@ speed_scale = 0.0
 centered = false
 
 [node name="TimeText" type="Label" parent="."]
-margin_left = -480.0
-margin_top = -205.0
-margin_right = 480.0
-margin_bottom = -173.0
+margin_left = -482.0
+margin_top = 187.0
+margin_right = 478.0
+margin_bottom = 219.0
 rect_min_size = Vector2( 960, 32 )
 custom_colors/font_color = Color( 1, 1, 1, 1 )
 custom_fonts/font = ExtResource( 10 )
 text = "1:00"
 align = 1
+valign = 2
 uppercase = true
 
 [node name="Inventory" type="Sprite" parent="."]

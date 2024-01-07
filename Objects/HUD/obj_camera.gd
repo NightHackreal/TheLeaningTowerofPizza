@@ -24,9 +24,9 @@ func _process(delta):
 	else:
 		visible = true
 	if (global.stylebar):
-		$TimeText.rect_position.y = -170
+		$TimeText.rect_position.y = 187
 	else:
-		$TimeText.rect_position.y = -205
+		$TimeText.rect_position.y = 187
 	if (global.debugview):
 		limit_left = -10000000
 		limit_top = -10000000

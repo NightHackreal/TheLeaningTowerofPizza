@@ -72,7 +72,7 @@ position = Vector2( -768, 80 )
 position = Vector2( -480, -270 )
 
 [node name="obj_heatmeter" parent="." instance=ExtResource( 57 )]
-position = Vector2( 0, -112 )
+position = Vector2( 0, -174 )
 
 [node name="obj_tv" parent="." instance=ExtResource( 11 )]
 
