@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=17 format=2]
 
 [ext_resource path="res://Objects/Warps/obj_exitgate.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Objects/Collectibles/obj_collect.tscn" type="PackedScene" id=2]
@@ -15,9 +15,13 @@
 [ext_resource path="res://Objects/Collectibles/obj_pizzacollect.tscn" type="PackedScene" id=13]
 [ext_resource path="res://Objects/Warps/obj_keydoor.tscn" type="PackedScene" id=14]
 [ext_resource path="res://Objects/Collectibles/obj_key.tscn" type="PackedScene" id=15]
+[ext_resource path="res://Objects/Visuals/obj_background.tscn" type="PackedScene" id=16]
 
 [node name="ancient_1" type="Node2D"]
 position = Vector2( 3, -9 )
+
+[node name="Background" parent="." instance=ExtResource( 16 )]
+Layer1 = ExtResource( 4 )
 
 [node name="obj_solid" parent="." instance=ExtResource( 3 )]
 position = Vector2( -2, -53 )
@@ -88,18 +92,6 @@ position = Vector2( 1885, 268 )
 
 [node name="obj_spawnpoint" parent="." instance=ExtResource( 5 )]
 position = Vector2( 127, 299 )
-
-[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
-
-[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
-motion_scale = Vector2( 0.75, 0.75 )
-motion_mirroring = Vector2( 1200, 1078 )
-
-[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
-texture = ExtResource( 4 )
-centered = false
-region_enabled = true
-region_rect = Rect2( 0, 0, 1200, 1078 )
 
 [node name="obj_portalend" parent="." instance=ExtResource( 7 )]
 position = Vector2( 39, 277 )
