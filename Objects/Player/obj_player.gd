@@ -139,6 +139,15 @@ func _process(delta):
 		$NoisetteSprite.visible = false
 		$SnickSprite.visible = false
 		$VigilanteSprite.visible = false
+	elif (character == "M"):
+		charactersprite = $PeppermanSprite
+		$PeppermanSprite.visible = true
+		$PeppinoSprite.visible = false
+		$PizzelleSprite.visible = false
+		$NoiseSprite.visible = false
+		$NoisetteSprite.visible = false
+		$SnickSprite.visible = false
+		$VigilanteSprite.visible = false
 	elif (character == "E"):
 		charactersprite = $NoisetteSprite
 		$PeppermanSprite.visible = false
@@ -340,7 +349,7 @@ func _process(delta):
 					state = global.states.fireass
 					velocity.y = -25
 					charactersprite.animation = "fireass"
-					utils.playsound("Scream5")
+					utils.playsound("Scream3")
 			if collision.collider.is_in_group("obj_hungrypillar"):
 				if (state == global.states.handstandjump):
 					state = global.states.finishingblow

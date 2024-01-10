@@ -208,147 +208,113 @@ position = Vector2( 2240, 768 )
 
 [node name="obj_minipillar" parent="." instance=ExtResource( 8 )]
 position = Vector2( 928, 192 )
-z_index = 1
 Reverse = true
 
 [node name="obj_minipillar2" parent="." instance=ExtResource( 8 )]
 position = Vector2( 960, 192 )
-z_index = 1
 Reverse = true
 
 [node name="obj_minipillar3" parent="." instance=ExtResource( 8 )]
 position = Vector2( 992, 192 )
-z_index = 1
 Reverse = true
 
 [node name="obj_minipillar4" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1024, 192 )
-z_index = 1
 Reverse = true
 
 [node name="obj_minipillar5" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1440, 192 )
-z_index = 1
 Reverse = true
 
 [node name="obj_minipillar6" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1472, 192 )
-z_index = 1
 Reverse = true
 
 [node name="obj_minipillar7" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1504, 192 )
-z_index = 1
 Reverse = true
 
 [node name="obj_minipillar8" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1536, 192 )
-z_index = 1
 Reverse = true
 
 [node name="obj_minipillar9" parent="." instance=ExtResource( 8 )]
 position = Vector2( 960, 736 )
-z_index = 1
 
 [node name="obj_minipillar10" parent="." instance=ExtResource( 8 )]
 position = Vector2( 992, 736 )
-z_index = 1
 
 [node name="obj_minipillar11" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1024, 736 )
-z_index = 1
 
 [node name="obj_minipillar12" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1056, 736 )
-z_index = 1
 
 [node name="obj_minipillar13" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1440, 736 )
-z_index = 1
 
 [node name="obj_minipillar14" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1472, 736 )
-z_index = 1
 
 [node name="obj_minipillar15" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1504, 736 )
-z_index = 1
 
 [node name="obj_minipillar16" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1536, 736 )
-z_index = 1
 
 [node name="obj_minipillar17" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1120, 448 )
-z_index = 1
 
 [node name="obj_minipillar18" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1152, 448 )
-z_index = 1
 
 [node name="obj_minipillar19" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1184, 448 )
-z_index = 1
 
 [node name="obj_minipillar20" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1216, 448 )
-z_index = 1
 
 [node name="obj_minipillar21" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1248, 448 )
-z_index = 1
 
 [node name="obj_minipillar22" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1280, 448 )
-z_index = 1
 
 [node name="obj_minipillar23" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1312, 448 )
-z_index = 1
 
 [node name="obj_minipillar24" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1344, 448 )
-z_index = 1
 
 [node name="obj_minipillar25" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1376, 448 )
-z_index = 1
 
 [node name="obj_minipillar26" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1856, 448 )
-z_index = 1
 
 [node name="obj_minipillar27" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1824, 448 )
-z_index = 1
 
 [node name="obj_minipillar28" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1792, 448 )
-z_index = 1
 
 [node name="obj_minipillar29" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1760, 448 )
-z_index = 1
 
 [node name="obj_minipillar30" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1728, 448 )
-z_index = 1
 
 [node name="obj_minipillar31" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1696, 448 )
-z_index = 1
 
 [node name="obj_minipillar32" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1664, 448 )
-z_index = 1
 
 [node name="obj_minipillar33" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1632, 448 )
-z_index = 1
 
 [node name="obj_minipillar34" parent="." instance=ExtResource( 8 )]
 position = Vector2( 1600, 448 )
-z_index = 1
 
 [node name="obj_ladder" parent="." instance=ExtResource( 11 )]
 position = Vector2( 1920, 736 )

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/sfx_peppinoscream2.ogg-1faadc6858239ed0f120f630582f4ea4.oggstr"
+
+[deps]
+
+source_file="res://Sounds/sfx_peppinoscream2.ogg"
+dest_files=[ "res://.import/sfx_peppinoscream2.ogg-1faadc6858239ed0f120f630582f4ea4.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

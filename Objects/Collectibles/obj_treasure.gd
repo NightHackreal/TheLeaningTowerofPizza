@@ -42,8 +42,8 @@ func _on_Timer_timeout():
 	var obj_player = utils.get_player()
 	obj_player.state = global.states.normal
 	var smallnumbid = utils.instance_create(global_position.x, global_position.y, "res://Objects/Visuals/obj_smallnumber.tscn")
-	smallnumbid.number = "1000"
+	smallnumbid.number = "2000"
 	global.combotime = 60
 	global.style += 10
-	global.collect += 1000
+	global.collect += 2000
 	destroy()

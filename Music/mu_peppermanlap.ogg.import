@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/mu_peppermanlap.ogg-8bb517ff6b4872ce8beea8f400f5bdcb.oggstr"
+
+[deps]
+
+source_file="res://Music/mu_peppermanlap.ogg"
+dest_files=[ "res://.import/mu_peppermanlap.ogg-8bb517ff6b4872ce8beea8f400f5bdcb.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

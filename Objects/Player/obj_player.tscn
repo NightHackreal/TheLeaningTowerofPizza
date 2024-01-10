@@ -1,4 +1,4 @@
-[gd_scene load_steps=3788 format=2]
+[gd_scene load_steps=3813 format=2]
 
 [ext_resource path="res://Objects/Player/sprites/idle_4.png" type="Texture" id=1]
 [ext_resource path="res://Objects/Player/sprites/idle_0.png" type="Texture" id=2]
@@ -421,6 +421,19 @@
 [ext_resource path="res://Objects/Player/sprites/slam_7.png" type="Texture" id=419]
 [ext_resource path="res://Objects/Player/sprites/slam_3.png" type="Texture" id=420]
 [ext_resource path="res://Objects/Player/sprites/slam_8.png" type="Texture" id=421]
+[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_6.png" type="Texture" id=422]
+[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_8.png" type="Texture" id=423]
+[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_7.png" type="Texture" id=424]
+[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_0.png" type="Texture" id=425]
+[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_stun_0.png" type="Texture" id=426]
+[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_charge_1.png" type="Texture" id=427]
+[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_hurt_2.png" type="Texture" id=428]
+[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_charge_0.png" type="Texture" id=429]
+[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_charge_3.png" type="Texture" id=430]
+[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_4.png" type="Texture" id=431]
+[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_hurt_3.png" type="Texture" id=432]
+[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_3.png" type="Texture" id=433]
+[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_10.png" type="Texture" id=434]
 [ext_resource path="res://Sounds/sfx_groundpound.ogg" type="AudioStream" id=435]
 [ext_resource path="res://Sounds/sfx_taunt.ogg" type="AudioStream" id=436]
 [ext_resource path="res://Objects/Player/sprites/taunt_1.png" type="Texture" id=437]
@@ -827,9 +840,13 @@
 [ext_resource path="res://Objects/Player/sprites/backbreaker_6.png" type="Texture" id=838]
 [ext_resource path="res://Objects/Player/sprites/backbreaker_2.png" type="Texture" id=839]
 [ext_resource path="res://Objects/Player/sprites/backbreaker_1.png" type="Texture" id=840]
+[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_1.png" type="Texture" id=841]
 [ext_resource path="res://Objects/Player/sprites/dive_0.png" type="Texture" id=842]
 [ext_resource path="res://Objects/Player/sprites/dive_1.png" type="Texture" id=843]
 [ext_resource path="res://Objects/Player/sprites/dive_2.png" type="Texture" id=844]
+[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_charge_2.png" type="Texture" id=845]
+[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_charge_4.png" type="Texture" id=846]
+[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_5.png" type="Texture" id=847]
 [ext_resource path="res://Objects/Player/sprites/finishingblow2_2.png" type="Texture" id=848]
 [ext_resource path="res://Objects/Player/sprites/finishingblow2_1.png" type="Texture" id=849]
 [ext_resource path="res://Objects/Player/sprites/finishingblow2_0.png" type="Texture" id=850]
@@ -1030,12 +1047,17 @@
 [ext_resource path="res://Objects/Player/sprites/walljumpend_5.png" type="Texture" id=1045]
 [ext_resource path="res://Objects/Player/sprites/walljumpend_4.png" type="Texture" id=1046]
 [ext_resource path="res://Objects/Player/sprites/walljumpend_2.png" type="Texture" id=1047]
+[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_2.png" type="Texture" id=1048]
 [ext_resource path="res://Objects/Player/sprites/superjump_0.png" type="Texture" id=1049]
 [ext_resource path="res://Objects/Player/sprites/superjumpright_0.png" type="Texture" id=1050]
 [ext_resource path="res://Objects/Player/sprites/superjumpright_2.png" type="Texture" id=1051]
 [ext_resource path="res://Objects/Player/sprites/superjumpright_6.png" type="Texture" id=1052]
 [ext_resource path="res://Objects/Player/sprites/superjump_1.png" type="Texture" id=1053]
+[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_charge_5.png" type="Texture" id=1054]
 [ext_resource path="res://Objects/Player/sprites/superjump_2.png" type="Texture" id=1055]
+[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_charge_6.png" type="Texture" id=1056]
+[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_9.png" type="Texture" id=1057]
+[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_hurt_1.png" type="Texture" id=1058]
 [ext_resource path="res://Objects/Player/sprites/superjumpright_1.png" type="Texture" id=1059]
 [ext_resource path="res://Objects/Player/sprites/superjumpright_3.png" type="Texture" id=1060]
 [ext_resource path="res://Objects/Player/sprites/superjumpright_4.png" type="Texture" id=1061]
@@ -1183,6 +1205,9 @@
 [ext_resource path="res://Objects/Player/sprites/pepcooter_0.png" type="Texture" id=1203]
 [ext_resource path="res://Shaders/PaletteSwap.gdshader" type="Shader" id=1204]
 [ext_resource path="res://Objects/Player/peppalette.png" type="Texture" id=1205]
+[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_hurt_0.png" type="Texture" id=1206]
+[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_charge_7.png" type="Texture" id=1207]
+[ext_resource path="res://Objects/Player/sprites/noise/dead_0.png" type="Texture" id=1208]
 [ext_resource path="res://Objects/Player/sprites/swingding_1.png" type="Texture" id=1244]
 [ext_resource path="res://Objects/Player/sprites/swingding_0.png" type="Texture" id=1245]
 [ext_resource path="res://Objects/Player/sprites/swingding_2.png" type="Texture" id=1246]
@@ -2215,7 +2240,7 @@ animations = [ {
 "name": "crouchstart",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 833 ) ],
+"frames": [ ExtResource( 426 ) ],
 "loop": true,
 "name": "dead",
 "speed": 60.0
@@ -2360,7 +2385,7 @@ animations = [ {
 "name": "hitwall",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 1308 ), ExtResource( 1309 ), ExtResource( 1310 ), ExtResource( 1306 ), ExtResource( 1307 ), ExtResource( 1293 ), ExtResource( 1291 ), ExtResource( 1295 ), ExtResource( 1294 ), ExtResource( 1300 ), ExtResource( 1290 ) ],
+"frames": [ ExtResource( 1206 ), ExtResource( 1058 ), ExtResource( 428 ), ExtResource( 432 ) ],
 "loop": true,
 "name": "hurt",
 "speed": 60.0
@@ -2370,7 +2395,7 @@ animations = [ {
 "name": "hurtidle",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 1288 ), ExtResource( 1298 ), ExtResource( 1296 ), ExtResource( 1292 ), ExtResource( 1297 ), ExtResource( 1299 ), ExtResource( 1301 ), ExtResource( 1289 ), ExtResource( 1302 ), ExtResource( 1303 ), ExtResource( 1304 ), ExtResource( 1305 ) ],
+"frames": [ ExtResource( 1206 ), ExtResource( 1058 ), ExtResource( 432 ), ExtResource( 426 ) ],
 "loop": true,
 "name": "hurtjump",
 "speed": 60.0
@@ -2380,7 +2405,7 @@ animations = [ {
 "name": "hurtwalk",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ), ExtResource( 7 ), ExtResource( 7 ), ExtResource( 6 ), ExtResource( 6 ), ExtResource( 9 ), ExtResource( 6 ), ExtResource( 1 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 8 ), ExtResource( 8 ), ExtResource( 8 ), ExtResource( 5 ), ExtResource( 21 ), ExtResource( 20 ), ExtResource( 20 ), ExtResource( 20 ), ExtResource( 20 ), ExtResource( 13 ), ExtResource( 13 ), ExtResource( 10 ) ],
+"frames": [ ExtResource( 425 ), ExtResource( 841 ), ExtResource( 1048 ), ExtResource( 433 ), ExtResource( 431 ), ExtResource( 847 ), ExtResource( 422 ), ExtResource( 424 ), ExtResource( 423 ), ExtResource( 1057 ), ExtResource( 434 ) ],
 "loop": true,
 "name": "idle",
 "speed": 60.0
@@ -2530,7 +2555,7 @@ animations = [ {
 "name": "lookdoor",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 727 ), ExtResource( 724 ), ExtResource( 723 ), ExtResource( 726 ), ExtResource( 728 ), ExtResource( 729 ), ExtResource( 730 ), ExtResource( 725 ) ],
+"frames": [ ExtResource( 429 ), ExtResource( 427 ), ExtResource( 845 ), ExtResource( 430 ), ExtResource( 846 ), ExtResource( 1054 ), ExtResource( 1056 ), ExtResource( 1207 ) ],
 "loop": true,
 "name": "mach",
 "speed": 60.0
@@ -2560,7 +2585,7 @@ animations = [ {
 "name": "mach3jump",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 771 ), ExtResource( 776 ), ExtResource( 773 ), ExtResource( 835 ), ExtResource( 834 ), ExtResource( 836 ) ],
+"frames": [ ExtResource( 429 ), ExtResource( 845 ), ExtResource( 846 ), ExtResource( 1056 ) ],
 "loop": true,
 "name": "mach4",
 "speed": 60.0
@@ -2615,7 +2640,7 @@ animations = [ {
 "name": "move",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 236 ), ExtResource( 239 ), ExtResource( 226 ), ExtResource( 227 ), ExtResource( 222 ), ExtResource( 223 ), ExtResource( 244 ), ExtResource( 224 ) ],
+"frames": [ ExtResource( 1206 ), ExtResource( 1058 ), ExtResource( 428 ), ExtResource( 432 ) ],
 "loop": true,
 "name": "panic",
 "speed": 60.0
@@ -5618,10 +5643,6 @@ region = Rect2( 200, 0, 100, 100 )
 atlas = ExtResource( 1833 )
 region = Rect2( 300, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=529]
-atlas = ExtResource( 1834 )
-region = Rect2( 0, 0, 100, 100 )
-
 [sub_resource type="AtlasTexture" id=532]
 atlas = ExtResource( 1835 )
 region = Rect2( 0, 0, 100, 100 )
@@ -6649,18 +6670,6 @@ region = Rect2( 1500, 0, 100, 100 )
 [sub_resource type="AtlasTexture" id=1063]
 atlas = ExtResource( 1887 )
 region = Rect2( 1600, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=840]
-atlas = ExtResource( 1865 )
-region = Rect2( 0, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=841]
-atlas = ExtResource( 1865 )
-region = Rect2( 100, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=842]
-atlas = ExtResource( 1865 )
-region = Rect2( 200, 0, 100, 100 )
 
 [sub_resource type="AtlasTexture" id=1726]
 atlas = ExtResource( 1868 )
@@ -11910,7 +11919,7 @@ animations = [ {
 "name": "crouchstart",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 529 ) ],
+"frames": [ ExtResource( 1208 ) ],
 "loop": true,
 "name": "dead",
 "speed": 60.0
@@ -12045,7 +12054,7 @@ animations = [ {
 "name": "hitwall",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 840 ), SubResource( 841 ), SubResource( 842 ) ],
+"frames": [ ExtResource( 1834 ) ],
 "loop": true,
 "name": "hurt",
 "speed": 60.0
@@ -12630,6 +12639,22 @@ animations = [ {
 "name": "winding",
 "speed": 60.0
 } ]
+
+[sub_resource type="AtlasTexture" id=529]
+atlas = ExtResource( 1834 )
+region = Rect2( 0, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=840]
+atlas = ExtResource( 1865 )
+region = Rect2( 0, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=841]
+atlas = ExtResource( 1865 )
+region = Rect2( 100, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=842]
+atlas = ExtResource( 1865 )
+region = Rect2( 200, 0, 100, 100 )
 
 [sub_resource type="SpriteFrames" id=1817]
 animations = [ {
@@ -15160,8 +15185,10 @@ script = ExtResource( 55 )
 
 [node name="PeppermanSprite" type="AnimatedSprite" parent="."]
 material = SubResource( 4 )
+position = Vector2( 0.500004, -0.499998 )
+scale = Vector2( 0.505, 0.505 )
 frames = SubResource( 1816 )
-animation = "3hpidle"
+animation = "idle"
 
 [node name="PeppinoSprite" type="AnimatedSprite" parent="."]
 material = SubResource( 4 )

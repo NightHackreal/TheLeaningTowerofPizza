@@ -52,27 +52,27 @@ func _process(delta):
 					obj.showtext = true
 					obj.resettimer.wait_time = 0.03
 					obj.resettimer.start()
-			"ravine":
-				for obj in get_tree().get_nodes_in_group("obj_tv"):
-					obj.message = "30 FEET UNDERGROUND"
-					obj.showtext = true
-					obj.resettimer.wait_time = 0.03
-					obj.resettimer.start()
-			"castle":
-				for obj in get_tree().get_nodes_in_group("obj_tv"):
-					obj.message = "CRUST CASTLE"
-					obj.showtext = true
-					obj.resettimer.wait_time = 0.03
-					obj.resettimer.start()
-			"dragonlair":
-				for obj in get_tree().get_nodes_in_group("obj_tv"):
-					obj.message = "DRAGON'S LAIR"
-					obj.showtext = true
-					obj.resettimer.wait_time = 0.03
-					obj.resettimer.start()
 			"water":
 				for obj in get_tree().get_nodes_in_group("obj_tv"):
 					obj.message = "HYDRO HYJINKS"
+					obj.showtext = true
+					obj.resettimer.wait_time = 0.03
+					obj.resettimer.start()
+			"factory":
+				for obj in get_tree().get_nodes_in_group("obj_tv"):
+					obj.message = "MECHANICAL MADNESS"
+					obj.showtext = true
+					obj.resettimer.wait_time = 0.03
+					obj.resettimer.start()
+			"mansion":
+				for obj in get_tree().get_nodes_in_group("obj_tv"):
+					obj.message = "RETIREMENT HOME"
+					obj.showtext = true
+					obj.resettimer.wait_time = 0.03
+					obj.resettimer.start()
+			"circus":
+				for obj in get_tree().get_nodes_in_group("obj_tv"):
+					obj.message = "PIZZALAND"
 					obj.showtext = true
 					obj.resettimer.wait_time = 0.03
 					obj.resettimer.start()
@@ -102,7 +102,7 @@ func _process(delta):
 					obj.resettimer.start()
 			"golf":
 				for obj in get_tree().get_nodes_in_group("obj_tv"):
-					obj.message = "SWISSSHOT COURSE"
+					obj.message = "BREEZY GOLFIN'"
 					obj.showtext = true
 					obj.resettimer.wait_time = 0.03
 					obj.resettimer.start()
@@ -121,12 +121,6 @@ func _process(delta):
 			"freezer":
 				for obj in get_tree().get_nodes_in_group("obj_tv"):
 					obj.message = "NOISERATOR-REFRIGERATOR"
-					obj.showtext = true
-					obj.resettimer.wait_time = 0.03
-					obj.resettimer.start()
-			"factory":
-				for obj in get_tree().get_nodes_in_group("obj_tv"):
-					obj.message = "MECHANICAL MADNESS"
 					obj.showtext = true
 					obj.resettimer.wait_time = 0.03
 					obj.resettimer.start()
