@@ -26,12 +26,14 @@ We do not own and didn't make any of Pizza Tower's original assets that are used
 * Pizza Tower is made by Tour De Pizza. (McPig and Sertif)
 * Pizza Tower's composers are: Mr. Sauceman, ClascyJitto and POST ELVIS.
 * [Godot Tower](https://github.com/basiccube/GodotTower) is made by basiccube.
+* Some enemy death sprites are made by Yamalpaca, and are used with permission.
+* Noise's Lap 2 theme made by Westboiiz, and is also used with permission.
 
 The Leaning Tower of Pizza team:
 * Creator/Conceptualizer: NightHack
 * Director: NightHack
 * Composers: RooGoesBoom, IronCzyk, Westboiiz, Bambi Enjoyer
-* Spriters: RooGoesBoom, Takiallah Jamai, Bashuster, Bambi Enjoyer, Naffie Camara
+* Spriters: RooGoesBoom, Takiallah Jamai, Bashuster, Bambi Enjoyer, Naffie Camara, Snackcore Games
 * Level Designers: NightHack, Snackcore Games, Definetly Real Sgt. Winter
 * Programmers: Ivo, basiccube
 * Logo by: Bambi Enjoyer (Original by Naffie Camara)
