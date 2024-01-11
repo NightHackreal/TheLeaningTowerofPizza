@@ -157,6 +157,15 @@ func _process(delta):
 		$NoisetteSprite.visible = true
 		$SnickSprite.visible = false
 		$VigilanteSprite.visible = false
+	elif (character == "V"):
+		charactersprite = $VigilanteSprite
+		$PeppermanSprite.visible = false
+		$PeppinoSprite.visible = false
+		$PizzelleSprite.visible = false
+		$NoiseSprite.visible = false
+		$NoisetteSprite.visible = false
+		$SnickSprite.visible = false
+		$VigilanteSprite.visible = true
 	charactersprite.material.set_shader_param("current_palette", global.peppalette)
 	charactersprite.material.set_shader_param("flash", flash)
 	position.x += velocity.x

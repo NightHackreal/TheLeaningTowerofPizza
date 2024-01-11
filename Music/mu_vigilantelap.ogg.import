@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/mu_vigilantelap.ogg-bb4ac2879ff2b72bf4da6a16883c9c81.oggstr"
+
+[deps]
+
+source_file="res://Music/mu_vigilantelap.ogg"
+dest_files=[ "res://.import/mu_vigilantelap.ogg-bb4ac2879ff2b72bf4da6a16883c9c81.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -90,10 +90,17 @@ func _process(delta):
 			facehud = $PeppinoHUD
 			$PeppinoHUD.visible = true
 			$NoiseHUD.visible = false
+			$VigilanteHUD.visible = false
 		elif (obj_player.character == "N"):
 			facehud = $NoiseHUD
 			$PeppinoHUD.visible = false
 			$NoiseHUD.visible = true
+			$VigilanteHUD.visible = false
+		elif (obj_player.character == "V"):
+			facehud = $VigilanteHUD
+			$PeppinoHUD.visible = false
+			$NoiseHUD.visible = false
+			$VigilanteHUD.visible = true
 		facehud.playing = true
 		if (obj_player.sprite_index == "knightpep_thunder"):
 			facehud.animation = "thunder"

@@ -179,6 +179,8 @@ func _process(delta):
 			character = "THE NOISE"
 		elif (obj_player.character == "M"):
 			character = "PEPPERMAN"
+		elif (obj_player.character == "V"):
+			character = "THE VIGILANTE"
 		message = "YOU HAVE HURT " + character + " " + str(global.hurtmilestone) + " TIMES..."
 		if (tvsprite != "talking1" && tvsprite != "talking2" && tvsprite != "talking3" && tvsprite != "talking4"):
 			var rng = utils.randi_range(1,4)

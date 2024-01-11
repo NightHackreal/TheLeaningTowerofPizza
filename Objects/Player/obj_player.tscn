@@ -1,4 +1,4 @@
-[gd_scene load_steps=3813 format=2]
+[gd_scene load_steps=4311 format=2]
 
 [ext_resource path="res://Objects/Player/sprites/idle_4.png" type="Texture" id=1]
 [ext_resource path="res://Objects/Player/sprites/idle_0.png" type="Texture" id=2]
@@ -1208,6 +1208,41 @@
 [ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_hurt_0.png" type="Texture" id=1206]
 [ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_charge_7.png" type="Texture" id=1207]
 [ext_resource path="res://Objects/Player/sprites/noise/dead_0.png" type="Texture" id=1208]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crazyrun_0.png" type="Texture" id=1209]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_dive_1.png" type="Texture" id=1210]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_move_1.png" type="Texture" id=1211]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_idle_8.png" type="Texture" id=1212]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_idle_4.png" type="Texture" id=1213]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_idle_0.png" type="Texture" id=1214]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_idle_13.png" type="Texture" id=1215]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_idle_12.png" type="Texture" id=1216]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_idle_11.png" type="Texture" id=1217]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_idle_10.png" type="Texture" id=1218]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_idle_9.png" type="Texture" id=1219]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_move_0.png" type="Texture" id=1220]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_move_4.png" type="Texture" id=1221]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_idle_6.png" type="Texture" id=1222]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_idle_7.png" type="Texture" id=1223]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_move_5.png" type="Texture" id=1224]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_move_6.png" type="Texture" id=1225]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_idle_1.png" type="Texture" id=1226]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_move_7.png" type="Texture" id=1227]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_move_8.png" type="Texture" id=1228]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_move_9.png" type="Texture" id=1229]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_move_10.png" type="Texture" id=1230]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_move_11.png" type="Texture" id=1231]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_idle_2.png" type="Texture" id=1232]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_idle_5.png" type="Texture" id=1233]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_idle_3.png" type="Texture" id=1234]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_land_6.png" type="Texture" id=1235]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach1_4.png" type="Texture" id=1236]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_land_0.png" type="Texture" id=1237]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsmove_3.png" type="Texture" id=1238]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_jump_6.png" type="Texture" id=1239]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_jump_7.png" type="Texture" id=1240]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_jump_8.png" type="Texture" id=1241]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_jump_9.png" type="Texture" id=1242]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_jump_10.png" type="Texture" id=1243]
 [ext_resource path="res://Objects/Player/sprites/swingding_1.png" type="Texture" id=1244]
 [ext_resource path="res://Objects/Player/sprites/swingding_0.png" type="Texture" id=1245]
 [ext_resource path="res://Objects/Player/sprites/swingding_2.png" type="Texture" id=1246]
@@ -1237,6 +1272,20 @@
 [ext_resource path="res://Objects/Player/sprites/uppercutfinishingblow_11.png" type="Texture" id=1270]
 [ext_resource path="res://Objects/Player/sprites/uppercutfinishingblow_3.png" type="Texture" id=1271]
 [ext_resource path="res://Objects/Player/sprites/uppercutfinishingblow_8.png" type="Texture" id=1272]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_jump_11.png" type="Texture" id=1273]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_land_4.png" type="Texture" id=1274]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach1_1.png" type="Texture" id=1275]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach1_11.png" type="Texture" id=1276]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach1_12.png" type="Texture" id=1277]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach1_13.png" type="Texture" id=1278]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach1_14.png" type="Texture" id=1279]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach1_3.png" type="Texture" id=1280]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach1_2.png" type="Texture" id=1281]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_jump_4.png" type="Texture" id=1282]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach1_6.png" type="Texture" id=1283]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach1_7.png" type="Texture" id=1284]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_jump_5.png" type="Texture" id=1285]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach1_8.png" type="Texture" id=1286]
 [ext_resource path="res://Objects/Player/sprites/tackle_1.png" type="Texture" id=1287]
 [ext_resource path="res://Objects/Player/sprites/jumphurt_0.png" type="Texture" id=1288]
 [ext_resource path="res://Objects/Player/sprites/jumphurt_7.png" type="Texture" id=1289]
@@ -2053,6 +2102,455 @@
 [ext_resource path="res://Objects/Player/sprites/noise/machspin.png" type="Texture" id=2100]
 [ext_resource path="res://Objects/Player/sprites/noise/machspinstart.png" type="Texture" id=2101]
 [ext_resource path="res://Sounds/sfx_Nspin.ogg" type="AudioStream" id=2102]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsmove_4.png" type="Texture" id=2103]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsmove_0.png" type="Texture" id=2104]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsmove_2.png" type="Texture" id=2105]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_land_1.png" type="Texture" id=2106]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach1_9.png" type="Texture" id=2107]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach1_10.png" type="Texture" id=2108]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_land_2.png" type="Texture" id=2109]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_land_5.png" type="Texture" id=2110]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_land_3.png" type="Texture" id=2111]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_dive_0.png" type="Texture" id=2112]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsmove_1.png" type="Texture" id=2113]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach1_5.png" type="Texture" id=2114]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_jump_0.png" type="Texture" id=2115]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_jump_1.png" type="Texture" id=2116]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crazyrun_2.png" type="Texture" id=2117]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crazyrun_1.png" type="Texture" id=2118]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsmove_7.png" type="Texture" id=2119]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crazyrun_4.png" type="Texture" id=2120]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3_1.png" type="Texture" id=2121]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsmove_6.png" type="Texture" id=2122]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsmove_10.png" type="Texture" id=2123]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsmove_9.png" type="Texture" id=2124]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3_2.png" type="Texture" id=2125]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsmove_8.png" type="Texture" id=2126]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsmove_5.png" type="Texture" id=2127]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crazyrun_3.png" type="Texture" id=2128]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3_0.png" type="Texture" id=2129]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crazyrun_5.png" type="Texture" id=2130]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsmove_12.png" type="Texture" id=2131]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_move_2.png" type="Texture" id=2132]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_move_3.png" type="Texture" id=2133]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_jump_3.png" type="Texture" id=2134]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_fall_0.png" type="Texture" id=2135]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_fall_2.png" type="Texture" id=2136]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_dive_2.png" type="Texture" id=2137]
+[ext_resource path="res://Objects/Player/sprites/vigilante/dead_0.png" type="Texture" id=2138]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_jump_2.png" type="Texture" id=2139]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_fall_1.png" type="Texture" id=2140]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_panic_0.png" type="Texture" id=2141]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_hurt_3.png" type="Texture" id=2142]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_panic_1.png" type="Texture" id=2143]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_hurt_0.png" type="Texture" id=2144]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_hurt_1.png" type="Texture" id=2145]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_hurt_2.png" type="Texture" id=2146]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_hurt_4.png" type="Texture" id=2147]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bodyslam_0.png" type="Texture" id=2148]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bodyslamprep_6.png" type="Texture" id=2149]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bodyslamprep_0.png" type="Texture" id=2150]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bodyslamprep_13.png" type="Texture" id=2151]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bodyslamprep_14.png" type="Texture" id=2152]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bodyslamprep_15.png" type="Texture" id=2153]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bodyslamprep_12.png" type="Texture" id=2154]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bodyslamprep_11.png" type="Texture" id=2155]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bodyslamprep_8.png" type="Texture" id=2156]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bodyslam_1.png" type="Texture" id=2157]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_panic_4.png" type="Texture" id=2158]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_panic_9.png" type="Texture" id=2159]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_panic_8.png" type="Texture" id=2160]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_panic_7.png" type="Texture" id=2161]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_panic_6.png" type="Texture" id=2162]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_panic_5.png" type="Texture" id=2163]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bodyslamland_2.png" type="Texture" id=2164]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bodyslamprep_9.png" type="Texture" id=2165]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bodyslam_2.png" type="Texture" id=2166]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bodyslamland_1.png" type="Texture" id=2167]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bodyslamprep_5.png" type="Texture" id=2168]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_panic_10-11.png" type="Texture" id=2169]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bodyslamprep_3.png" type="Texture" id=2170]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bodyslamland_3.png" type="Texture" id=2171]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bodyslamprep_4.png" type="Texture" id=2172]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bodyslamland_5.png" type="Texture" id=2173]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bodyslamprep_10.png" type="Texture" id=2174]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bodyslamprep_2.png" type="Texture" id=2175]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_panic_12.png" type="Texture" id=2176]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bodyslamprep_7.png" type="Texture" id=2177]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_panic_2-3.png" type="Texture" id=2178]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_panic_15.png" type="Texture" id=2179]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_panic_14.png" type="Texture" id=2180]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bodyslamland_6.png" type="Texture" id=2181]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_panic_13.png" type="Texture" id=2182]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bodyslamprep_1.png" type="Texture" id=2183]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bodyslamland_0.png" type="Texture" id=2184]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bodyslamland_4.png" type="Texture" id=2185]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_taunt_3.png" type="Texture" id=2186]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_taunt_0.png" type="Texture" id=2187]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_taunt_2.png" type="Texture" id=2188]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_taunt_5.png" type="Texture" id=2189]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_taunt_4.png" type="Texture" id=2190]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_taunt_1.png" type="Texture" id=2191]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_11-20.png" type="Texture" id=2192]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_0.png" type="Texture" id=2193]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_2.png" type="Texture" id=2194]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_25-32.png" type="Texture" id=2195]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_22.png" type="Texture" id=2196]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_5.png" type="Texture" id=2197]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_9.png" type="Texture" id=2198]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_23.png" type="Texture" id=2199]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_4.png" type="Texture" id=2200]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_6.png" type="Texture" id=2201]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_10.png" type="Texture" id=2202]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_8.png" type="Texture" id=2203]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_21.png" type="Texture" id=2204]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_50.png" type="Texture" id=2205]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_52.png" type="Texture" id=2206]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_49.png" type="Texture" id=2207]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_51.png" type="Texture" id=2208]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_37-48.png" type="Texture" id=2209]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_54.png" type="Texture" id=2210]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_55.png" type="Texture" id=2211]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_53.png" type="Texture" id=2212]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_3.png" type="Texture" id=2213]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_24.png" type="Texture" id=2214]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_35.png" type="Texture" id=2215]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_7.png" type="Texture" id=2216]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_34.png" type="Texture" id=2217]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_33.png" type="Texture" id=2218]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_1.png" type="Texture" id=2219]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gate_36.png" type="Texture" id=2220]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gotkey_10.png" type="Texture" id=2221]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gotkey_7.png" type="Texture" id=2222]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gotkey_6.png" type="Texture" id=2223]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gotkey_5.png" type="Texture" id=2224]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gotkey_12.png" type="Texture" id=2225]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gotkey_8.png" type="Texture" id=2226]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gotkey_11.png" type="Texture" id=2227]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gotkey_4.png" type="Texture" id=2228]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gotkey_3.png" type="Texture" id=2229]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gotkey_0-2.png" type="Texture" id=2230]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gotkey_9.png" type="Texture" id=2231]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3jump_0.png" type="Texture" id=2232]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3jump_3.png" type="Texture" id=2233]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3jump_4.png" type="Texture" id=2234]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3jump_2.png" type="Texture" id=2235]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3jump_1.png" type="Texture" id=2236]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3jump_5.png" type="Texture" id=2237]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_machhit1_3.png" type="Texture" id=2238]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_machhit1_2.png" type="Texture" id=2239]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_machhit1_1.png" type="Texture" id=2240]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_machhit1_4.png" type="Texture" id=2241]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_machhit1_0.png" type="Texture" id=2242]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3hit_4.png" type="Texture" id=2243]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3hit_8.png" type="Texture" id=2244]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3hit_6.png" type="Texture" id=2245]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3hit_2.png" type="Texture" id=2246]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3hit_7.png" type="Texture" id=2247]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3hit_1.png" type="Texture" id=2248]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3hit_3.png" type="Texture" id=2249]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3hit_10.png" type="Texture" id=2250]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3hit_9.png" type="Texture" id=2251]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3hit_5.png" type="Texture" id=2252]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_machhit2_4.png" type="Texture" id=2253]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_machhit2_2.png" type="Texture" id=2254]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_machhit2_3.png" type="Texture" id=2255]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_machhit2_0.png" type="Texture" id=2256]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_machhit2_1.png" type="Texture" id=2257]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3hit_0.png" type="Texture" id=2258]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_walljump_1.png" type="Texture" id=2259]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_walljump_2.png" type="Texture" id=2260]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_walljump_4.png" type="Texture" id=2261]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_walljump_3.png" type="Texture" id=2262]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_wallclimb_1.png" type="Texture" id=2263]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_wallclimb_2.png" type="Texture" id=2264]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_walljumpend_0.png" type="Texture" id=2265]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_walljumpend_1.png" type="Texture" id=2266]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_walljumpend_2.png" type="Texture" id=2267]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_walljump_6.png" type="Texture" id=2268]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_walljump_7.png" type="Texture" id=2269]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_walljump_0.png" type="Texture" id=2270]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_walljump_8.png" type="Texture" id=2271]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_walljump_5.png" type="Texture" id=2272]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_wallclimb_0.png" type="Texture" id=2273]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3boost_0.png" type="Texture" id=2274]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3boost_1.png" type="Texture" id=2275]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3boost_2.png" type="Texture" id=2276]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3boost_8_11.png" type="Texture" id=2277]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3boost_7_10.png" type="Texture" id=2278]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3boost_3.png" type="Texture" id=2279]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3boost_6_9.png" type="Texture" id=2280]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3boost_4.png" type="Texture" id=2281]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach3boost_5.png" type="Texture" id=2282]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach2boost_6_9.png" type="Texture" id=2283]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach2boost_7_10.png" type="Texture" id=2284]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach2boost_1.png" type="Texture" id=2285]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach2boost_3.png" type="Texture" id=2286]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach2boost_2.png" type="Texture" id=2287]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach2boost_8_11.png" type="Texture" id=2288]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach2boost_0.png" type="Texture" id=2289]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach2boost_4.png" type="Texture" id=2290]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_mach2boost_5.png" type="Texture" id=2291]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_machslide_1.png" type="Texture" id=2292]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_machslide_2.png" type="Texture" id=2293]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_machslidestart_4.png" type="Texture" id=2294]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_machslide_0.png" type="Texture" id=2295]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_machslidestart_3.png" type="Texture" id=2296]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_machslidestart_1.png" type="Texture" id=2297]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_machslideend_5.png" type="Texture" id=2298]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_machslideend_0.png" type="Texture" id=2299]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_machslideend_4.png" type="Texture" id=2300]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_machslideend_3.png" type="Texture" id=2301]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_machslideend_2.png" type="Texture" id=2302]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_machslidestart_0.png" type="Texture" id=2303]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_machslideend_1.png" type="Texture" id=2304]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_machslidestart_2.png" type="Texture" id=2305]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_stompprep_3.png" type="Texture" id=2306]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_stompprep_2.png" type="Texture" id=2307]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_stompprep_0.png" type="Texture" id=2308]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_stompprep_4.png" type="Texture" id=2309]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_stompprep_1.png" type="Texture" id=2310]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_stomp_2.png" type="Texture" id=2311]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_stomp_0.png" type="Texture" id=2312]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_stomp_1.png" type="Texture" id=2313]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_angrymove_7.png" type="Texture" id=2314]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_angrymove_3.png" type="Texture" id=2315]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_angrymove_4.png" type="Texture" id=2316]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_angryidle_10.png" type="Texture" id=2317]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_angryidle_8.png" type="Texture" id=2318]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_angryidle_9.png" type="Texture" id=2319]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_stompprep_5.png" type="Texture" id=2320]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_angryidle_7.png" type="Texture" id=2321]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_slipping_1.png" type="Texture" id=2322]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_slipping_5.png" type="Texture" id=2323]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_angryidle_0.png" type="Texture" id=2324]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_angryidle_4.png" type="Texture" id=2325]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_angrymove_2.png" type="Texture" id=2326]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_angrymove_0.png" type="Texture" id=2327]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_slipping_6.png" type="Texture" id=2328]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_slipping_7.png" type="Texture" id=2329]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_slipping_8.png" type="Texture" id=2330]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_angryidle_11.png" type="Texture" id=2331]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_slipping_2.png" type="Texture" id=2332]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_slipping_3.png" type="Texture" id=2333]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_slipping_4.png" type="Texture" id=2334]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_angrymove_6.png" type="Texture" id=2335]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_angryidle_1-2.png" type="Texture" id=2336]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_angrymove_1.png" type="Texture" id=2337]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_angryidle_3.png" type="Texture" id=2338]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_angryidle_6.png" type="Texture" id=2339]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_angryidle_5.png" type="Texture" id=2340]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_angrymove_5.png" type="Texture" id=2341]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_slipping_0.png" type="Texture" id=2342]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouchmove_0.png" type="Texture" id=2343]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouchmove_4.png" type="Texture" id=2344]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouchmove_5.png" type="Texture" id=2345]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouchmove_1.png" type="Texture" id=2346]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouchmove_2.png" type="Texture" id=2347]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouchmove_3.png" type="Texture" id=2348]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouchmove_9.png" type="Texture" id=2349]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouchmove_8.png" type="Texture" id=2350]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouchmove_6.png" type="Texture" id=2351]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouchmove_7.png" type="Texture" id=2352]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouchjumpstart_0.png" type="Texture" id=2353]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_divekick_2.png" type="Texture" id=2354]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouch_20.png" type="Texture" id=2355]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouch_10.png" type="Texture" id=2356]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouch_13-19.png" type="Texture" id=2357]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouchjumpstart_3.png" type="Texture" id=2358]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouchjumpstart_5.png" type="Texture" id=2359]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouchjumpstart_6.png" type="Texture" id=2360]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouchjumpstart_4.png" type="Texture" id=2361]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouchjumpstart_1.png" type="Texture" id=2362]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouchjumpstart_2.png" type="Texture" id=2363]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bump_1.png" type="Texture" id=2364]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bump_0.png" type="Texture" id=2365]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouch_12.png" type="Texture" id=2366]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bump_2.png" type="Texture" id=2367]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouch_22.png" type="Texture" id=2368]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouch_0-9.png" type="Texture" id=2369]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouch_11.png" type="Texture" id=2370]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_divekick_0.png" type="Texture" id=2371]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_divekick_1.png" type="Texture" id=2372]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouch_21.png" type="Texture" id=2373]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_taunt_6.png" type="Texture" id=2374]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_climb_7.png" type="Texture" id=2375]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_climb_0.png" type="Texture" id=2376]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_downladder_1.png" type="Texture" id=2377]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_climb_4.png" type="Texture" id=2378]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_climb_3.png" type="Texture" id=2379]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_climb_5.png" type="Texture" id=2380]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_climb_1.png" type="Texture" id=2381]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_climb_2.png" type="Texture" id=2382]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_climb_6.png" type="Texture" id=2383]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_downladder_2.png" type="Texture" id=2384]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_ladderstill.png" type="Texture" id=2385]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_downladder_0.png" type="Texture" id=2386]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_vigilante_intro2_16.png" type="Texture" id=2387]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_vigilante_intro2_18.png" type="Texture" id=2388]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_vigilante_intro2loop_1.png" type="Texture" id=2389]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_vigilante_intro2loop_0.png" type="Texture" id=2390]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_vigilante_intro2_17.png" type="Texture" id=2391]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsfall_1.png" type="Texture" id=2392]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsjump_7.png" type="Texture" id=2393]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsjump_4.png" type="Texture" id=2394]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsjump_2.png" type="Texture" id=2395]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsjump_3.png" type="Texture" id=2396]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsjump_0.png" type="Texture" id=2397]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsjump_11.png" type="Texture" id=2398]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsjump_12.png" type="Texture" id=2399]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsjump_8.png" type="Texture" id=2400]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsjump_9.png" type="Texture" id=2401]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsjump_10.png" type="Texture" id=2402]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsjump_5.png" type="Texture" id=2403]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsjump_6.png" type="Texture" id=2404]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsjump_13.png" type="Texture" id=2405]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsjump_14.png" type="Texture" id=2406]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsjump_1.png" type="Texture" id=2407]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsfall_2.png" type="Texture" id=2408]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bootsfall_0.png" type="Texture" id=2409]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_downbox_0.png" type="Texture" id=2410]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_downbox_1.png" type="Texture" id=2411]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_downbox_4-6.png" type="Texture" id=2412]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_downbox_7.png" type="Texture" id=2413]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_downbox_13.png" type="Texture" id=2414]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_downbox_12.png" type="Texture" id=2415]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_downbox_9.png" type="Texture" id=2416]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_downbox_10.png" type="Texture" id=2417]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_downbox_11.png" type="Texture" id=2418]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_downbox_8.png" type="Texture" id=2419]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_downbox_2.png" type="Texture" id=2420]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_downbox_3.png" type="Texture" id=2421]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_upbox_2.png" type="Texture" id=2422]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_upbox_13.png" type="Texture" id=2423]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_upbox_9.png" type="Texture" id=2424]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_upbox_10.png" type="Texture" id=2425]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_upbox_11.png" type="Texture" id=2426]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_upbox_8.png" type="Texture" id=2427]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_upbox_5-7.png" type="Texture" id=2428]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_upbox_3.png" type="Texture" id=2429]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_upbox_4.png" type="Texture" id=2430]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_upbox_14.png" type="Texture" id=2431]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_upbox_12.png" type="Texture" id=2432]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_upbox_0.png" type="Texture" id=2433]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_walkout_9.png" type="Texture" id=2434]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_walkout_7.png" type="Texture" id=2435]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_walkout_3.png" type="Texture" id=2436]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_walkout_5.png" type="Texture" id=2437]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_walkout_8.png" type="Texture" id=2438]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_walkout_4.png" type="Texture" id=2439]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_walkout_6.png" type="Texture" id=2440]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_walkout_0.png" type="Texture" id=2441]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_walkout_2.png" type="Texture" id=2442]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_walkout_13.png" type="Texture" id=2443]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_walkout_12.png" type="Texture" id=2444]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_walkout_1.png" type="Texture" id=2445]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_upbox_1.png" type="Texture" id=2446]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_walkout_10.png" type="Texture" id=2447]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_walkout_11.png" type="Texture" id=2448]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_hitceilling_1.png" type="Texture" id=2449]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_hitceilling_4-10.png" type="Texture" id=2450]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_hitceilling_2.png" type="Texture" id=2451]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_hitceilling_3.png" type="Texture" id=2452]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_hitceilling_0.png" type="Texture" id=2453]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gottreasure_2.png" type="Texture" id=2454]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gottreasure_1.png" type="Texture" id=2455]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_gottreasure_0.png" type="Texture" id=2456]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_hitwall_8_10_12.png" type="Texture" id=2457]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_hitwall_7_9_11.png" type="Texture" id=2458]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_hitwall_0.png" type="Texture" id=2459]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_hitwall_5.png" type="Texture" id=2460]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_hitwall_4.png" type="Texture" id=2461]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_hitwall_1.png" type="Texture" id=2462]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_hitwall_2.png" type="Texture" id=2463]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_hitwall_6.png" type="Texture" id=2464]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_hitwall_3.png" type="Texture" id=2465]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_suprise_8.png" type="Texture" id=2466]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_suprise_22.png" type="Texture" id=2467]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_suprise_23.png" type="Texture" id=2468]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_suprise_4-7.png" type="Texture" id=2469]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_suprise_25.png" type="Texture" id=2470]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_suprise_24.png" type="Texture" id=2471]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_suprise_10.png" type="Texture" id=2472]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_suprise_26-36.png" type="Texture" id=2473]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_suprise_1.png" type="Texture" id=2474]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_suprise_3.png" type="Texture" id=2475]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_suprise_0.png" type="Texture" id=2476]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_suprise_11-21.png" type="Texture" id=2477]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_suprise_2.png" type="Texture" id=2478]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_suprise_9.png" type="Texture" id=2479]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_keydoor_40.png" type="Texture" id=2480]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_keydoor_42.png" type="Texture" id=2481]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_keydoor_44-45.png" type="Texture" id=2482]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_keydoor_4.png" type="Texture" id=2483]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_keydoor_8.png" type="Texture" id=2484]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_keydoor_3.png" type="Texture" id=2485]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_keydoor_6.png" type="Texture" id=2486]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_keydoor_23.png" type="Texture" id=2487]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_keydoor_11-20.png" type="Texture" id=2488]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_keydoor_7.png" type="Texture" id=2489]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_keydoor_39.png" type="Texture" id=2490]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_keydoor_25-38.png" type="Texture" id=2491]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_keydoor_10.png" type="Texture" id=2492]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_keydoor_1.png" type="Texture" id=2493]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_keydoor_2.png" type="Texture" id=2494]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_keydoor_22.png" type="Texture" id=2495]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_keydoor_24.png" type="Texture" id=2496]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_keydoor_21.png" type="Texture" id=2497]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_keydoor_0.png" type="Texture" id=2498]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_keydoor_5.png" type="Texture" id=2499]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_keydoor_9.png" type="Texture" id=2500]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_keydoor_41.png" type="Texture" id=2501]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_keydoor_43.png" type="Texture" id=2502]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bigfall1_0.png" type="Texture" id=2503]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bigfall2_0.png" type="Texture" id=2504]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_door_0.png" type="Texture" id=2505]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bigfall2_2.png" type="Texture" id=2506]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bigfall2_1.png" type="Texture" id=2507]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bigfall1_2.png" type="Texture" id=2508]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_door_5.png" type="Texture" id=2509]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_door_2.png" type="Texture" id=2510]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_door_3.png" type="Texture" id=2511]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_door_6.png" type="Texture" id=2512]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_door_7.png" type="Texture" id=2513]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_door_8.png" type="Texture" id=2514]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_door_9.png" type="Texture" id=2515]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_door_10.png" type="Texture" id=2516]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_door_11.png" type="Texture" id=2517]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_door_1.png" type="Texture" id=2518]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_door_4.png" type="Texture" id=2519]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_bigfall1_1.png" type="Texture" id=2520]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumbleend_6.png" type="Texture" id=2521]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumbleend_4.png" type="Texture" id=2522]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumbleend_5.png" type="Texture" id=2523]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumbleend_3.png" type="Texture" id=2524]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumbleend_7.png" type="Texture" id=2525]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumbleend_1.png" type="Texture" id=2526]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumbleend_2.png" type="Texture" id=2527]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumbleend_0.png" type="Texture" id=2528]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumblestart_14.png" type="Texture" id=2529]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouchjump_1.png" type="Texture" id=2530]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouchjump_2.png" type="Texture" id=2531]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumblestart_0_6.png" type="Texture" id=2532]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumblestart_3_9.png" type="Texture" id=2533]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumblestart_18.png" type="Texture" id=2534]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumblestart_16.png" type="Texture" id=2535]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumblestart_13.png" type="Texture" id=2536]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumblestart_15.png" type="Texture" id=2537]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumblestart_20.png" type="Texture" id=2538]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumblestart_12.png" type="Texture" id=2539]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumblestart_2_8.png" type="Texture" id=2540]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumblestart_4_10.png" type="Texture" id=2541]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumblestart_5_11.png" type="Texture" id=2542]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumblestart_1_7.png" type="Texture" id=2543]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumblestart_19.png" type="Texture" id=2544]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumble_0.png" type="Texture" id=2545]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumble_3.png" type="Texture" id=2546]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumblestart_17.png" type="Texture" id=2547]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crouchjump_0.png" type="Texture" id=2548]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumble_4.png" type="Texture" id=2549]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumble_1-2.png" type="Texture" id=2550]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_taunt_7.png" type="Texture" id=2551]
 
 [sub_resource type="ShaderMaterial" id=4]
 shader = ExtResource( 1204 )
@@ -14324,12 +14822,12 @@ animations = [ {
 
 [sub_resource type="SpriteFrames" id=1819]
 animations = [ {
-"frames": [ SubResource( 341 ), SubResource( 342 ), SubResource( 343 ), SubResource( 344 ), SubResource( 345 ), SubResource( 346 ), SubResource( 347 ), SubResource( 348 ) ],
+"frames": [ ExtResource( 2324 ), ExtResource( 2336 ), ExtResource( 2336 ), ExtResource( 2338 ), ExtResource( 2325 ), ExtResource( 2340 ), ExtResource( 2339 ), ExtResource( 2321 ), ExtResource( 2318 ), ExtResource( 2319 ), ExtResource( 2317 ), ExtResource( 2331 ) ],
 "loop": true,
 "name": "3hpidle",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 349 ), SubResource( 350 ), SubResource( 351 ), SubResource( 352 ), SubResource( 353 ), SubResource( 354 ), SubResource( 355 ), SubResource( 356 ), SubResource( 357 ), SubResource( 358 ) ],
+"frames": [ ExtResource( 2327 ), ExtResource( 2337 ), ExtResource( 2326 ), ExtResource( 2315 ), ExtResource( 2316 ), ExtResource( 2341 ), ExtResource( 2335 ), ExtResource( 2314 ) ],
 "loop": true,
 "name": "3hpwalk",
 "speed": 60.0
@@ -14344,17 +14842,17 @@ animations = [ {
 "name": "airdash2",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 359 ), SubResource( 360 ), SubResource( 361 ) ],
+"frames": [ ExtResource( 2148 ), ExtResource( 2157 ), ExtResource( 2166 ) ],
 "loop": true,
 "name": "bodyslamfall",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 362 ), SubResource( 363 ), SubResource( 364 ), SubResource( 365 ), SubResource( 366 ), SubResource( 367 ) ],
+"frames": [ ExtResource( 2184 ), ExtResource( 2167 ), ExtResource( 2164 ), ExtResource( 2171 ), ExtResource( 2185 ), ExtResource( 2173 ), ExtResource( 2181 ) ],
 "loop": true,
 "name": "bodyslamland",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 368 ), SubResource( 369 ), SubResource( 370 ), SubResource( 371 ), SubResource( 372 ), SubResource( 373 ), SubResource( 374 ), SubResource( 375 ), SubResource( 376 ), SubResource( 377 ) ],
+"frames": [ ExtResource( 2150 ), ExtResource( 2183 ), ExtResource( 2175 ), ExtResource( 2170 ), ExtResource( 2172 ), ExtResource( 2168 ), ExtResource( 2149 ), ExtResource( 2177 ), ExtResource( 2156 ), ExtResource( 2165 ), ExtResource( 2174 ), ExtResource( 2155 ), ExtResource( 2154 ), ExtResource( 2151 ), ExtResource( 2152 ), ExtResource( 2153 ) ],
 "loop": true,
 "name": "bodyslamstart",
 "speed": 60.0
@@ -14379,12 +14877,12 @@ animations = [ {
 "name": "bombpep_runabouttoexplode",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 440 ), SubResource( 441 ), SubResource( 442 ), SubResource( 443 ), SubResource( 444 ), SubResource( 445 ), SubResource( 446 ), SubResource( 447 ), SubResource( 448 ), SubResource( 449 ), SubResource( 450 ), SubResource( 451 ), SubResource( 452 ), SubResource( 453 ) ],
+"frames": [ ExtResource( 2387 ), ExtResource( 2391 ), ExtResource( 2388 ), ExtResource( 2390 ), ExtResource( 2389 ), ExtResource( 2390 ), ExtResource( 2389 ), ExtResource( 2390 ), ExtResource( 2389 ), ExtResource( 2390 ), ExtResource( 2389 ), ExtResource( 2388 ), ExtResource( 2391 ), ExtResource( 2387 ) ],
 "loop": true,
 "name": "bossintro",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 454 ), SubResource( 455 ), SubResource( 456 ), SubResource( 457 ), SubResource( 458 ), SubResource( 459 ), SubResource( 460 ) ],
+"frames": [ ExtResource( 2365 ), ExtResource( 2364 ), ExtResource( 2367 ) ],
 "loop": true,
 "name": "bump",
 "speed": 60.0
@@ -14394,32 +14892,32 @@ animations = [ {
 "name": "charge",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 461 ), SubResource( 462 ), SubResource( 463 ) ],
+"frames": [ ExtResource( 2273 ), ExtResource( 2263 ), ExtResource( 2264 ) ],
 "loop": true,
 "name": "climbwall",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 464 ), SubResource( 465 ), SubResource( 466 ), SubResource( 467 ), SubResource( 468 ), SubResource( 469 ), SubResource( 470 ), SubResource( 471 ), SubResource( 472 ), SubResource( 473 ) ],
+"frames": [ ExtResource( 2343 ), ExtResource( 2346 ), ExtResource( 2347 ), ExtResource( 2348 ), ExtResource( 2344 ), ExtResource( 2345 ), ExtResource( 2351 ), ExtResource( 2352 ), ExtResource( 2350 ), ExtResource( 2349 ) ],
 "loop": true,
 "name": "crawl",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1724 ), SubResource( 1725 ) ],
+"frames": [ ExtResource( 1209 ), ExtResource( 2118 ), ExtResource( 2117 ), ExtResource( 2128 ), ExtResource( 2120 ), ExtResource( 2130 ) ],
 "loop": true,
 "name": "crazyrun",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 477 ), SubResource( 478 ), SubResource( 479 ), SubResource( 480 ), SubResource( 481 ), SubResource( 482 ), SubResource( 483 ), SubResource( 484 ), SubResource( 485 ), SubResource( 486 ), SubResource( 487 ), SubResource( 488 ), SubResource( 489 ), SubResource( 490 ), SubResource( 491 ), SubResource( 492 ), SubResource( 493 ), SubResource( 494 ), SubResource( 495 ), SubResource( 496 ), SubResource( 497 ), SubResource( 498 ), SubResource( 499 ), SubResource( 500 ), SubResource( 501 ), SubResource( 502 ), SubResource( 503 ), SubResource( 504 ), SubResource( 505 ), SubResource( 506 ), SubResource( 507 ), SubResource( 508 ), SubResource( 509 ), SubResource( 510 ), SubResource( 511 ), SubResource( 512 ), SubResource( 513 ) ],
+"frames": [ ExtResource( 2369 ), ExtResource( 2369 ), ExtResource( 2369 ), ExtResource( 2369 ), ExtResource( 2369 ), ExtResource( 2369 ), ExtResource( 2369 ), ExtResource( 2369 ), ExtResource( 2369 ), ExtResource( 2369 ), ExtResource( 2356 ), ExtResource( 2370 ), ExtResource( 2366 ), ExtResource( 2357 ), ExtResource( 2357 ), ExtResource( 2357 ), ExtResource( 2357 ), ExtResource( 2357 ), ExtResource( 2357 ), ExtResource( 2357 ), ExtResource( 2355 ), ExtResource( 2373 ), ExtResource( 2368 ) ],
 "loop": true,
 "name": "crouch",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 514 ), SubResource( 515 ), SubResource( 516 ) ],
+"frames": [ ExtResource( 2548 ), ExtResource( 2530 ), ExtResource( 2531 ) ],
 "loop": true,
 "name": "crouchfall",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 517 ), SubResource( 518 ), SubResource( 519 ), SubResource( 520 ), SubResource( 521 ) ],
+"frames": [ ExtResource( 2353 ), ExtResource( 2362 ), ExtResource( 2363 ), ExtResource( 2358 ), ExtResource( 2361 ), ExtResource( 2359 ), ExtResource( 2360 ), ExtResource( 2368 ) ],
 "loop": true,
 "name": "crouchjump",
 "speed": 60.0
@@ -14434,12 +14932,12 @@ animations = [ {
 "name": "crouchstart",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 529 ) ],
+"frames": [ ExtResource( 2138 ) ],
 "loop": true,
 "name": "dead",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 532 ), SubResource( 533 ), SubResource( 534 ) ],
+"frames": [ ExtResource( 2112 ), ExtResource( 1210 ), ExtResource( 2137 ) ],
 "loop": true,
 "name": "dive",
 "speed": 60.0
@@ -14454,12 +14952,12 @@ animations = [ {
 "name": "doublejumpfall",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 552 ), SubResource( 553 ), SubResource( 554 ), SubResource( 555 ), SubResource( 556 ), SubResource( 557 ), SubResource( 558 ), SubResource( 559 ), SubResource( 560 ), SubResource( 561 ), SubResource( 562 ) ],
+"frames": [ ExtResource( 2410 ), ExtResource( 2411 ), ExtResource( 2420 ), ExtResource( 2421 ), ExtResource( 2412 ), ExtResource( 2412 ), ExtResource( 2412 ), ExtResource( 2413 ), ExtResource( 2419 ), ExtResource( 2416 ), ExtResource( 2417 ), ExtResource( 2418 ), ExtResource( 2415 ), ExtResource( 2414 ) ],
 "loop": true,
 "name": "downpizzabox",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 563 ), SubResource( 564 ), SubResource( 565 ), SubResource( 566 ), SubResource( 567 ), SubResource( 568 ), SubResource( 569 ), SubResource( 570 ), SubResource( 571 ), SubResource( 572 ), SubResource( 573 ), SubResource( 574 ), SubResource( 575 ), SubResource( 576 ), SubResource( 577 ), SubResource( 578 ), SubResource( 579 ), SubResource( 580 ), SubResource( 581 ), SubResource( 582 ), SubResource( 583 ), SubResource( 584 ), SubResource( 585 ), SubResource( 586 ), SubResource( 587 ), SubResource( 588 ), SubResource( 589 ), SubResource( 590 ) ],
+"frames": [ ExtResource( 2193 ), ExtResource( 2219 ), ExtResource( 2194 ), ExtResource( 2213 ), ExtResource( 2200 ), ExtResource( 2197 ), ExtResource( 2201 ), ExtResource( 2216 ), ExtResource( 2203 ), ExtResource( 2198 ), ExtResource( 2202 ), ExtResource( 2192 ), ExtResource( 2192 ), ExtResource( 2192 ), ExtResource( 2192 ), ExtResource( 2192 ), ExtResource( 2192 ), ExtResource( 2192 ), ExtResource( 2192 ), ExtResource( 2192 ), ExtResource( 2192 ), ExtResource( 2204 ), ExtResource( 2196 ), ExtResource( 2199 ), ExtResource( 2214 ), ExtResource( 2195 ), ExtResource( 2218 ), ExtResource( 2217 ), ExtResource( 2215 ), ExtResource( 2220 ), ExtResource( 2209 ), ExtResource( 2209 ), ExtResource( 2209 ), ExtResource( 2209 ), ExtResource( 2209 ), ExtResource( 2209 ), ExtResource( 2209 ), ExtResource( 2209 ), ExtResource( 2209 ), ExtResource( 2209 ), ExtResource( 2209 ), ExtResource( 2209 ), ExtResource( 2209 ), ExtResource( 2209 ), ExtResource( 2209 ), ExtResource( 2209 ), ExtResource( 2209 ), ExtResource( 2209 ), ExtResource( 2209 ), ExtResource( 2207 ), ExtResource( 2205 ), ExtResource( 2208 ), ExtResource( 2206 ), ExtResource( 2212 ), ExtResource( 2210 ), ExtResource( 2211 ) ],
 "loop": true,
 "name": "entergate",
 "speed": 60.0
@@ -14474,12 +14972,12 @@ animations = [ {
 "name": "facehurtup",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1104 ), SubResource( 1105 ), SubResource( 1106 ) ],
+"frames": [ ExtResource( 2503 ), ExtResource( 2520 ), ExtResource( 2508 ) ],
 "loop": true,
 "name": "facestomp",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 611 ), SubResource( 612 ), SubResource( 613 ) ],
+"frames": [ ExtResource( 2135 ), ExtResource( 2140 ), ExtResource( 2136 ) ],
 "loop": true,
 "name": "fall",
 "speed": 60.0
@@ -14524,12 +15022,12 @@ animations = [ {
 "name": "fireassground",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1107 ), SubResource( 1108 ), SubResource( 1109 ) ],
+"frames": [ ExtResource( 2504 ), ExtResource( 2507 ), ExtResource( 2506 ) ],
 "loop": true,
 "name": "freefall",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 796 ), SubResource( 797 ), SubResource( 798 ), SubResource( 799 ), SubResource( 800 ), SubResource( 801 ) ],
+"frames": [ ExtResource( 2456 ), ExtResource( 2455 ), ExtResource( 2454 ) ],
 "loop": true,
 "name": "gottreasure",
 "speed": 60.0
@@ -14564,12 +15062,12 @@ animations = [ {
 "name": "haulingwalk",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1047 ), SubResource( 1048 ), SubResource( 1049 ), SubResource( 1050 ), SubResource( 1051 ), SubResource( 1052 ), SubResource( 1053 ), SubResource( 1054 ), SubResource( 1055 ), SubResource( 1056 ), SubResource( 1057 ), SubResource( 1058 ), SubResource( 1059 ), SubResource( 1060 ), SubResource( 1061 ), SubResource( 1062 ), SubResource( 1063 ) ],
+"frames": [ ExtResource( 2459 ), ExtResource( 2462 ), ExtResource( 2463 ), ExtResource( 2465 ), ExtResource( 2461 ), ExtResource( 2460 ), ExtResource( 2464 ), ExtResource( 2458 ), ExtResource( 2457 ), ExtResource( 2458 ), ExtResource( 2457 ), ExtResource( 2458 ), ExtResource( 2457 ) ],
 "loop": true,
 "name": "hitwall",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 840 ), SubResource( 841 ), SubResource( 842 ) ],
+"frames": [ ExtResource( 2144 ), ExtResource( 2145 ), ExtResource( 2146 ), ExtResource( 2142 ), ExtResource( 2147 ) ],
 "loop": true,
 "name": "hurt",
 "speed": 60.0
@@ -14579,7 +15077,7 @@ animations = [ {
 "name": "hurtidle",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 859 ), SubResource( 860 ), SubResource( 861 ) ],
+"frames": [ ExtResource( 2144 ), ExtResource( 2145 ), ExtResource( 2146 ), ExtResource( 2142 ), ExtResource( 2147 ) ],
 "loop": true,
 "name": "hurtjump",
 "speed": 60.0
@@ -14589,7 +15087,7 @@ animations = [ {
 "name": "hurtwalk",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1751 ), SubResource( 1752 ), SubResource( 1753 ), SubResource( 1754 ), SubResource( 1755 ), SubResource( 1756 ), SubResource( 1757 ), SubResource( 1758 ), SubResource( 1759 ), SubResource( 1760 ), SubResource( 1761 ), SubResource( 1762 ), SubResource( 1763 ), SubResource( 1764 ), SubResource( 1765 ), SubResource( 1766 ), SubResource( 1767 ), SubResource( 1768 ), SubResource( 1769 ), SubResource( 1770 ), SubResource( 1771 ), SubResource( 1772 ), SubResource( 1773 ), SubResource( 1774 ), SubResource( 1775 ), SubResource( 1776 ), SubResource( 1777 ), SubResource( 1778 ), SubResource( 1779 ), SubResource( 1780 ), SubResource( 1781 ), SubResource( 1782 ), SubResource( 1783 ), SubResource( 1784 ), SubResource( 1785 ), SubResource( 1786 ), SubResource( 1787 ), SubResource( 1788 ), SubResource( 1789 ), SubResource( 1790 ), SubResource( 1791 ), SubResource( 1792 ), SubResource( 1793 ), SubResource( 1794 ), SubResource( 1795 ), SubResource( 1796 ), SubResource( 1797 ), SubResource( 1798 ), SubResource( 1799 ), SubResource( 1800 ), SubResource( 1801 ), SubResource( 1802 ), SubResource( 1803 ), SubResource( 1804 ), SubResource( 1805 ), SubResource( 1806 ), SubResource( 1807 ), SubResource( 1808 ), SubResource( 1809 ) ],
+"frames": [ ExtResource( 1214 ), ExtResource( 1226 ), ExtResource( 1232 ), ExtResource( 1234 ), ExtResource( 1213 ), ExtResource( 1233 ), ExtResource( 1222 ), ExtResource( 1223 ), ExtResource( 1212 ), ExtResource( 1219 ), ExtResource( 1218 ), ExtResource( 1217 ), ExtResource( 1216 ), ExtResource( 1215 ) ],
 "loop": true,
 "name": "idle",
 "speed": 60.0
@@ -14644,12 +15142,12 @@ animations = [ {
 "name": "jetpackstart",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 721 ), SubResource( 722 ), SubResource( 723 ), SubResource( 724 ), SubResource( 725 ), SubResource( 726 ), SubResource( 727 ), SubResource( 728 ), SubResource( 729 ), SubResource( 730 ), SubResource( 731 ), SubResource( 732 ), SubResource( 733 ), SubResource( 734 ) ],
+"frames": [ ExtResource( 2115 ), ExtResource( 2116 ), ExtResource( 2139 ), ExtResource( 2134 ), ExtResource( 1282 ), ExtResource( 1285 ), ExtResource( 1239 ), ExtResource( 1240 ), ExtResource( 1241 ), ExtResource( 1242 ), ExtResource( 1243 ), ExtResource( 1273 ) ],
 "loop": true,
 "name": "jump",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 898 ), SubResource( 899 ), SubResource( 900 ), SubResource( 901 ), SubResource( 902 ), SubResource( 903 ), SubResource( 904 ), SubResource( 905 ), SubResource( 906 ), SubResource( 907 ), SubResource( 908 ), SubResource( 909 ), SubResource( 910 ), SubResource( 911 ), SubResource( 912 ), SubResource( 913 ), SubResource( 914 ), SubResource( 915 ), SubResource( 916 ), SubResource( 917 ), SubResource( 918 ), SubResource( 919 ), SubResource( 920 ), SubResource( 921 ), SubResource( 922 ), SubResource( 923 ), SubResource( 924 ), SubResource( 925 ), SubResource( 926 ), SubResource( 927 ), SubResource( 928 ), SubResource( 929 ), SubResource( 930 ), SubResource( 931 ) ],
+"frames": [ ExtResource( 2230 ), ExtResource( 2230 ), ExtResource( 2230 ), ExtResource( 2229 ), ExtResource( 2228 ), ExtResource( 2224 ), ExtResource( 2223 ), ExtResource( 2222 ), ExtResource( 2226 ), ExtResource( 2231 ), ExtResource( 2221 ), ExtResource( 2227 ), ExtResource( 2225 ) ],
 "loop": true,
 "name": "keyget",
 "speed": 60.0
@@ -14704,42 +15202,42 @@ animations = [ {
 "name": "knightpep_walk",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1035 ) ],
+"frames": [ ExtResource( 2385 ) ],
 "loop": true,
 "name": "ladder",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1036 ), SubResource( 1037 ), SubResource( 1038 ) ],
+"frames": [ ExtResource( 2386 ), ExtResource( 2377 ), ExtResource( 2384 ) ],
 "loop": true,
 "name": "ladderdown",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1039 ), SubResource( 1040 ), SubResource( 1041 ), SubResource( 1042 ), SubResource( 1043 ), SubResource( 1044 ), SubResource( 1045 ), SubResource( 1046 ) ],
+"frames": [ ExtResource( 2376 ), ExtResource( 2381 ), ExtResource( 2382 ), ExtResource( 2379 ), ExtResource( 2378 ), ExtResource( 2380 ), ExtResource( 2383 ), ExtResource( 2375 ) ],
 "loop": true,
 "name": "laddermove",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 735 ), SubResource( 736 ), SubResource( 737 ), SubResource( 738 ) ],
+"frames": [ ExtResource( 1237 ), ExtResource( 2106 ), ExtResource( 2109 ), ExtResource( 2111 ), ExtResource( 1274 ), ExtResource( 2110 ), ExtResource( 1235 ) ],
 "loop": true,
 "name": "land",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 739 ), SubResource( 740 ), SubResource( 741 ), SubResource( 742 ), SubResource( 743 ) ],
+"frames": [ ExtResource( 1237 ), ExtResource( 2106 ), ExtResource( 2109 ), ExtResource( 2111 ), ExtResource( 1274 ), ExtResource( 2110 ), ExtResource( 1235 ) ],
 "loop": true,
 "name": "land2",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 744 ), SubResource( 745 ), SubResource( 746 ), SubResource( 747 ), SubResource( 748 ), SubResource( 749 ), SubResource( 750 ), SubResource( 751 ), SubResource( 752 ) ],
+"frames": [ ExtResource( 2505 ), ExtResource( 2518 ), ExtResource( 2510 ), ExtResource( 2511 ), ExtResource( 2519 ), ExtResource( 2509 ), ExtResource( 2512 ), ExtResource( 2513 ), ExtResource( 2514 ), ExtResource( 2515 ), ExtResource( 2516 ), ExtResource( 2517 ) ],
 "loop": true,
 "name": "lookdoor",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1064 ), SubResource( 1065 ), SubResource( 1066 ), SubResource( 1067 ) ],
+"frames": [ ExtResource( 2104 ), ExtResource( 2113 ), ExtResource( 2105 ), ExtResource( 1238 ), ExtResource( 2103 ), ExtResource( 2127 ), ExtResource( 2122 ), ExtResource( 2119 ), ExtResource( 2126 ), ExtResource( 2124 ), ExtResource( 2123 ), ExtResource( 2131 ), ExtResource( 1153 ) ],
 "loop": true,
 "name": "mach",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1070 ), SubResource( 1071 ), SubResource( 1072 ), SubResource( 1073 ), SubResource( 1074 ), SubResource( 1075 ), SubResource( 1076 ), SubResource( 1810 ), SubResource( 1811 ), SubResource( 1812 ), SubResource( 1813 ), SubResource( 1810 ), SubResource( 1811 ), SubResource( 1812 ), SubResource( 1813 ), SubResource( 1810 ) ],
+"frames": [ ExtResource( 1275 ), ExtResource( 1281 ), ExtResource( 1280 ), ExtResource( 1236 ), ExtResource( 2114 ), ExtResource( 1283 ), ExtResource( 1284 ), ExtResource( 1286 ), ExtResource( 2107 ), ExtResource( 2108 ), ExtResource( 1276 ), ExtResource( 1277 ), ExtResource( 1278 ), ExtResource( 1279 ) ],
 "loop": true,
 "name": "mach1",
 "speed": 60.0
@@ -14749,52 +15247,57 @@ animations = [ {
 "name": "mach2jump",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1110 ), SubResource( 1111 ), SubResource( 1112 ), SubResource( 1113 ), SubResource( 1114 ), SubResource( 1115 ), SubResource( 1116 ), SubResource( 1117 ), SubResource( 1118 ) ],
+"frames": [ ExtResource( 2258 ), ExtResource( 2248 ), ExtResource( 2246 ), ExtResource( 2249 ), ExtResource( 2243 ), ExtResource( 2252 ), ExtResource( 2245 ), ExtResource( 2247 ), ExtResource( 2244 ), ExtResource( 2251 ), ExtResource( 2250 ) ],
+"loop": true,
+"name": "mach3hit",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 2232 ), ExtResource( 2236 ), ExtResource( 2235 ), ExtResource( 2233 ), ExtResource( 2234 ), ExtResource( 2237 ), ExtResource( 2129 ), ExtResource( 2121 ), ExtResource( 2125 ) ],
 "loop": true,
 "name": "mach3jump",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1084 ), SubResource( 1085 ), SubResource( 1086 ), SubResource( 1814 ) ],
+"frames": [ ExtResource( 2129 ), ExtResource( 2121 ), ExtResource( 2125 ) ],
 "loop": true,
 "name": "mach4",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1119 ), SubResource( 1120 ), SubResource( 1121 ), SubResource( 1122 ), SubResource( 1123 ) ],
+"frames": [ ExtResource( 2242 ), ExtResource( 2240 ), ExtResource( 2239 ), ExtResource( 2238 ), ExtResource( 2241 ) ],
 "loop": true,
 "name": "machpunch1",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1124 ), SubResource( 1125 ), SubResource( 1126 ), SubResource( 1127 ), SubResource( 1128 ) ],
+"frames": [ ExtResource( 2256 ), ExtResource( 2257 ), ExtResource( 2254 ), ExtResource( 2255 ), ExtResource( 2253 ) ],
 "loop": true,
 "name": "machpunch2",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1129 ), SubResource( 1130 ), SubResource( 1131 ), SubResource( 1132 ) ],
+"frames": [ ExtResource( 2371 ), ExtResource( 2372 ), ExtResource( 2354 ) ],
 "loop": true,
 "name": "machroll",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1133 ), SubResource( 1134 ), SubResource( 1135 ) ],
+"frames": [ ExtResource( 2295 ), ExtResource( 2292 ), ExtResource( 2293 ) ],
 "loop": true,
 "name": "machslide",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1136 ), SubResource( 1137 ), SubResource( 1138 ), SubResource( 1139 ), SubResource( 1140 ), SubResource( 1141 ), SubResource( 1142 ), SubResource( 1143 ), SubResource( 1144 ), SubResource( 1145 ), SubResource( 1146 ), SubResource( 1147 ), SubResource( 1148 ) ],
+"frames": [ ExtResource( 2289 ), ExtResource( 2285 ), ExtResource( 2287 ), ExtResource( 2286 ), ExtResource( 2290 ), ExtResource( 2291 ), ExtResource( 2283 ), ExtResource( 2284 ), ExtResource( 2288 ) ],
 "loop": true,
 "name": "machslideboost",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1087 ), SubResource( 1088 ), SubResource( 1089 ), SubResource( 1090 ), SubResource( 1091 ), SubResource( 1092 ), SubResource( 1093 ), SubResource( 1094 ), SubResource( 1095 ), SubResource( 1096 ), SubResource( 1097 ), SubResource( 1098 ), SubResource( 1099 ) ],
+"frames": [ ExtResource( 2274 ), ExtResource( 2275 ), ExtResource( 2276 ), ExtResource( 2279 ), ExtResource( 2281 ), ExtResource( 2282 ), ExtResource( 2280 ), ExtResource( 2278 ), ExtResource( 2277 ) ],
 "loop": true,
 "name": "machslideboost3",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1149 ), SubResource( 1150 ), SubResource( 1151 ), SubResource( 1152 ), SubResource( 1153 ), SubResource( 1154 ) ],
+"frames": [ ExtResource( 2299 ), ExtResource( 2304 ), ExtResource( 2302 ), ExtResource( 2301 ), ExtResource( 2300 ), ExtResource( 2298 ) ],
 "loop": true,
 "name": "machslideend",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1155 ), SubResource( 1156 ), SubResource( 1157 ), SubResource( 1158 ), SubResource( 1159 ), SubResource( 1160 ), SubResource( 1161 ) ],
+"frames": [ ExtResource( 2303 ), ExtResource( 2297 ), ExtResource( 2305 ), ExtResource( 2296 ), ExtResource( 2294 ) ],
 "loop": true,
 "name": "machslidestart",
 "speed": 60.0
@@ -14809,12 +15312,12 @@ animations = [ {
 "name": "machspinstart",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 322 ), SubResource( 323 ), SubResource( 324 ), SubResource( 325 ), SubResource( 326 ), SubResource( 327 ) ],
+"frames": [ ExtResource( 1220 ), ExtResource( 1211 ), ExtResource( 2132 ), ExtResource( 2133 ), ExtResource( 1221 ), ExtResource( 1224 ), ExtResource( 1225 ), ExtResource( 1227 ), ExtResource( 1228 ), ExtResource( 1229 ), ExtResource( 1230 ), ExtResource( 1231 ) ],
 "loop": true,
 "name": "move",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1162 ), SubResource( 1163 ), SubResource( 1164 ), SubResource( 1165 ) ],
+"frames": [ ExtResource( 2141 ), ExtResource( 2143 ), ExtResource( 2178 ), ExtResource( 2178 ), ExtResource( 2158 ), ExtResource( 2163 ), ExtResource( 2162 ), ExtResource( 2161 ), ExtResource( 2160 ), ExtResource( 2159 ), ExtResource( 2169 ), ExtResource( 2169 ), ExtResource( 2176 ), ExtResource( 2182 ), ExtResource( 2180 ), ExtResource( 2179 ) ],
 "loop": true,
 "name": "panic",
 "speed": 60.0
@@ -14884,12 +15387,12 @@ animations = [ {
 "name": "rollgetup",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1237 ), SubResource( 1238 ), SubResource( 1239 ), SubResource( 1240 ) ],
+"frames": [ ExtResource( 2397 ), ExtResource( 2407 ), ExtResource( 2395 ), ExtResource( 2396 ), ExtResource( 2394 ), ExtResource( 2403 ), ExtResource( 2404 ), ExtResource( 2393 ), ExtResource( 2400 ), ExtResource( 2401 ), ExtResource( 2402 ), ExtResource( 2398 ), ExtResource( 2399 ), ExtResource( 2405 ), ExtResource( 2406 ) ],
 "loop": true,
 "name": "secondjump1",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1241 ), SubResource( 1242 ), SubResource( 1243 ) ],
+"frames": [ ExtResource( 2409 ), ExtResource( 2392 ), ExtResource( 2408 ) ],
 "loop": true,
 "name": "secondjump2",
 "speed": 60.0
@@ -14964,7 +15467,7 @@ animations = [ {
 "name": "shotgunjump3",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1244 ), SubResource( 1245 ), SubResource( 1246 ), SubResource( 1247 ), SubResource( 1248 ), SubResource( 1249 ), SubResource( 1250 ), SubResource( 1251 ) ],
+"frames": [ ExtResource( 2342 ), ExtResource( 2322 ), ExtResource( 2332 ), ExtResource( 2333 ), ExtResource( 2334 ), ExtResource( 2323 ), ExtResource( 2328 ), ExtResource( 2329 ), ExtResource( 2330 ) ],
 "loop": true,
 "name": "slipnslide",
 "speed": 60.0
@@ -14974,12 +15477,12 @@ animations = [ {
 "name": "spin",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1265 ), SubResource( 1266 ), SubResource( 1267 ) ],
+"frames": [ ExtResource( 2312 ), ExtResource( 2313 ), ExtResource( 2311 ) ],
 "loop": true,
 "name": "stomp",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1268 ), SubResource( 1269 ), SubResource( 1270 ) ],
+"frames": [ ExtResource( 2308 ), ExtResource( 2310 ), ExtResource( 2307 ), ExtResource( 2306 ), ExtResource( 2309 ), ExtResource( 2320 ) ],
 "loop": true,
 "name": "stompprep",
 "speed": 60.0
@@ -14989,7 +15492,7 @@ animations = [ {
 "name": "superjump",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1275 ), SubResource( 1276 ), SubResource( 1277 ), SubResource( 1278 ), SubResource( 1279 ), SubResource( 1280 ), SubResource( 1281 ), SubResource( 1282 ), SubResource( 1283 ) ],
+"frames": [ ExtResource( 2453 ), ExtResource( 2449 ), ExtResource( 2451 ), ExtResource( 2452 ), ExtResource( 2450 ), ExtResource( 2450 ), ExtResource( 2450 ), ExtResource( 2450 ), ExtResource( 2450 ), ExtResource( 2450 ), ExtResource( 2450 ) ],
 "loop": true,
 "name": "superjumpland",
 "speed": 60.0
@@ -15084,27 +15587,27 @@ animations = [ {
 "name": "tackle",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 692 ), SubResource( 693 ), SubResource( 694 ), SubResource( 695 ), SubResource( 696 ), SubResource( 697 ), SubResource( 698 ), SubResource( 699 ), SubResource( 700 ), SubResource( 701 ), SubResource( 702 ) ],
+"frames": [ ExtResource( 2187 ), ExtResource( 2191 ), ExtResource( 2188 ), ExtResource( 2186 ), ExtResource( 2190 ), ExtResource( 2189 ), ExtResource( 2374 ), ExtResource( 2551 ) ],
 "loop": true,
 "name": "taunt",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 703 ), SubResource( 704 ), SubResource( 705 ), SubResource( 706 ), SubResource( 707 ), SubResource( 708 ), SubResource( 709 ), SubResource( 710 ), SubResource( 711 ), SubResource( 712 ), SubResource( 713 ), SubResource( 714 ), SubResource( 715 ), SubResource( 716 ), SubResource( 717 ), SubResource( 718 ), SubResource( 719 ), SubResource( 720 ) ],
+"frames": [ ExtResource( 2476 ), ExtResource( 2474 ), ExtResource( 2478 ), ExtResource( 2475 ), ExtResource( 2469 ), ExtResource( 2469 ), ExtResource( 2469 ), ExtResource( 2469 ), ExtResource( 2466 ), ExtResource( 2479 ), ExtResource( 2472 ), ExtResource( 2477 ), ExtResource( 2477 ), ExtResource( 2477 ), ExtResource( 2477 ), ExtResource( 2477 ), ExtResource( 2477 ), ExtResource( 2477 ), ExtResource( 2477 ), ExtResource( 2477 ), ExtResource( 2477 ), ExtResource( 2477 ), ExtResource( 2467 ), ExtResource( 2468 ), ExtResource( 2471 ), ExtResource( 2470 ), ExtResource( 2473 ), ExtResource( 2473 ), ExtResource( 2473 ), ExtResource( 2473 ), ExtResource( 2473 ), ExtResource( 2473 ), ExtResource( 2473 ), ExtResource( 2473 ), ExtResource( 2473 ), ExtResource( 2473 ), ExtResource( 2473 ) ],
 "loop": true,
 "name": "timesup",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1418 ), SubResource( 1419 ), SubResource( 1420 ), SubResource( 1421 ), SubResource( 1422 ), SubResource( 1423 ), SubResource( 1424 ), SubResource( 1425 ), SubResource( 1426 ), SubResource( 1427 ), SubResource( 1428 ), SubResource( 1429 ), SubResource( 1430 ), SubResource( 1431 ), SubResource( 1432 ), SubResource( 1433 ) ],
+"frames": [ ExtResource( 2545 ), ExtResource( 2550 ), ExtResource( 2546 ), ExtResource( 2549 ) ],
 "loop": true,
 "name": "tumble",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1434 ), SubResource( 1435 ), SubResource( 1436 ), SubResource( 1437 ), SubResource( 1438 ), SubResource( 1439 ), SubResource( 1440 ), SubResource( 1441 ), SubResource( 1442 ), SubResource( 1443 ), SubResource( 1444 ), SubResource( 1445 ) ],
+"frames": [ ExtResource( 2528 ), ExtResource( 2526 ), ExtResource( 2527 ), ExtResource( 2524 ), ExtResource( 2522 ), ExtResource( 2523 ), ExtResource( 2521 ), ExtResource( 2525 ) ],
 "loop": true,
 "name": "tumbleend",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1446 ), SubResource( 1447 ), SubResource( 1448 ), SubResource( 1449 ), SubResource( 1450 ), SubResource( 1451 ), SubResource( 1452 ), SubResource( 1453 ), SubResource( 1454 ), SubResource( 1455 ), SubResource( 1456 ), SubResource( 1457 ), SubResource( 1458 ), SubResource( 1459 ), SubResource( 1460 ), SubResource( 1461 ), SubResource( 1462 ), SubResource( 1463 ) ],
+"frames": [ ExtResource( 2532 ), ExtResource( 2543 ), ExtResource( 2540 ), ExtResource( 2533 ), ExtResource( 2541 ), ExtResource( 2542 ), ExtResource( 2532 ), ExtResource( 2543 ), ExtResource( 2540 ), ExtResource( 2533 ), ExtResource( 2541 ), ExtResource( 2542 ), ExtResource( 2539 ), ExtResource( 2536 ), ExtResource( 2529 ), ExtResource( 2537 ), ExtResource( 2535 ), ExtResource( 2547 ), ExtResource( 2534 ), ExtResource( 2544 ), ExtResource( 2538 ) ],
 "loop": true,
 "name": "tumblestart",
 "speed": 60.0
@@ -15114,17 +15617,17 @@ animations = [ {
 "name": "uppercutfinishingblow",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1464 ), SubResource( 1465 ), SubResource( 1466 ), SubResource( 1467 ), SubResource( 1468 ), SubResource( 1469 ), SubResource( 1470 ), SubResource( 1471 ), SubResource( 1472 ), SubResource( 1473 ), SubResource( 1474 ), SubResource( 1475 ), SubResource( 1476 ), SubResource( 1477 ), SubResource( 1478 ), SubResource( 1479 ), SubResource( 1480 ) ],
+"frames": [ ExtResource( 2433 ), ExtResource( 2446 ), ExtResource( 2422 ), ExtResource( 2429 ), ExtResource( 2430 ), ExtResource( 2428 ), ExtResource( 2428 ), ExtResource( 2428 ), ExtResource( 2427 ), ExtResource( 2424 ), ExtResource( 2425 ), ExtResource( 2426 ), ExtResource( 2432 ), ExtResource( 2423 ), ExtResource( 2431 ) ],
 "loop": true,
 "name": "uppizzabox",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1481 ), SubResource( 1482 ), SubResource( 1483 ), SubResource( 1484 ), SubResource( 1485 ), SubResource( 1486 ), SubResource( 1487 ), SubResource( 1488 ), SubResource( 1489 ), SubResource( 1490 ), SubResource( 1491 ), SubResource( 1492 ), SubResource( 1493 ), SubResource( 1494 ), SubResource( 1495 ), SubResource( 1496 ), SubResource( 1497 ), SubResource( 1498 ), SubResource( 1499 ), SubResource( 1500 ), SubResource( 1501 ), SubResource( 1502 ), SubResource( 1503 ), SubResource( 1504 ), SubResource( 1505 ), SubResource( 1506 ), SubResource( 1507 ), SubResource( 1508 ), SubResource( 1509 ), SubResource( 1510 ), SubResource( 1511 ), SubResource( 1512 ), SubResource( 1513 ), SubResource( 1514 ), SubResource( 1515 ), SubResource( 1516 ), SubResource( 1517 ) ],
+"frames": [ ExtResource( 2498 ), ExtResource( 2493 ), ExtResource( 2494 ), ExtResource( 2485 ), ExtResource( 2483 ), ExtResource( 2499 ), ExtResource( 2486 ), ExtResource( 2489 ), ExtResource( 2484 ), ExtResource( 2500 ), ExtResource( 2492 ), ExtResource( 2488 ), ExtResource( 2488 ), ExtResource( 2488 ), ExtResource( 2488 ), ExtResource( 2488 ), ExtResource( 2488 ), ExtResource( 2488 ), ExtResource( 2488 ), ExtResource( 2488 ), ExtResource( 2488 ), ExtResource( 2497 ), ExtResource( 2495 ), ExtResource( 2487 ), ExtResource( 2496 ), ExtResource( 2491 ), ExtResource( 2491 ), ExtResource( 2491 ), ExtResource( 2491 ), ExtResource( 2491 ), ExtResource( 2491 ), ExtResource( 2491 ), ExtResource( 2491 ), ExtResource( 2491 ), ExtResource( 2491 ), ExtResource( 2491 ), ExtResource( 2491 ), ExtResource( 2491 ), ExtResource( 2491 ), ExtResource( 2490 ), ExtResource( 2480 ), ExtResource( 2501 ), ExtResource( 2481 ), ExtResource( 2502 ), ExtResource( 2482 ), ExtResource( 2482 ) ],
 "loop": true,
 "name": "victory",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1518 ), SubResource( 1519 ), SubResource( 1520 ), SubResource( 1521 ), SubResource( 1522 ), SubResource( 1523 ), SubResource( 1524 ), SubResource( 1525 ), SubResource( 1526 ), SubResource( 1527 ), SubResource( 1528 ), SubResource( 1529 ), SubResource( 1530 ), SubResource( 1531 ), SubResource( 1532 ), SubResource( 1533 ), SubResource( 1534 ), SubResource( 1535 ) ],
+"frames": [ ExtResource( 2441 ), ExtResource( 2445 ), ExtResource( 2442 ), ExtResource( 2436 ), ExtResource( 2439 ), ExtResource( 2437 ), ExtResource( 2440 ), ExtResource( 2435 ), ExtResource( 2438 ), ExtResource( 2434 ), ExtResource( 2447 ), ExtResource( 2448 ), ExtResource( 2444 ), ExtResource( 2443 ) ],
 "loop": true,
 "name": "walkfront",
 "speed": 60.0
@@ -15139,12 +15642,12 @@ animations = [ {
 "name": "wallclingstart",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1546 ), SubResource( 1547 ), SubResource( 1548 ) ],
+"frames": [ ExtResource( 2265 ), ExtResource( 2266 ), ExtResource( 2267 ) ],
 "loop": true,
 "name": "walljumpend",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1549 ), SubResource( 1550 ), SubResource( 1551 ), SubResource( 1552 ), SubResource( 1553 ), SubResource( 1554 ), SubResource( 1555 ), SubResource( 1556 ), SubResource( 1557 ), SubResource( 1558 ), SubResource( 1559 ), SubResource( 1560 ), SubResource( 1561 ) ],
+"frames": [ ExtResource( 2270 ), ExtResource( 2259 ), ExtResource( 2260 ), ExtResource( 2262 ), ExtResource( 2261 ), ExtResource( 2272 ), ExtResource( 2268 ), ExtResource( 2269 ), ExtResource( 2271 ) ],
 "loop": true,
 "name": "walljumpstart",
 "speed": 60.0
@@ -15220,9 +15723,8 @@ animation = "idle"
 
 [node name="VigilanteSprite" type="AnimatedSprite" parent="."]
 material = SubResource( 1573 )
-position = Vector2( 0, 1 )
 frames = SubResource( 1819 )
-animation = "idle"
+animation = "mach3hit"
 
 [node name="PlayerCollision" type="CollisionShape2D" parent="."]
 modulate = Color( 1, 1, 1, 0.5 )

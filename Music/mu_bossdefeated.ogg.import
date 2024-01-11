@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/mu_bossdefeated.ogg-2709fbd1df3e92b797627b9813432bb5.oggstr"
+
+[deps]
+
+source_file="res://Music/mu_bossdefeated.ogg"
+dest_files=[ "res://.import/mu_bossdefeated.ogg-2709fbd1df3e92b797627b9813432bb5.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

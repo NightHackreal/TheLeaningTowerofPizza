@@ -61,7 +61,7 @@ targetRoom = "ancient_3"
 position = Vector2( 0, 1 )
 
 [node name="obj_camlimit_top" parent="." instance=ExtResource( 5 )]
-position = Vector2( -1, -382 )
+position = Vector2( 3, -480 )
 
 [node name="obj_camlimit_bottom" parent="." instance=ExtResource( 6 )]
 position = Vector2( 0, 545 )

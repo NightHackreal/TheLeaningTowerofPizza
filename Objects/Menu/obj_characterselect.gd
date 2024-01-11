@@ -22,7 +22,7 @@ func _process(delta):
 			utils.get_player().character = "P"
 		elif (selection == 1):
 			utils.get_instance_level("obj_noiseselect").sprite.animation = "noiseselected"
-			utils.get_player().character = "N"
+			utils.get_player().character = "V"
 		$StartTimer.start()
 	if (!ready):
 		$Player1.animation = "player1cursor"

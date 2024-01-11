@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/mu_mansiona.ogg-1f77ce36d8411d50ca7354abfda36da7.oggstr"
+
+[deps]
+
+source_file="res://Music/mu_mansiona.ogg"
+dest_files=[ "res://.import/mu_mansiona.ogg-1f77ce36d8411d50ca7354abfda36da7.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
