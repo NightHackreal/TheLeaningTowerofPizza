@@ -125,7 +125,7 @@ func _process(delta):
 		charactersprite = $PeppinoSprite
 		$PeppermanSprite.visible = false
 		$PeppinoSprite.visible = true
-		$PizzelleSprite.visible = false
+		$FakePeppinoSprite.visible = false
 		$NoiseSprite.visible = false
 		$NoisetteSprite.visible = false
 		$SnickSprite.visible = false
@@ -134,7 +134,7 @@ func _process(delta):
 		charactersprite = $NoiseSprite
 		$PeppermanSprite.visible = false
 		$PeppinoSprite.visible = false
-		$PizzelleSprite.visible = false
+		$FakePeppinoSprite.visible = false
 		$NoiseSprite.visible = true
 		$NoisetteSprite.visible = false
 		$SnickSprite.visible = false
@@ -143,7 +143,7 @@ func _process(delta):
 		charactersprite = $PeppermanSprite
 		$PeppermanSprite.visible = true
 		$PeppinoSprite.visible = false
-		$PizzelleSprite.visible = false
+		$FakePeppinoSprite.visible = false
 		$NoiseSprite.visible = false
 		$NoisetteSprite.visible = false
 		$SnickSprite.visible = false
@@ -152,7 +152,7 @@ func _process(delta):
 		charactersprite = $NoisetteSprite
 		$PeppermanSprite.visible = false
 		$PeppinoSprite.visible = false
-		$PizzelleSprite.visible = false
+		$FakePeppinoprite.visible = false
 		$NoiseSprite.visible = false
 		$NoisetteSprite.visible = true
 		$SnickSprite.visible = false
@@ -161,11 +161,20 @@ func _process(delta):
 		charactersprite = $VigilanteSprite
 		$PeppermanSprite.visible = false
 		$PeppinoSprite.visible = false
-		$PizzelleSprite.visible = false
+		$FakePeppinoSprite.visible = false
 		$NoiseSprite.visible = false
 		$NoisetteSprite.visible = false
 		$SnickSprite.visible = false
 		$VigilanteSprite.visible = true
+	elif (character == "F"):
+		charactersprite = $FakePeppinoSprite
+		$PeppermanSprite.visible = false
+		$PeppinoSprite.visible = false
+		$FakePeppinoSprite.visible = true
+		$NoiseSprite.visible = false
+		$NoisetteSprite.visible = false
+		$SnickSprite.visible = false
+		$VigilanteSprite.visible = false
 	charactersprite.material.set_shader_param("current_palette", global.peppalette)
 	charactersprite.material.set_shader_param("flash", flash)
 	position.x += velocity.x

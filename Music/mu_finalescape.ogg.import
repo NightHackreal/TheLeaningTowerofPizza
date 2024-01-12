@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/mu_finalescape.ogg-5c1beab2a7fec2e1a458dea3e0e370d8.mp3str"
+
+[deps]
+
+source_file="res://Music/mu_finalescape.ogg"
+dest_files=[ "res://.import/mu_finalescape.ogg-5c1beab2a7fec2e1a458dea3e0e370d8.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

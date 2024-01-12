@@ -1,4 +1,4 @@
-[gd_scene load_steps=4311 format=2]
+[gd_scene load_steps=4484 format=2]
 
 [ext_resource path="res://Objects/Player/sprites/idle_4.png" type="Texture" id=1]
 [ext_resource path="res://Objects/Player/sprites/idle_0.png" type="Texture" id=2]
@@ -421,19 +421,19 @@
 [ext_resource path="res://Objects/Player/sprites/slam_7.png" type="Texture" id=419]
 [ext_resource path="res://Objects/Player/sprites/slam_3.png" type="Texture" id=420]
 [ext_resource path="res://Objects/Player/sprites/slam_8.png" type="Texture" id=421]
-[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_6.png" type="Texture" id=422]
-[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_8.png" type="Texture" id=423]
-[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_7.png" type="Texture" id=424]
-[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_0.png" type="Texture" id=425]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_idle_3.png" type="Texture" id=422]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_idle_0.png" type="Texture" id=423]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_idle_4.png" type="Texture" id=424]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_idle_1.png" type="Texture" id=425]
 [ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_stun_0.png" type="Texture" id=426]
-[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_charge_1.png" type="Texture" id=427]
-[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_hurt_2.png" type="Texture" id=428]
-[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_charge_0.png" type="Texture" id=429]
-[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_charge_3.png" type="Texture" id=430]
-[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_4.png" type="Texture" id=431]
-[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_hurt_3.png" type="Texture" id=432]
-[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_3.png" type="Texture" id=433]
-[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_10.png" type="Texture" id=434]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_hurtplayer_2.png" type="Texture" id=427]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_taunt_11.png" type="Texture" id=428]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderloop_1.png" type="Texture" id=429]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderstart_0.png" type="Texture" id=430]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_idle_2.png" type="Texture" id=431]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_taunt_10.png" type="Texture" id=432]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_idle_11.png" type="Texture" id=433]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_idle_10.png" type="Texture" id=434]
 [ext_resource path="res://Sounds/sfx_groundpound.ogg" type="AudioStream" id=435]
 [ext_resource path="res://Sounds/sfx_taunt.ogg" type="AudioStream" id=436]
 [ext_resource path="res://Objects/Player/sprites/taunt_1.png" type="Texture" id=437]
@@ -840,13 +840,13 @@
 [ext_resource path="res://Objects/Player/sprites/backbreaker_6.png" type="Texture" id=838]
 [ext_resource path="res://Objects/Player/sprites/backbreaker_2.png" type="Texture" id=839]
 [ext_resource path="res://Objects/Player/sprites/backbreaker_1.png" type="Texture" id=840]
-[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_1.png" type="Texture" id=841]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_idle_6.png" type="Texture" id=841]
 [ext_resource path="res://Objects/Player/sprites/dive_0.png" type="Texture" id=842]
 [ext_resource path="res://Objects/Player/sprites/dive_1.png" type="Texture" id=843]
 [ext_resource path="res://Objects/Player/sprites/dive_2.png" type="Texture" id=844]
-[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_charge_2.png" type="Texture" id=845]
-[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_charge_4.png" type="Texture" id=846]
-[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_5.png" type="Texture" id=847]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderstart_1.png" type="Texture" id=845]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderstart_2.png" type="Texture" id=846]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_idle_9.png" type="Texture" id=847]
 [ext_resource path="res://Objects/Player/sprites/finishingblow2_2.png" type="Texture" id=848]
 [ext_resource path="res://Objects/Player/sprites/finishingblow2_1.png" type="Texture" id=849]
 [ext_resource path="res://Objects/Player/sprites/finishingblow2_0.png" type="Texture" id=850]
@@ -1047,17 +1047,17 @@
 [ext_resource path="res://Objects/Player/sprites/walljumpend_5.png" type="Texture" id=1045]
 [ext_resource path="res://Objects/Player/sprites/walljumpend_4.png" type="Texture" id=1046]
 [ext_resource path="res://Objects/Player/sprites/walljumpend_2.png" type="Texture" id=1047]
-[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_2.png" type="Texture" id=1048]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_idle_8.png" type="Texture" id=1048]
 [ext_resource path="res://Objects/Player/sprites/superjump_0.png" type="Texture" id=1049]
 [ext_resource path="res://Objects/Player/sprites/superjumpright_0.png" type="Texture" id=1050]
 [ext_resource path="res://Objects/Player/sprites/superjumpright_2.png" type="Texture" id=1051]
 [ext_resource path="res://Objects/Player/sprites/superjumpright_6.png" type="Texture" id=1052]
 [ext_resource path="res://Objects/Player/sprites/superjump_1.png" type="Texture" id=1053]
-[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_charge_5.png" type="Texture" id=1054]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderstart_3.png" type="Texture" id=1054]
 [ext_resource path="res://Objects/Player/sprites/superjump_2.png" type="Texture" id=1055]
-[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_charge_6.png" type="Texture" id=1056]
-[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_9.png" type="Texture" id=1057]
-[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_hurt_1.png" type="Texture" id=1058]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderstart_5.png" type="Texture" id=1056]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_idle_7.png" type="Texture" id=1057]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_taunt_9.png" type="Texture" id=1058]
 [ext_resource path="res://Objects/Player/sprites/superjumpright_1.png" type="Texture" id=1059]
 [ext_resource path="res://Objects/Player/sprites/superjumpright_3.png" type="Texture" id=1060]
 [ext_resource path="res://Objects/Player/sprites/superjumpright_4.png" type="Texture" id=1061]
@@ -1205,8 +1205,8 @@
 [ext_resource path="res://Objects/Player/sprites/pepcooter_0.png" type="Texture" id=1203]
 [ext_resource path="res://Shaders/PaletteSwap.gdshader" type="Shader" id=1204]
 [ext_resource path="res://Objects/Player/peppalette.png" type="Texture" id=1205]
-[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_hurt_0.png" type="Texture" id=1206]
-[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_charge_7.png" type="Texture" id=1207]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_taunt_2.png" type="Texture" id=1206]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderstart_6.png" type="Texture" id=1207]
 [ext_resource path="res://Objects/Player/sprites/noise/dead_0.png" type="Texture" id=1208]
 [ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_crazyrun_0.png" type="Texture" id=1209]
 [ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_dive_1.png" type="Texture" id=1210]
@@ -2551,6 +2551,179 @@
 [ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumble_4.png" type="Texture" id=2549]
 [ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_tumble_1-2.png" type="Texture" id=2550]
 [ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_taunt_7.png" type="Texture" id=2551]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_taunt_8.png" type="Texture" id=2552]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_taunt_9.png" type="Texture" id=2553]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_taunt_10.png" type="Texture" id=2554]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_taunt_11.png" type="Texture" id=2555]
+[ext_resource path="res://Objects/Player/sprites/vigilante/spr_playerV_taunt_12.png" type="Texture" id=2556]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_idle_16.png" type="Texture" id=2557]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_flailing_02.png" type="Texture" id=2558]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_flailing_00.png" type="Texture" id=2559]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_flailing_01.png" type="Texture" id=2560]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_walk_07.png" type="Texture" id=2561]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_flailing_07.png" type="Texture" id=2562]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_mach_03.png" type="Texture" id=2563]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_mach_02.png" type="Texture" id=2564]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_walk_05.png" type="Texture" id=2565]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_walk_04.png" type="Texture" id=2566]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_walk_03.png" type="Texture" id=2567]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_walk_06.png" type="Texture" id=2568]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_walk_02.png" type="Texture" id=2569]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_mach_04.png" type="Texture" id=2570]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_idle_09.png" type="Texture" id=2571]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_idle_10-15.png" type="Texture" id=2572]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_mach_01.png" type="Texture" id=2573]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_mach_00.png" type="Texture" id=2574]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_mach_05.png" type="Texture" id=2575]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_walk_01.png" type="Texture" id=2576]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_mach_06.png" type="Texture" id=2577]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_mach_07.png" type="Texture" id=2578]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_mach_08.png" type="Texture" id=2579]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_mach_09.png" type="Texture" id=2580]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_flailing_05.png" type="Texture" id=2581]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_flailing_03.png" type="Texture" id=2582]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_flailing_06.png" type="Texture" id=2583]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_flailing_04.png" type="Texture" id=2584]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_idle_01.png" type="Texture" id=2585]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_idle_18-19.png" type="Texture" id=2586]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_idle_17.png" type="Texture" id=2587]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_idle_20.png" type="Texture" id=2588]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_idle_02-04.png" type="Texture" id=2589]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_idle_05.png" type="Texture" id=2590]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_idle_07.png" type="Texture" id=2591]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_idle_00.png" type="Texture" id=2592]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_idle_08.png" type="Texture" id=2593]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_idle_06.png" type="Texture" id=2594]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_walk_00.png" type="Texture" id=2595]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_vulnerable_06.png" type="Texture" id=2596]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_vulnerable_07.png" type="Texture" id=2597]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_vulnerable_00.png" type="Texture" id=2598]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_vulnerable_04.png" type="Texture" id=2599]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_vulnerable_03.png" type="Texture" id=2600]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_vulnerable_05.png" type="Texture" id=2601]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_vulnerable_01.png" type="Texture" id=2602]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_vulnerable_11.png" type="Texture" id=2603]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_vulnerable_08.png" type="Texture" id=2604]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_vulnerable_02.png" type="Texture" id=2605]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_vulnerable_12.png" type="Texture" id=2606]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_vulnerable_09.png" type="Texture" id=2607]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_vulnerable_10.png" type="Texture" id=2608]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_machwall_08.png" type="Texture" id=2609]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_machwall_09.png" type="Texture" id=2610]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_machwall_02.png" type="Texture" id=2611]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_machwall_04.png" type="Texture" id=2612]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_machwall_06.png" type="Texture" id=2613]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_machwall_03.png" type="Texture" id=2614]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_machwall_07.png" type="Texture" id=2615]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_machwall_05.png" type="Texture" id=2616]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_machwall_00.png" type="Texture" id=2617]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_machwall_01.png" type="Texture" id=2618]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_superjumpstart_04.png" type="Texture" id=2619]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_superjumpstart_01.png" type="Texture" id=2620]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_superjumpstart_02.png" type="Texture" id=2621]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_superjumpstart_00.png" type="Texture" id=2622]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_superjumpstart_03.png" type="Texture" id=2623]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_superjumpstart_11_13_15.png" type="Texture" id=2624]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_superjumpstart_10_12_14_16.png" type="Texture" id=2625]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_superjumpstart_05.png" type="Texture" id=2626]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_superjumpstart_06.png" type="Texture" id=2627]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_superjumpstart_08.png" type="Texture" id=2628]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_superjumpstart_09.png" type="Texture" id=2629]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_superjumpstart_07.png" type="Texture" id=2630]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_superjump_00.png" type="Texture" id=2631]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_superjump_02.png" type="Texture" id=2632]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_superjump_01.png" type="Texture" id=2633]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_grabattack_00-03.png" type="Texture" id=2634]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_grabdash_01.png" type="Texture" id=2635]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_grabdash_00.png" type="Texture" id=2636]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_grabdash_03.png" type="Texture" id=2637]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_grabdash_04.png" type="Texture" id=2638]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_grabdash_05.png" type="Texture" id=2639]
+[ext_resource path="res://Objects/Player/sprites/fakepep/spr_fakepeppino_grabdash_02.png" type="Texture" id=2640]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_idle_5.png" type="Texture" id=2641]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_move_3.png" type="Texture" id=2642]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_move_1.png" type="Texture" id=2643]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_move_0.png" type="Texture" id=2644]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_move_4.png" type="Texture" id=2645]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_move_2.png" type="Texture" id=2646]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_move_5.png" type="Texture" id=2647]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_move_6.png" type="Texture" id=2648]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_move_7.png" type="Texture" id=2649]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_move_8.png" type="Texture" id=2650]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_move_9.png" type="Texture" id=2651]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_move_10.png" type="Texture" id=2652]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_move_11.png" type="Texture" id=2653]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_move_12.png" type="Texture" id=2654]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_move_13.png" type="Texture" id=2655]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_sour_7_9_11.png" type="Texture" id=2656]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_jump_7.png" type="Texture" id=2657]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_sour_5.png" type="Texture" id=2658]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_sour_15.png" type="Texture" id=2659]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_jump_4.png" type="Texture" id=2660]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_sour_14.png" type="Texture" id=2661]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_jump_6.png" type="Texture" id=2662]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_jump_0.png" type="Texture" id=2663]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_sour_4.png" type="Texture" id=2664]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_sour_6.png" type="Texture" id=2665]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_sour_8_10_12.png" type="Texture" id=2666]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_jump_5.png" type="Texture" id=2667]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_jump_1.png" type="Texture" id=2668]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_jump_8.png" type="Texture" id=2669]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_jump_2.png" type="Texture" id=2670]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_jump_3.png" type="Texture" id=2671]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_sour_3.png" type="Texture" id=2672]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_scared_2.png" type="Texture" id=2673]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_scared_3.png" type="Texture" id=2674]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_sour_0-1.png" type="Texture" id=2675]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_scared_0.png" type="Texture" id=2676]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_scared_1.png" type="Texture" id=2677]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_sour_2.png" type="Texture" id=2678]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_scared_4.png" type="Texture" id=2679]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_sour_13.png" type="Texture" id=2680]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_fall_0.png" type="Texture" id=2681]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_fall_1.png" type="Texture" id=2682]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_fall_2.png" type="Texture" id=2683]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderloop_5.png" type="Texture" id=2684]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderloop_2.png" type="Texture" id=2685]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_hurtplayer_1.png" type="Texture" id=2686]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderstart_4.png" type="Texture" id=2687]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderloop_10.png" type="Texture" id=2688]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderloop_7.png" type="Texture" id=2689]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderloop_8.png" type="Texture" id=2690]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderloop_9.png" type="Texture" id=2691]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderloop_6.png" type="Texture" id=2692]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderloop_3.png" type="Texture" id=2693]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderloop_4.png" type="Texture" id=2694]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_hurtplayer_0.png" type="Texture" id=2695]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderloop_0.png" type="Texture" id=2696]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderturn_6.png" type="Texture" id=2697]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderturn_5.png" type="Texture" id=2698]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderturn_0.png" type="Texture" id=2699]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderturn_7.png" type="Texture" id=2700]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderturn_8.png" type="Texture" id=2701]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderturn_3.png" type="Texture" id=2702]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderturn_2.png" type="Texture" id=2703]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderturn_4.png" type="Texture" id=2704]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderturn_1.png" type="Texture" id=2705]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_taunt_3.png" type="Texture" id=2706]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_taunt_8.png" type="Texture" id=2707]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_taunt_1.png" type="Texture" id=2708]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_taunt_4.png" type="Texture" id=2709]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_taunt_5.png" type="Texture" id=2710]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_taunt_7.png" type="Texture" id=2711]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_taunt_6.png" type="Texture" id=2712]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_taunt_0.png" type="Texture" id=2713]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_taunt_12.png" type="Texture" id=2714]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_intro1_6.png" type="Texture" id=2715]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_intro1_7.png" type="Texture" id=2716]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_intro1_2.png" type="Texture" id=2717]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_intro2_1.png" type="Texture" id=2718]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_intro2_0.png" type="Texture" id=2719]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_intro1_1.png" type="Texture" id=2720]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_intro1_3.png" type="Texture" id=2721]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_intro1_0.png" type="Texture" id=2722]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_intro1_4.png" type="Texture" id=2723]
+[ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_intro1_5.png" type="Texture" id=2724]
 
 [sub_resource type="ShaderMaterial" id=4]
 shader = ExtResource( 1204 )
@@ -2563,7 +2736,7 @@ shader_param/palette = ExtResource( 1205 )
 
 [sub_resource type="SpriteFrames" id=1816]
 animations = [ {
-"frames": [ ExtResource( 258 ), ExtResource( 256 ), ExtResource( 261 ), ExtResource( 259 ), ExtResource( 268 ), ExtResource( 262 ), ExtResource( 260 ), ExtResource( 264 ), ExtResource( 267 ), ExtResource( 257 ), ExtResource( 263 ), ExtResource( 266 ), ExtResource( 265 ) ],
+"frames": [ ExtResource( 2675 ), ExtResource( 2675 ), ExtResource( 2678 ), ExtResource( 2672 ), ExtResource( 2664 ), ExtResource( 2658 ), ExtResource( 2665 ), ExtResource( 2656 ), ExtResource( 2666 ), ExtResource( 2656 ), ExtResource( 2666 ), ExtResource( 2656 ), ExtResource( 2666 ), ExtResource( 2680 ), ExtResource( 2661 ), ExtResource( 2659 ) ],
 "loop": true,
 "name": "3hpidle",
 "speed": 60.0
@@ -2703,7 +2876,7 @@ animations = [ {
 "name": "crawl",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 1147 ), ExtResource( 1148 ), ExtResource( 1150 ), ExtResource( 1152 ), ExtResource( 1149 ), ExtResource( 1151 ) ],
+"frames": [ ExtResource( 2696 ), ExtResource( 429 ), ExtResource( 2685 ), ExtResource( 2693 ), ExtResource( 2694 ), ExtResource( 2684 ), ExtResource( 2692 ), ExtResource( 2689 ), ExtResource( 2690 ), ExtResource( 2691 ), ExtResource( 2688 ) ],
 "loop": true,
 "name": "crazyrun",
 "speed": 60.0
@@ -2758,7 +2931,7 @@ animations = [ {
 "name": "eatspaghetti",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 994 ), ExtResource( 992 ), ExtResource( 993 ), ExtResource( 991 ), ExtResource( 1004 ), ExtResource( 997 ), ExtResource( 1006 ), ExtResource( 996 ), ExtResource( 1007 ), ExtResource( 1002 ), ExtResource( 1003 ), ExtResource( 998 ), ExtResource( 1005 ), ExtResource( 995 ), ExtResource( 999 ), ExtResource( 1000 ), ExtResource( 1001 ), ExtResource( 966 ), ExtResource( 959 ), ExtResource( 948 ), ExtResource( 935 ), ExtResource( 985 ), ExtResource( 964 ), ExtResource( 955 ), ExtResource( 939 ), ExtResource( 940 ), ExtResource( 981 ), ExtResource( 989 ), ExtResource( 949 ), ExtResource( 945 ), ExtResource( 950 ), ExtResource( 946 ), ExtResource( 933 ), ExtResource( 941 ), ExtResource( 929 ), ExtResource( 951 ), ExtResource( 967 ), ExtResource( 927 ), ExtResource( 947 ), ExtResource( 978 ), ExtResource( 982 ), ExtResource( 977 ), ExtResource( 952 ), ExtResource( 953 ), ExtResource( 965 ) ],
+"frames": [ ExtResource( 2718 ), ExtResource( 2719 ), ExtResource( 2722 ), ExtResource( 2720 ), ExtResource( 2717 ), ExtResource( 2721 ), ExtResource( 2723 ), ExtResource( 2724 ), ExtResource( 2715 ), ExtResource( 2716 ), ExtResource( 2722 ), ExtResource( 2720 ), ExtResource( 2717 ), ExtResource( 2721 ), ExtResource( 2723 ), ExtResource( 2724 ), ExtResource( 2715 ), ExtResource( 2716 ), ExtResource( 2722 ), ExtResource( 2720 ), ExtResource( 2717 ), ExtResource( 2721 ), ExtResource( 2723 ), ExtResource( 2724 ), ExtResource( 2715 ), ExtResource( 2716 ), ExtResource( 2722 ), ExtResource( 2720 ), ExtResource( 2717 ), ExtResource( 2721 ), ExtResource( 2723 ), ExtResource( 2724 ), ExtResource( 2715 ), ExtResource( 2716 ) ],
 "loop": true,
 "name": "entergate",
 "speed": 60.0
@@ -2783,12 +2956,12 @@ animations = [ {
 "name": "facestomp",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ) ],
+"frames": [ ExtResource( 2681 ), ExtResource( 2682 ), ExtResource( 2683 ) ],
 "loop": true,
 "name": "fall",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 314 ), ExtResource( 316 ), ExtResource( 315 ) ],
+"frames": [ ExtResource( 2681 ), ExtResource( 2682 ), ExtResource( 2683 ) ],
 "loop": true,
 "name": "fall2",
 "speed": 60.0
@@ -2883,17 +3056,17 @@ animations = [ {
 "name": "hitwall",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 1206 ), ExtResource( 1058 ), ExtResource( 428 ), ExtResource( 432 ) ],
+"frames": [ ExtResource( 2713 ) ],
 "loop": true,
 "name": "hurt",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 255 ), ExtResource( 251 ), ExtResource( 252 ), ExtResource( 253 ), ExtResource( 254 ), ExtResource( 217 ), ExtResource( 218 ), ExtResource( 219 ), ExtResource( 220 ), ExtResource( 216 ), ExtResource( 230 ), ExtResource( 250 ), ExtResource( 240 ), ExtResource( 241 ), ExtResource( 249 ), ExtResource( 228 ), ExtResource( 238 ), ExtResource( 243 ), ExtResource( 246 ), ExtResource( 234 ) ],
+"frames": [ ExtResource( 2695 ), ExtResource( 2686 ), ExtResource( 427 ) ],
 "loop": true,
 "name": "hurtidle",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 1206 ), ExtResource( 1058 ), ExtResource( 432 ), ExtResource( 426 ) ],
+"frames": [ ExtResource( 2676 ), ExtResource( 2677 ), ExtResource( 2673 ), ExtResource( 2674 ), ExtResource( 2679 ) ],
 "loop": true,
 "name": "hurtjump",
 "speed": 60.0
@@ -2903,7 +3076,7 @@ animations = [ {
 "name": "hurtwalk",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 425 ), ExtResource( 841 ), ExtResource( 1048 ), ExtResource( 433 ), ExtResource( 431 ), ExtResource( 847 ), ExtResource( 422 ), ExtResource( 424 ), ExtResource( 423 ), ExtResource( 1057 ), ExtResource( 434 ) ],
+"frames": [ ExtResource( 423 ), ExtResource( 425 ), ExtResource( 431 ), ExtResource( 422 ), ExtResource( 424 ), ExtResource( 2641 ), ExtResource( 841 ), ExtResource( 1057 ), ExtResource( 1048 ), ExtResource( 847 ), ExtResource( 434 ), ExtResource( 433 ) ],
 "loop": true,
 "name": "idle",
 "speed": 60.0
@@ -2938,12 +3111,12 @@ animations = [ {
 "name": "idleanim6",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 34 ), ExtResource( 35 ), ExtResource( 37 ), ExtResource( 42 ), ExtResource( 43 ), ExtResource( 36 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 45 ), ExtResource( 44 ) ],
+"frames": [ ExtResource( 2663 ), ExtResource( 2668 ), ExtResource( 2670 ), ExtResource( 2671 ), ExtResource( 2660 ), ExtResource( 2667 ), ExtResource( 2662 ), ExtResource( 2657 ), ExtResource( 2669 ) ],
 "loop": true,
 "name": "jump",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 302 ), ExtResource( 303 ), ExtResource( 307 ), ExtResource( 313 ), ExtResource( 309 ), ExtResource( 304 ), ExtResource( 312 ), ExtResource( 310 ), ExtResource( 305 ), ExtResource( 306 ), ExtResource( 308 ), ExtResource( 311 ) ],
+"frames": [ ExtResource( 2663 ), ExtResource( 2668 ), ExtResource( 2670 ), ExtResource( 2671 ), ExtResource( 2660 ), ExtResource( 2667 ), ExtResource( 2662 ), ExtResource( 2657 ), ExtResource( 2669 ) ],
 "loop": true,
 "name": "jump2",
 "speed": 60.0
@@ -3053,12 +3226,12 @@ animations = [ {
 "name": "lookdoor",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 429 ), ExtResource( 427 ), ExtResource( 845 ), ExtResource( 430 ), ExtResource( 846 ), ExtResource( 1054 ), ExtResource( 1056 ), ExtResource( 1207 ) ],
+"frames": [ ExtResource( 2696 ), ExtResource( 429 ), ExtResource( 2685 ), ExtResource( 2693 ), ExtResource( 2694 ), ExtResource( 2684 ), ExtResource( 2692 ), ExtResource( 2689 ), ExtResource( 2690 ), ExtResource( 2691 ), ExtResource( 2688 ) ],
 "loop": true,
 "name": "mach",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 707 ), ExtResource( 709 ), ExtResource( 722 ), ExtResource( 708 ), ExtResource( 710 ), ExtResource( 715 ), ExtResource( 721 ), ExtResource( 711 ), ExtResource( 712 ), ExtResource( 713 ), ExtResource( 714 ), ExtResource( 716 ), ExtResource( 717 ), ExtResource( 718 ), ExtResource( 719 ), ExtResource( 720 ) ],
+"frames": [ ExtResource( 430 ), ExtResource( 845 ), ExtResource( 846 ), ExtResource( 1054 ), ExtResource( 2687 ), ExtResource( 1056 ), ExtResource( 1207 ) ],
 "loop": true,
 "name": "mach1",
 "speed": 60.0
@@ -3068,7 +3241,7 @@ animations = [ {
 "name": "mach2jump",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 1147 ), ExtResource( 1148 ), ExtResource( 1152 ), ExtResource( 1149 ), ExtResource( 1151 ), ExtResource( 1150 ) ],
+"frames": [ ExtResource( 2696 ), ExtResource( 429 ), ExtResource( 2685 ), ExtResource( 2693 ), ExtResource( 2694 ), ExtResource( 2684 ), ExtResource( 2692 ), ExtResource( 2689 ), ExtResource( 2690 ), ExtResource( 2691 ), ExtResource( 2688 ) ],
 "loop": true,
 "name": "mach3",
 "speed": 60.0
@@ -3083,7 +3256,7 @@ animations = [ {
 "name": "mach3jump",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 429 ), ExtResource( 845 ), ExtResource( 846 ), ExtResource( 1056 ) ],
+"frames": [ ExtResource( 2696 ), ExtResource( 429 ), ExtResource( 2685 ), ExtResource( 2693 ), ExtResource( 2694 ), ExtResource( 2684 ), ExtResource( 2692 ), ExtResource( 2689 ), ExtResource( 2690 ), ExtResource( 2691 ), ExtResource( 2688 ) ],
 "loop": true,
 "name": "mach4",
 "speed": 60.0
@@ -3113,12 +3286,12 @@ animations = [ {
 "name": "machslide",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 748 ), ExtResource( 750 ), ExtResource( 749 ), ExtResource( 757 ), ExtResource( 755 ), ExtResource( 751 ), ExtResource( 752 ), ExtResource( 756 ), ExtResource( 753 ), ExtResource( 758 ), ExtResource( 754 ) ],
+"frames": [ ExtResource( 2699 ), ExtResource( 2705 ), ExtResource( 2703 ), ExtResource( 2702 ), ExtResource( 2704 ), ExtResource( 2698 ), ExtResource( 2697 ), ExtResource( 2700 ), ExtResource( 2701 ) ],
 "loop": true,
 "name": "machslideboost",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 736 ), ExtResource( 741 ), ExtResource( 737 ), ExtResource( 742 ), ExtResource( 738 ), ExtResource( 746 ), ExtResource( 739 ), ExtResource( 743 ), ExtResource( 740 ), ExtResource( 747 ), ExtResource( 744 ), ExtResource( 745 ), ExtResource( 735 ) ],
+"frames": [ ExtResource( 2699 ), ExtResource( 2705 ), ExtResource( 2703 ), ExtResource( 2702 ), ExtResource( 2704 ), ExtResource( 2698 ), ExtResource( 2697 ), ExtResource( 2700 ), ExtResource( 2701 ) ],
 "loop": true,
 "name": "machslideboost3",
 "speed": 60.0
@@ -3133,12 +3306,12 @@ animations = [ {
 "name": "machslidestart",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 28 ), ExtResource( 22 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 23 ), ExtResource( 27 ) ],
+"frames": [ ExtResource( 2644 ), ExtResource( 2643 ), ExtResource( 2646 ), ExtResource( 2642 ), ExtResource( 2645 ), ExtResource( 2647 ), ExtResource( 2648 ), ExtResource( 2649 ), ExtResource( 2650 ), ExtResource( 2651 ), ExtResource( 2652 ), ExtResource( 2653 ), ExtResource( 2654 ), ExtResource( 2655 ) ],
 "loop": true,
 "name": "move",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 1206 ), ExtResource( 1058 ), ExtResource( 428 ), ExtResource( 432 ) ],
+"frames": [ ExtResource( 2676 ), ExtResource( 2677 ), ExtResource( 2673 ), ExtResource( 2674 ), ExtResource( 2679 ) ],
 "loop": true,
 "name": "panic",
 "speed": 60.0
@@ -3398,7 +3571,7 @@ animations = [ {
 "name": "tackle",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 440 ), ExtResource( 437 ), ExtResource( 438 ), ExtResource( 439 ), ExtResource( 442 ), ExtResource( 444 ), ExtResource( 446 ), ExtResource( 443 ), ExtResource( 447 ), ExtResource( 445 ), ExtResource( 441 ), ExtResource( 1490 ) ],
+"frames": [ ExtResource( 2713 ), ExtResource( 2708 ), ExtResource( 1206 ), ExtResource( 2706 ), ExtResource( 2709 ), ExtResource( 2710 ), ExtResource( 2712 ), ExtResource( 2711 ), ExtResource( 2707 ), ExtResource( 1058 ), ExtResource( 432 ), ExtResource( 428 ), ExtResource( 2714 ) ],
 "loop": true,
 "name": "taunt",
 "speed": 60.0
@@ -4519,7 +4692,7 @@ animations = [ {
 "name": "charge",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 900 ), ExtResource( 901 ), ExtResource( 904 ), ExtResource( 903 ), ExtResource( 902 ) ],
+"frames": [ ExtResource( 2617 ), ExtResource( 2618 ), ExtResource( 2611 ), ExtResource( 2614 ), ExtResource( 2612 ), ExtResource( 2616 ), ExtResource( 2613 ), ExtResource( 2615 ), ExtResource( 2609 ), ExtResource( 2610 ) ],
 "loop": true,
 "name": "climbwall",
 "speed": 60.0
@@ -4529,7 +4702,7 @@ animations = [ {
 "name": "crawl",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 1147 ), ExtResource( 1148 ), ExtResource( 1150 ), ExtResource( 1152 ), ExtResource( 1149 ), ExtResource( 1151 ) ],
+"frames": [ ExtResource( 2559 ), ExtResource( 2560 ), ExtResource( 2558 ), ExtResource( 2582 ), ExtResource( 2584 ), ExtResource( 2581 ), ExtResource( 2583 ), ExtResource( 2562 ) ],
 "loop": true,
 "name": "crazyrun",
 "speed": 60.0
@@ -4679,7 +4852,7 @@ animations = [ {
 "name": "haulingfall",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 768 ), ExtResource( 775 ) ],
+"frames": [ ExtResource( 2634 ) ],
 "loop": true,
 "name": "haulingidle",
 "speed": 60.0
@@ -4709,7 +4882,7 @@ animations = [ {
 "name": "hitwall",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 1308 ), ExtResource( 1309 ), ExtResource( 1310 ), ExtResource( 1306 ), ExtResource( 1307 ), ExtResource( 1293 ), ExtResource( 1291 ), ExtResource( 1295 ), ExtResource( 1294 ), ExtResource( 1300 ), ExtResource( 1290 ) ],
+"frames": [ ExtResource( 2598 ), ExtResource( 2602 ), ExtResource( 2605 ), ExtResource( 2600 ), ExtResource( 2599 ), ExtResource( 2601 ), ExtResource( 2596 ), ExtResource( 2597 ), ExtResource( 2604 ), ExtResource( 2607 ), ExtResource( 2608 ), ExtResource( 2603 ), ExtResource( 2606 ) ],
 "loop": true,
 "name": "hurt",
 "speed": 60.0
@@ -4719,7 +4892,7 @@ animations = [ {
 "name": "hurtidle",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 1288 ), ExtResource( 1298 ), ExtResource( 1296 ), ExtResource( 1292 ), ExtResource( 1297 ), ExtResource( 1299 ), ExtResource( 1301 ), ExtResource( 1289 ), ExtResource( 1302 ), ExtResource( 1303 ), ExtResource( 1304 ), ExtResource( 1305 ) ],
+"frames": [ ExtResource( 2598 ), ExtResource( 2602 ), ExtResource( 2605 ), ExtResource( 2600 ), ExtResource( 2599 ), ExtResource( 2601 ), ExtResource( 2596 ), ExtResource( 2597 ), ExtResource( 2604 ), ExtResource( 2607 ), ExtResource( 2608 ), ExtResource( 2603 ), ExtResource( 2606 ) ],
 "loop": true,
 "name": "hurtjump",
 "speed": 60.0
@@ -4729,7 +4902,7 @@ animations = [ {
 "name": "hurtwalk",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ), ExtResource( 7 ), ExtResource( 7 ), ExtResource( 6 ), ExtResource( 6 ), ExtResource( 9 ), ExtResource( 6 ), ExtResource( 1 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 8 ), ExtResource( 8 ), ExtResource( 8 ), ExtResource( 5 ), ExtResource( 21 ), ExtResource( 20 ), ExtResource( 20 ), ExtResource( 20 ), ExtResource( 20 ), ExtResource( 13 ), ExtResource( 13 ), ExtResource( 10 ) ],
+"frames": [ ExtResource( 2592 ), ExtResource( 2585 ), ExtResource( 2589 ), ExtResource( 2589 ), ExtResource( 2589 ), ExtResource( 2590 ), ExtResource( 2594 ), ExtResource( 2591 ), ExtResource( 2593 ), ExtResource( 2571 ), ExtResource( 2572 ), ExtResource( 2572 ), ExtResource( 2572 ), ExtResource( 2572 ), ExtResource( 2572 ), ExtResource( 2572 ), ExtResource( 2557 ), ExtResource( 2587 ), ExtResource( 2586 ), ExtResource( 2586 ), ExtResource( 2588 ) ],
 "loop": true,
 "name": "idle",
 "speed": 60.0
@@ -4879,12 +5052,12 @@ animations = [ {
 "name": "lookdoor",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 727 ), ExtResource( 724 ), ExtResource( 723 ), ExtResource( 726 ), ExtResource( 728 ), ExtResource( 729 ), ExtResource( 730 ), ExtResource( 725 ) ],
+"frames": [ ExtResource( 2595 ), ExtResource( 2576 ), ExtResource( 2569 ), ExtResource( 2567 ), ExtResource( 2566 ), ExtResource( 2565 ), ExtResource( 2568 ), ExtResource( 2561 ) ],
 "loop": true,
 "name": "mach",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 707 ), ExtResource( 709 ), ExtResource( 722 ), ExtResource( 708 ), ExtResource( 710 ), ExtResource( 715 ), ExtResource( 721 ), ExtResource( 711 ), ExtResource( 712 ), ExtResource( 713 ), ExtResource( 714 ), ExtResource( 716 ), ExtResource( 717 ), ExtResource( 718 ), ExtResource( 719 ), ExtResource( 720 ) ],
+"frames": [ ExtResource( 2595 ), ExtResource( 2576 ), ExtResource( 2569 ), ExtResource( 2567 ), ExtResource( 2566 ), ExtResource( 2565 ), ExtResource( 2568 ), ExtResource( 2561 ), ExtResource( 2595 ), ExtResource( 2576 ), ExtResource( 2569 ), ExtResource( 2567 ), ExtResource( 2566 ), ExtResource( 2565 ), ExtResource( 2568 ), ExtResource( 2561 ) ],
 "loop": true,
 "name": "mach1",
 "speed": 60.0
@@ -4894,7 +5067,7 @@ animations = [ {
 "name": "mach2jump",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 1147 ), ExtResource( 1148 ), ExtResource( 1152 ), ExtResource( 1149 ), ExtResource( 1151 ), ExtResource( 1150 ) ],
+"frames": [ ExtResource( 2559 ), ExtResource( 2560 ), ExtResource( 2558 ), ExtResource( 2582 ), ExtResource( 2584 ), ExtResource( 2581 ), ExtResource( 2583 ), ExtResource( 2562 ) ],
 "loop": true,
 "name": "mach3",
 "speed": 60.0
@@ -4909,7 +5082,7 @@ animations = [ {
 "name": "mach3jump",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 771 ), ExtResource( 776 ), ExtResource( 773 ), ExtResource( 835 ), ExtResource( 834 ), ExtResource( 836 ) ],
+"frames": [ ExtResource( 2574 ), ExtResource( 2573 ), ExtResource( 2564 ), ExtResource( 2563 ), ExtResource( 2570 ), ExtResource( 2575 ), ExtResource( 2577 ), ExtResource( 2578 ), ExtResource( 2579 ), ExtResource( 2580 ) ],
 "loop": true,
 "name": "mach4",
 "speed": 60.0
@@ -4959,7 +5132,7 @@ animations = [ {
 "name": "machslidestart",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 28 ), ExtResource( 22 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 23 ), ExtResource( 27 ) ],
+"frames": [ ExtResource( 2595 ), ExtResource( 2576 ), ExtResource( 2569 ), ExtResource( 2567 ), ExtResource( 2566 ), ExtResource( 2565 ), ExtResource( 2568 ), ExtResource( 2561 ) ],
 "loop": true,
 "name": "move",
 "speed": 60.0
@@ -5124,7 +5297,7 @@ animations = [ {
 "name": "stompprep",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 1049 ), ExtResource( 1053 ), ExtResource( 1055 ) ],
+"frames": [ ExtResource( 2631 ), ExtResource( 2633 ), ExtResource( 2632 ) ],
 "loop": true,
 "name": "superjump",
 "speed": 60.0
@@ -5139,12 +5312,12 @@ animations = [ {
 "name": "superjumpleft",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 1063 ), ExtResource( 1068 ), ExtResource( 1067 ), ExtResource( 1069 ), ExtResource( 1070 ), ExtResource( 1064 ), ExtResource( 1065 ), ExtResource( 1066 ) ],
+"frames": [ ExtResource( 2622 ), ExtResource( 2620 ), ExtResource( 2621 ), ExtResource( 2623 ), ExtResource( 2619 ), ExtResource( 2626 ), ExtResource( 2627 ), ExtResource( 2630 ), ExtResource( 2628 ), ExtResource( 2629 ), ExtResource( 2625 ), ExtResource( 2624 ), ExtResource( 2625 ), ExtResource( 2624 ), ExtResource( 2625 ), ExtResource( 2624 ), ExtResource( 2625 ) ],
 "loop": true,
 "name": "superjumpprep",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 1071 ), ExtResource( 1078 ) ],
+"frames": [ ExtResource( 2625 ), ExtResource( 2624 ) ],
 "loop": true,
 "name": "superjumppreplight",
 "speed": 60.0
@@ -5174,17 +5347,17 @@ animations = [ {
 "name": "supertaunt4",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 14 ), ExtResource( 12 ), ExtResource( 17 ), ExtResource( 16 ), ExtResource( 11 ), ExtResource( 765 ), ExtResource( 766 ), ExtResource( 18 ), ExtResource( 15 ), ExtResource( 19 ) ],
+"frames": [ ExtResource( 2636 ), ExtResource( 2635 ), ExtResource( 2640 ), ExtResource( 2637 ), ExtResource( 2638 ), ExtResource( 2639 ) ],
 "loop": true,
 "name": "suplexdash",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 18 ), ExtResource( 19 ), ExtResource( 15 ) ],
+"frames": [ ExtResource( 2637 ), ExtResource( 2638 ), ExtResource( 2639 ) ],
 "loop": true,
 "name": "suplexdashjump",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 14 ), ExtResource( 12 ), ExtResource( 17 ), ExtResource( 16 ), ExtResource( 11 ), ExtResource( 765 ), ExtResource( 766 ) ],
+"frames": [ ExtResource( 2636 ), ExtResource( 2635 ), ExtResource( 2640 ), ExtResource( 2637 ), ExtResource( 2638 ), ExtResource( 2639 ) ],
 "loop": true,
 "name": "suplexdashjumpstart",
 "speed": 60.0
@@ -15587,7 +15760,7 @@ animations = [ {
 "name": "tackle",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 2187 ), ExtResource( 2191 ), ExtResource( 2188 ), ExtResource( 2186 ), ExtResource( 2190 ), ExtResource( 2189 ), ExtResource( 2374 ), ExtResource( 2551 ) ],
+"frames": [ ExtResource( 2187 ), ExtResource( 2191 ), ExtResource( 2188 ), ExtResource( 2186 ), ExtResource( 2190 ), ExtResource( 2189 ), ExtResource( 2374 ), ExtResource( 2551 ), ExtResource( 2552 ), ExtResource( 2553 ), ExtResource( 2554 ), ExtResource( 2555 ), ExtResource( 2556 ) ],
 "loop": true,
 "name": "taunt",
 "speed": 60.0
@@ -15688,8 +15861,7 @@ script = ExtResource( 55 )
 
 [node name="PeppermanSprite" type="AnimatedSprite" parent="."]
 material = SubResource( 4 )
-position = Vector2( 0.500004, -0.499998 )
-scale = Vector2( 0.505, 0.505 )
+position = Vector2( 0, -20 )
 frames = SubResource( 1816 )
 animation = "idle"
 
@@ -15698,10 +15870,10 @@ material = SubResource( 4 )
 frames = SubResource( 1 )
 animation = "3hpidle"
 
-[node name="PizzelleSprite" type="AnimatedSprite" parent="."]
+[node name="FakePeppinoSprite" type="AnimatedSprite" parent="."]
 material = SubResource( 4 )
 frames = SubResource( 1815 )
-animation = "3hpidle"
+animation = "idle"
 
 [node name="NoiseSprite" type="AnimatedSprite" parent="."]
 material = SubResource( 1573 )
