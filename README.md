@@ -28,6 +28,7 @@ We do not own and didn't make any of Pizza Tower's original assets that are used
 * [Godot Tower](https://github.com/basiccube/GodotTower) is made by basiccube.
 * Some enemy death sprites are made by Yamalpaca, and are used with permission.
 * Noise's Lap 2 theme made by Westboiiz, and is also used with permission.
+* Vigilante's Escape theme (End Of The Line) is made by RottenEggs, and is used with permission.
 
 The Leaning Tower of Pizza team:
 * Creator/Conceptualizer: NightHack
