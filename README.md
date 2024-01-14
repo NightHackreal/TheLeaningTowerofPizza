@@ -35,7 +35,7 @@ The Leaning Tower of Pizza team:
 * Director: NightHack
 * Composers: RooGoesBoom, IronCzyk, Westboiiz, Bambi Enjoyer
 * Spriters: RooGoesBoom, Takiallah Jamai, Bashuster, Bambi Enjoyer, Naffie Camara, Snackcore Games
-* Level Designers: NightHack, Snackcore Games, Definetly Real Sgt. Winter
+* Level Designers: NightHack, Snackcore Games, Definetly Real Sgt. Winter, POTATOtoppin
 * Programmers: Ivo, basiccube
 * Logo by: Bambi Enjoyer (Original by Naffie Camara)
 
