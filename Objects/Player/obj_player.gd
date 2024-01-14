@@ -125,54 +125,55 @@ func _process(delta):
 		charactersprite = $PeppinoSprite
 		$PeppermanSprite.visible = false
 		$PeppinoSprite.visible = true
+		$PizzanoSprite.visible = false
 		$FakePeppinoSprite.visible = false
 		$NoiseSprite.visible = false
-		$NoisetteSprite.visible = false
 		$SnickSprite.visible = false
 		$VigilanteSprite.visible = false
 	elif (character == "N"):
 		charactersprite = $NoiseSprite
 		$PeppermanSprite.visible = false
 		$PeppinoSprite.visible = false
+		$PizzanoSprite.visible = false
 		$FakePeppinoSprite.visible = false
 		$NoiseSprite.visible = true
-		$NoisetteSprite.visible = false
 		$SnickSprite.visible = false
 		$VigilanteSprite.visible = false
 	elif (character == "M"):
 		charactersprite = $PeppermanSprite
 		$PeppermanSprite.visible = true
 		$PeppinoSprite.visible = false
+		$PizzanoSprite.visible = false
 		$FakePeppinoSprite.visible = false
 		$NoiseSprite.visible = false
 		$NoisetteSprite.visible = false
 		$SnickSprite.visible = false
 		$VigilanteSprite.visible = false
-	elif (character == "E"):
-		charactersprite = $NoisetteSprite
+	elif (character == "Z"):
+		charactersprite = $PizzanoSprite
 		$PeppermanSprite.visible = false
 		$PeppinoSprite.visible = false
-		$FakePeppinoprite.visible = false
+		$PizzanoSprite.visible = true
+		$FakePeppinoSprite.visible = false
 		$NoiseSprite.visible = false
-		$NoisetteSprite.visible = true
 		$SnickSprite.visible = false
 		$VigilanteSprite.visible = false
 	elif (character == "V"):
 		charactersprite = $VigilanteSprite
 		$PeppermanSprite.visible = false
 		$PeppinoSprite.visible = false
+		$PizzanoSprite.visible = false
 		$FakePeppinoSprite.visible = false
 		$NoiseSprite.visible = false
-		$NoisetteSprite.visible = false
 		$SnickSprite.visible = false
 		$VigilanteSprite.visible = true
 	elif (character == "F"):
 		charactersprite = $FakePeppinoSprite
 		$PeppermanSprite.visible = false
 		$PeppinoSprite.visible = false
+		$PizzanoSprite.visible = false
 		$FakePeppinoSprite.visible = true
 		$NoiseSprite.visible = false
-		$NoisetteSprite.visible = false
 		$SnickSprite.visible = false
 		$VigilanteSprite.visible = false
 	charactersprite.material.set_shader_param("current_palette", global.peppalette)

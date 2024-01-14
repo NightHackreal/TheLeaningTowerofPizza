@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/mu_pizzanoescape.ogg-0ca94df75c845e35c314c11ccc4c2ffa.oggstr"
+
+[deps]
+
+source_file="res://Music/mu_pizzanoescape.ogg"
+dest_files=[ "res://.import/mu_pizzanoescape.ogg-0ca94df75c845e35c314c11ccc4c2ffa.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/mu_pizzanolap.ogg-a383910bef60f18897d4634a5c31ad8b.oggstr"
+
+[deps]
+
+source_file="res://Music/mu_pizzanolap.ogg"
+dest_files=[ "res://.import/mu_pizzanolap.ogg-a383910bef60f18897d4634a5c31ad8b.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

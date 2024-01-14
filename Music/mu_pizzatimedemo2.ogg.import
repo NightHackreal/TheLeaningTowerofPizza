@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/mu_pizzatimedemo2.ogg-6927ed5adf7fa41ea656ab5878170682.oggstr"
+
+[deps]
+
+source_file="res://Music/mu_pizzatimedemo2.ogg"
+dest_files=[ "res://.import/mu_pizzatimedemo2.ogg-6927ed5adf7fa41ea656ab5878170682.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

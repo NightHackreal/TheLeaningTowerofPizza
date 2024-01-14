@@ -5,19 +5,33 @@ var selected_world = 0
 
 var world_array = [
 	["WORLD 1"],
+	["WORLD 2"],
+	["WORLD 3"],
+	["WORLD 4"],
+	["TOP"],
+	["EXIT"],
 	["WORLD EXTRAS"],
 ]
 
 var level_array = [
 	[
 		["YE OLDE LEFTOVERSE", "ancient", "ancient_1"],
+		["HYDRO HYJINKS", "water", "water_1"],
+		["MECHANICAL MADNESS", "factory", "factory_1"],
+		["RETIREMENT HOME", "mansion", "mansion_1"],
+	],
+	[
+		["PIZZALAND", "circus", "circus_1"],
+		["HYDRO HYJINKS", "water", "water_1"],
+		["MECHANICAL MADNESS", "factory", "factory_1"],
+		["RETIREMENT HOME", "mansion", "mansion_1"],
+	],
+	[
+		["TRICKY TREAT", "trickytreat", "trickytreat_1"],
 		["ENTRANCE", "entrance", "entrance_1"],
 		["PIZZASCAPE", "medieval", "medieval_1"],
 		["THE ANCIENT CHEESE", "ruin", "ruin_1"],
 		["BLOODSAUCE DUNGEON", "dungeon", "dungeon_1"],
-	],
-	[
-		["TRICKY TREAT", "trickytreat", "trickytreat_1"],
 	],
 ]
 

@@ -16,6 +16,8 @@ var room_arr = [
 	["hub_room1", "mu_hub", "mu_medievalsecret", false],
 	["hub_special", "mu_hub", "mu_medievalsecret", false],
 	["ancient_1", "mu_tutorial", "mu_medievalsecret", false],
+	["factory_1", "mu_factory", "mu_medievalsecret", false],
+	["circus_1", "mu_circus", "mu_medievalsecret", false],
 	["entrance_1", "mu_entrance", "mu_medievalsecret", false],
 	["medieval_1", "mu_medievalentrance", "mu_medievalsecret", false],
 	["medieval_2", "mu_medievalentrance", "mu_medievalsecret", true],
@@ -104,6 +106,11 @@ func _process(delta):
 			var newmusic = load("res://Music/" + music + ".ogg")
 			$music.stream = newmusic
 			$music.play()
+		elif (global.laps == 0 && music != "mu_pizzanoescape" && obj_player.character == "Z"):
+			music = "mu_pizzanoescape"
+			var newmusic = load("res://Music/" + music + ".ogg")
+			$music.stream = newmusic
+			$music.play()
 		elif (global.laps == 1 && music != "mu_lap" && obj_player.character == "P"):
 			music = "mu_lap"
 			var newmusic = load("res://Music/" + music + ".ogg")
@@ -121,6 +128,11 @@ func _process(delta):
 			$music.play()
 		elif (global.laps == 1 && music != "mu_vigilantelap" && obj_player.character == "V"):
 			music = "mu_vigilantelap"
+			var newmusic = load("res://Music/" + music + ".ogg")
+			$music.stream = newmusic
+			$music.play()
+		elif (global.laps == 1 && music != "mu_pizzanolap" && obj_player.character == "Z"):
+			music = "mu_pizzanolap"
 			var newmusic = load("res://Music/" + music + ".ogg")
 			$music.stream = newmusic
 			$music.play()
