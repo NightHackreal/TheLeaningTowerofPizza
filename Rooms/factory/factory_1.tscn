@@ -20,7 +20,6 @@
 [ext_resource path="res://Objects/Warps/obj_portalend.tscn" type="PackedScene" id=18]
 
 [node name="factory_1" type="Node2D"]
-position = Vector2( 97, 0 )
 
 [node name="obj_solid" parent="." instance=ExtResource( 4 )]
 position = Vector2( 2, -97 )
@@ -76,7 +75,7 @@ position = Vector2( 147, 159 )
 
 [node name="obj_ladder" parent="." instance=ExtResource( 17 )]
 position = Vector2( 145, 158 )
-scale = Vector2( 1, 7.04 )
+scale = Vector2( 1, 7 )
 
 [node name="obj_cheeseslime" parent="." instance=ExtResource( 10 )]
 position = Vector2( 523, 114 )
@@ -118,7 +117,7 @@ position = Vector2( 1538, 281 )
 position = Vector2( 282, 31 )
 
 [node name="obj_pizzabox" parent="." instance=ExtResource( 6 )]
-position = Vector2( -32, 384 )
+position = Vector2( -33, 384 )
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 

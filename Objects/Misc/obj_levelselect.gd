@@ -7,24 +7,26 @@ var world_array = [
 	["WORLD 1"],
 	["WORLD 2"],
 	["WORLD 3"],
-	["WORLD 4"],
-	["TOP"],
-	["EXIT"],
-	["WORLD EXTRAS"],
+	# There's only 3 worlds right now - uncomment these when these worlds are added in. -basiccube
+	#["WORLD 4"],
+	#["TOP"],
+	#["EXIT"],
+	#["WORLD EXTRAS"],
 ]
 
+# Some of these levels don't yet exist - only uncomment when they start existing. -basiccube
 var level_array = [
 	[
 		["YE OLDE LEFTOVERSE", "ancient", "ancient_1"],
-		["HYDRO HYJINKS", "water", "water_1"],
+		#["HYDRO HYJINKS", "water", "water_1"],
 		["MECHANICAL MADNESS", "factory", "factory_1"],
-		["RETIREMENT HOME", "mansion", "mansion_1"],
+		#["RETIREMENT HOME", "mansion", "mansion_1"],
 	],
 	[
 		["PIZZALAND", "circus", "circus_1"],
-		["HYDRO HYJINKS", "water", "water_1"],
+		#["HYDRO HYJINKS", "water", "water_1"],
 		["MECHANICAL MADNESS", "factory", "factory_1"],
-		["RETIREMENT HOME", "mansion", "mansion_1"],
+		#["RETIREMENT HOME", "mansion", "mansion_1"],
 	],
 	[
 		["TRICKY TREAT", "trickytreat", "trickytreat_1"],

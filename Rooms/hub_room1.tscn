@@ -156,14 +156,16 @@ position = Vector2( -100, 1191 )
 
 [node name="DebugText" type="Label" parent="."]
 margin_left = 80.0
-margin_top = 1296.0
+margin_top = 1288.0
 margin_right = 459.0
-margin_bottom = 1361.0
+margin_bottom = 1399.0
 custom_fonts/font = ExtResource( 14 )
 text = "Debug Controls:
 F1: Toggle Debug Camera View
 F2: Toggle Visible Collisions
-F3: Teleport To Room Start"
+F3: Teleport To Room Start
+F4: Toggle HUD
+F5: Debug Console"
 uppercase = true
 
 [node name="obj_boilingsauce" parent="." instance=ExtResource( 16 )]
