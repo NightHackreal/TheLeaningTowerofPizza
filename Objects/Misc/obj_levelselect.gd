@@ -22,9 +22,9 @@ var level_array = [
 	],
 	[
 		["PIZZALAND", "circus", "circus_1"],
-		["HYDRO HYJINKS", "water", "water_1"],
-		["MECHANICAL MADNESS", "factory", "factory_1"],
-		["RETIREMENT HOME", "mansion", "mansion_1"],
+		["FREEFALLIN'", "freefall", "freefall_1"],
+		["OLIVE INTERGALACTIC", "ufo", "ufo_1"],
+		["HAAAIIIYYYAAAHHH!!!", "kungfu", "kungfu_1"],
 	],
 	[
 		["TRICKY TREAT", "trickytreat", "trickytreat_1"],

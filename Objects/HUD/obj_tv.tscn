@@ -1,4 +1,4 @@
-[gd_scene load_steps=107 format=2]
+[gd_scene load_steps=102 format=2]
 
 [ext_resource path="res://Objects/HUD/obj_tv.gd" type="Script" id=1]
 [ext_resource path="res://Objects/HUD/sprites/tv/tvdefault_0.png" type="Texture" id=2]
@@ -99,39 +99,9 @@
 [ext_resource path="res://Objects/HUD/combobubblefont.tres" type="BitmapFont" id=97]
 [ext_resource path="res://Objects/HUD/sprites/combobubble.png" type="Texture" id=98]
 [ext_resource path="res://Objects/HUD/sprites/shotgunbackup_0.png" type="Texture" id=99]
-[ext_resource path="res://Objects/HUD/sprites/Spr_ranks_hud_0.png" type="Texture" id=100]
-[ext_resource path="res://Objects/HUD/sprites/Spr_ranks_hud_1.png" type="Texture" id=101]
-[ext_resource path="res://Objects/HUD/sprites/Spr_ranks_hud_4.png" type="Texture" id=102]
-[ext_resource path="res://Objects/HUD/sprites/Spr_ranks_hud_3.png" type="Texture" id=103]
-[ext_resource path="res://Objects/HUD/sprites/Spr_ranks_hud_2.png" type="Texture" id=104]
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
-"frames": [ ExtResource( 103 ) ],
-"loop": true,
-"name": "A",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 104 ) ],
-"loop": true,
-"name": "B",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 101 ) ],
-"loop": true,
-"name": "C",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 100 ) ],
-"loop": true,
-"name": "D",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 102 ) ],
-"loop": true,
-"name": "S",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 99 ) ],
 "loop": true,
 "name": "backupshotgun",

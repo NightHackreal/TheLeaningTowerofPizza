@@ -123,58 +123,91 @@ func _process(delta):
 	sprite_index = charactersprite.animation
 	if (character == "P"):
 		charactersprite = $PeppinoSprite
+		$GustavoSprite.visible = false
 		$PeppermanSprite.visible = false
 		$PeppinoSprite.visible = true
 		$PizzanoSprite.visible = false
 		$FakePeppinoSprite.visible = false
 		$NoiseSprite.visible = false
 		$SnickSprite.visible = false
+		$StickSprite.visible = false
 		$VigilanteSprite.visible = false
 	elif (character == "N"):
 		charactersprite = $NoiseSprite
+		$GustavoSprite.visible = false
 		$PeppermanSprite.visible = false
 		$PeppinoSprite.visible = false
 		$PizzanoSprite.visible = false
 		$FakePeppinoSprite.visible = false
 		$NoiseSprite.visible = true
 		$SnickSprite.visible = false
+		$StickSprite.visible = false
 		$VigilanteSprite.visible = false
 	elif (character == "M"):
 		charactersprite = $PeppermanSprite
+		$GustavoSprite.visible = false
 		$PeppermanSprite.visible = true
 		$PeppinoSprite.visible = false
 		$PizzanoSprite.visible = false
 		$FakePeppinoSprite.visible = false
 		$NoiseSprite.visible = false
-		$NoisetteSprite.visible = false
 		$SnickSprite.visible = false
+		$StickSprite.visible = false
 		$VigilanteSprite.visible = false
 	elif (character == "Z"):
 		charactersprite = $PizzanoSprite
+		$GustavoSprite.visible = false
 		$PeppermanSprite.visible = false
 		$PeppinoSprite.visible = false
 		$PizzanoSprite.visible = true
 		$FakePeppinoSprite.visible = false
 		$NoiseSprite.visible = false
 		$SnickSprite.visible = false
+		$StickSprite.visible = false
 		$VigilanteSprite.visible = false
 	elif (character == "V"):
 		charactersprite = $VigilanteSprite
+		$GustavoSprite.visible = false
 		$PeppermanSprite.visible = false
 		$PeppinoSprite.visible = false
 		$PizzanoSprite.visible = false
 		$FakePeppinoSprite.visible = false
 		$NoiseSprite.visible = false
 		$SnickSprite.visible = false
+		$StickSprite.visible = false
 		$VigilanteSprite.visible = true
 	elif (character == "F"):
 		charactersprite = $FakePeppinoSprite
+		$GustavoSprite.visible = false
 		$PeppermanSprite.visible = false
 		$PeppinoSprite.visible = false
 		$PizzanoSprite.visible = false
 		$FakePeppinoSprite.visible = true
 		$NoiseSprite.visible = false
 		$SnickSprite.visible = false
+		$StickSprite.visible = false
+		$VigilanteSprite.visible = false
+	elif (character == "T"):
+		charactersprite = $StickSprite
+		$GustavoSprite.visible = false
+		$PeppermanSprite.visible = false
+		$PeppinoSprite.visible = false
+		$PizzanoSprite.visible = false
+		$FakePeppinoSprite.visible = false
+		$NoiseSprite.visible = false
+		$SnickSprite.visible = false
+		$StickSprite.visible = true
+		$VigilanteSprite.visible = false
+	elif (character == "G"):
+		charactersprite = $GustavoSprite
+		$GustavoSprite.visible = true
+		$PeppermanSprite.visible = false
+		$PeppinoSprite.visible = false
+		$PizzanoSprite.visible = false
+		$FakePeppinoSprite.visible = false
+		$NoiseSprite.visible = false
+		$SnickSprite.visible = false
+		$StickSprite.visible = false
 		$VigilanteSprite.visible = false
 	charactersprite.material.set_shader_param("current_palette", global.peppalette)
 	charactersprite.material.set_shader_param("flash", flash)

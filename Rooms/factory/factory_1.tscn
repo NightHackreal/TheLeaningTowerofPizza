@@ -76,7 +76,7 @@ position = Vector2( 147, 159 )
 
 [node name="obj_ladder" parent="." instance=ExtResource( 17 )]
 position = Vector2( 145, 158 )
-scale = Vector2( 1, 7.04 )
+scale = Vector2( 1, 7.03 )
 
 [node name="obj_cheeseslime" parent="." instance=ExtResource( 10 )]
 position = Vector2( 523, 114 )
@@ -153,12 +153,10 @@ motion_scale = Vector2( 0.15, 0.15 )
 motion_mirroring = Vector2( 1920, 1024 )
 
 [node name="ParallaxLayerSky2" type="ParallaxLayer" parent="ParallaxBackground"]
-position = Vector2( -1, 0 )
 motion_scale = Vector2( 0, 0 )
 motion_mirroring = Vector2( 1920, 1024 )
 
 [node name="ParallaxLayerH1" type="ParallaxLayer" parent="ParallaxBackground"]
-position = Vector2( 3, -124 )
 motion_scale = Vector2( 0.75, 0 )
 motion_mirroring = Vector2( 1920, 1024 )
 

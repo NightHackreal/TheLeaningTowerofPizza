@@ -1,0 +1,104 @@
+[gd_scene load_steps=58 format=2]
+
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idle_6.png" type="Texture" id=1]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_takemoney2_6.png" type="Texture" id=2]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_takemoney2_4.png" type="Texture" id=3]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_takemoney2_0.png" type="Texture" id=4]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_takemoney2_11.png" type="Texture" id=5]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_takemoney2_1.png" type="Texture" id=6]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_takemoney2_5.png" type="Texture" id=7]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_takemoney2_9.png" type="Texture" id=8]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_takemoney2_2.png" type="Texture" id=9]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_takemoney2_7.png" type="Texture" id=10]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_takemoney2_3.png" type="Texture" id=11]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_takemoney2_10.png" type="Texture" id=12]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_takemoney2_8.png" type="Texture" id=13]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idle_5.png" type="Texture" id=14]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idle_9.png" type="Texture" id=15]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idle_8.png" type="Texture" id=16]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_helicopter_10.png" type="Texture" id=17]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_helicopter_6.png" type="Texture" id=18]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_helicopter_0.png" type="Texture" id=19]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_helicopter_7.png" type="Texture" id=20]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_helicopter_5.png" type="Texture" id=21]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_helicopter_8.png" type="Texture" id=22]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_helicopter_9.png" type="Texture" id=23]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_9.png" type="Texture" id=24]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_18.png" type="Texture" id=25]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_19.png" type="Texture" id=26]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_2.png" type="Texture" id=27]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_16.png" type="Texture" id=28]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_5-8.png" type="Texture" id=29]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_12.png" type="Texture" id=30]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_0.png" type="Texture" id=31]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_1.png" type="Texture" id=32]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_4.png" type="Texture" id=33]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_13.png" type="Texture" id=34]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_3.png" type="Texture" id=35]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_17.png" type="Texture" id=36]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idle_2.png" type="Texture" id=37]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idle_4.png" type="Texture" id=38]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idle_1.png" type="Texture" id=39]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idle_0.png" type="Texture" id=40]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idle_3.png" type="Texture" id=41]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idle_7.png" type="Texture" id=42]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_10.png" type="Texture" id=43]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_fall_1.png" type="Texture" id=44]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_helicopter_1.png" type="Texture" id=45]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_14.png" type="Texture" id=46]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_15.png" type="Texture" id=47]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_helicopter_4.png" type="Texture" id=48]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_fall_2.png" type="Texture" id=49]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_11.png" type="Texture" id=50]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_helicopter_3.png" type="Texture" id=51]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_fall_0.png" type="Texture" id=52]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_helicopter_2.png" type="Texture" id=53]
+[ext_resource path="res://Objects/Player/sprites/stick/spr_mrstick_panic.png" type="Texture" id=54]
+[ext_resource path="res://Objects/Baddies/Bosses/obj_mrstick.gd" type="Script" id=55]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 52 ), ExtResource( 44 ), ExtResource( 49 ) ],
+"loop": true,
+"name": "fall",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 19 ), ExtResource( 45 ), ExtResource( 53 ), ExtResource( 51 ), ExtResource( 48 ), ExtResource( 21 ), ExtResource( 18 ), ExtResource( 20 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 17 ) ],
+"loop": true,
+"name": "helicopter",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 31 ), ExtResource( 32 ), ExtResource( 27 ), ExtResource( 35 ), ExtResource( 33 ), ExtResource( 29 ), ExtResource( 29 ), ExtResource( 29 ), ExtResource( 29 ), ExtResource( 24 ), ExtResource( 43 ), ExtResource( 50 ), ExtResource( 30 ), ExtResource( 34 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 28 ), ExtResource( 36 ), ExtResource( 25 ), ExtResource( 26 ) ],
+"loop": true,
+"name": "helicopterstart",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 54 ) ],
+"loop": true,
+"name": "hit",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 40 ), ExtResource( 39 ), ExtResource( 37 ), ExtResource( 41 ), ExtResource( 38 ), ExtResource( 14 ), ExtResource( 1 ), ExtResource( 42 ), ExtResource( 16 ), ExtResource( 15 ) ],
+"loop": true,
+"name": "idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 4 ), ExtResource( 6 ), ExtResource( 9 ), ExtResource( 11 ), ExtResource( 3 ), ExtResource( 7 ), ExtResource( 2 ), ExtResource( 10 ), ExtResource( 13 ), ExtResource( 8 ), ExtResource( 12 ), ExtResource( 5 ) ],
+"loop": true,
+"name": "move",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 39.5, 49.5 )
+
+[node name="obj_stick" type="Area2D"]
+script = ExtResource( 55 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+animation = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -0.5, 2.5 )
+shape = SubResource( 2 )

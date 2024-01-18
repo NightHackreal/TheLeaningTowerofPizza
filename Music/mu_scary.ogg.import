@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/mu_scary.ogg-61424357edb8d148b32f0aab530e04ba.oggstr"
+
+[deps]
+
+source_file="res://Music/mu_scary.ogg"
+dest_files=[ "res://.import/mu_scary.ogg-61424357edb8d148b32f0aab530e04ba.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

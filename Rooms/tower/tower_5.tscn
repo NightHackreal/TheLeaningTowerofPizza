@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Backgrounds/bg_tower_0.png" type="Texture" id=1]
+[ext_resource path="res://Objects/Visuals/obj_background.tscn" type="PackedScene" id=2]
+
+[node name="tower_5" type="Node2D"]
+
+[node name="Background" parent="." instance=ExtResource( 2 )]
+Layer1 = ExtResource( 1 )

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/mu_finalescapeb.ogg-cea98e804020a264c108ac7ed438ee28.oggstr"
+
+[deps]
+
+source_file="res://Music/mu_finalescapeb.ogg"
+dest_files=[ "res://.import/mu_finalescapeb.ogg-cea98e804020a264c108ac7ed438ee28.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

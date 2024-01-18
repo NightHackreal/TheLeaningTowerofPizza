@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/mu_intro.ogg-b2643520c96509f48c5e23c9ffa804d6.mp3str"
+
+[deps]
+
+source_file="res://Music/mu_intro.ogg"
+dest_files=[ "res://.import/mu_intro.ogg-b2643520c96509f48c5e23c9ffa804d6.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
