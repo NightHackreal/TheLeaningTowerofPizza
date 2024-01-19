@@ -29,11 +29,12 @@ We do not own and didn't make any of Pizza Tower's original assets that are used
 * Some enemy death sprites are made by Yamalpaca, and are used with permission.
 * Noise's Lap 2 theme made by Westboiiz, and is also used with permission.
 * Vigilante's Escape theme (End Of The Line) is made by RottenEggs, and is used with permission.
+* Pizzano and his themes are by the Sugary Spire team.
 
 The Leaning Tower of Pizza team:
 * Creator/Conceptualizer: NightHack
 * Director: NightHack
-* Composers: RooGoesBoom, IronCzyk, Westboiiz, Bambi Enjoyer
+* Composers: RooGoesBoom, IronCzyk, Westboiiz, Bambi Enjoyer, alex_does_stuff
 * Spriters: RooGoesBoom, Takiallah Jamai, Bashuster, Bambi Enjoyer, Naffie Camara, Snackcore Games
 * Level Designers: NightHack, Snackcore Games, Definetly Real Sgt. Winter, POTATOtoppin
 * Programmers: Ivo, basiccube
