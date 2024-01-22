@@ -2099,10 +2099,10 @@ func scr_player_mach3():
 		state = global.states.machroll
 		velocity.y = 10
 	if (!is_on_floor() && is_wallclimbable()):
-		wallspeed = 10
+		wallspeed = movespeed
 		state = global.states.climbwall
 	if (is_on_floor() && is_wallclimbable() && $SlopeCheck.is_colliding()):
-		wallspeed = 10
+		wallspeed = movespeed
 		state = global.states.climbwall
 	if (is_on_floor() && (is_colliding_with_wall() && charactersprite.animation != "machslideboost" && charactersprite.animation != "machslideboost3") && !$SlopeCheck.is_colliding()):
 		charactersprite.animation = "hitwall"
@@ -2212,7 +2212,7 @@ func scr_player_climbwall():
 	velocity.y = (-wallspeed)
 	mach2 = 35
 	if (wallspeed > 0):
-		wallspeed -= 0.25
+		wallspeed -= 0.5
 	crouchslideAnim = 1
 	charactersprite.animation = "climbwall"
 	if (!Input.is_action_pressed("key_dash") || (move != xscale && move != 0)):

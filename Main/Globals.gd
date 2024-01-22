@@ -166,3 +166,12 @@ enum states {
 	parry,
 	spin,
 }
+
+enum bossstates {
+	arenaintro,
+	arenaroundstart,
+	arenaround,
+	transitioncutscene,
+	victory,
+	gameover,
+}
