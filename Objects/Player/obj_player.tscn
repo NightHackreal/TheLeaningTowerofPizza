@@ -1,4 +1,4 @@
-[gd_scene load_steps=4558 format=2]
+[gd_scene load_steps=4561 format=2]
 
 [ext_resource path="res://Objects/Player/sprites/idle_4.png" type="Texture" id=1]
 [ext_resource path="res://Objects/Player/sprites/idle_0.png" type="Texture" id=2]
@@ -833,9 +833,6 @@
 [ext_resource path="res://Objects/Player/sprites/finishingblow1_10.png" type="Texture" id=831]
 [ext_resource path="res://Objects/Player/sprites/finishingblow1_9.png" type="Texture" id=832]
 [ext_resource path="res://Objects/Player/sprites/dead_0.png" type="Texture" id=833]
-[ext_resource path="res://Objects/Player/sprites/mach4_4.png" type="Texture" id=834]
-[ext_resource path="res://Objects/Player/sprites/mach4_3.png" type="Texture" id=835]
-[ext_resource path="res://Objects/Player/sprites/mach4_5.png" type="Texture" id=836]
 [ext_resource path="res://Objects/Player/sprites/backbreaker_3.png" type="Texture" id=837]
 [ext_resource path="res://Objects/Player/sprites/backbreaker_6.png" type="Texture" id=838]
 [ext_resource path="res://Objects/Player/sprites/backbreaker_2.png" type="Texture" id=839]
@@ -2800,6 +2797,12 @@
 [ext_resource path="res://Objects/Player/sprites/pizzano/spr_pizzano_handstand_6.png" type="Texture" id=2798]
 [ext_resource path="res://Objects/Player/sprites/pizzano/spr_pizzano_handstand_1.png" type="Texture" id=2799]
 [ext_resource path="res://Objects/Player/sprites/pizzano/spr_pizzano_handstand_7.png" type="Texture" id=2800]
+[ext_resource path="res://Objects/Player/sprites/mach3hit_1.png" type="Texture" id=2801]
+[ext_resource path="res://Objects/Player/sprites/mach3hit_0.png" type="Texture" id=2802]
+[ext_resource path="res://Objects/Player/sprites/mach3hit_5.png" type="Texture" id=2803]
+[ext_resource path="res://Objects/Player/sprites/mach3hit_4.png" type="Texture" id=2804]
+[ext_resource path="res://Objects/Player/sprites/mach3hit_2.png" type="Texture" id=2805]
+[ext_resource path="res://Objects/Player/sprites/mach3hit_3.png" type="Texture" id=2806]
 
 [sub_resource type="ShaderMaterial" id=4]
 shader = ExtResource( 1204 )
@@ -4235,24 +4238,29 @@ animations = [ {
 "name": "mach3",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 1153 ), ExtResource( 1154 ), ExtResource( 1155 ), ExtResource( 1157 ), ExtResource( 1156 ), ExtResource( 1158 ) ],
+"frames": [ ExtResource( 771 ), ExtResource( 776 ), ExtResource( 773 ) ],
 "loop": true,
-"name": "mach3hit",
+"name": "mach4",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 2802 ), ExtResource( 2801 ), ExtResource( 2805 ), ExtResource( 2806 ), ExtResource( 2804 ), ExtResource( 2803 ) ],
+"loop": true,
+"name": "mach4hit",
 "speed": 60.0
 }, {
 "frames": [ ExtResource( 774 ), ExtResource( 772 ), ExtResource( 769 ), ExtResource( 785 ), ExtResource( 770 ) ],
 "loop": true,
-"name": "mach3jump",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 771 ), ExtResource( 776 ), ExtResource( 773 ), ExtResource( 835 ), ExtResource( 834 ), ExtResource( 836 ) ],
-"loop": true,
-"name": "mach4",
+"name": "mach4jump",
 "speed": 60.0
 }, {
 "frames": [ ExtResource( 452 ), ExtResource( 450 ), ExtResource( 448 ), ExtResource( 453 ), ExtResource( 451 ), ExtResource( 449 ) ],
 "loop": true,
 "name": "machfreefall",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 1153 ), ExtResource( 1154 ), ExtResource( 1155 ), ExtResource( 1157 ), ExtResource( 1156 ), ExtResource( 1158 ) ],
+"loop": true,
+"name": "machhit",
 "speed": 60.0
 }, {
 "frames": [ ExtResource( 1140 ), ExtResource( 1139 ), ExtResource( 1138 ), ExtResource( 1137 ), ExtResource( 1141 ) ],
@@ -15117,7 +15125,7 @@ animation = "idle"
 [node name="PeppinoSprite" type="AnimatedSprite" parent="."]
 material = SubResource( 4 )
 frames = SubResource( 1 )
-animation = "backflip"
+animation = "mach4hit"
 
 [node name="FakePeppinoSprite" type="AnimatedSprite" parent="."]
 material = SubResource( 4 )
@@ -15173,7 +15181,6 @@ collide_with_areas = true
 
 [node name="SolidCheck" type="RayCast2D" parent="."]
 modulate = Color( 1, 1, 1, 0.854902 )
-position = Vector2( 0, -6 )
 enabled = true
 cast_to = Vector2( 16, 0 )
 collision_mask = 2
