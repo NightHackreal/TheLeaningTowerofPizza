@@ -3428,6 +3428,10 @@ func scr_playersounds():
 		$Tumble3.stop()
 	if ($SuplexDash.playing && state != global.states.handstandjump && state != global.states.shoulderbash && state != global.states.punch && state != global.states.spin && (state != global.states.mach2 && charactersprite.animation != "machspin")):
 		$SuplexDash.stop()
+	if (!$Climb.playing && charactersprite.animation == "laddermove"):
+		$Climb.play()
+	elif ($Climb.playing && charactersprite.animation != "laddermove"):
+		$Climb.stop()
 
 # Timer functions
 

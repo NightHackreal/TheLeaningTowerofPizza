@@ -1,4 +1,4 @@
-[gd_scene load_steps=4561 format=2]
+[gd_scene load_steps=4562 format=2]
 
 [ext_resource path="res://Objects/Player/sprites/idle_4.png" type="Texture" id=1]
 [ext_resource path="res://Objects/Player/sprites/idle_0.png" type="Texture" id=2]
@@ -833,6 +833,7 @@
 [ext_resource path="res://Objects/Player/sprites/finishingblow1_10.png" type="Texture" id=831]
 [ext_resource path="res://Objects/Player/sprites/finishingblow1_9.png" type="Texture" id=832]
 [ext_resource path="res://Objects/Player/sprites/dead_0.png" type="Texture" id=833]
+[ext_resource path="res://Sounds/sfx_climb.ogg" type="AudioStream" id=834]
 [ext_resource path="res://Objects/Player/sprites/backbreaker_3.png" type="Texture" id=837]
 [ext_resource path="res://Objects/Player/sprites/backbreaker_6.png" type="Texture" id=838]
 [ext_resource path="res://Objects/Player/sprites/backbreaker_2.png" type="Texture" id=839]
@@ -15336,6 +15337,7 @@ bus = "SFX"
 
 [node name="SuperJumpRelease" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 1187 )
+volume_db = -6.0
 bus = "SFX"
 
 [node name="Mach1" type="AudioStreamPlayer" parent="."]
@@ -15371,6 +15373,11 @@ bus = "SFX"
 [node name="FireassEnd" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 1631 )
 volume_db = -5.0
+bus = "SFX"
+
+[node name="Climb" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 834 )
+volume_db = -10.0
 bus = "SFX"
 
 [node name="HurtTimer" type="Timer" parent="."]
