@@ -233,27 +233,21 @@ position = Vector2( 1024, 544 )
 
 [node name="obj_minipillar" parent="." instance=ExtResource( 19 )]
 position = Vector2( 1024, 608 )
-z_index = 1
 
 [node name="obj_minipillar2" parent="." instance=ExtResource( 19 )]
 position = Vector2( 1056, 608 )
-z_index = 1
 
 [node name="obj_minipillar3" parent="." instance=ExtResource( 19 )]
 position = Vector2( 1184, 544 )
-z_index = 1
 
 [node name="obj_minipillar4" parent="." instance=ExtResource( 19 )]
 position = Vector2( 1216, 544 )
-z_index = 1
 
 [node name="obj_minipillar5" parent="." instance=ExtResource( 19 )]
 position = Vector2( 1184, 576 )
-z_index = 1
 
 [node name="obj_minipillar6" parent="." instance=ExtResource( 19 )]
 position = Vector2( 1216, 576 )
-z_index = 1
 
 [node name="obj_secretblock" parent="." instance=ExtResource( 20 )]
 position = Vector2( 1120, 160 )
@@ -582,4 +576,4 @@ content = ExtResource( 22 )
 position = Vector2( 736, 448 )
 
 [node name="obj_noisesatelite" parent="." instance=ExtResource( 13 )]
-position = Vector2( 711, 456 )
+position = Vector2( 608, 504 )
