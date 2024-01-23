@@ -1,9 +1,20 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Objects/Baddies/obj_bosscontroller.gd" type="Script" id=1]
 [ext_resource path="res://Objects/HUD/sprites/heatmeter.png" type="Texture" id=2]
 [ext_resource path="res://Objects/HUD/sprites/heatmeterbar_fill.png" type="Texture" id=3]
 [ext_resource path="res://Objects/HUD/font.tres" type="BitmapFont" id=4]
+[ext_resource path="res://Objects/Baddies/sprites/boss/versusflame_0.png" type="Texture" id=5]
+[ext_resource path="res://Shaders/TextureScroll.tres" type="Shader" id=6]
+[ext_resource path="res://Objects/Baddies/sprites/boss/vspeppino_0.png" type="Texture" id=7]
+[ext_resource path="res://Objects/Baddies/sprites/boss/vsnoise_0.png" type="Texture" id=8]
+[ext_resource path="res://Objects/Baddies/sprites/boss/vstitle_0.png" type="Texture" id=9]
+
+[sub_resource type="ShaderMaterial" id=1]
+shader = ExtResource( 6 )
+shader_param/motion = Vector2( 0, 100 )
+shader_param/scale = 1.0
+shader_param/offset = Vector2( 0, 0 )
 
 [node name="obj_bosscontroller" type="Node2D"]
 z_index = 1000
@@ -58,4 +69,32 @@ uppercase = true
 [node name="TimerTimer" type="Timer" parent="."]
 one_shot = true
 
+[node name="EndTimer" type="Timer" parent="."]
+wait_time = 4.0
+one_shot = true
+
+[node name="Intro" type="Node2D" parent="."]
+visible = false
+
+[node name="Flames" type="Sprite" parent="Intro"]
+material = SubResource( 1 )
+texture = ExtResource( 5 )
+centered = false
+
+[node name="Peppino" type="Sprite" parent="Intro"]
+position = Vector2( -415, 183 )
+texture = ExtResource( 7 )
+centered = false
+
+[node name="Boss" type="Sprite" parent="Intro"]
+position = Vector2( 960, 183 )
+texture = ExtResource( 8 )
+centered = false
+
+[node name="VersusTitle" type="Sprite" parent="Intro"]
+position = Vector2( 0, -400 )
+texture = ExtResource( 9 )
+centered = false
+
 [connection signal="timeout" from="TimerTimer" to="." method="_on_TimerTimer_timeout"]
+[connection signal="timeout" from="EndTimer" to="." method="_on_EndTimer_timeout"]

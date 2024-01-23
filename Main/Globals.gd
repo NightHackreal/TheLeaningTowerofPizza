@@ -165,6 +165,7 @@ enum states {
 	portal,
 	parry,
 	spin,
+	actor,
 }
 
 enum bossstates {

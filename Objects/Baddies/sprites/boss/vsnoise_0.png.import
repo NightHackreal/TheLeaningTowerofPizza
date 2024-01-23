@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Spr_ranks_hud_4.png-8b9c0f898f0d45a771fd691cfe0f47f1.stex"
+path="res://.import/vsnoise_0.png-cba05ddeaf6d31ca4331b342416eae6a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Objects/HUD/sprites/Spr_ranks_hud_4.png"
-dest_files=[ "res://.import/Spr_ranks_hud_4.png-8b9c0f898f0d45a771fd691cfe0f47f1.stex" ]
+source_file="res://Objects/Baddies/sprites/boss/vsnoise_0.png"
+dest_files=[ "res://.import/vsnoise_0.png-cba05ddeaf6d31ca4331b342416eae6a.stex" ]
 
 [params]
 

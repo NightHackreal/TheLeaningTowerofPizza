@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Spr_ranks_hud_3.png-e0f4a8e771719063d67f598b9f156922.stex"
+path="res://.import/rank_0.png-f07fdc3aece42b7caa4b5188a4d235f3.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Objects/HUD/sprites/Spr_ranks_hud_3.png"
-dest_files=[ "res://.import/Spr_ranks_hud_3.png-e0f4a8e771719063d67f598b9f156922.stex" ]
+source_file="res://Objects/HUD/sprites/rank_0.png"
+dest_files=[ "res://.import/rank_0.png-f07fdc3aece42b7caa4b5188a4d235f3.stex" ]
 
 [params]
 

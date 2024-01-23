@@ -582,6 +582,8 @@ func _process(delta):
 			scr_player_parry()
 		global.states.spin:
 			scr_player_spin()
+		global.states.actor:
+			scr_player_actor()
 	scr_playersounds()
 	if (global.combo >= global.combomilestone && state != global.states.backbreaker):
 		supercharged = true
@@ -662,12 +664,12 @@ func _process(delta):
 		ladderbuffer = 0
 	if state != global.states.jump:
 		stompAnim = 0
-	if ((state == global.states.mach3 || state == global.states.mach2 || state == global.states.climbwall || state == global.states.machroll || state == global.states.handstandjump || state == global.states.shoulderbash || state == global.states.punch || state == global.states.spin || state == global.states.machslide) && (!utils.instance_exists("obj_mach3effect"))):
+	if ((state == global.states.mach3 || state == global.states.machroll || state == global.states.handstandjump || state == global.states.shoulderbash || state == global.states.punch || state == global.states.spin || (state == global.states.machslide && charactersprite.animation == "machslideboost3")) && (!utils.instance_exists("obj_mach3effect"))):
 		toomuchalarm1 = 6
 		utils.instance_create(global_position.x, global_position.y, "res://Objects/Visuals/obj_mach3effect.tscn")
 	if (toomuchalarm1 > 0):
 		toomuchalarm1 -= 1
-		if (toomuchalarm1 <= 0 && (state == global.states.mach3 || state == global.states.mach2 || state == global.states.climbwall || state == global.states.machroll || state == global.states.handstandjump || state == global.states.shoulderbash || state == global.states.punch || state == global.states.spin || state == global.states.machslide)):
+		if (toomuchalarm1 <= 0 && (state == global.states.mach3 || state == global.states.machroll || state == global.states.handstandjump || state == global.states.shoulderbash || state == global.states.punch || state == global.states.spin || (state == global.states.machslide && charactersprite.animation == "machslideboost3"))):
 			utils.instance_create(global_position.x, global_position.y, "res://Objects/Visuals/obj_mach3effect.tscn")
 			toomuchalarm1 = 6
 	if (!$CrouchCheck.is_colliding()):
@@ -1104,7 +1106,7 @@ func scr_player_jump():
 	if (movespeed > 6):
 		movespeed -= 0.05
 	if (is_colliding_with_wall() && move != 0):
-		movespeed = 0
+		movespeed -= 0.05
 	if (dir != xscale):
 		dir = xscale
 	landAnim = 1
@@ -2125,7 +2127,7 @@ func scr_player_mach3():
 		velocity.y = -3
 		mach2 = 0
 		utils.instance_create(position.x + 10, position.y + 10, "res://Objects/Visuals/obj_bumpeffect.tscn")
-	if (!utils.instance_exists("obj_chargeeffect") && charactersprite.animation != "mach3"):
+	if (!utils.instance_exists("obj_chargeeffect") && (charactersprite.animation == "mach4" || charactersprite.animation == "mach4hit" || charactersprite.animation == "mach4jump")):
 		utils.instance_create(position.x, position.y, "res://Objects/Visuals/obj_chargeeffect.tscn")
 	if (!utils.instance_exists("obj_superdashcloud") && is_on_floor()):
 		utils.instance_create(position.x, position.y, "res://Objects/Visuals/obj_superdashcloud.tscn")
@@ -3259,6 +3261,10 @@ func scr_player_spin():
 			elif xscale == -1:
 				i.sprite.flip_h = true
 	charactersprite.speed_scale = 0.35
+	
+func scr_player_actor():
+	cutscene = true
+	movespeed = 0
 
 # scr_playerreset
 # Resets player variables and all global variables
