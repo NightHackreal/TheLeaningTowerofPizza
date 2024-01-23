@@ -1,4 +1,4 @@
-[gd_scene load_steps=5144 format=2]
+[gd_scene load_steps=5374 format=2]
 
 [ext_resource path="res://Objects/Player/sprites/idle_4.png" type="Texture" id=1]
 [ext_resource path="res://Objects/Player/sprites/idle_0.png" type="Texture" id=2]
@@ -425,7 +425,7 @@
 [ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_idle_0.png" type="Texture" id=423]
 [ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_idle_4.png" type="Texture" id=424]
 [ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_idle_1.png" type="Texture" id=425]
-[ext_resource path="res://Objects/Baddies/sprites/pepperman/pepperman_stun_0.png" type="Texture" id=426]
+[ext_resource path="res://Objects/Player/sprites/vulnerable1_04.png" type="Texture" id=426]
 [ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_hurtplayer_2.png" type="Texture" id=427]
 [ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_taunt_11.png" type="Texture" id=428]
 [ext_resource path="res://Objects/Player/sprites/pepperman/spr_pepperman_shoulderloop_1.png" type="Texture" id=429]
@@ -1893,7 +1893,7 @@
 [ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/hookshot1_07.png" type="Texture" id=1891]
 [ext_resource path="res://Objects/Player/sprites/noise/machslideboost3.png" type="Texture" id=1892]
 [ext_resource path="res://Objects/Player/sprites/noise/freefall.png" type="Texture" id=1893]
-[ext_resource path="res://Objects/Player/sprites/noise/mach3jump.png" type="Texture" id=1894]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/noisetaunt_13.png" type="Texture" id=1894]
 [ext_resource path="res://Objects/Player/sprites/noise/facestomp.png" type="Texture" id=1895]
 [ext_resource path="res://Objects/Player/sprites/noise/machpunch1.png" type="Texture" id=1896]
 [ext_resource path="res://Objects/Player/sprites/noise/machpunch2.png" type="Texture" id=1897]
@@ -3368,7 +3368,7 @@
 [ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/suplexdash_09.png" type="Texture" id=3366]
 [ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/hookshot1_01.png" type="Texture" id=3367]
 [ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/hookshot1_05.png" type="Texture" id=3368]
-[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/uppunch_01.png" type="Texture" id=3369]
+[ext_resource path="res://Objects/Player/sprites/freefallland_0.png" type="Texture" id=3369]
 [ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/uppunch_02.png" type="Texture" id=3370]
 [ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/uppunch_05.png" type="Texture" id=3371]
 [ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/hookshot1_04.png" type="Texture" id=3372]
@@ -3403,6 +3403,199 @@
 [ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/backkick_02.png" type="Texture" id=3401]
 [ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/backkick_00.png" type="Texture" id=3402]
 [ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/dab_19.png" type="Texture" id=3403]
+[ext_resource path="res://Objects/Player/sprites/vulnerable1_01.png" type="Texture" id=3404]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/uppunch_01.png" type="Texture" id=3405]
+[ext_resource path="res://Objects/Player/sprites/vulnerable1_03.png" type="Texture" id=3406]
+[ext_resource path="res://Objects/Player/sprites/freefallland_3.png" type="Texture" id=3407]
+[ext_resource path="res://Objects/Player/sprites/freefallland_5.png" type="Texture" id=3408]
+[ext_resource path="res://Objects/Player/sprites/freefallland_6.png" type="Texture" id=3409]
+[ext_resource path="res://Objects/Player/sprites/freefallland_23.png" type="Texture" id=3410]
+[ext_resource path="res://Objects/Player/sprites/vulnerable1_02.png" type="Texture" id=3411]
+[ext_resource path="res://Objects/Player/sprites/freefallland_2.png" type="Texture" id=3412]
+[ext_resource path="res://Objects/Player/sprites/vulnerable1_05.png" type="Texture" id=3413]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdancesmash_3.png" type="Texture" id=3414]
+[ext_resource path="res://Objects/Player/sprites/freefallland_1.png" type="Texture" id=3415]
+[ext_resource path="res://Objects/Player/sprites/freefallland_4.png" type="Texture" id=3416]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdancesmash_1.png" type="Texture" id=3417]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdancesmash_0.png" type="Texture" id=3418]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdanceuppercut_7.png" type="Texture" id=3419]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdanceuppercut_8.png" type="Texture" id=3420]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdanceuppercut_9.png" type="Texture" id=3421]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdanceuppercut_10.png" type="Texture" id=3422]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdanceuppercut_11.png" type="Texture" id=3423]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdanceuppercut_12.png" type="Texture" id=3424]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdanceuppercut_14.png" type="Texture" id=3425]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/grab_02.png" type="Texture" id=3426]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/grab_00-01.png" type="Texture" id=3427]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/noisebombthrow_08.png" type="Texture" id=3428]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/noisebombthrow_01.png" type="Texture" id=3429]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/noisebombthrow_09.png" type="Texture" id=3430]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/noisebombthrow_03.png" type="Texture" id=3431]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/noisebombthrow_04.png" type="Texture" id=3432]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/noisebombthrow_06.png" type="Texture" id=3433]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/noisebombthrow_07.png" type="Texture" id=3434]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/noisebombthrow_05.png" type="Texture" id=3435]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/noisebombthrow_00.png" type="Texture" id=3436]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/noisebombthrow_02.png" type="Texture" id=3437]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdanceuppercut_15.png" type="Texture" id=3438]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdanceuppercut_6.png" type="Texture" id=3439]
+[ext_resource path="res://Objects/Player/sprites/breakdancesmash_06.png" type="Texture" id=3440]
+[ext_resource path="res://Objects/Player/sprites/breakdancesmash_05.png" type="Texture" id=3441]
+[ext_resource path="res://Objects/Player/sprites/breakdancesmash_07.png" type="Texture" id=3442]
+[ext_resource path="res://Objects/Player/sprites/breakdancesmash_04.png" type="Texture" id=3443]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdancesmash_8.png" type="Texture" id=3444]
+[ext_resource path="res://Objects/Player/sprites/breakdancesmash_03.png" type="Texture" id=3445]
+[ext_resource path="res://Objects/Player/sprites/breakdancesmash_00.png" type="Texture" id=3446]
+[ext_resource path="res://Objects/Player/sprites/breakdancesmash_01.png" type="Texture" id=3447]
+[ext_resource path="res://Objects/Player/sprites/breakdancesmash_02.png" type="Texture" id=3448]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdancesmash_2.png" type="Texture" id=3449]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdanceuppercut_0.png" type="Texture" id=3450]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdancesmash_6.png" type="Texture" id=3451]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdanceuppercut_3.png" type="Texture" id=3452]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdanceuppercut_4.png" type="Texture" id=3453]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdanceuppercut_1.png" type="Texture" id=3454]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdanceuppercut_16.png" type="Texture" id=3455]
+[ext_resource path="res://Objects/Player/sprites/breakdancesmash_09.png" type="Texture" id=3456]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdanceuppercut_2.png" type="Texture" id=3457]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdanceuppercut_5.png" type="Texture" id=3458]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_11.png" type="Texture" id=3459]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_5.png" type="Texture" id=3460]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_44.png" type="Texture" id=3461]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdancebucle_6.png" type="Texture" id=3462]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdancebucle_3.png" type="Texture" id=3463]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdancebucle_4.png" type="Texture" id=3464]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdancebucle_1.png" type="Texture" id=3465]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdancebucle_2.png" type="Texture" id=3466]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdancebucle_0.png" type="Texture" id=3467]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdancebucle_7.png" type="Texture" id=3468]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdancebucle_8.png" type="Texture" id=3469]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdancebucle_9.png" type="Texture" id=3470]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_3.png" type="Texture" id=3471]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_buttattackend_2.png" type="Texture" id=3472]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_buttattackend_1.png" type="Texture" id=3473]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_36.png" type="Texture" id=3474]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_4.png" type="Texture" id=3475]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_buttattackstart_5.png" type="Texture" id=3476]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_29.png" type="Texture" id=3477]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_0.png" type="Texture" id=3478]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_41.png" type="Texture" id=3479]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_32.png" type="Texture" id=3480]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_30.png" type="Texture" id=3481]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_49.png" type="Texture" id=3482]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_9.png" type="Texture" id=3483]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_37.png" type="Texture" id=3484]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_38.png" type="Texture" id=3485]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_8.png" type="Texture" id=3486]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_39.png" type="Texture" id=3487]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_42.png" type="Texture" id=3488]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_43.png" type="Texture" id=3489]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_40.png" type="Texture" id=3490]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_33.png" type="Texture" id=3491]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_31.png" type="Texture" id=3492]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_35.png" type="Texture" id=3493]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_34.png" type="Texture" id=3494]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdancebucle_5.png" type="Texture" id=3495]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_7.png" type="Texture" id=3496]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_48.png" type="Texture" id=3497]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_46.png" type="Texture" id=3498]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_47.png" type="Texture" id=3499]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_45.png" type="Texture" id=3500]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_buttattackstart_3.png" type="Texture" id=3501]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_buttattackstart_4.png" type="Texture" id=3502]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_buttattackstart_2.png" type="Texture" id=3503]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_2.png" type="Texture" id=3504]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_1.png" type="Texture" id=3505]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_15.png" type="Texture" id=3506]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_14.png" type="Texture" id=3507]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_28.png" type="Texture" id=3508]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_27.png" type="Texture" id=3509]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_26.png" type="Texture" id=3510]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_25.png" type="Texture" id=3511]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_23.png" type="Texture" id=3512]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_24.png" type="Texture" id=3513]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_22.png" type="Texture" id=3514]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_21.png" type="Texture" id=3515]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_20.png" type="Texture" id=3516]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_19.png" type="Texture" id=3517]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_18.png" type="Texture" id=3518]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_17.png" type="Texture" id=3519]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_16.png" type="Texture" id=3520]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_buttattack_1.png" type="Texture" id=3521]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_53.png" type="Texture" id=3522]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_56.png" type="Texture" id=3523]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_67.png" type="Texture" id=3524]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_52.png" type="Texture" id=3525]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_61.png" type="Texture" id=3526]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_62.png" type="Texture" id=3527]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_69.png" type="Texture" id=3528]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_54.png" type="Texture" id=3529]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_55.png" type="Texture" id=3530]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_66.png" type="Texture" id=3531]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_50.png" type="Texture" id=3532]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_57.png" type="Texture" id=3533]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_70.png" type="Texture" id=3534]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_58.png" type="Texture" id=3535]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_51.png" type="Texture" id=3536]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_64.png" type="Texture" id=3537]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_65.png" type="Texture" id=3538]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_68.png" type="Texture" id=3539]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_59.png" type="Texture" id=3540]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_60.png" type="Texture" id=3541]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_63.png" type="Texture" id=3542]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_buttattackstart_0.png" type="Texture" id=3543]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_buttattack_0.png" type="Texture" id=3544]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_buttattackstart_1.png" type="Texture" id=3545]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_buttattackend_0.png" type="Texture" id=3546]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_10.png" type="Texture" id=3547]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_6.png" type="Texture" id=3548]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_12.png" type="Texture" id=3549]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_13.png" type="Texture" id=3550]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_freefallland_4.png" type="Texture" id=3551]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_freefallland_5.png" type="Texture" id=3552]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdance_71.png" type="Texture" id=3553]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_freefallland_2.png" type="Texture" id=3554]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_freefallland_3.png" type="Texture" id=3555]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_freefallland_1.png" type="Texture" id=3556]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_freefallland_0.png" type="Texture" id=3557]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_pizzaportalentrancestartN_0.png" type="Texture" id=3558]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_pizzaportalentrancestartN_3.png" type="Texture" id=3559]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_pizzaportalentrancestartN_2.png" type="Texture" id=3560]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_pizzaportalentrancestartN_5.png" type="Texture" id=3561]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_pizzaportalentrancestartN_6.png" type="Texture" id=3562]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_pizzaportalentrancestartN_7.png" type="Texture" id=3563]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_pizzaportalentrancestartN_8.png" type="Texture" id=3564]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_pizzaportalentrancestartN_9.png" type="Texture" id=3565]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_pizzaportalentrancestartN_10.png" type="Texture" id=3566]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_pizzaportalentrancestartN_11.png" type="Texture" id=3567]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_pizzaportalentrancestartN_4.png" type="Texture" id=3568]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_pizzaportalentrancestartN_1.png" type="Texture" id=3569]
+[ext_resource path="res://Objects/Player/sprites/breakdancesmash_08.png" type="Texture" id=3570]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/shoulder_06.png" type="Texture" id=3571]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/shoulder_02.png" type="Texture" id=3572]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdancesmash_7.png" type="Texture" id=3573]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdancesmash_9.png" type="Texture" id=3574]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/shoulder_05.png" type="Texture" id=3575]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdanceuppercut_13.png" type="Texture" id=3576]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/shoulder_01.png" type="Texture" id=3577]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/shoulder_03.png" type="Texture" id=3578]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/shoulder_04.png" type="Texture" id=3579]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdancesmash_5.png" type="Texture" id=3580]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_breakdancesmash_4.png" type="Texture" id=3581]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/shoulder_00.png" type="Texture" id=3582]
+[ext_resource path="res://Objects/Player/sprites/uppunch_0.png" type="Texture" id=3583]
+[ext_resource path="res://Objects/Player/sprites/diagonalupthrow_2.png" type="Texture" id=3584]
+[ext_resource path="res://Objects/Player/sprites/diagonalupthrow_3.png" type="Texture" id=3585]
+[ext_resource path="res://Objects/Player/sprites/diagonalupthrow_4.png" type="Texture" id=3586]
+[ext_resource path="res://Objects/Player/sprites/diagonalupthrow_1.png" type="Texture" id=3587]
+[ext_resource path="res://Objects/Player/sprites/diagonalupthrow_0.png" type="Texture" id=3588]
+[ext_resource path="res://Objects/Player/sprites/uppunch_8.png" type="Texture" id=3590]
+[ext_resource path="res://Objects/Player/sprites/uppunch_5.png" type="Texture" id=3592]
+[ext_resource path="res://Objects/Player/sprites/uppunch_6.png" type="Texture" id=3593]
+[ext_resource path="res://Objects/Player/sprites/uppunch_3.png" type="Texture" id=3595]
+[ext_resource path="res://Objects/Player/sprites/uppunch_4.png" type="Texture" id=3596]
+[ext_resource path="res://Objects/Player/sprites/uppunch_1.png" type="Texture" id=3598]
+[ext_resource path="res://Objects/Player/sprites/uppunch_2.png" type="Texture" id=3599]
+[ext_resource path="res://Objects/Player/sprites/uppunch_7.png" type="Texture" id=3601]
 
 [sub_resource type="ShaderMaterial" id=4]
 shader = ExtResource( 1204 )
@@ -3590,7 +3783,7 @@ animations = [ {
 "name": "crouchstart",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 426 ) ],
+"frames": [ ExtResource( 2676 ), ExtResource( 2677 ), ExtResource( 2673 ), ExtResource( 2674 ), ExtResource( 2679 ) ],
 "loop": true,
 "name": "dead",
 "speed": 60.0
@@ -4378,12 +4571,12 @@ animations = [ {
 "name": "backflip",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 420 ) ],
+"frames": [ ExtResource( 368 ), ExtResource( 367 ), ExtResource( 369 ) ],
 "loop": true,
 "name": "bodyslamfall",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 417 ), ExtResource( 418 ), ExtResource( 416 ), ExtResource( 419 ), ExtResource( 421 ) ],
+"frames": [ ExtResource( 3369 ), ExtResource( 3415 ), ExtResource( 3412 ), ExtResource( 3407 ), ExtResource( 3416 ), ExtResource( 3408 ), ExtResource( 3409 ), ExtResource( 3410 ) ],
 "loop": true,
 "name": "bodyslamland",
 "speed": 60.0
@@ -4423,6 +4616,11 @@ animations = [ {
 "name": "breakdance",
 "speed": 60.0
 }, {
+"frames": [ ExtResource( 3446 ), ExtResource( 3447 ), ExtResource( 3448 ), ExtResource( 3445 ), ExtResource( 3443 ), ExtResource( 3441 ), ExtResource( 3440 ), ExtResource( 3442 ), ExtResource( 3570 ), ExtResource( 3456 ) ],
+"loop": true,
+"name": "breakdancesmash",
+"speed": 60.0
+}, {
 "frames": [ ExtResource( 1999 ), ExtResource( 2003 ), ExtResource( 2000 ), ExtResource( 2002 ), ExtResource( 2001 ) ],
 "loop": true,
 "name": "breakdancestart",
@@ -4456,57 +4654,57 @@ animations = [ {
 "frames": [ ExtResource( 2989 ), ExtResource( 2980 ), ExtResource( 2999 ) ],
 "loop": true,
 "name": "chainsawair",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 2949 ), ExtResource( 2987 ), ExtResource( 2993 ), ExtResource( 2996 ), ExtResource( 2992 ), ExtResource( 2955 ), ExtResource( 2956 ), ExtResource( 2957 ) ],
 "loop": true,
 "name": "chainsawbump",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 2984 ), ExtResource( 2986 ), ExtResource( 2983 ), ExtResource( 2966 ), ExtResource( 2951 ), ExtResource( 2954 ) ],
 "loop": true,
 "name": "chainsawcrouch",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 2945 ), ExtResource( 2952 ), ExtResource( 2995 ) ],
 "loop": true,
 "name": "chainsawend",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 2947 ), ExtResource( 2953 ), ExtResource( 2946 ) ],
 "loop": true,
 "name": "chainsawend2",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 2975 ), ExtResource( 2976 ), ExtResource( 2977 ), ExtResource( 2978 ) ],
 "loop": true,
 "name": "chainsawpogo1",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 2997 ), ExtResource( 3000 ), ExtResource( 2998 ) ],
 "loop": true,
 "name": "chainsawpogo2",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 2990 ), ExtResource( 2963 ), ExtResource( 2968 ), ExtResource( 2962 ), ExtResource( 2965 ) ],
 "loop": true,
 "name": "chainsawpogobounce",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 2972 ), ExtResource( 2982 ), ExtResource( 2981 ), ExtResource( 2979 ), ExtResource( 2988 ), ExtResource( 2959 ), ExtResource( 2964 ), ExtResource( 2950 ) ],
 "loop": true,
 "name": "chainsawrun",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 2991 ), ExtResource( 2967 ) ],
 "loop": true,
 "name": "chainsawstart",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 2971 ), ExtResource( 2974 ), ExtResource( 2948 ), ExtResource( 2961 ), ExtResource( 2973 ), ExtResource( 2960 ), ExtResource( 2969 ), ExtResource( 2985 ), ExtResource( 2970 ), ExtResource( 2994 ), ExtResource( 2958 ) ],
 "loop": true,
 "name": "chainsawswing",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 2040 ), ExtResource( 2035 ), ExtResource( 2041 ), ExtResource( 2036 ), ExtResource( 2037 ), ExtResource( 2038 ), ExtResource( 2039 ), ExtResource( 2042 ) ],
 "loop": true,
@@ -4613,27 +4811,27 @@ animations = [ {
 "name": "fall2",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 824 ), ExtResource( 827 ), ExtResource( 825 ), ExtResource( 826 ), ExtResource( 820 ), ExtResource( 821 ), ExtResource( 822 ), ExtResource( 823 ), ExtResource( 830 ), ExtResource( 832 ), ExtResource( 831 ), ExtResource( 829 ), ExtResource( 828 ) ],
+"frames": [ ExtResource( 1956 ), ExtResource( 1953 ), ExtResource( 1955 ), ExtResource( 1958 ), ExtResource( 1952 ), ExtResource( 1951 ), ExtResource( 1954 ), ExtResource( 1959 ), ExtResource( 1957 ) ],
 "loop": true,
 "name": "finishingblow1",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 850 ), ExtResource( 849 ), ExtResource( 848 ), ExtResource( 851 ), ExtResource( 852 ), ExtResource( 854 ), ExtResource( 855 ), ExtResource( 856 ), ExtResource( 857 ), ExtResource( 858 ), ExtResource( 853 ), ExtResource( 859 ), ExtResource( 860 ) ],
+"frames": [ ExtResource( 3078 ), ExtResource( 3067 ), ExtResource( 3068 ), ExtResource( 3079 ), ExtResource( 3080 ), ExtResource( 3082 ) ],
 "loop": true,
 "name": "finishingblow2",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 872 ), ExtResource( 873 ), ExtResource( 870 ), ExtResource( 871 ), ExtResource( 861 ), ExtResource( 869 ), ExtResource( 865 ), ExtResource( 862 ), ExtResource( 868 ), ExtResource( 866 ), ExtResource( 867 ), ExtResource( 863 ), ExtResource( 864 ) ],
+"frames": [ ExtResource( 3327 ), ExtResource( 3247 ), ExtResource( 3244 ), ExtResource( 3237 ), ExtResource( 3243 ), ExtResource( 3233 ), ExtResource( 3255 ), ExtResource( 3232 ), ExtResource( 3268 ) ],
 "loop": true,
 "name": "finishingblow3",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 874 ), ExtResource( 884 ), ExtResource( 877 ), ExtResource( 875 ), ExtResource( 880 ), ExtResource( 882 ), ExtResource( 878 ), ExtResource( 885 ), ExtResource( 886 ), ExtResource( 879 ), ExtResource( 881 ), ExtResource( 883 ), ExtResource( 876 ) ],
+"frames": [ ExtResource( 3588 ), ExtResource( 3587 ), ExtResource( 3584 ), ExtResource( 3585 ), ExtResource( 3586 ), ExtResource( 3586 ) ],
 "loop": true,
 "name": "finishingblow4",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 892 ), ExtResource( 895 ), ExtResource( 896 ), ExtResource( 898 ), ExtResource( 893 ), ExtResource( 899 ), ExtResource( 887 ), ExtResource( 894 ), ExtResource( 897 ), ExtResource( 891 ), ExtResource( 889 ), ExtResource( 888 ), ExtResource( 890 ) ],
+"frames": [ ExtResource( 1971 ), ExtResource( 1961 ), ExtResource( 1966 ), ExtResource( 1973 ), ExtResource( 1964 ), ExtResource( 1964 ) ],
 "loop": true,
 "name": "finishingblow5",
 "speed": 60.0
@@ -4671,17 +4869,17 @@ animations = [ {
 "frames": [ ExtResource( 3294 ), ExtResource( 3266 ), ExtResource( 3271 ), ExtResource( 3265 ), ExtResource( 3269 ), ExtResource( 3270 ), ExtResource( 3273 ), ExtResource( 3274 ), ExtResource( 3272 ) ],
 "loop": true,
 "name": "handstand",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 3289 ), ExtResource( 3227 ), ExtResource( 3275 ), ExtResource( 3276 ), ExtResource( 3279 ), ExtResource( 3263 ), ExtResource( 3250 ), ExtResource( 3248 ), ExtResource( 3249 ) ],
 "loop": true,
 "name": "hang",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 3262 ), ExtResource( 3335 ), ExtResource( 3264 ) ],
 "loop": true,
 "name": "hangslide",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 767 ), ExtResource( 796 ), ExtResource( 801 ) ],
 "loop": true,
@@ -4716,22 +4914,22 @@ animations = [ {
 "frames": [ ExtResource( 3342 ), ExtResource( 3350 ), ExtResource( 3347 ), ExtResource( 3345 ), ExtResource( 3348 ), ExtResource( 3344 ) ],
 "loop": true,
 "name": "highjump",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 3353 ) ],
 "loop": true,
 "name": "highjumpprep",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 3356 ), ExtResource( 3357 ), ExtResource( 3359 ), ExtResource( 3358 ), ExtResource( 3355 ), ExtResource( 3353 ) ],
 "loop": true,
 "name": "highjumpprepstart",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 3352 ), ExtResource( 3341 ), ExtResource( 3351 ), ExtResource( 3349 ), ExtResource( 3343 ) ],
 "loop": true,
 "name": "highjumpstart",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 703 ), ExtResource( 699 ), ExtResource( 704 ), ExtResource( 698 ), ExtResource( 697 ), ExtResource( 705 ), ExtResource( 700 ), ExtResource( 696 ), ExtResource( 706 ), ExtResource( 701 ), ExtResource( 695 ), ExtResource( 702 ) ],
 "loop": true,
@@ -4817,11 +5015,6 @@ animations = [ {
 "loop": true,
 "name": "keyget",
 "speed": 60.0
-}, {
-"frames": [ ExtResource( 3171 ), ExtResource( 3169 ), ExtResource( 3166 ), ExtResource( 3163 ), ExtResource( 3167 ), ExtResource( 3168 ), ExtResource( 3168 ) ],
-"loop": true,
-"name": "kick",
-"speed": 5.0
 }, {
 "frames": [ ExtResource( 1472 ), ExtResource( 1462 ), ExtResource( 1463 ), ExtResource( 1479 ), ExtResource( 1475 ), ExtResource( 1488 ) ],
 "loop": true,
@@ -5036,67 +5229,67 @@ animations = [ {
 "frames": [ ExtResource( 3196 ), ExtResource( 3332 ), ExtResource( 3331 ), ExtResource( 3229 ), ExtResource( 3246 ), ExtResource( 3245 ), ExtResource( 3252 ), ExtResource( 3251 ), ExtResource( 3231 ) ],
 "loop": true,
 "name": "pistolair",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 3195 ), ExtResource( 3306 ), ExtResource( 3235 ) ],
 "loop": true,
 "name": "pistolcrouch",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 3256 ), ExtResource( 3295 ), ExtResource( 3259 ), ExtResource( 3194 ), ExtResource( 3242 ), ExtResource( 3309 ), ExtResource( 3330 ), ExtResource( 3228 ), ExtResource( 3305 ) ],
 "loop": true,
 "name": "pistolcrouchshoot",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 3283 ), ExtResource( 3293 ), ExtResource( 3278 ) ],
 "loop": true,
 "name": "pistoldiagonalaim",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 3230 ), ExtResource( 3314 ), ExtResource( 3336 ), ExtResource( 3267 ), ExtResource( 3240 ), ExtResource( 3239 ), ExtResource( 3236 ), ExtResource( 3253 ), ExtResource( 3234 ) ],
 "loop": true,
 "name": "pistoldiagonalshoot",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 3261 ), ExtResource( 3260 ), ExtResource( 3257 ) ],
 "loop": true,
 "name": "pistolfall",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 3313 ), ExtResource( 3312 ), ExtResource( 3320 ), ExtResource( 3320 ), ExtResource( 3311 ), ExtResource( 3310 ), ExtResource( 3328 ), ExtResource( 3329 ), ExtResource( 3319 ), ExtResource( 3316 ), ExtResource( 3303 ), ExtResource( 3317 ), ExtResource( 3325 ), ExtResource( 3324 ), ExtResource( 3334 ), ExtResource( 3296 ), ExtResource( 3322 ), ExtResource( 3322 ), ExtResource( 3258 ), ExtResource( 3300 ), ExtResource( 3299 ), ExtResource( 3301 ), ExtResource( 3298 ), ExtResource( 3315 ) ],
 "loop": true,
 "name": "pistolidle",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 3224 ), ExtResource( 3225 ), ExtResource( 3318 ), ExtResource( 3202 ), ExtResource( 3201 ), ExtResource( 3221 ), ExtResource( 3208 ), ExtResource( 3223 ), ExtResource( 3213 ), ExtResource( 3204 ), ExtResource( 3220 ), ExtResource( 3219 ), ExtResource( 3226 ) ],
 "loop": true,
 "name": "pistoljump",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 3254 ), ExtResource( 3238 ), ExtResource( 3241 ) ],
 "loop": true,
 "name": "pistolland",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 3211 ), ExtResource( 3214 ), ExtResource( 3205 ), ExtResource( 3212 ), ExtResource( 3197 ), ExtResource( 3198 ), ExtResource( 3222 ), ExtResource( 3199 ), ExtResource( 3200 ), ExtResource( 3215 ), ExtResource( 3206 ), ExtResource( 3210 ), ExtResource( 3217 ), ExtResource( 3209 ), ExtResource( 3218 ), ExtResource( 3216 ), ExtResource( 3203 ), ExtResource( 3207 ) ],
 "loop": true,
 "name": "pistolmove",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 3327 ), ExtResource( 3247 ), ExtResource( 3244 ), ExtResource( 3237 ), ExtResource( 3243 ), ExtResource( 3233 ), ExtResource( 3255 ), ExtResource( 3232 ), ExtResource( 3268 ) ],
 "loop": true,
 "name": "pistolshoot",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 3290 ), ExtResource( 3291 ), ExtResource( 3292 ) ],
 "loop": true,
 "name": "pistolupaim",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 3302 ), ExtResource( 3308 ), ExtResource( 3307 ), ExtResource( 3323 ), ExtResource( 3321 ), ExtResource( 3297 ), ExtResource( 3333 ), ExtResource( 3326 ), ExtResource( 3304 ) ],
 "loop": true,
 "name": "pistolupshoot",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 1635 ), ExtResource( 1642 ), ExtResource( 1643 ), ExtResource( 1637 ), ExtResource( 1638 ), ExtResource( 1641 ), ExtResource( 1633 ), ExtResource( 1640 ), ExtResource( 1639 ), ExtResource( 1632 ), ExtResource( 1636 ), ExtResource( 1634 ) ],
 "loop": true,
@@ -5211,47 +5404,47 @@ animations = [ {
 "frames": [ ExtResource( 3340 ), ExtResource( 3346 ), ExtResource( 3354 ) ],
 "loop": true,
 "name": "skateboard",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 3078 ), ExtResource( 3067 ), ExtResource( 3068 ), ExtResource( 3079 ), ExtResource( 3080 ), ExtResource( 3082 ) ],
 "loop": true,
 "name": "slap1",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 3081 ), ExtResource( 3087 ), ExtResource( 3099 ), ExtResource( 3037 ), ExtResource( 3034 ), ExtResource( 3040 ) ],
 "loop": true,
 "name": "slap1air",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 3074 ), ExtResource( 3071 ), ExtResource( 3073 ), ExtResource( 3069 ), ExtResource( 3070 ), ExtResource( 3072 ) ],
 "loop": true,
 "name": "slap2",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 3103 ), ExtResource( 3102 ), ExtResource( 3065 ), ExtResource( 3101 ), ExtResource( 3029 ), ExtResource( 3030 ) ],
 "loop": true,
 "name": "slap2air",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 3076 ), ExtResource( 3094 ), ExtResource( 3035 ), ExtResource( 3031 ), ExtResource( 3032 ), ExtResource( 3100 ), ExtResource( 3041 ) ],
 "loop": true,
 "name": "slapdash",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 3096 ), ExtResource( 3097 ), ExtResource( 3022 ), ExtResource( 3024 ), ExtResource( 3036 ), ExtResource( 3025 ) ],
 "loop": true,
 "name": "slaprun1",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 3044 ), ExtResource( 3045 ), ExtResource( 3033 ), ExtResource( 3043 ), ExtResource( 3038 ), ExtResource( 3039 ) ],
 "loop": true,
 "name": "slaprun2",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 3090 ), ExtResource( 3095 ), ExtResource( 3092 ), ExtResource( 3089 ), ExtResource( 3026 ), ExtResource( 3027 ), ExtResource( 3028 ) ],
 "loop": true,
 "name": "slapup",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 1339 ), ExtResource( 1340 ), ExtResource( 1341 ), ExtResource( 1347 ), ExtResource( 1342 ), ExtResource( 1343 ), ExtResource( 1345 ), ExtResource( 1344 ), ExtResource( 1346 ) ],
 "loop": true,
@@ -5353,6 +5546,11 @@ animations = [ {
 "name": "suplexmash4",
 "speed": 60.0
 }, {
+"frames": [ ExtResource( 3327 ), ExtResource( 3247 ), ExtResource( 3244 ), ExtResource( 3237 ), ExtResource( 3243 ), ExtResource( 3233 ), ExtResource( 3255 ), ExtResource( 3232 ), ExtResource( 3268 ) ],
+"loop": true,
+"name": "suplexmash5",
+"speed": 60.0
+}, {
 "frames": [ ExtResource( 1245 ), ExtResource( 1244 ), ExtResource( 1246 ), ExtResource( 1247 ), ExtResource( 1248 ), ExtResource( 1255 ), ExtResource( 1252 ), ExtResource( 1250 ) ],
 "loop": true,
 "name": "swingding",
@@ -5408,7 +5606,7 @@ animations = [ {
 "name": "uppercutend",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 1265 ), ExtResource( 1261 ), ExtResource( 1262 ), ExtResource( 1271 ), ExtResource( 1263 ), ExtResource( 1260 ), ExtResource( 1268 ), ExtResource( 1266 ), ExtResource( 1272 ), ExtResource( 1267 ), ExtResource( 1264 ), ExtResource( 1270 ), ExtResource( 1269 ) ],
+"frames": [ ExtResource( 3583 ), ExtResource( 3598 ), ExtResource( 3599 ), ExtResource( 3595 ), ExtResource( 3596 ), ExtResource( 3592 ), ExtResource( 3593 ), ExtResource( 3601 ), ExtResource( 3590 ) ],
 "loop": true,
 "name": "uppercutfinishingblow",
 "speed": 60.0
@@ -5751,7 +5949,7 @@ animations = [ {
 "name": "finishingblow4",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 892 ), ExtResource( 895 ), ExtResource( 896 ), ExtResource( 898 ), ExtResource( 893 ), ExtResource( 899 ), ExtResource( 887 ), ExtResource( 894 ), ExtResource( 897 ), ExtResource( 891 ), ExtResource( 889 ), ExtResource( 888 ), ExtResource( 890 ) ],
+"frames": [ ExtResource( 1971 ), ExtResource( 1961 ), ExtResource( 1966 ), ExtResource( 1973 ), ExtResource( 1964 ) ],
 "loop": true,
 "name": "finishingblow5",
 "speed": 60.0
@@ -8441,81 +8639,29 @@ region = Rect2( 100, 0, 100, 100 )
 atlas = ExtResource( 1814 )
 region = Rect2( 200, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=359]
-atlas = ExtResource( 1817 )
+[sub_resource type="AtlasTexture" id=1931]
+atlas = ExtResource( 1893 )
 region = Rect2( 0, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=360]
-atlas = ExtResource( 1817 )
+[sub_resource type="AtlasTexture" id=1932]
+atlas = ExtResource( 1893 )
 region = Rect2( 100, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=361]
-atlas = ExtResource( 1817 )
+[sub_resource type="AtlasTexture" id=1933]
+atlas = ExtResource( 1893 )
 region = Rect2( 200, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=362]
-atlas = ExtResource( 1818 )
+[sub_resource type="AtlasTexture" id=1934]
+atlas = ExtResource( 1895 )
 region = Rect2( 0, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=363]
-atlas = ExtResource( 1818 )
+[sub_resource type="AtlasTexture" id=1935]
+atlas = ExtResource( 1895 )
 region = Rect2( 100, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=364]
-atlas = ExtResource( 1818 )
+[sub_resource type="AtlasTexture" id=1936]
+atlas = ExtResource( 1895 )
 region = Rect2( 200, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=365]
-atlas = ExtResource( 1818 )
-region = Rect2( 300, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=366]
-atlas = ExtResource( 1818 )
-region = Rect2( 400, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=367]
-atlas = ExtResource( 1818 )
-region = Rect2( 500, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=368]
-atlas = ExtResource( 1819 )
-region = Rect2( 0, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=369]
-atlas = ExtResource( 1819 )
-region = Rect2( 100, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=370]
-atlas = ExtResource( 1819 )
-region = Rect2( 200, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=371]
-atlas = ExtResource( 1819 )
-region = Rect2( 300, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=372]
-atlas = ExtResource( 1819 )
-region = Rect2( 400, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=373]
-atlas = ExtResource( 1819 )
-region = Rect2( 500, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=374]
-atlas = ExtResource( 1819 )
-region = Rect2( 600, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=375]
-atlas = ExtResource( 1819 )
-region = Rect2( 700, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=376]
-atlas = ExtResource( 1819 )
-region = Rect2( 800, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=377]
-atlas = ExtResource( 1819 )
-region = Rect2( 900, 0, 100, 100 )
 
 [sub_resource type="AtlasTexture" id=378]
 atlas = ExtResource( 1820 )
@@ -9485,265 +9631,53 @@ region = Rect2( 1100, 0, 100, 100 )
 atlas = ExtResource( 1854 )
 region = Rect2( 1200, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=614]
-atlas = ExtResource( 1847 )
-region = Rect2( 0, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=615]
-atlas = ExtResource( 1847 )
-region = Rect2( 200, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=616]
-atlas = ExtResource( 1847 )
-region = Rect2( 400, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=617]
-atlas = ExtResource( 1847 )
-region = Rect2( 600, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=618]
-atlas = ExtResource( 1847 )
-region = Rect2( 800, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=619]
-atlas = ExtResource( 1847 )
-region = Rect2( 1000, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=620]
-atlas = ExtResource( 1847 )
-region = Rect2( 1200, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=621]
-atlas = ExtResource( 1847 )
-region = Rect2( 1400, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=622]
-atlas = ExtResource( 1847 )
-region = Rect2( 1600, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=623]
-atlas = ExtResource( 1847 )
-region = Rect2( 1800, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=624]
-atlas = ExtResource( 1847 )
-region = Rect2( 2000, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=625]
-atlas = ExtResource( 1847 )
-region = Rect2( 2200, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=626]
-atlas = ExtResource( 1847 )
-region = Rect2( 2400, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=627]
-atlas = ExtResource( 1842 )
-region = Rect2( 0, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=628]
-atlas = ExtResource( 1842 )
-region = Rect2( 200, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=629]
-atlas = ExtResource( 1842 )
-region = Rect2( 400, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=630]
-atlas = ExtResource( 1842 )
-region = Rect2( 600, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=631]
-atlas = ExtResource( 1842 )
-region = Rect2( 800, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=632]
-atlas = ExtResource( 1842 )
-region = Rect2( 1000, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=633]
-atlas = ExtResource( 1842 )
-region = Rect2( 1200, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=634]
-atlas = ExtResource( 1842 )
-region = Rect2( 1400, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=635]
-atlas = ExtResource( 1842 )
-region = Rect2( 1600, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=636]
-atlas = ExtResource( 1842 )
-region = Rect2( 1800, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=637]
-atlas = ExtResource( 1842 )
-region = Rect2( 2000, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=638]
-atlas = ExtResource( 1842 )
-region = Rect2( 2200, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=639]
-atlas = ExtResource( 1842 )
-region = Rect2( 2400, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=640]
-atlas = ExtResource( 1845 )
-region = Rect2( 0, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=641]
-atlas = ExtResource( 1845 )
-region = Rect2( 200, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=642]
-atlas = ExtResource( 1845 )
-region = Rect2( 400, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=643]
-atlas = ExtResource( 1845 )
-region = Rect2( 600, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=644]
-atlas = ExtResource( 1845 )
-region = Rect2( 800, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=645]
-atlas = ExtResource( 1845 )
-region = Rect2( 1000, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=646]
-atlas = ExtResource( 1845 )
-region = Rect2( 1200, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=647]
-atlas = ExtResource( 1845 )
-region = Rect2( 1400, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=648]
-atlas = ExtResource( 1845 )
-region = Rect2( 1600, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=649]
-atlas = ExtResource( 1845 )
-region = Rect2( 1800, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=650]
-atlas = ExtResource( 1845 )
-region = Rect2( 2000, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=651]
-atlas = ExtResource( 1845 )
-region = Rect2( 2200, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=652]
-atlas = ExtResource( 1845 )
-region = Rect2( 2400, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=653]
-atlas = ExtResource( 1841 )
-region = Rect2( 0, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=654]
-atlas = ExtResource( 1841 )
-region = Rect2( 200, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=655]
-atlas = ExtResource( 1841 )
-region = Rect2( 400, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=656]
-atlas = ExtResource( 1841 )
-region = Rect2( 600, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=657]
-atlas = ExtResource( 1841 )
-region = Rect2( 800, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=658]
-atlas = ExtResource( 1841 )
-region = Rect2( 1000, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=659]
-atlas = ExtResource( 1841 )
-region = Rect2( 1200, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=660]
-atlas = ExtResource( 1841 )
-region = Rect2( 1400, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=661]
-atlas = ExtResource( 1841 )
-region = Rect2( 1600, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=662]
-atlas = ExtResource( 1841 )
-region = Rect2( 1800, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=663]
-atlas = ExtResource( 1841 )
-region = Rect2( 2000, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=664]
-atlas = ExtResource( 1841 )
-region = Rect2( 2200, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=665]
-atlas = ExtResource( 1841 )
-region = Rect2( 2400, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=666]
-atlas = ExtResource( 1843 )
-region = Rect2( 0, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=667]
-atlas = ExtResource( 1843 )
-region = Rect2( 200, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=668]
-atlas = ExtResource( 1843 )
-region = Rect2( 400, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=669]
-atlas = ExtResource( 1843 )
-region = Rect2( 600, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=670]
-atlas = ExtResource( 1843 )
-region = Rect2( 800, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=671]
-atlas = ExtResource( 1843 )
-region = Rect2( 1000, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=672]
-atlas = ExtResource( 1843 )
-region = Rect2( 1200, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=673]
-atlas = ExtResource( 1843 )
-region = Rect2( 1400, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=674]
-atlas = ExtResource( 1843 )
-region = Rect2( 1600, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=675]
-atlas = ExtResource( 1843 )
-region = Rect2( 1800, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=676]
-atlas = ExtResource( 1843 )
-region = Rect2( 2000, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=677]
-atlas = ExtResource( 1843 )
-region = Rect2( 2200, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=678]
-atlas = ExtResource( 1843 )
-region = Rect2( 2400, 0, 200, 100 )
+[sub_resource type="AtlasTexture" id=1937]
+atlas = ExtResource( 1906 )
+region = Rect2( 0, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1938]
+atlas = ExtResource( 1906 )
+region = Rect2( 100, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1939]
+atlas = ExtResource( 1906 )
+region = Rect2( 200, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1940]
+atlas = ExtResource( 1906 )
+region = Rect2( 300, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1941]
+atlas = ExtResource( 1906 )
+region = Rect2( 400, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1942]
+atlas = ExtResource( 1906 )
+region = Rect2( 500, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1943]
+atlas = ExtResource( 1906 )
+region = Rect2( 600, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1944]
+atlas = ExtResource( 1930 )
+region = Rect2( 0, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1945]
+atlas = ExtResource( 1930 )
+region = Rect2( 100, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1946]
+atlas = ExtResource( 1930 )
+region = Rect2( 200, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1947]
+atlas = ExtResource( 1930 )
+region = Rect2( 300, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1948]
+atlas = ExtResource( 1930 )
+region = Rect2( 400, 0, 100, 100 )
 
 [sub_resource type="AtlasTexture" id=753]
 atlas = ExtResource( 1856 )
@@ -12257,42 +12191,6 @@ region = Rect2( 400, 0, 100, 100 )
 atlas = ExtResource( 1888 )
 region = Rect2( 500, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=1110]
-atlas = ExtResource( 1894 )
-region = Rect2( 0, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=1111]
-atlas = ExtResource( 1894 )
-region = Rect2( 100, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=1112]
-atlas = ExtResource( 1894 )
-region = Rect2( 200, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=1113]
-atlas = ExtResource( 1894 )
-region = Rect2( 300, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=1114]
-atlas = ExtResource( 1894 )
-region = Rect2( 400, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=1115]
-atlas = ExtResource( 1894 )
-region = Rect2( 500, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=1116]
-atlas = ExtResource( 1894 )
-region = Rect2( 600, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=1117]
-atlas = ExtResource( 1894 )
-region = Rect2( 700, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=1118]
-atlas = ExtResource( 1894 )
-region = Rect2( 800, 0, 100, 100 )
-
 [sub_resource type="AtlasTexture" id=1881]
 atlas = ExtResource( 2043 )
 region = Rect2( 0, 0, 100, 100 )
@@ -12305,45 +12203,61 @@ region = Rect2( 100, 0, 100, 100 )
 atlas = ExtResource( 2043 )
 region = Rect2( 200, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=1119]
-atlas = ExtResource( 1896 )
+[sub_resource type="AtlasTexture" id=1909]
+atlas = ExtResource( 1906 )
 region = Rect2( 0, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=1120]
-atlas = ExtResource( 1896 )
+[sub_resource type="AtlasTexture" id=1910]
+atlas = ExtResource( 1906 )
 region = Rect2( 100, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=1121]
-atlas = ExtResource( 1896 )
+[sub_resource type="AtlasTexture" id=1911]
+atlas = ExtResource( 1906 )
 region = Rect2( 200, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=1122]
-atlas = ExtResource( 1896 )
+[sub_resource type="AtlasTexture" id=1912]
+atlas = ExtResource( 1906 )
 region = Rect2( 300, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=1123]
-atlas = ExtResource( 1896 )
+[sub_resource type="AtlasTexture" id=1913]
+atlas = ExtResource( 1906 )
 region = Rect2( 400, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=1124]
-atlas = ExtResource( 1897 )
+[sub_resource type="AtlasTexture" id=1914]
+atlas = ExtResource( 1906 )
+region = Rect2( 500, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1915]
+atlas = ExtResource( 1906 )
+region = Rect2( 600, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1916]
+atlas = ExtResource( 1906 )
 region = Rect2( 0, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=1125]
-atlas = ExtResource( 1897 )
+[sub_resource type="AtlasTexture" id=1917]
+atlas = ExtResource( 1906 )
 region = Rect2( 100, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=1126]
-atlas = ExtResource( 1897 )
+[sub_resource type="AtlasTexture" id=1918]
+atlas = ExtResource( 1906 )
 region = Rect2( 200, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=1127]
-atlas = ExtResource( 1897 )
+[sub_resource type="AtlasTexture" id=1919]
+atlas = ExtResource( 1906 )
 region = Rect2( 300, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=1128]
-atlas = ExtResource( 1897 )
+[sub_resource type="AtlasTexture" id=1920]
+atlas = ExtResource( 1906 )
 region = Rect2( 400, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1921]
+atlas = ExtResource( 1906 )
+region = Rect2( 500, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1922]
+atlas = ExtResource( 1906 )
+region = Rect2( 600, 0, 100, 100 )
 
 [sub_resource type="AtlasTexture" id=1129]
 atlas = ExtResource( 1898 )
@@ -12372,58 +12286,6 @@ region = Rect2( 100, 0, 100, 100 )
 [sub_resource type="AtlasTexture" id=1135]
 atlas = ExtResource( 1902 )
 region = Rect2( 200, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=1136]
-atlas = ExtResource( 1901 )
-region = Rect2( 0, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=1137]
-atlas = ExtResource( 1901 )
-region = Rect2( 100, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=1138]
-atlas = ExtResource( 1901 )
-region = Rect2( 200, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=1139]
-atlas = ExtResource( 1901 )
-region = Rect2( 300, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=1140]
-atlas = ExtResource( 1901 )
-region = Rect2( 400, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=1141]
-atlas = ExtResource( 1901 )
-region = Rect2( 500, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=1142]
-atlas = ExtResource( 1901 )
-region = Rect2( 600, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=1143]
-atlas = ExtResource( 1901 )
-region = Rect2( 700, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=1144]
-atlas = ExtResource( 1901 )
-region = Rect2( 800, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=1145]
-atlas = ExtResource( 1901 )
-region = Rect2( 900, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=1146]
-atlas = ExtResource( 1901 )
-region = Rect2( 1000, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=1147]
-atlas = ExtResource( 1901 )
-region = Rect2( 1100, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=1148]
-atlas = ExtResource( 1901 )
-region = Rect2( 1200, 0, 100, 100 )
 
 [sub_resource type="AtlasTexture" id=1149]
 atlas = ExtResource( 1900 )
@@ -12557,21 +12419,57 @@ region = Rect2( 1000, 0, 100, 100 )
 atlas = ExtResource( 1812 )
 region = Rect2( 1100, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=1162]
+[sub_resource type="AtlasTexture" id=1896]
 atlas = ExtResource( 1909 )
 region = Rect2( 0, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=1163]
+[sub_resource type="AtlasTexture" id=1897]
 atlas = ExtResource( 1909 )
 region = Rect2( 100, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=1164]
+[sub_resource type="AtlasTexture" id=1898]
 atlas = ExtResource( 1909 )
 region = Rect2( 200, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=1165]
+[sub_resource type="AtlasTexture" id=1899]
 atlas = ExtResource( 1909 )
 region = Rect2( 300, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1900]
+atlas = ExtResource( 1909 )
+region = Rect2( 400, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1901]
+atlas = ExtResource( 1909 )
+region = Rect2( 500, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1902]
+atlas = ExtResource( 1909 )
+region = Rect2( 600, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1903]
+atlas = ExtResource( 1909 )
+region = Rect2( 700, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1904]
+atlas = ExtResource( 1909 )
+region = Rect2( 800, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1905]
+atlas = ExtResource( 1909 )
+region = Rect2( 900, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1906]
+atlas = ExtResource( 1909 )
+region = Rect2( 1000, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1907]
+atlas = ExtResource( 1909 )
+region = Rect2( 1100, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1908]
+atlas = ExtResource( 1909 )
+region = Rect2( 1200, 0, 100, 100 )
 
 [sub_resource type="AtlasTexture" id=1577]
 atlas = ExtResource( 2085 )
@@ -13817,38 +13715,6 @@ region = Rect2( 1800, 0, 200, 200 )
 atlas = ExtResource( 1927 )
 region = Rect2( 2000, 0, 200, 200 )
 
-[sub_resource type="AtlasTexture" id=1366]
-atlas = ExtResource( 1932 )
-region = Rect2( 0, 0, 150, 100 )
-
-[sub_resource type="AtlasTexture" id=1367]
-atlas = ExtResource( 1932 )
-region = Rect2( 150, 0, 150, 100 )
-
-[sub_resource type="AtlasTexture" id=1368]
-atlas = ExtResource( 1932 )
-region = Rect2( 300, 0, 150, 100 )
-
-[sub_resource type="AtlasTexture" id=1369]
-atlas = ExtResource( 1932 )
-region = Rect2( 450, 0, 150, 100 )
-
-[sub_resource type="AtlasTexture" id=1370]
-atlas = ExtResource( 1933 )
-region = Rect2( 0, 0, 150, 100 )
-
-[sub_resource type="AtlasTexture" id=1371]
-atlas = ExtResource( 1933 )
-region = Rect2( 150, 0, 150, 100 )
-
-[sub_resource type="AtlasTexture" id=1372]
-atlas = ExtResource( 1933 )
-region = Rect2( 300, 0, 150, 100 )
-
-[sub_resource type="AtlasTexture" id=1373]
-atlas = ExtResource( 1933 )
-region = Rect2( 450, 0, 150, 100 )
-
 [sub_resource type="AtlasTexture" id=1374]
 atlas = ExtResource( 1935 )
 region = Rect2( 0, 0, 100, 100 )
@@ -14325,58 +14191,6 @@ region = Rect2( 1600, 0, 100, 100 )
 atlas = ExtResource( 1944 )
 region = Rect2( 1700, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=679]
-atlas = ExtResource( 1848 )
-region = Rect2( 0, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=680]
-atlas = ExtResource( 1848 )
-region = Rect2( 200, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=681]
-atlas = ExtResource( 1848 )
-region = Rect2( 400, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=682]
-atlas = ExtResource( 1848 )
-region = Rect2( 600, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=683]
-atlas = ExtResource( 1848 )
-region = Rect2( 800, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=684]
-atlas = ExtResource( 1848 )
-region = Rect2( 1000, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=685]
-atlas = ExtResource( 1848 )
-region = Rect2( 1200, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=686]
-atlas = ExtResource( 1848 )
-region = Rect2( 1400, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=687]
-atlas = ExtResource( 1848 )
-region = Rect2( 1600, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=688]
-atlas = ExtResource( 1848 )
-region = Rect2( 1800, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=689]
-atlas = ExtResource( 1848 )
-region = Rect2( 2000, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=690]
-atlas = ExtResource( 1848 )
-region = Rect2( 2200, 0, 200, 100 )
-
-[sub_resource type="AtlasTexture" id=691]
-atlas = ExtResource( 1848 )
-region = Rect2( 2400, 0, 200, 100 )
-
 [sub_resource type="AtlasTexture" id=1464]
 atlas = ExtResource( 1949 )
 region = Rect2( 0, 0, 100, 100 )
@@ -14831,17 +14645,17 @@ animations = [ {
 "name": "airdash2",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 359 ), SubResource( 360 ), SubResource( 361 ) ],
+"frames": [ SubResource( 1931 ), SubResource( 1932 ), SubResource( 1933 ) ],
 "loop": true,
 "name": "bodyslamfall",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 362 ), SubResource( 363 ), SubResource( 364 ), SubResource( 365 ), SubResource( 366 ), SubResource( 367 ) ],
+"frames": [ ExtResource( 3557 ), ExtResource( 3556 ), ExtResource( 3554 ), ExtResource( 3555 ), ExtResource( 3551 ), ExtResource( 3552 ) ],
 "loop": true,
 "name": "bodyslamland",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 368 ), SubResource( 369 ), SubResource( 370 ), SubResource( 371 ), SubResource( 372 ), SubResource( 373 ), SubResource( 374 ), SubResource( 375 ), SubResource( 376 ), SubResource( 377 ) ],
+"frames": [ SubResource( 1934 ), SubResource( 1935 ), SubResource( 1936 ) ],
 "loop": true,
 "name": "bodyslamstart",
 "speed": 60.0
@@ -14871,9 +14685,44 @@ animations = [ {
 "name": "bossintro",
 "speed": 60.0
 }, {
+"frames": [ ExtResource( 3478 ), ExtResource( 3505 ), ExtResource( 3504 ), ExtResource( 3471 ), ExtResource( 3475 ), ExtResource( 3460 ), ExtResource( 3548 ), ExtResource( 3496 ), ExtResource( 3486 ), ExtResource( 3483 ), ExtResource( 3547 ), ExtResource( 3459 ), ExtResource( 3549 ), ExtResource( 3550 ), ExtResource( 3507 ), ExtResource( 3506 ), ExtResource( 3520 ), ExtResource( 3519 ), ExtResource( 3518 ), ExtResource( 3517 ), ExtResource( 3516 ), ExtResource( 3515 ), ExtResource( 3514 ), ExtResource( 3512 ), ExtResource( 3513 ), ExtResource( 3511 ), ExtResource( 3510 ), ExtResource( 3509 ), ExtResource( 3508 ), ExtResource( 3477 ), ExtResource( 3481 ), ExtResource( 3492 ), ExtResource( 3480 ), ExtResource( 3491 ), ExtResource( 3494 ), ExtResource( 3493 ), ExtResource( 3474 ), ExtResource( 3484 ), ExtResource( 3485 ), ExtResource( 3487 ), ExtResource( 3490 ), ExtResource( 3479 ), ExtResource( 3488 ), ExtResource( 3489 ) ],
+"loop": true,
+"name": "breakdance",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 3418 ), ExtResource( 3417 ), ExtResource( 3449 ), ExtResource( 3414 ), ExtResource( 3581 ), ExtResource( 3580 ), ExtResource( 3451 ), ExtResource( 3573 ), ExtResource( 3444 ), ExtResource( 3574 ) ],
+"loop": true,
+"name": "breakdancesmash",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 3467 ), ExtResource( 3465 ), ExtResource( 3466 ), ExtResource( 3463 ), ExtResource( 3464 ), ExtResource( 3495 ), ExtResource( 3462 ), ExtResource( 3468 ), ExtResource( 3469 ), ExtResource( 3470 ) ],
+"loop": true,
+"name": "breakdancestart",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 3461 ), ExtResource( 3500 ), ExtResource( 3498 ), ExtResource( 3499 ), ExtResource( 3497 ), ExtResource( 3482 ), ExtResource( 3532 ), ExtResource( 3536 ), ExtResource( 3525 ), ExtResource( 3522 ), ExtResource( 3529 ), ExtResource( 3530 ), ExtResource( 3523 ), ExtResource( 3533 ), ExtResource( 3535 ), ExtResource( 3540 ), ExtResource( 3541 ), ExtResource( 3526 ), ExtResource( 3527 ), ExtResource( 3542 ), ExtResource( 3537 ), ExtResource( 3538 ), ExtResource( 3531 ), ExtResource( 3524 ), ExtResource( 3539 ), ExtResource( 3528 ), ExtResource( 3534 ), ExtResource( 3553 ) ],
+"loop": true,
+"name": "breakdancesuper",
+"speed": 60.0
+}, {
 "frames": [ SubResource( 454 ), SubResource( 455 ), SubResource( 456 ), SubResource( 457 ), SubResource( 458 ), SubResource( 459 ), SubResource( 460 ) ],
 "loop": true,
 "name": "bump",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 3544 ), ExtResource( 3521 ) ],
+"loop": true,
+"name": "buttattack",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 3546 ), ExtResource( 3473 ), ExtResource( 3472 ) ],
+"loop": true,
+"name": "buttattackend",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 3543 ), ExtResource( 3545 ), ExtResource( 3503 ), ExtResource( 3501 ), ExtResource( 3502 ), ExtResource( 3476 ) ],
+"loop": true,
+"name": "buttattackstart",
 "speed": 60.0
 }, {
 "frames": [ SubResource( 1574 ), SubResource( 1575 ), SubResource( 1576 ) ],
@@ -14919,6 +14768,21 @@ animations = [ {
 "frames": [ SubResource( 525 ), SubResource( 526 ), SubResource( 527 ), SubResource( 528 ) ],
 "loop": true,
 "name": "crouchstart",
+"speed": 60.0
+}, {
+"frames": [  ],
+"loop": true,
+"name": "crusherfall",
+"speed": 60.0
+}, {
+"frames": [  ],
+"loop": true,
+"name": "crusherland",
+"speed": 60.0
+}, {
+"frames": [  ],
+"loop": true,
+"name": "crusherstart",
 "speed": 60.0
 }, {
 "frames": [ SubResource( 1825 ), SubResource( 1826 ), SubResource( 1827 ) ],
@@ -14971,27 +14835,27 @@ animations = [ {
 "name": "fall",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 614 ), SubResource( 615 ), SubResource( 616 ), SubResource( 617 ), SubResource( 618 ), SubResource( 619 ), SubResource( 620 ), SubResource( 621 ), SubResource( 622 ), SubResource( 623 ), SubResource( 624 ), SubResource( 625 ), SubResource( 626 ) ],
+"frames": [ SubResource( 1937 ), SubResource( 1938 ), SubResource( 1939 ), SubResource( 1940 ), SubResource( 1941 ), SubResource( 1942 ), SubResource( 1943 ) ],
 "loop": true,
 "name": "finishingblow1",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 627 ), SubResource( 628 ), SubResource( 629 ), SubResource( 630 ), SubResource( 631 ), SubResource( 632 ), SubResource( 633 ), SubResource( 634 ), SubResource( 635 ), SubResource( 636 ), SubResource( 637 ), SubResource( 638 ), SubResource( 639 ) ],
+"frames": [ ExtResource( 3402 ), ExtResource( 3400 ), ExtResource( 3401 ), ExtResource( 3396 ), ExtResource( 3399 ), ExtResource( 3397 ), ExtResource( 3398 ) ],
 "loop": true,
 "name": "finishingblow2",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 640 ), SubResource( 641 ), SubResource( 642 ), SubResource( 643 ), SubResource( 644 ), SubResource( 645 ), SubResource( 646 ), SubResource( 647 ), SubResource( 648 ), SubResource( 649 ), SubResource( 650 ), SubResource( 651 ), SubResource( 652 ) ],
+"frames": [ ExtResource( 3365 ), ExtResource( 3405 ), ExtResource( 3370 ), ExtResource( 1208 ), ExtResource( 3362 ), ExtResource( 3371 ) ],
 "loop": true,
 "name": "finishingblow3",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 653 ), SubResource( 654 ), SubResource( 655 ), SubResource( 656 ), SubResource( 657 ), SubResource( 658 ), SubResource( 659 ), SubResource( 660 ), SubResource( 661 ), SubResource( 662 ), SubResource( 663 ), SubResource( 664 ), SubResource( 665 ) ],
+"frames": [ ExtResource( 3582 ), ExtResource( 3577 ), ExtResource( 3572 ), ExtResource( 3578 ), ExtResource( 3579 ), ExtResource( 3575 ), ExtResource( 3571 ) ],
 "loop": true,
 "name": "finishingblow4",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 666 ), SubResource( 667 ), SubResource( 668 ), SubResource( 669 ), SubResource( 670 ), SubResource( 671 ), SubResource( 672 ), SubResource( 673 ), SubResource( 674 ), SubResource( 675 ), SubResource( 676 ), SubResource( 677 ), SubResource( 678 ) ],
+"frames": [ SubResource( 1944 ), SubResource( 1945 ), SubResource( 1946 ), SubResource( 1947 ), SubResource( 1948 ) ],
 "loop": true,
 "name": "finishingblow5",
 "speed": 60.0
@@ -15026,7 +14890,7 @@ animations = [ {
 "name": "haulingfall",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 1859 ) ],
+"frames": [ ExtResource( 3427 ), ExtResource( 3427 ), ExtResource( 3426 ) ],
 "loop": true,
 "name": "haulingidle",
 "speed": 60.0
@@ -15236,7 +15100,7 @@ animations = [ {
 "name": "mach2jump",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1110 ), SubResource( 1111 ), SubResource( 1112 ), SubResource( 1113 ), SubResource( 1114 ), SubResource( 1115 ), SubResource( 1116 ), SubResource( 1117 ), SubResource( 1118 ) ],
+"frames": [ ExtResource( 3402 ), ExtResource( 3400 ), ExtResource( 3401 ), ExtResource( 3396 ), ExtResource( 3399 ), ExtResource( 3397 ), ExtResource( 3398 ) ],
 "loop": true,
 "name": "mach3jump",
 "speed": 60.0
@@ -15246,12 +15110,12 @@ animations = [ {
 "name": "mach4",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1119 ), SubResource( 1120 ), SubResource( 1121 ), SubResource( 1122 ), SubResource( 1123 ) ],
+"frames": [ SubResource( 1909 ), SubResource( 1910 ), SubResource( 1911 ), SubResource( 1912 ), SubResource( 1913 ), SubResource( 1914 ), SubResource( 1915 ) ],
 "loop": true,
 "name": "machpunch1",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1124 ), SubResource( 1125 ), SubResource( 1126 ), SubResource( 1127 ), SubResource( 1128 ) ],
+"frames": [ SubResource( 1916 ), SubResource( 1917 ), SubResource( 1918 ), SubResource( 1919 ), SubResource( 1920 ), SubResource( 1921 ), SubResource( 1922 ) ],
 "loop": true,
 "name": "machpunch2",
 "speed": 60.0
@@ -15266,7 +15130,7 @@ animations = [ {
 "name": "machslide",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1136 ), SubResource( 1137 ), SubResource( 1138 ), SubResource( 1139 ), SubResource( 1140 ), SubResource( 1141 ), SubResource( 1142 ), SubResource( 1143 ), SubResource( 1144 ), SubResource( 1145 ), SubResource( 1146 ), SubResource( 1147 ), SubResource( 1148 ) ],
+"frames": [ ExtResource( 3395 ) ],
 "loop": true,
 "name": "machslideboost",
 "speed": 60.0
@@ -15301,7 +15165,12 @@ animations = [ {
 "name": "move",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1162 ), SubResource( 1163 ), SubResource( 1164 ), SubResource( 1165 ) ],
+"frames": [ ExtResource( 3436 ), ExtResource( 3429 ), ExtResource( 3437 ), ExtResource( 3431 ), ExtResource( 3432 ), ExtResource( 3435 ), ExtResource( 3433 ), ExtResource( 3434 ), ExtResource( 3428 ), ExtResource( 3430 ) ],
+"loop": true,
+"name": "noisebombthrow",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 1896 ), SubResource( 1897 ), SubResource( 1898 ), SubResource( 1899 ), SubResource( 1900 ), SubResource( 1901 ), SubResource( 1902 ), SubResource( 1903 ), SubResource( 1904 ), SubResource( 1905 ), SubResource( 1906 ), SubResource( 1907 ), SubResource( 1908 ) ],
 "loop": true,
 "name": "panic",
 "speed": 60.0
@@ -15331,7 +15200,7 @@ animations = [ {
 "name": "piledriverland",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 1635 ), ExtResource( 1642 ), ExtResource( 1643 ), ExtResource( 1637 ), ExtResource( 1638 ), ExtResource( 1641 ), ExtResource( 1633 ), ExtResource( 1640 ), ExtResource( 1639 ), ExtResource( 1632 ), ExtResource( 1636 ), ExtResource( 1634 ) ],
+"frames": [ ExtResource( 3558 ), ExtResource( 3569 ), ExtResource( 3560 ), ExtResource( 3559 ), ExtResource( 3568 ), ExtResource( 3561 ), ExtResource( 3562 ), ExtResource( 3563 ), ExtResource( 3564 ), ExtResource( 3565 ), ExtResource( 3566 ), ExtResource( 3567 ) ],
 "loop": true,
 "name": "pizzaportalentrancestart",
 "speed": 60.0
@@ -15526,12 +15395,12 @@ animations = [ {
 "name": "suplexdash",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1366 ), SubResource( 1367 ), SubResource( 1368 ), SubResource( 1369 ) ],
+"frames": [ ExtResource( 3377 ), ExtResource( 3376 ), ExtResource( 3378 ), ExtResource( 3377 ), ExtResource( 3376 ), ExtResource( 3378 ) ],
 "loop": true,
 "name": "suplexdashjump",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1370 ), SubResource( 1371 ), SubResource( 1372 ), SubResource( 1373 ) ],
+"frames": [ ExtResource( 3375 ), ExtResource( 1846 ), ExtResource( 1889 ), ExtResource( 3377 ) ],
 "loop": true,
 "name": "suplexdashjumpstart",
 "speed": 60.0
@@ -15556,6 +15425,11 @@ animations = [ {
 "name": "suplexmash4",
 "speed": 60.0
 }, {
+"frames": [ ExtResource( 3404 ), ExtResource( 3411 ), ExtResource( 3406 ), ExtResource( 426 ), ExtResource( 3413 ) ],
+"loop": true,
+"name": "suplexmash5",
+"speed": 60.0
+}, {
 "frames": [ SubResource( 1394 ), SubResource( 1395 ), SubResource( 1396 ), SubResource( 1397 ), SubResource( 1398 ), SubResource( 1399 ), SubResource( 1400 ), SubResource( 1401 ) ],
 "loop": true,
 "name": "swingding",
@@ -15571,7 +15445,7 @@ animations = [ {
 "name": "tackle",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 692 ), SubResource( 693 ), SubResource( 694 ), SubResource( 695 ), SubResource( 696 ), SubResource( 697 ), SubResource( 698 ), SubResource( 699 ), SubResource( 700 ), SubResource( 701 ), SubResource( 702 ), ExtResource( 3403 ) ],
+"frames": [ SubResource( 692 ), SubResource( 693 ), SubResource( 694 ), SubResource( 695 ), SubResource( 696 ), SubResource( 697 ), SubResource( 698 ), SubResource( 699 ), SubResource( 700 ), SubResource( 701 ), SubResource( 702 ), ExtResource( 3403 ), ExtResource( 1894 ) ],
 "loop": true,
 "name": "taunt",
 "speed": 60.0
@@ -15596,17 +15470,17 @@ animations = [ {
 "name": "tumblestart",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 3365 ), ExtResource( 3369 ), ExtResource( 3370 ), ExtResource( 1208 ), ExtResource( 3362 ), ExtResource( 3371 ) ],
+"frames": [ ExtResource( 3450 ), ExtResource( 3454 ), ExtResource( 3457 ), ExtResource( 3452 ), ExtResource( 3453 ), ExtResource( 3458 ), ExtResource( 3439 ), ExtResource( 3419 ), ExtResource( 3420 ), ExtResource( 3421 ), ExtResource( 3422 ), ExtResource( 3423 ), ExtResource( 3424 ), ExtResource( 3576 ), ExtResource( 3425 ), ExtResource( 3438 ) ],
 "loop": true,
 "name": "uppercut",
-"speed": 5.0
+"speed": 60.0
 }, {
-"frames": [ ExtResource( 3362 ), ExtResource( 3371 ) ],
+"frames": [ ExtResource( 3455 ) ],
 "loop": true,
 "name": "uppercutend",
-"speed": 5.0
+"speed": 60.0
 }, {
-"frames": [ SubResource( 679 ), SubResource( 680 ), SubResource( 681 ), SubResource( 682 ), SubResource( 683 ), SubResource( 684 ), SubResource( 685 ), SubResource( 686 ), SubResource( 687 ), SubResource( 688 ), SubResource( 689 ), SubResource( 690 ), SubResource( 691 ) ],
+"frames": [ ExtResource( 3365 ), ExtResource( 3405 ), ExtResource( 3370 ), ExtResource( 1208 ), ExtResource( 3362 ), ExtResource( 3371 ) ],
 "loop": true,
 "name": "uppercutfinishingblow",
 "speed": 60.0
@@ -15662,6 +15536,82 @@ animations = [ {
 "speed": 60.0
 } ]
 
+[sub_resource type="AtlasTexture" id=359]
+atlas = ExtResource( 1817 )
+region = Rect2( 0, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=360]
+atlas = ExtResource( 1817 )
+region = Rect2( 100, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=361]
+atlas = ExtResource( 1817 )
+region = Rect2( 200, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=362]
+atlas = ExtResource( 1818 )
+region = Rect2( 0, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=363]
+atlas = ExtResource( 1818 )
+region = Rect2( 100, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=364]
+atlas = ExtResource( 1818 )
+region = Rect2( 200, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=365]
+atlas = ExtResource( 1818 )
+region = Rect2( 300, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=366]
+atlas = ExtResource( 1818 )
+region = Rect2( 400, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=367]
+atlas = ExtResource( 1818 )
+region = Rect2( 500, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=368]
+atlas = ExtResource( 1819 )
+region = Rect2( 0, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=369]
+atlas = ExtResource( 1819 )
+region = Rect2( 100, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=370]
+atlas = ExtResource( 1819 )
+region = Rect2( 200, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=371]
+atlas = ExtResource( 1819 )
+region = Rect2( 300, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=372]
+atlas = ExtResource( 1819 )
+region = Rect2( 400, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=373]
+atlas = ExtResource( 1819 )
+region = Rect2( 500, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=374]
+atlas = ExtResource( 1819 )
+region = Rect2( 600, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=375]
+atlas = ExtResource( 1819 )
+region = Rect2( 700, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=376]
+atlas = ExtResource( 1819 )
+region = Rect2( 800, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=377]
+atlas = ExtResource( 1819 )
+region = Rect2( 900, 0, 100, 100 )
+
 [sub_resource type="AtlasTexture" id=1724]
 atlas = ExtResource( 1829 )
 region = Rect2( 0, 0, 100, 100 )
@@ -15669,6 +15619,266 @@ region = Rect2( 0, 0, 100, 100 )
 [sub_resource type="AtlasTexture" id=1725]
 atlas = ExtResource( 1829 )
 region = Rect2( 100, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=614]
+atlas = ExtResource( 1847 )
+region = Rect2( 0, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=615]
+atlas = ExtResource( 1847 )
+region = Rect2( 200, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=616]
+atlas = ExtResource( 1847 )
+region = Rect2( 400, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=617]
+atlas = ExtResource( 1847 )
+region = Rect2( 600, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=618]
+atlas = ExtResource( 1847 )
+region = Rect2( 800, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=619]
+atlas = ExtResource( 1847 )
+region = Rect2( 1000, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=620]
+atlas = ExtResource( 1847 )
+region = Rect2( 1200, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=621]
+atlas = ExtResource( 1847 )
+region = Rect2( 1400, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=622]
+atlas = ExtResource( 1847 )
+region = Rect2( 1600, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=623]
+atlas = ExtResource( 1847 )
+region = Rect2( 1800, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=624]
+atlas = ExtResource( 1847 )
+region = Rect2( 2000, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=625]
+atlas = ExtResource( 1847 )
+region = Rect2( 2200, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=626]
+atlas = ExtResource( 1847 )
+region = Rect2( 2400, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=627]
+atlas = ExtResource( 1842 )
+region = Rect2( 0, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=628]
+atlas = ExtResource( 1842 )
+region = Rect2( 200, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=629]
+atlas = ExtResource( 1842 )
+region = Rect2( 400, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=630]
+atlas = ExtResource( 1842 )
+region = Rect2( 600, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=631]
+atlas = ExtResource( 1842 )
+region = Rect2( 800, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=632]
+atlas = ExtResource( 1842 )
+region = Rect2( 1000, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=633]
+atlas = ExtResource( 1842 )
+region = Rect2( 1200, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=634]
+atlas = ExtResource( 1842 )
+region = Rect2( 1400, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=635]
+atlas = ExtResource( 1842 )
+region = Rect2( 1600, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=636]
+atlas = ExtResource( 1842 )
+region = Rect2( 1800, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=637]
+atlas = ExtResource( 1842 )
+region = Rect2( 2000, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=638]
+atlas = ExtResource( 1842 )
+region = Rect2( 2200, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=639]
+atlas = ExtResource( 1842 )
+region = Rect2( 2400, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=640]
+atlas = ExtResource( 1845 )
+region = Rect2( 0, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=641]
+atlas = ExtResource( 1845 )
+region = Rect2( 200, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=642]
+atlas = ExtResource( 1845 )
+region = Rect2( 400, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=643]
+atlas = ExtResource( 1845 )
+region = Rect2( 600, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=644]
+atlas = ExtResource( 1845 )
+region = Rect2( 800, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=645]
+atlas = ExtResource( 1845 )
+region = Rect2( 1000, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=646]
+atlas = ExtResource( 1845 )
+region = Rect2( 1200, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=647]
+atlas = ExtResource( 1845 )
+region = Rect2( 1400, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=648]
+atlas = ExtResource( 1845 )
+region = Rect2( 1600, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=649]
+atlas = ExtResource( 1845 )
+region = Rect2( 1800, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=650]
+atlas = ExtResource( 1845 )
+region = Rect2( 2000, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=651]
+atlas = ExtResource( 1845 )
+region = Rect2( 2200, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=652]
+atlas = ExtResource( 1845 )
+region = Rect2( 2400, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=653]
+atlas = ExtResource( 1841 )
+region = Rect2( 0, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=654]
+atlas = ExtResource( 1841 )
+region = Rect2( 200, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=655]
+atlas = ExtResource( 1841 )
+region = Rect2( 400, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=656]
+atlas = ExtResource( 1841 )
+region = Rect2( 600, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=657]
+atlas = ExtResource( 1841 )
+region = Rect2( 800, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=658]
+atlas = ExtResource( 1841 )
+region = Rect2( 1000, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=659]
+atlas = ExtResource( 1841 )
+region = Rect2( 1200, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=660]
+atlas = ExtResource( 1841 )
+region = Rect2( 1400, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=661]
+atlas = ExtResource( 1841 )
+region = Rect2( 1600, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=662]
+atlas = ExtResource( 1841 )
+region = Rect2( 1800, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=663]
+atlas = ExtResource( 1841 )
+region = Rect2( 2000, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=664]
+atlas = ExtResource( 1841 )
+region = Rect2( 2200, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=665]
+atlas = ExtResource( 1841 )
+region = Rect2( 2400, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=666]
+atlas = ExtResource( 1843 )
+region = Rect2( 0, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=667]
+atlas = ExtResource( 1843 )
+region = Rect2( 200, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=668]
+atlas = ExtResource( 1843 )
+region = Rect2( 400, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=669]
+atlas = ExtResource( 1843 )
+region = Rect2( 600, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=670]
+atlas = ExtResource( 1843 )
+region = Rect2( 800, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=671]
+atlas = ExtResource( 1843 )
+region = Rect2( 1000, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=672]
+atlas = ExtResource( 1843 )
+region = Rect2( 1200, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=673]
+atlas = ExtResource( 1843 )
+region = Rect2( 1400, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=674]
+atlas = ExtResource( 1843 )
+region = Rect2( 1600, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=675]
+atlas = ExtResource( 1843 )
+region = Rect2( 1800, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=676]
+atlas = ExtResource( 1843 )
+region = Rect2( 2000, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=677]
+atlas = ExtResource( 1843 )
+region = Rect2( 2200, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=678]
+atlas = ExtResource( 1843 )
+region = Rect2( 2400, 0, 200, 100 )
 
 [sub_resource type="AtlasTexture" id=803]
 atlas = ExtResource( 1859 )
@@ -15954,6 +16164,98 @@ region = Rect2( 3200, 0, 100, 100 )
 atlas = ExtResource( 1882 )
 region = Rect2( 3300, 0, 100, 100 )
 
+[sub_resource type="AtlasTexture" id=1119]
+atlas = ExtResource( 1896 )
+region = Rect2( 0, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1120]
+atlas = ExtResource( 1896 )
+region = Rect2( 100, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1121]
+atlas = ExtResource( 1896 )
+region = Rect2( 200, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1122]
+atlas = ExtResource( 1896 )
+region = Rect2( 300, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1123]
+atlas = ExtResource( 1896 )
+region = Rect2( 400, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1124]
+atlas = ExtResource( 1897 )
+region = Rect2( 0, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1125]
+atlas = ExtResource( 1897 )
+region = Rect2( 100, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1126]
+atlas = ExtResource( 1897 )
+region = Rect2( 200, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1127]
+atlas = ExtResource( 1897 )
+region = Rect2( 300, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1128]
+atlas = ExtResource( 1897 )
+region = Rect2( 400, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1136]
+atlas = ExtResource( 1901 )
+region = Rect2( 0, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1137]
+atlas = ExtResource( 1901 )
+region = Rect2( 100, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1138]
+atlas = ExtResource( 1901 )
+region = Rect2( 200, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1139]
+atlas = ExtResource( 1901 )
+region = Rect2( 300, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1140]
+atlas = ExtResource( 1901 )
+region = Rect2( 400, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1141]
+atlas = ExtResource( 1901 )
+region = Rect2( 500, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1142]
+atlas = ExtResource( 1901 )
+region = Rect2( 600, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1143]
+atlas = ExtResource( 1901 )
+region = Rect2( 700, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1144]
+atlas = ExtResource( 1901 )
+region = Rect2( 800, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1145]
+atlas = ExtResource( 1901 )
+region = Rect2( 900, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1146]
+atlas = ExtResource( 1901 )
+region = Rect2( 1000, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1147]
+atlas = ExtResource( 1901 )
+region = Rect2( 1100, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1148]
+atlas = ExtResource( 1901 )
+region = Rect2( 1200, 0, 100, 100 )
+
 [sub_resource type="AtlasTexture" id=1087]
 atlas = ExtResource( 1892 )
 region = Rect2( 0, 0, 100, 100 )
@@ -16005,6 +16307,22 @@ region = Rect2( 1100, 0, 100, 100 )
 [sub_resource type="AtlasTexture" id=1099]
 atlas = ExtResource( 1892 )
 region = Rect2( 1200, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1162]
+atlas = ExtResource( 1909 )
+region = Rect2( 0, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1163]
+atlas = ExtResource( 1909 )
+region = Rect2( 100, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1164]
+atlas = ExtResource( 1909 )
+region = Rect2( 200, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1165]
+atlas = ExtResource( 1909 )
+region = Rect2( 300, 0, 100, 100 )
 
 [sub_resource type="AtlasTexture" id=1237]
 atlas = ExtResource( 1912 )
@@ -16082,7 +16400,934 @@ region = Rect2( 1750, 0, 175, 100 )
 atlas = ExtResource( 1929 )
 region = Rect2( 1925, 0, 175, 100 )
 
-[sub_resource type="SpriteFrames" id=1818]
+[sub_resource type="AtlasTexture" id=1366]
+atlas = ExtResource( 1932 )
+region = Rect2( 0, 0, 150, 100 )
+
+[sub_resource type="AtlasTexture" id=1367]
+atlas = ExtResource( 1932 )
+region = Rect2( 150, 0, 150, 100 )
+
+[sub_resource type="AtlasTexture" id=1368]
+atlas = ExtResource( 1932 )
+region = Rect2( 300, 0, 150, 100 )
+
+[sub_resource type="AtlasTexture" id=1369]
+atlas = ExtResource( 1932 )
+region = Rect2( 450, 0, 150, 100 )
+
+[sub_resource type="AtlasTexture" id=1370]
+atlas = ExtResource( 1933 )
+region = Rect2( 0, 0, 150, 100 )
+
+[sub_resource type="AtlasTexture" id=1371]
+atlas = ExtResource( 1933 )
+region = Rect2( 150, 0, 150, 100 )
+
+[sub_resource type="AtlasTexture" id=1372]
+atlas = ExtResource( 1933 )
+region = Rect2( 300, 0, 150, 100 )
+
+[sub_resource type="AtlasTexture" id=1373]
+atlas = ExtResource( 1933 )
+region = Rect2( 450, 0, 150, 100 )
+
+[sub_resource type="AtlasTexture" id=679]
+atlas = ExtResource( 1848 )
+region = Rect2( 0, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=680]
+atlas = ExtResource( 1848 )
+region = Rect2( 200, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=681]
+atlas = ExtResource( 1848 )
+region = Rect2( 400, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=682]
+atlas = ExtResource( 1848 )
+region = Rect2( 600, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=683]
+atlas = ExtResource( 1848 )
+region = Rect2( 800, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=684]
+atlas = ExtResource( 1848 )
+region = Rect2( 1000, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=685]
+atlas = ExtResource( 1848 )
+region = Rect2( 1200, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=686]
+atlas = ExtResource( 1848 )
+region = Rect2( 1400, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=687]
+atlas = ExtResource( 1848 )
+region = Rect2( 1600, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=688]
+atlas = ExtResource( 1848 )
+region = Rect2( 1800, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=689]
+atlas = ExtResource( 1848 )
+region = Rect2( 2000, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=690]
+atlas = ExtResource( 1848 )
+region = Rect2( 2200, 0, 200, 100 )
+
+[sub_resource type="AtlasTexture" id=691]
+atlas = ExtResource( 1848 )
+region = Rect2( 2400, 0, 200, 100 )
+
+[sub_resource type="SpriteFrames" id=1949]
+animations = [ {
+"frames": [ SubResource( 341 ), SubResource( 342 ), SubResource( 343 ), SubResource( 344 ), SubResource( 345 ), SubResource( 346 ), SubResource( 347 ), SubResource( 348 ) ],
+"loop": true,
+"name": "3hpidle",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 349 ), SubResource( 350 ), SubResource( 351 ), SubResource( 352 ), SubResource( 353 ), SubResource( 354 ), SubResource( 355 ), SubResource( 356 ), SubResource( 357 ), SubResource( 358 ) ],
+"loop": true,
+"name": "3hpwalk",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 334 ), SubResource( 335 ), SubResource( 336 ), SubResource( 337 ) ],
+"loop": true,
+"name": "airdash1",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 338 ), SubResource( 339 ), SubResource( 340 ) ],
+"loop": true,
+"name": "airdash2",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 359 ), SubResource( 360 ), SubResource( 361 ) ],
+"loop": true,
+"name": "bodyslamfall",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 362 ), SubResource( 363 ), SubResource( 364 ), SubResource( 365 ), SubResource( 366 ), SubResource( 367 ) ],
+"loop": true,
+"name": "bodyslamland",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 368 ), SubResource( 369 ), SubResource( 370 ), SubResource( 371 ), SubResource( 372 ), SubResource( 373 ), SubResource( 374 ), SubResource( 375 ), SubResource( 376 ), SubResource( 377 ) ],
+"loop": true,
+"name": "bodyslamstart",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 378 ), SubResource( 379 ), SubResource( 380 ), SubResource( 381 ), SubResource( 382 ), SubResource( 383 ), SubResource( 384 ), SubResource( 385 ), SubResource( 386 ), SubResource( 387 ), SubResource( 388 ), SubResource( 389 ), SubResource( 390 ), SubResource( 391 ), SubResource( 392 ), SubResource( 393 ), SubResource( 394 ), SubResource( 395 ), SubResource( 396 ), SubResource( 397 ), SubResource( 398 ), SubResource( 399 ), SubResource( 400 ), SubResource( 401 ), SubResource( 402 ), SubResource( 403 ), SubResource( 404 ), SubResource( 405 ), SubResource( 406 ), SubResource( 407 ), SubResource( 408 ), SubResource( 409 ), SubResource( 410 ), SubResource( 411 ), SubResource( 412 ), SubResource( 413 ), SubResource( 414 ), SubResource( 415 ), SubResource( 416 ), SubResource( 417 ), SubResource( 418 ) ],
+"loop": true,
+"name": "bombpep_end",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 419 ), SubResource( 420 ), SubResource( 421 ), SubResource( 422 ), SubResource( 423 ), SubResource( 424 ), SubResource( 425 ), SubResource( 426 ), SubResource( 427 ), SubResource( 428 ), SubResource( 429 ), SubResource( 430 ), SubResource( 431 ), SubResource( 432 ), SubResource( 433 ) ],
+"loop": true,
+"name": "bombpep_intro",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 434 ), SubResource( 435 ), SubResource( 436 ) ],
+"loop": true,
+"name": "bombpep_run",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 437 ), SubResource( 438 ), SubResource( 439 ) ],
+"loop": true,
+"name": "bombpep_runabouttoexplode",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 440 ), SubResource( 441 ), SubResource( 442 ), SubResource( 443 ), SubResource( 444 ), SubResource( 445 ), SubResource( 446 ), SubResource( 447 ), SubResource( 448 ), SubResource( 449 ), SubResource( 450 ), SubResource( 451 ), SubResource( 452 ), SubResource( 453 ) ],
+"loop": true,
+"name": "bossintro",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 454 ), SubResource( 455 ), SubResource( 456 ), SubResource( 457 ), SubResource( 458 ), SubResource( 459 ), SubResource( 460 ) ],
+"loop": true,
+"name": "bump",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1574 ), SubResource( 1575 ), SubResource( 1576 ) ],
+"loop": true,
+"name": "charge",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 461 ), SubResource( 462 ), SubResource( 463 ) ],
+"loop": true,
+"name": "climbwall",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 464 ), SubResource( 465 ), SubResource( 466 ), SubResource( 467 ), SubResource( 468 ), SubResource( 469 ), SubResource( 470 ), SubResource( 471 ), SubResource( 472 ), SubResource( 473 ) ],
+"loop": true,
+"name": "crawl",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1724 ), SubResource( 1725 ) ],
+"loop": true,
+"name": "crazyrun",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 477 ), SubResource( 478 ), SubResource( 479 ), SubResource( 480 ), SubResource( 481 ), SubResource( 482 ), SubResource( 483 ), SubResource( 484 ), SubResource( 485 ), SubResource( 486 ), SubResource( 487 ), SubResource( 488 ), SubResource( 489 ), SubResource( 490 ), SubResource( 491 ), SubResource( 492 ), SubResource( 493 ), SubResource( 494 ), SubResource( 495 ), SubResource( 496 ), SubResource( 497 ), SubResource( 498 ), SubResource( 499 ), SubResource( 500 ), SubResource( 501 ), SubResource( 502 ), SubResource( 503 ), SubResource( 504 ), SubResource( 505 ), SubResource( 506 ), SubResource( 507 ), SubResource( 508 ), SubResource( 509 ), SubResource( 510 ), SubResource( 511 ), SubResource( 512 ), SubResource( 513 ) ],
+"loop": true,
+"name": "crouch",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 514 ), SubResource( 515 ), SubResource( 516 ) ],
+"loop": true,
+"name": "crouchfall",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 517 ), SubResource( 518 ), SubResource( 519 ), SubResource( 520 ), SubResource( 521 ) ],
+"loop": true,
+"name": "crouchjump",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 522 ), SubResource( 523 ), SubResource( 524 ) ],
+"loop": true,
+"name": "crouchslip",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 525 ), SubResource( 526 ), SubResource( 527 ), SubResource( 528 ) ],
+"loop": true,
+"name": "crouchstart",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 2767 ) ],
+"loop": true,
+"name": "dead",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 532 ), SubResource( 533 ), SubResource( 534 ) ],
+"loop": true,
+"name": "dive",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 535 ), SubResource( 536 ), SubResource( 537 ), SubResource( 538 ), SubResource( 539 ), SubResource( 540 ), SubResource( 541 ), SubResource( 542 ), SubResource( 543 ), SubResource( 544 ), SubResource( 545 ), SubResource( 546 ), SubResource( 547 ), SubResource( 548 ) ],
+"loop": true,
+"name": "doublejump",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 549 ), SubResource( 550 ), SubResource( 551 ) ],
+"loop": true,
+"name": "doublejumpfall",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 552 ), SubResource( 553 ), SubResource( 554 ), SubResource( 555 ), SubResource( 556 ), SubResource( 557 ), SubResource( 558 ), SubResource( 559 ), SubResource( 560 ), SubResource( 561 ), SubResource( 562 ) ],
+"loop": true,
+"name": "downpizzabox",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 563 ), SubResource( 564 ), SubResource( 565 ), SubResource( 566 ), SubResource( 567 ), SubResource( 568 ), SubResource( 569 ), SubResource( 570 ), SubResource( 571 ), SubResource( 572 ), SubResource( 573 ), SubResource( 574 ), SubResource( 575 ), SubResource( 576 ), SubResource( 577 ), SubResource( 578 ), SubResource( 579 ), SubResource( 580 ), SubResource( 581 ), SubResource( 582 ), SubResource( 583 ), SubResource( 584 ), SubResource( 585 ), SubResource( 586 ), SubResource( 587 ), SubResource( 588 ), SubResource( 589 ), SubResource( 590 ) ],
+"loop": true,
+"name": "entergate",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 591 ), SubResource( 592 ), SubResource( 593 ), SubResource( 594 ), SubResource( 595 ), SubResource( 596 ), SubResource( 597 ), SubResource( 598 ), SubResource( 599 ), SubResource( 600 ), SubResource( 601 ), SubResource( 602 ), SubResource( 603 ) ],
+"loop": true,
+"name": "facehurt",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 604 ), SubResource( 605 ), SubResource( 606 ), SubResource( 607 ), SubResource( 608 ), SubResource( 609 ), SubResource( 610 ) ],
+"loop": true,
+"name": "facehurtup",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1104 ), SubResource( 1105 ), SubResource( 1106 ) ],
+"loop": true,
+"name": "facestomp",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 2762 ), ExtResource( 2783 ), ExtResource( 2760 ) ],
+"loop": true,
+"name": "fall",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 614 ), SubResource( 615 ), SubResource( 616 ), SubResource( 617 ), SubResource( 618 ), SubResource( 619 ), SubResource( 620 ), SubResource( 621 ), SubResource( 622 ), SubResource( 623 ), SubResource( 624 ), SubResource( 625 ), SubResource( 626 ) ],
+"loop": true,
+"name": "finishingblow1",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 627 ), SubResource( 628 ), SubResource( 629 ), SubResource( 630 ), SubResource( 631 ), SubResource( 632 ), SubResource( 633 ), SubResource( 634 ), SubResource( 635 ), SubResource( 636 ), SubResource( 637 ), SubResource( 638 ), SubResource( 639 ) ],
+"loop": true,
+"name": "finishingblow2",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 640 ), SubResource( 641 ), SubResource( 642 ), SubResource( 643 ), SubResource( 644 ), SubResource( 645 ), SubResource( 646 ), SubResource( 647 ), SubResource( 648 ), SubResource( 649 ), SubResource( 650 ), SubResource( 651 ), SubResource( 652 ) ],
+"loop": true,
+"name": "finishingblow3",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 653 ), SubResource( 654 ), SubResource( 655 ), SubResource( 656 ), SubResource( 657 ), SubResource( 658 ), SubResource( 659 ), SubResource( 660 ), SubResource( 661 ), SubResource( 662 ), SubResource( 663 ), SubResource( 664 ), SubResource( 665 ) ],
+"loop": true,
+"name": "finishingblow4",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 666 ), SubResource( 667 ), SubResource( 668 ), SubResource( 669 ), SubResource( 670 ), SubResource( 671 ), SubResource( 672 ), SubResource( 673 ), SubResource( 674 ), SubResource( 675 ), SubResource( 676 ), SubResource( 677 ), SubResource( 678 ) ],
+"loop": true,
+"name": "finishingblow5",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 753 ), SubResource( 754 ), SubResource( 755 ), SubResource( 756 ), SubResource( 757 ), SubResource( 758 ) ],
+"loop": true,
+"name": "fireass",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 759 ), SubResource( 760 ), SubResource( 761 ), SubResource( 762 ), SubResource( 763 ), SubResource( 764 ), SubResource( 765 ), SubResource( 766 ), SubResource( 767 ), SubResource( 768 ), SubResource( 769 ), SubResource( 770 ), SubResource( 771 ), SubResource( 772 ), SubResource( 773 ), SubResource( 774 ), SubResource( 775 ), SubResource( 776 ), SubResource( 777 ), SubResource( 778 ), SubResource( 779 ), SubResource( 780 ), SubResource( 781 ), SubResource( 782 ), SubResource( 783 ) ],
+"loop": true,
+"name": "fireassend",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 784 ), SubResource( 785 ), SubResource( 786 ), SubResource( 787 ), SubResource( 788 ), SubResource( 789 ), SubResource( 790 ), SubResource( 791 ), SubResource( 792 ), SubResource( 793 ), SubResource( 794 ), SubResource( 795 ) ],
+"loop": true,
+"name": "fireassground",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1107 ), SubResource( 1108 ), SubResource( 1109 ) ],
+"loop": true,
+"name": "freefall",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 796 ), SubResource( 797 ), SubResource( 798 ), SubResource( 799 ), SubResource( 800 ), SubResource( 801 ) ],
+"loop": true,
+"name": "gottreasure",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 2799 ), ExtResource( 2795 ), ExtResource( 2794 ), ExtResource( 2793 ), ExtResource( 2797 ), ExtResource( 2798 ), ExtResource( 2800 ) ],
+"loop": true,
+"name": "handstand",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 2796 ), ExtResource( 2799 ), ExtResource( 2795 ), ExtResource( 2794 ), ExtResource( 2793 ), ExtResource( 2797 ), ExtResource( 2798 ), ExtResource( 2800 ) ],
+"loop": true,
+"name": "handstandprep",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 802 ) ],
+"loop": true,
+"name": "haulingfall",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 803 ), SubResource( 804 ), SubResource( 805 ), SubResource( 806 ), SubResource( 807 ), SubResource( 808 ), SubResource( 809 ), SubResource( 810 ) ],
+"loop": true,
+"name": "haulingidle",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 811 ), SubResource( 812 ), SubResource( 813 ), SubResource( 814 ), SubResource( 815 ), SubResource( 816 ), SubResource( 817 ), SubResource( 818 ), SubResource( 819 ) ],
+"loop": true,
+"name": "haulingjump",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 820 ), SubResource( 821 ), SubResource( 822 ), SubResource( 823 ) ],
+"loop": true,
+"name": "haulingland",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 834 ), SubResource( 835 ), SubResource( 836 ), SubResource( 837 ), SubResource( 838 ), SubResource( 839 ) ],
+"loop": true,
+"name": "haulingstart",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 824 ), SubResource( 825 ), SubResource( 826 ), SubResource( 827 ), SubResource( 828 ), SubResource( 829 ), SubResource( 830 ), SubResource( 831 ), SubResource( 832 ), SubResource( 833 ) ],
+"loop": true,
+"name": "haulingwalk",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1047 ), SubResource( 1048 ), SubResource( 1049 ), SubResource( 1050 ), SubResource( 1051 ), SubResource( 1052 ), SubResource( 1053 ), SubResource( 1054 ), SubResource( 1055 ), SubResource( 1056 ), SubResource( 1057 ), SubResource( 1058 ), SubResource( 1059 ), SubResource( 1060 ), SubResource( 1061 ), SubResource( 1062 ), SubResource( 1063 ) ],
+"loop": true,
+"name": "hitwall",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 840 ), SubResource( 841 ), SubResource( 842 ) ],
+"loop": true,
+"name": "hurt",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1726 ), SubResource( 1727 ), SubResource( 1728 ), SubResource( 1729 ), SubResource( 1730 ), SubResource( 1731 ), SubResource( 1732 ), SubResource( 1733 ), SubResource( 1734 ), SubResource( 1735 ), SubResource( 1736 ), SubResource( 1737 ), SubResource( 1738 ), SubResource( 1739 ), SubResource( 1740 ), SubResource( 1741 ), SubResource( 1742 ), SubResource( 1743 ), SubResource( 1744 ), SubResource( 1745 ), SubResource( 1746 ), SubResource( 1747 ), SubResource( 1748 ), SubResource( 1749 ), SubResource( 1750 ) ],
+"loop": true,
+"name": "hurtidle",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 859 ), SubResource( 860 ), SubResource( 861 ) ],
+"loop": true,
+"name": "hurtjump",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 862 ), SubResource( 863 ), SubResource( 864 ), SubResource( 865 ), SubResource( 866 ), SubResource( 867 ), SubResource( 868 ), SubResource( 869 ), SubResource( 870 ), SubResource( 871 ) ],
+"loop": true,
+"name": "hurtwalk",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 2744 ), ExtResource( 2740 ), ExtResource( 2746 ), ExtResource( 2737 ), ExtResource( 2739 ), ExtResource( 2738 ), ExtResource( 2742 ), ExtResource( 2743 ), ExtResource( 2734 ), ExtResource( 2741 ), ExtResource( 2735 ), ExtResource( 2736 ) ],
+"loop": true,
+"name": "idle",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 28 ), SubResource( 29 ), SubResource( 30 ), SubResource( 31 ), SubResource( 32 ), SubResource( 33 ), SubResource( 34 ), SubResource( 35 ), SubResource( 36 ), SubResource( 37 ), SubResource( 38 ), SubResource( 39 ), SubResource( 40 ), SubResource( 41 ), SubResource( 42 ), SubResource( 43 ), SubResource( 44 ), SubResource( 45 ), SubResource( 46 ), SubResource( 47 ), SubResource( 48 ), SubResource( 49 ), SubResource( 50 ), SubResource( 51 ), SubResource( 52 ), SubResource( 53 ), SubResource( 54 ), SubResource( 55 ), SubResource( 56 ), SubResource( 57 ), SubResource( 58 ), SubResource( 59 ), SubResource( 60 ), SubResource( 61 ), SubResource( 62 ), SubResource( 63 ), SubResource( 64 ), SubResource( 65 ), SubResource( 66 ) ],
+"loop": true,
+"name": "idleanim1",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 67 ), SubResource( 68 ), SubResource( 69 ), SubResource( 70 ), SubResource( 71 ), SubResource( 72 ), SubResource( 73 ), SubResource( 74 ), SubResource( 75 ), SubResource( 76 ), SubResource( 77 ), SubResource( 78 ), SubResource( 79 ), SubResource( 80 ), SubResource( 81 ), SubResource( 82 ), SubResource( 83 ), SubResource( 84 ), SubResource( 85 ), SubResource( 86 ), SubResource( 87 ), SubResource( 88 ), SubResource( 89 ), SubResource( 90 ), SubResource( 91 ), SubResource( 92 ), SubResource( 93 ), SubResource( 94 ), SubResource( 95 ), SubResource( 96 ), SubResource( 97 ), SubResource( 98 ), SubResource( 99 ), SubResource( 100 ), SubResource( 101 ), SubResource( 102 ), SubResource( 103 ), SubResource( 104 ), SubResource( 105 ), SubResource( 106 ), SubResource( 107 ), SubResource( 108 ), SubResource( 109 ), SubResource( 110 ), SubResource( 111 ) ],
+"loop": true,
+"name": "idleanim2",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 112 ), SubResource( 113 ), SubResource( 114 ), SubResource( 115 ), SubResource( 116 ), SubResource( 117 ), SubResource( 118 ), SubResource( 119 ), SubResource( 120 ), SubResource( 121 ), SubResource( 122 ), SubResource( 123 ), SubResource( 124 ), SubResource( 125 ), SubResource( 126 ), SubResource( 127 ), SubResource( 128 ), SubResource( 129 ), SubResource( 130 ), SubResource( 131 ), SubResource( 132 ), SubResource( 133 ), SubResource( 134 ), SubResource( 135 ), SubResource( 136 ), SubResource( 137 ), SubResource( 138 ), SubResource( 139 ), SubResource( 140 ), SubResource( 141 ), SubResource( 142 ), SubResource( 143 ), SubResource( 144 ), SubResource( 145 ), SubResource( 146 ), SubResource( 147 ) ],
+"loop": true,
+"name": "idleanim3",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 148 ), SubResource( 149 ), SubResource( 150 ), SubResource( 151 ), SubResource( 152 ), SubResource( 153 ), SubResource( 154 ), SubResource( 155 ), SubResource( 156 ), SubResource( 157 ), SubResource( 158 ), SubResource( 159 ), SubResource( 160 ), SubResource( 161 ), SubResource( 162 ), SubResource( 163 ), SubResource( 164 ), SubResource( 165 ), SubResource( 166 ), SubResource( 167 ), SubResource( 168 ), SubResource( 169 ), SubResource( 170 ), SubResource( 171 ), SubResource( 172 ), SubResource( 173 ), SubResource( 174 ), SubResource( 175 ), SubResource( 176 ), SubResource( 177 ), SubResource( 178 ), SubResource( 179 ), SubResource( 180 ), SubResource( 181 ), SubResource( 182 ), SubResource( 183 ) ],
+"loop": true,
+"name": "idleanim4",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 184 ), SubResource( 185 ), SubResource( 186 ), SubResource( 187 ), SubResource( 188 ), SubResource( 189 ), SubResource( 190 ), SubResource( 191 ), SubResource( 192 ), SubResource( 193 ), SubResource( 194 ), SubResource( 195 ), SubResource( 196 ), SubResource( 197 ), SubResource( 198 ), SubResource( 199 ), SubResource( 200 ), SubResource( 201 ), SubResource( 202 ), SubResource( 203 ), SubResource( 204 ), SubResource( 205 ), SubResource( 206 ), SubResource( 207 ), SubResource( 208 ), SubResource( 209 ), SubResource( 210 ), SubResource( 211 ), SubResource( 212 ), SubResource( 213 ), SubResource( 214 ), SubResource( 215 ), SubResource( 216 ), SubResource( 217 ), SubResource( 218 ), SubResource( 219 ), SubResource( 220 ), SubResource( 221 ), SubResource( 222 ), SubResource( 223 ), SubResource( 224 ), SubResource( 225 ), SubResource( 226 ), SubResource( 227 ), SubResource( 228 ) ],
+"loop": true,
+"name": "idleanim5",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 229 ), SubResource( 230 ), SubResource( 231 ), SubResource( 232 ), SubResource( 233 ), SubResource( 234 ), SubResource( 235 ), SubResource( 236 ), SubResource( 237 ), SubResource( 238 ), SubResource( 239 ), SubResource( 240 ), SubResource( 241 ), SubResource( 242 ), SubResource( 243 ), SubResource( 244 ), SubResource( 245 ), SubResource( 246 ), SubResource( 247 ), SubResource( 248 ), SubResource( 249 ), SubResource( 250 ), SubResource( 251 ), SubResource( 252 ), SubResource( 253 ), SubResource( 254 ), SubResource( 255 ), SubResource( 256 ), SubResource( 257 ), SubResource( 258 ), SubResource( 259 ), SubResource( 260 ), SubResource( 261 ), SubResource( 262 ), SubResource( 263 ), SubResource( 264 ), SubResource( 265 ), SubResource( 266 ), SubResource( 267 ), SubResource( 268 ), SubResource( 269 ), SubResource( 270 ), SubResource( 271 ), SubResource( 272 ), SubResource( 273 ), SubResource( 274 ), SubResource( 275 ), SubResource( 276 ), SubResource( 277 ), SubResource( 278 ), SubResource( 279 ), SubResource( 280 ), SubResource( 281 ), SubResource( 282 ), SubResource( 283 ), SubResource( 284 ), SubResource( 285 ), SubResource( 286 ), SubResource( 287 ), SubResource( 288 ), SubResource( 289 ), SubResource( 290 ), SubResource( 291 ), SubResource( 292 ), SubResource( 293 ), SubResource( 294 ), SubResource( 295 ), SubResource( 296 ), SubResource( 297 ), SubResource( 298 ), SubResource( 299 ), SubResource( 300 ), SubResource( 301 ), SubResource( 302 ), SubResource( 303 ), SubResource( 304 ), SubResource( 305 ), SubResource( 306 ), SubResource( 307 ), SubResource( 308 ), SubResource( 309 ), SubResource( 310 ), SubResource( 311 ), SubResource( 312 ), SubResource( 313 ), SubResource( 314 ), SubResource( 315 ), SubResource( 316 ), SubResource( 317 ), SubResource( 318 ), SubResource( 319 ), SubResource( 320 ), SubResource( 321 ) ],
+"loop": true,
+"name": "idleanim6",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 872 ), SubResource( 873 ), SubResource( 874 ) ],
+"loop": true,
+"name": "jetpackboost",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 875 ), SubResource( 876 ), SubResource( 877 ) ],
+"loop": true,
+"name": "jetpackboostdown",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 878 ), SubResource( 879 ), SubResource( 880 ), SubResource( 881 ), SubResource( 882 ) ],
+"loop": true,
+"name": "jetpackslide",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 883 ), SubResource( 884 ), SubResource( 885 ), SubResource( 886 ), SubResource( 887 ), SubResource( 888 ), SubResource( 889 ), SubResource( 890 ), SubResource( 891 ), SubResource( 892 ), SubResource( 893 ), SubResource( 894 ), SubResource( 895 ), SubResource( 896 ), SubResource( 897 ) ],
+"loop": true,
+"name": "jetpackstart",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 721 ), SubResource( 722 ), SubResource( 723 ), SubResource( 724 ), SubResource( 725 ), SubResource( 726 ), SubResource( 727 ), SubResource( 728 ), SubResource( 729 ), SubResource( 730 ), SubResource( 731 ), SubResource( 732 ), SubResource( 733 ), SubResource( 734 ) ],
+"loop": true,
+"name": "jump",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 898 ), SubResource( 899 ), SubResource( 900 ), SubResource( 901 ), SubResource( 902 ), SubResource( 903 ), SubResource( 904 ), SubResource( 905 ), SubResource( 906 ), SubResource( 907 ), SubResource( 908 ), SubResource( 909 ), SubResource( 910 ), SubResource( 911 ), SubResource( 912 ), SubResource( 913 ), SubResource( 914 ), SubResource( 915 ), SubResource( 916 ), SubResource( 917 ), SubResource( 918 ), SubResource( 919 ), SubResource( 920 ), SubResource( 921 ), SubResource( 922 ), SubResource( 923 ), SubResource( 924 ), SubResource( 925 ), SubResource( 926 ), SubResource( 927 ), SubResource( 928 ), SubResource( 929 ), SubResource( 930 ), SubResource( 931 ) ],
+"loop": true,
+"name": "keyget",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 932 ), SubResource( 933 ), SubResource( 934 ) ],
+"loop": true,
+"name": "knightpep_charge",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 935 ), SubResource( 936 ), SubResource( 937 ) ],
+"loop": true,
+"name": "knightpep_downslope",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 938 ), SubResource( 939 ), SubResource( 940 ) ],
+"loop": true,
+"name": "knightpep_fall",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 941 ), SubResource( 942 ), SubResource( 943 ) ],
+"loop": true,
+"name": "knightpep_idle",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 944 ), SubResource( 945 ), SubResource( 946 ), SubResource( 947 ), SubResource( 948 ), SubResource( 949 ), SubResource( 950 ), SubResource( 951 ), SubResource( 952 ), SubResource( 953 ), SubResource( 954 ) ],
+"loop": true,
+"name": "knightpep_jump",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 955 ), SubResource( 956 ), SubResource( 957 ), SubResource( 958 ) ],
+"loop": true,
+"name": "knightpep_jumpstart",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 959 ), SubResource( 960 ), SubResource( 961 ), SubResource( 962 ), SubResource( 963 ), SubResource( 964 ) ],
+"loop": true,
+"name": "knightpep_land",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 965 ), SubResource( 966 ), SubResource( 967 ), SubResource( 968 ), SubResource( 969 ), SubResource( 970 ), SubResource( 971 ), SubResource( 972 ), SubResource( 973 ), SubResource( 974 ), SubResource( 975 ), SubResource( 976 ), SubResource( 977 ), SubResource( 978 ), SubResource( 979 ), SubResource( 980 ), SubResource( 981 ), SubResource( 982 ), SubResource( 983 ), SubResource( 984 ), SubResource( 985 ), SubResource( 986 ), SubResource( 987 ), SubResource( 988 ), SubResource( 989 ), SubResource( 990 ), SubResource( 991 ), SubResource( 992 ), SubResource( 993 ), SubResource( 994 ), SubResource( 995 ), SubResource( 996 ), SubResource( 997 ), SubResource( 998 ) ],
+"loop": true,
+"name": "knightpep_start",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 999 ), SubResource( 1000 ), SubResource( 1001 ), SubResource( 1002 ), SubResource( 1003 ), SubResource( 1004 ), SubResource( 1005 ), SubResource( 1006 ), SubResource( 1007 ), SubResource( 1008 ), SubResource( 1009 ), SubResource( 1010 ), SubResource( 1011 ), SubResource( 1012 ), SubResource( 1013 ), SubResource( 1014 ), SubResource( 1015 ), SubResource( 1016 ), SubResource( 1017 ), SubResource( 1018 ) ],
+"loop": true,
+"name": "knightpep_thunder",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1019 ), SubResource( 1020 ), SubResource( 1021 ), SubResource( 1022 ), SubResource( 1023 ), SubResource( 1024 ), SubResource( 1025 ), SubResource( 1026 ), SubResource( 1027 ), SubResource( 1028 ), SubResource( 1029 ), SubResource( 1030 ), SubResource( 1031 ), SubResource( 1032 ), SubResource( 1033 ), SubResource( 1034 ) ],
+"loop": true,
+"name": "knightpep_walk",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1035 ) ],
+"loop": true,
+"name": "ladder",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1036 ), SubResource( 1037 ), SubResource( 1038 ) ],
+"loop": true,
+"name": "ladderdown",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1039 ), SubResource( 1040 ), SubResource( 1041 ), SubResource( 1042 ), SubResource( 1043 ), SubResource( 1044 ), SubResource( 1045 ), SubResource( 1046 ) ],
+"loop": true,
+"name": "laddermove",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 735 ), SubResource( 736 ), SubResource( 737 ), SubResource( 738 ) ],
+"loop": true,
+"name": "land",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 739 ), SubResource( 740 ), SubResource( 741 ), SubResource( 742 ), SubResource( 743 ) ],
+"loop": true,
+"name": "land2",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 744 ), SubResource( 745 ), SubResource( 746 ), SubResource( 747 ), SubResource( 748 ), SubResource( 749 ), SubResource( 750 ), SubResource( 751 ), SubResource( 752 ) ],
+"loop": true,
+"name": "lookdoor",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 2761 ), ExtResource( 2781 ), ExtResource( 2782 ), ExtResource( 2786 ) ],
+"loop": true,
+"name": "mach",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 2784 ), ExtResource( 2779 ), ExtResource( 2778 ), ExtResource( 2774 ), ExtResource( 2775 ), ExtResource( 2776 ), ExtResource( 2780 ) ],
+"loop": true,
+"name": "mach1",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1078 ), SubResource( 1079 ), SubResource( 1080 ), SubResource( 1081 ), SubResource( 1082 ), SubResource( 1083 ) ],
+"loop": true,
+"name": "mach2jump",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 2765 ), ExtResource( 2729 ), ExtResource( 2725 ), ExtResource( 2727 ), ExtResource( 2728 ), ExtResource( 2745 ), ExtResource( 2747 ), ExtResource( 2748 ), ExtResource( 2749 ), ExtResource( 2726 ), ExtResource( 2730 ), ExtResource( 2731 ) ],
+"loop": true,
+"name": "mach3jump",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 2732 ), ExtResource( 2733 ), ExtResource( 2777 ) ],
+"loop": true,
+"name": "mach4",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1119 ), SubResource( 1120 ), SubResource( 1121 ), SubResource( 1122 ), SubResource( 1123 ) ],
+"loop": true,
+"name": "machpunch1",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1124 ), SubResource( 1125 ), SubResource( 1126 ), SubResource( 1127 ), SubResource( 1128 ) ],
+"loop": true,
+"name": "machpunch2",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 2770 ) ],
+"loop": true,
+"name": "machroll",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1133 ), SubResource( 1134 ), SubResource( 1135 ) ],
+"loop": true,
+"name": "machslide",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1136 ), SubResource( 1137 ), SubResource( 1138 ), SubResource( 1139 ), SubResource( 1140 ), SubResource( 1141 ), SubResource( 1142 ), SubResource( 1143 ), SubResource( 1144 ), SubResource( 1145 ), SubResource( 1146 ), SubResource( 1147 ), SubResource( 1148 ) ],
+"loop": true,
+"name": "machslideboost",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1087 ), SubResource( 1088 ), SubResource( 1089 ), SubResource( 1090 ), SubResource( 1091 ), SubResource( 1092 ), SubResource( 1093 ), SubResource( 1094 ), SubResource( 1095 ), SubResource( 1096 ), SubResource( 1097 ), SubResource( 1098 ), SubResource( 1099 ) ],
+"loop": true,
+"name": "machslideboost3",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1149 ), SubResource( 1150 ), SubResource( 1151 ), SubResource( 1152 ), SubResource( 1153 ), SubResource( 1154 ) ],
+"loop": true,
+"name": "machslideend",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1155 ), SubResource( 1156 ), SubResource( 1157 ), SubResource( 1158 ), SubResource( 1159 ), SubResource( 1160 ), SubResource( 1161 ) ],
+"loop": true,
+"name": "machslidestart",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1716 ), SubResource( 1717 ), SubResource( 1718 ), SubResource( 1719 ), SubResource( 1720 ), SubResource( 1721 ) ],
+"loop": true,
+"name": "machspin",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1722 ), SubResource( 1723 ) ],
+"loop": true,
+"name": "machspinstart",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 2758 ), ExtResource( 2759 ), ExtResource( 2763 ), ExtResource( 2750 ), ExtResource( 2764 ), ExtResource( 2785 ), ExtResource( 2773 ), ExtResource( 2755 ), ExtResource( 2752 ), ExtResource( 2757 ), ExtResource( 2754 ), ExtResource( 2753 ), ExtResource( 2756 ), ExtResource( 2751 ) ],
+"loop": true,
+"name": "move",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1162 ), SubResource( 1163 ), SubResource( 1164 ), SubResource( 1165 ) ],
+"loop": true,
+"name": "panic",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1577 ), SubResource( 1578 ), SubResource( 1579 ), SubResource( 1580 ), SubResource( 1581 ), SubResource( 1582 ), SubResource( 1583 ), SubResource( 1584 ), SubResource( 1585 ), SubResource( 1586 ), SubResource( 1587 ), SubResource( 1588 ), SubResource( 1589 ), SubResource( 1590 ) ],
+"loop": true,
+"name": "parry1",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1591 ), SubResource( 1592 ), SubResource( 1593 ), SubResource( 1594 ), SubResource( 1595 ), SubResource( 1596 ), SubResource( 1597 ), SubResource( 1598 ), SubResource( 1599 ), SubResource( 1600 ), SubResource( 1601 ), SubResource( 1602 ), SubResource( 1603 ), SubResource( 1604 ) ],
+"loop": true,
+"name": "parry2",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1605 ), SubResource( 1606 ), SubResource( 1607 ), SubResource( 1608 ), SubResource( 1609 ), SubResource( 1610 ), SubResource( 1611 ), SubResource( 1612 ), SubResource( 1613 ), SubResource( 1614 ), SubResource( 1615 ), SubResource( 1616 ), SubResource( 1617 ) ],
+"loop": true,
+"name": "parry3",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1175 ), SubResource( 1176 ), SubResource( 1177 ) ],
+"loop": true,
+"name": "piledriver",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1178 ), SubResource( 1179 ), SubResource( 1180 ), SubResource( 1181 ), SubResource( 1182 ), SubResource( 1183 ), SubResource( 1184 ) ],
+"loop": true,
+"name": "piledriverland",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 1635 ), ExtResource( 1642 ), ExtResource( 1643 ), ExtResource( 1637 ), ExtResource( 1638 ), ExtResource( 1641 ), ExtResource( 1633 ), ExtResource( 1640 ), ExtResource( 1639 ), ExtResource( 1632 ), ExtResource( 1636 ), ExtResource( 1634 ) ],
+"loop": true,
+"name": "pizzaportalentrancestart",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1185 ), SubResource( 1186 ), SubResource( 1187 ), SubResource( 1188 ), SubResource( 1189 ), SubResource( 1190 ), SubResource( 1191 ), SubResource( 1192 ), SubResource( 1193 ) ],
+"loop": true,
+"name": "pogobounce",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1194 ), SubResource( 1195 ), SubResource( 1196 ), SubResource( 1197 ), SubResource( 1198 ), SubResource( 1199 ), SubResource( 1200 ), SubResource( 1201 ), SubResource( 1202 ) ],
+"loop": true,
+"name": "pogobouncemach",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 2766 ) ],
+"loop": true,
+"name": "pogofall",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1206 ), SubResource( 1207 ), SubResource( 1208 ) ],
+"loop": true,
+"name": "pogofallmach",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1209 ), SubResource( 1210 ), SubResource( 1211 ), SubResource( 1212 ), SubResource( 1213 ), SubResource( 1214 ), SubResource( 1215 ), SubResource( 1216 ), SubResource( 1217 ), SubResource( 1218 ) ],
+"loop": true,
+"name": "pogostart",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1219 ), SubResource( 1220 ), SubResource( 1221 ), SubResource( 1222 ), SubResource( 1223 ), SubResource( 1224 ), SubResource( 1225 ) ],
+"loop": true,
+"name": "punch",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1226 ), SubResource( 1227 ), SubResource( 1228 ), SubResource( 1229 ), SubResource( 1230 ), SubResource( 1231 ), SubResource( 1232 ), SubResource( 1233 ), SubResource( 1234 ), SubResource( 1235 ), SubResource( 1236 ) ],
+"loop": true,
+"name": "rollgetup",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1237 ), SubResource( 1238 ), SubResource( 1239 ), SubResource( 1240 ) ],
+"loop": true,
+"name": "secondjump1",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1241 ), SubResource( 1242 ), SubResource( 1243 ) ],
+"loop": true,
+"name": "secondjump2",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1618 ), SubResource( 1619 ), SubResource( 1620 ), SubResource( 1621 ) ],
+"loop": true,
+"name": "shotgun",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1622 ), SubResource( 1623 ), SubResource( 1624 ), SubResource( 1625 ), SubResource( 1626 ), SubResource( 1627 ), SubResource( 1628 ), SubResource( 1629 ) ],
+"loop": true,
+"name": "shotgun_crawl",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1657 ), SubResource( 1658 ), SubResource( 1659 ) ],
+"loop": true,
+"name": "shotgun_duck",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1630 ), SubResource( 1631 ), SubResource( 1632 ) ],
+"loop": true,
+"name": "shotgun_fall",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1633 ), SubResource( 1634 ), SubResource( 1635 ), SubResource( 1636 ) ],
+"loop": true,
+"name": "shotgun_goduck",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1637 ), SubResource( 1638 ), SubResource( 1639 ) ],
+"loop": true,
+"name": "shotgun_idle",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1640 ), SubResource( 1641 ), SubResource( 1642 ), SubResource( 1643 ), SubResource( 1644 ), SubResource( 1645 ), SubResource( 1646 ), SubResource( 1647 ), SubResource( 1648 ) ],
+"loop": true,
+"name": "shotgun_jump",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1675 ), SubResource( 1676 ), SubResource( 1677 ), SubResource( 1678 ), SubResource( 1679 ) ],
+"loop": true,
+"name": "shotgun_land",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1680 ), SubResource( 1681 ), SubResource( 1682 ), SubResource( 1683 ), SubResource( 1684 ), SubResource( 1685 ), SubResource( 1686 ), SubResource( 1687 ), SubResource( 1688 ), SubResource( 1689 ), SubResource( 1690 ), SubResource( 1691 ), SubResource( 1692 ), SubResource( 1693 ), SubResource( 1694 ), SubResource( 1695 ), SubResource( 1696 ), SubResource( 1697 ), SubResource( 1698 ), SubResource( 1699 ), SubResource( 1700 ) ],
+"loop": true,
+"name": "shotgun_pullout",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1660 ), SubResource( 1661 ), SubResource( 1662 ), SubResource( 1663 ), SubResource( 1664 ), SubResource( 1665 ), SubResource( 1666 ), SubResource( 1667 ), SubResource( 1668 ), SubResource( 1669 ), SubResource( 1670 ), SubResource( 1671 ), SubResource( 1672 ), SubResource( 1673 ), SubResource( 1674 ) ],
+"loop": true,
+"name": "shotgun_suplexdash",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1649 ), SubResource( 1650 ), SubResource( 1651 ), SubResource( 1652 ), SubResource( 1653 ), SubResource( 1654 ), SubResource( 1655 ), SubResource( 1656 ) ],
+"loop": true,
+"name": "shotgun_walk",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1701 ), SubResource( 1702 ), SubResource( 1703 ), SubResource( 1704 ), SubResource( 1705 ) ],
+"loop": true,
+"name": "shotgunjump1",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1706 ), SubResource( 1707 ), SubResource( 1708 ), SubResource( 1709 ), SubResource( 1710 ), SubResource( 1711 ), SubResource( 1712 ) ],
+"loop": true,
+"name": "shotgunjump2",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1713 ), SubResource( 1714 ), SubResource( 1715 ) ],
+"loop": true,
+"name": "shotgunjump3",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1244 ), SubResource( 1245 ), SubResource( 1246 ), SubResource( 1247 ), SubResource( 1248 ), SubResource( 1249 ), SubResource( 1250 ), SubResource( 1251 ) ],
+"loop": true,
+"name": "slipnslide",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1252 ), SubResource( 1253 ), SubResource( 1254 ), SubResource( 1255 ), SubResource( 1256 ), SubResource( 1257 ), SubResource( 1258 ), SubResource( 1259 ), SubResource( 1260 ), SubResource( 1261 ), SubResource( 1262 ), SubResource( 1263 ), SubResource( 1264 ) ],
+"loop": true,
+"name": "spin",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1265 ), SubResource( 1266 ), SubResource( 1267 ) ],
+"loop": true,
+"name": "stomp",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1268 ), SubResource( 1269 ), SubResource( 1270 ) ],
+"loop": true,
+"name": "stompprep",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1271 ), SubResource( 1272 ), SubResource( 1273 ), SubResource( 1274 ) ],
+"loop": true,
+"name": "superjump",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1275 ), SubResource( 1276 ), SubResource( 1277 ), SubResource( 1278 ), SubResource( 1279 ), SubResource( 1280 ), SubResource( 1281 ), SubResource( 1282 ), SubResource( 1283 ) ],
+"loop": true,
+"name": "superjumpland",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1284 ), SubResource( 1285 ), SubResource( 1286 ), SubResource( 1287 ), SubResource( 1288 ), SubResource( 1289 ), SubResource( 1290 ), SubResource( 1291 ) ],
+"loop": true,
+"name": "superjumpleft",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1292 ), SubResource( 1293 ), SubResource( 1294 ), SubResource( 1295 ), SubResource( 1296 ), SubResource( 1297 ), SubResource( 1298 ) ],
+"loop": true,
+"name": "superjumpprep",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 2768 ), ExtResource( 2769 ), ExtResource( 2772 ), ExtResource( 2787 ), ExtResource( 2788 ), ExtResource( 2790 ), ExtResource( 2789 ), ExtResource( 2792 ), ExtResource( 2771 ), ExtResource( 2791 ) ],
+"loop": true,
+"name": "superjumppreplight",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1302 ), SubResource( 1303 ), SubResource( 1304 ), SubResource( 1305 ), SubResource( 1306 ), SubResource( 1307 ), SubResource( 1308 ), SubResource( 1309 ) ],
+"loop": true,
+"name": "superjumpright",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1310 ), SubResource( 1311 ), SubResource( 1312 ), SubResource( 1313 ), SubResource( 1314 ), SubResource( 1315 ), SubResource( 1316 ), SubResource( 1317 ), SubResource( 1318 ), SubResource( 1319 ), SubResource( 1320 ) ],
+"loop": true,
+"name": "supertaunt1",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1321 ), SubResource( 1322 ), SubResource( 1323 ), SubResource( 1324 ), SubResource( 1325 ), SubResource( 1326 ), SubResource( 1327 ), SubResource( 1328 ), SubResource( 1329 ), SubResource( 1330 ), SubResource( 1331 ) ],
+"loop": true,
+"name": "supertaunt2",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1332 ), SubResource( 1333 ), SubResource( 1334 ), SubResource( 1335 ), SubResource( 1336 ), SubResource( 1337 ), SubResource( 1338 ), SubResource( 1339 ), SubResource( 1340 ), SubResource( 1341 ), SubResource( 1342 ) ],
+"loop": true,
+"name": "supertaunt3",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1343 ), SubResource( 1344 ), SubResource( 1345 ), SubResource( 1346 ), SubResource( 1347 ), SubResource( 1348 ), SubResource( 1349 ), SubResource( 1350 ), SubResource( 1351 ), SubResource( 1352 ), SubResource( 1353 ) ],
+"loop": true,
+"name": "supertaunt4",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1354 ), SubResource( 1355 ), SubResource( 1356 ), SubResource( 1357 ), SubResource( 1358 ), SubResource( 1359 ), SubResource( 1360 ), SubResource( 1361 ), SubResource( 1362 ), SubResource( 1363 ), SubResource( 1364 ), SubResource( 1365 ) ],
+"loop": true,
+"name": "suplexdash",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1366 ), SubResource( 1367 ), SubResource( 1368 ), SubResource( 1369 ) ],
+"loop": true,
+"name": "suplexdashjump",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1370 ), SubResource( 1371 ), SubResource( 1372 ), SubResource( 1373 ) ],
+"loop": true,
+"name": "suplexdashjumpstart",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1374 ), SubResource( 1375 ), SubResource( 1376 ), SubResource( 1377 ), SubResource( 1378 ) ],
+"loop": true,
+"name": "suplexmash1",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1379 ), SubResource( 1380 ), SubResource( 1381 ), SubResource( 1382 ), SubResource( 1383 ) ],
+"loop": true,
+"name": "suplexmash2",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1384 ), SubResource( 1385 ), SubResource( 1386 ), SubResource( 1387 ), SubResource( 1388 ) ],
+"loop": true,
+"name": "suplexmash3",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1389 ), SubResource( 1390 ), SubResource( 1391 ), SubResource( 1392 ), SubResource( 1393 ) ],
+"loop": true,
+"name": "suplexmash4",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1394 ), SubResource( 1395 ), SubResource( 1396 ), SubResource( 1397 ), SubResource( 1398 ), SubResource( 1399 ), SubResource( 1400 ), SubResource( 1401 ) ],
+"loop": true,
+"name": "swingding",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1402 ), SubResource( 1403 ), SubResource( 1404 ), SubResource( 1405 ), SubResource( 1406 ), SubResource( 1407 ), SubResource( 1408 ), SubResource( 1409 ) ],
+"loop": true,
+"name": "swingdingend",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1410 ), SubResource( 1411 ), SubResource( 1412 ), SubResource( 1413 ), SubResource( 1414 ), SubResource( 1415 ), SubResource( 1416 ), SubResource( 1417 ) ],
+"loop": true,
+"name": "tackle",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 692 ), SubResource( 693 ), SubResource( 694 ), SubResource( 695 ), SubResource( 696 ), SubResource( 697 ), SubResource( 698 ), SubResource( 699 ), SubResource( 700 ), SubResource( 701 ), SubResource( 702 ) ],
+"loop": true,
+"name": "taunt",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 703 ), SubResource( 704 ), SubResource( 705 ), SubResource( 706 ), SubResource( 707 ), SubResource( 708 ), SubResource( 709 ), SubResource( 710 ), SubResource( 711 ), SubResource( 712 ), SubResource( 713 ), SubResource( 714 ), SubResource( 715 ), SubResource( 716 ), SubResource( 717 ), SubResource( 718 ), SubResource( 719 ), SubResource( 720 ) ],
+"loop": true,
+"name": "timesup",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1418 ), SubResource( 1419 ), SubResource( 1420 ), SubResource( 1421 ), SubResource( 1422 ), SubResource( 1423 ), SubResource( 1424 ), SubResource( 1425 ), SubResource( 1426 ), SubResource( 1427 ), SubResource( 1428 ), SubResource( 1429 ), SubResource( 1430 ), SubResource( 1431 ), SubResource( 1432 ), SubResource( 1433 ) ],
+"loop": true,
+"name": "tumble",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1434 ), SubResource( 1435 ), SubResource( 1436 ), SubResource( 1437 ), SubResource( 1438 ), SubResource( 1439 ), SubResource( 1440 ), SubResource( 1441 ), SubResource( 1442 ), SubResource( 1443 ), SubResource( 1444 ), SubResource( 1445 ) ],
+"loop": true,
+"name": "tumbleend",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1446 ), SubResource( 1447 ), SubResource( 1448 ), SubResource( 1449 ), SubResource( 1450 ), SubResource( 1451 ), SubResource( 1452 ), SubResource( 1453 ), SubResource( 1454 ), SubResource( 1455 ), SubResource( 1456 ), SubResource( 1457 ), SubResource( 1458 ), SubResource( 1459 ), SubResource( 1460 ), SubResource( 1461 ), SubResource( 1462 ), SubResource( 1463 ) ],
+"loop": true,
+"name": "tumblestart",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 679 ), SubResource( 680 ), SubResource( 681 ), SubResource( 682 ), SubResource( 683 ), SubResource( 684 ), SubResource( 685 ), SubResource( 686 ), SubResource( 687 ), SubResource( 688 ), SubResource( 689 ), SubResource( 690 ), SubResource( 691 ) ],
+"loop": true,
+"name": "uppercutfinishingblow",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1464 ), SubResource( 1465 ), SubResource( 1466 ), SubResource( 1467 ), SubResource( 1468 ), SubResource( 1469 ), SubResource( 1470 ), SubResource( 1471 ), SubResource( 1472 ), SubResource( 1473 ), SubResource( 1474 ), SubResource( 1475 ), SubResource( 1476 ), SubResource( 1477 ), SubResource( 1478 ), SubResource( 1479 ), SubResource( 1480 ) ],
+"loop": true,
+"name": "uppizzabox",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1481 ), SubResource( 1482 ), SubResource( 1483 ), SubResource( 1484 ), SubResource( 1485 ), SubResource( 1486 ), SubResource( 1487 ), SubResource( 1488 ), SubResource( 1489 ), SubResource( 1490 ), SubResource( 1491 ), SubResource( 1492 ), SubResource( 1493 ), SubResource( 1494 ), SubResource( 1495 ), SubResource( 1496 ), SubResource( 1497 ), SubResource( 1498 ), SubResource( 1499 ), SubResource( 1500 ), SubResource( 1501 ), SubResource( 1502 ), SubResource( 1503 ), SubResource( 1504 ), SubResource( 1505 ), SubResource( 1506 ), SubResource( 1507 ), SubResource( 1508 ), SubResource( 1509 ), SubResource( 1510 ), SubResource( 1511 ), SubResource( 1512 ), SubResource( 1513 ), SubResource( 1514 ), SubResource( 1515 ), SubResource( 1516 ), SubResource( 1517 ) ],
+"loop": true,
+"name": "victory",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1518 ), SubResource( 1519 ), SubResource( 1520 ), SubResource( 1521 ), SubResource( 1522 ), SubResource( 1523 ), SubResource( 1524 ), SubResource( 1525 ), SubResource( 1526 ), SubResource( 1527 ), SubResource( 1528 ), SubResource( 1529 ), SubResource( 1530 ), SubResource( 1531 ), SubResource( 1532 ), SubResource( 1533 ), SubResource( 1534 ), SubResource( 1535 ) ],
+"loop": true,
+"name": "walkfront",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1536 ), SubResource( 1537 ), SubResource( 1538 ) ],
+"loop": true,
+"name": "wallcling",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1539 ), SubResource( 1540 ), SubResource( 1541 ), SubResource( 1542 ), SubResource( 1543 ), SubResource( 1544 ), SubResource( 1545 ) ],
+"loop": true,
+"name": "wallclingstart",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1546 ), SubResource( 1547 ), SubResource( 1548 ) ],
+"loop": true,
+"name": "walljumpend",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1549 ), SubResource( 1550 ), SubResource( 1551 ), SubResource( 1552 ), SubResource( 1553 ), SubResource( 1554 ), SubResource( 1555 ), SubResource( 1556 ), SubResource( 1557 ), SubResource( 1558 ), SubResource( 1559 ), SubResource( 1560 ), SubResource( 1561 ) ],
+"loop": true,
+"name": "walljumpstart",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1562 ), SubResource( 1563 ), SubResource( 1564 ), SubResource( 1565 ), SubResource( 1566 ), SubResource( 1567 ), SubResource( 1568 ), SubResource( 1569 ), SubResource( 1570 ), SubResource( 1571 ) ],
+"loop": true,
+"name": "winding",
+"speed": 60.0
+} ]
+
+[sub_resource type="SpriteFrames" id=1950]
 animations = [ {
 "frames": [ SubResource( 341 ), SubResource( 342 ), SubResource( 343 ), SubResource( 344 ), SubResource( 345 ), SubResource( 346 ), SubResource( 347 ), SubResource( 348 ) ],
 "loop": true,
@@ -17355,7 +18600,7 @@ animations = [ {
 "frames": [ ExtResource( 2258 ), ExtResource( 2248 ), ExtResource( 2246 ), ExtResource( 2249 ), ExtResource( 2243 ), ExtResource( 2252 ), ExtResource( 2245 ), ExtResource( 2247 ), ExtResource( 2244 ), ExtResource( 2251 ), ExtResource( 2250 ) ],
 "loop": true,
 "name": "mach3hit",
-"speed": 5.0
+"speed": 60.0
 }, {
 "frames": [ ExtResource( 2232 ), ExtResource( 2236 ), ExtResource( 2235 ), ExtResource( 2233 ), ExtResource( 2234 ), ExtResource( 2237 ), ExtResource( 2129 ), ExtResource( 2121 ), ExtResource( 2125 ) ],
 "loop": true,
@@ -17799,9 +19044,8 @@ animation = "idle"
 
 [node name="PeppinoSprite" type="AnimatedSprite" parent="."]
 material = SubResource( 4 )
-position = Vector2( 2, 1 )
 frames = SubResource( 1 )
-animation = "3hpidle"
+animation = "breakdancesmash"
 
 [node name="GustavoSprite" type="AnimatedSprite" parent="."]
 material = SubResource( 4 )
@@ -17823,18 +19067,18 @@ animation = "idle"
 [node name="NoiseSprite" type="AnimatedSprite" parent="."]
 material = SubResource( 1573 )
 frames = SubResource( 10 )
-animation = "uppercutend"
+animation = "breakdancesuper"
 
 [node name="SnickSprite" type="AnimatedSprite" parent="."]
 material = SubResource( 1573 )
 position = Vector2( 0, 1 )
-frames = SubResource( 1818 )
+frames = SubResource( 1949 )
 animation = "idle"
 
 [node name="PizzanoSprite" type="AnimatedSprite" parent="."]
 material = SubResource( 1573 )
 position = Vector2( 0, 13 )
-frames = SubResource( 1818 )
+frames = SubResource( 1950 )
 animation = "handstand"
 
 [node name="VigilanteSprite" type="AnimatedSprite" parent="."]

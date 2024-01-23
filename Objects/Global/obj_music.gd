@@ -16,7 +16,7 @@ var room_arr = [
 	["hub_room1", "mu_hub", "mu_scary", false],
 	["hub_special", "mu_hub", "mu_scary", false],
 	["ancient_1", "mu_tutorial", "mu_scary", false],
-	["tower_1", "mu_ancient", "mu_scary", false],
+	["tower_1", "mu_tower", "mu_scary", false],
 	["factory_1", "mu_factory", "mu_scary", false],
 	["circus_1", "mu_circus", "mu_scary", false],
 	["entrance_1", "mu_entrance", "mu_scary", false],

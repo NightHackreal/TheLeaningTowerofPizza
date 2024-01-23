@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/mu_waterescape.ogg-5e04dbbbe884b2c6e00f0f0690f6ebf2.oggstr"
+
+[deps]
+
+source_file="res://Music/mu_waterescape.ogg"
+dest_files=[ "res://.import/mu_waterescape.ogg-5e04dbbbe884b2c6e00f0f0690f6ebf2.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

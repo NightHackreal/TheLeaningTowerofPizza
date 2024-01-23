@@ -122,8 +122,8 @@ targetRoom = "medieval_1"
 
 [node name="obj_startgate4" parent="." instance=ExtResource( 2 )]
 position = Vector2( 342, 833 )
-targetLevel = "factory"
-targetRoom = "factory_1"
+targetLevel = "ruin"
+targetRoom = "ruin_1"
 
 [node name="obj_startgate5" parent="." instance=ExtResource( 2 )]
 position = Vector2( 517, 448 )

@@ -2,6 +2,7 @@ extends Area2D
 
 export(String) var targetLevel = ""
 export(String) var targetRoom = ""
+var character = "P"
 
 func _ready():
 	$Sprite.playing = true

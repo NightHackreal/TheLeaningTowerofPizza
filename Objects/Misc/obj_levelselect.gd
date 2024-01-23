@@ -28,7 +28,7 @@ var level_array = [
 	],
 	[
 		["TRICKY TREAT", "trickytreat", "trickytreat_1"],
-		["ENTRANCE", "entrance", "entrance_1"],
+		["JOHN GUTTER", "entrance", "entrance_1"],
 		["PIZZASCAPE", "medieval", "medieval_1"],
 		["THE ANCIENT CHEESE", "ruin", "ruin_1"],
 		["BLOODSAUCE DUNGEON", "dungeon", "dungeon_1"],

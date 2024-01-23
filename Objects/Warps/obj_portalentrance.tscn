@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=2]
+[gd_scene load_steps=33 format=2]
 
 [ext_resource path="res://Objects/Warps/sprites/pizzaportalentrancestart_6.png" type="Texture" id=1]
 [ext_resource path="res://Objects/Warps/sprites/pizzaportalentrancestart_10.png" type="Texture" id=2]
@@ -18,6 +18,18 @@
 [ext_resource path="res://Objects/Warps/obj_portalentrance.gd" type="Script" id=16]
 [ext_resource path="res://Objects/Player/peppalette.png" type="Texture" id=17]
 [ext_resource path="res://Shaders/PaletteSwap.gdshader" type="Shader" id=18]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_pizzaportalentrancestartN_0.png" type="Texture" id=19]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_pizzaportalentrancestartN_3.png" type="Texture" id=20]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_pizzaportalentrancestartN_2.png" type="Texture" id=21]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_pizzaportalentrancestartN_5.png" type="Texture" id=22]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_pizzaportalentrancestartN_6.png" type="Texture" id=23]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_pizzaportalentrancestartN_7.png" type="Texture" id=24]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_pizzaportalentrancestartN_8.png" type="Texture" id=25]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_pizzaportalentrancestartN_9.png" type="Texture" id=26]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_pizzaportalentrancestartN_10.png" type="Texture" id=27]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_pizzaportalentrancestartN_11.png" type="Texture" id=28]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_pizzaportalentrancestartN_4.png" type="Texture" id=29]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_pizzaportalentrancestartN_1.png" type="Texture" id=30]
 
 [sub_resource type="ShaderMaterial" id=4]
 shader = ExtResource( 18 )
@@ -39,6 +51,11 @@ animations = [ {
 "loop": true,
 "name": "pizzaportalentrancestart",
 "speed": 60.0
+}, {
+"frames": [ ExtResource( 19 ), ExtResource( 30 ), ExtResource( 21 ), ExtResource( 20 ), ExtResource( 29 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ) ],
+"loop": true,
+"name": "pizzaportalentrancestartN",
+"speed": 5.0
 } ]
 
 [node name="obj_portalentrance" type="Node2D" groups=["obj_portalentrance"]]

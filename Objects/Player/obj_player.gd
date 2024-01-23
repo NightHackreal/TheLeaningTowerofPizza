@@ -255,6 +255,8 @@ func _process(delta):
 							elif (rng == 4):
 								charactersprite.animation = "suplexmash4"
 							elif (rng == 5):
+								charactersprite.animation = "suplexmash5"
+							elif (rng == 6):
 								charactersprite.animation = "punch"
 							state = global.states.tackle
 							movespeed = 3
@@ -1079,12 +1081,14 @@ func scr_player_normal():
 		charactersprite.animation = "attackdash"
 		movespeed = 6
 	if (Input.is_action_just_pressed("key_grab") && character == "N"):
-		$NoiseSpin.play()
 		$SuplexDash.play()
-		state = global.states.spin
-		charactersprite.animation = "spin"
-		movespeed = 15
-	if (Input.is_action_just_pressed("key_shoot") && character == "P" && shotgunAnim == 0 && !Input.is_action_pressed("key_up")):
+		state = global.states.handstandjump
+		if (shotgunAnim == 0):
+			charactersprite.animation = "suplexdash"
+		else:
+			charactersprite.animation = "shotgun_suplexdash"
+		movespeed = 6
+	if (Input.is_action_just_pressed("key_shoot") && shotgunAnim == 0 && !Input.is_action_pressed("key_up")):
 		utils.playsound("Breakdance")
 		movespeed = 9
 		state = global.states.punch
@@ -1102,8 +1106,7 @@ func scr_player_normal():
 		if (character == "P"):
 			charactersprite.animation = "uppercut"
 		elif (character == "N"):
-			$NoiseSpin.play()
-			charactersprite.animation = "machspinstart"
+			charactersprite.animation = "uppercut"
 		velocity.y = -14
 		movespeed = 2
 		utils.instance_create(position.x, position.y, "res://Objects/Visuals/obj_highjumpcloud2.tscn")
@@ -1260,11 +1263,12 @@ func scr_player_jump():
 		velocity.y = -4
 		movespeed = 6
 	if (Input.is_action_just_pressed("key_grab") && character == "N"):
-		$NoiseSpin.play()
+		suplexmove = 1
 		$SuplexDash.play()
-		state = global.states.spin
-		charactersprite.animation = "spin"
-		movespeed = 15
+		state = global.states.handstandjump
+		charactersprite.animation = "suplexdashjumpstart"
+		velocity.y = -4
+		movespeed = 6
 	if (Input.is_action_just_pressed("key_shoot") && shotgunAnim == 0 && !Input.is_action_pressed("key_up")):
 		utils.playsound("Breakdance")
 		velocity.y = -4
@@ -2726,7 +2730,7 @@ func scr_player_finishingblow():
 		movespeed -= 0.5
 	if (is_last_frame()):
 		state = global.states.normal
-	if (charactersprite.frame == 6 && (!utils.instance_exists("obj_swordhitbox"))):
+	if (charactersprite.frame == 2 && (!utils.instance_exists("obj_swordhitbox"))):
 		utils.playsound("Punch")
 		utils.playsound("KillingBlow")
 		utils.instance_create((global_position.x + 50), global_position.y, "res://Objects/Hitboxes/obj_swordhitbox.tscn")
