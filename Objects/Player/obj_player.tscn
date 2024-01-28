@@ -1,4 +1,4 @@
-[gd_scene load_steps=5374 format=2]
+[gd_scene load_steps=5389 format=2]
 
 [ext_resource path="res://Objects/Player/sprites/idle_4.png" type="Texture" id=1]
 [ext_resource path="res://Objects/Player/sprites/idle_0.png" type="Texture" id=2]
@@ -3588,6 +3588,7 @@
 [ext_resource path="res://Objects/Player/sprites/diagonalupthrow_4.png" type="Texture" id=3586]
 [ext_resource path="res://Objects/Player/sprites/diagonalupthrow_1.png" type="Texture" id=3587]
 [ext_resource path="res://Objects/Player/sprites/diagonalupthrow_0.png" type="Texture" id=3588]
+[ext_resource path="res://Objects/Player/sprites/noise/noisemachrun.png" type="Texture" id=3589]
 [ext_resource path="res://Objects/Player/sprites/uppunch_8.png" type="Texture" id=3590]
 [ext_resource path="res://Objects/Player/sprites/uppunch_5.png" type="Texture" id=3592]
 [ext_resource path="res://Objects/Player/sprites/uppunch_6.png" type="Texture" id=3593]
@@ -12191,17 +12192,69 @@ region = Rect2( 400, 0, 100, 100 )
 atlas = ExtResource( 1888 )
 region = Rect2( 500, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=1881]
-atlas = ExtResource( 2043 )
-region = Rect2( 0, 0, 100, 100 )
+[sub_resource type="AtlasTexture" id=1951]
+atlas = ExtResource( 3589 )
+region = Rect2( 200, 0, 200, 70 )
 
-[sub_resource type="AtlasTexture" id=1882]
-atlas = ExtResource( 2043 )
-region = Rect2( 100, 0, 100, 100 )
+[sub_resource type="AtlasTexture" id=1952]
+atlas = ExtResource( 3589 )
+region = Rect2( 0, 0, 200, 70 )
 
-[sub_resource type="AtlasTexture" id=1883]
-atlas = ExtResource( 2043 )
-region = Rect2( 200, 0, 100, 100 )
+[sub_resource type="AtlasTexture" id=1953]
+atlas = ExtResource( 3589 )
+region = Rect2( 400, 0, 200, 70 )
+
+[sub_resource type="AtlasTexture" id=1954]
+atlas = ExtResource( 3589 )
+region = Rect2( 600, 0, 200, 70 )
+
+[sub_resource type="AtlasTexture" id=1955]
+atlas = ExtResource( 3589 )
+region = Rect2( 800, 0, 200, 70 )
+
+[sub_resource type="AtlasTexture" id=1956]
+atlas = ExtResource( 3589 )
+region = Rect2( 1000, 0, 200, 70 )
+
+[sub_resource type="AtlasTexture" id=1957]
+atlas = ExtResource( 3589 )
+region = Rect2( 1200, 0, 200, 70 )
+
+[sub_resource type="AtlasTexture" id=1958]
+atlas = ExtResource( 3589 )
+region = Rect2( 1400, 0, 200, 70 )
+
+[sub_resource type="AtlasTexture" id=1959]
+atlas = ExtResource( 3589 )
+region = Rect2( 1600, 0, 200, 70 )
+
+[sub_resource type="AtlasTexture" id=1960]
+atlas = ExtResource( 3589 )
+region = Rect2( 1800, 0, 200, 70 )
+
+[sub_resource type="AtlasTexture" id=1961]
+atlas = ExtResource( 3589 )
+region = Rect2( 2000, 0, 200, 70 )
+
+[sub_resource type="AtlasTexture" id=1962]
+atlas = ExtResource( 3589 )
+region = Rect2( 2200, 0, 200, 70 )
+
+[sub_resource type="AtlasTexture" id=1963]
+atlas = ExtResource( 3589 )
+region = Rect2( 2400, 0, 200, 70 )
+
+[sub_resource type="AtlasTexture" id=1964]
+atlas = ExtResource( 3589 )
+region = Rect2( 2600, 0, 200, 70 )
+
+[sub_resource type="AtlasTexture" id=1965]
+atlas = ExtResource( 3589 )
+region = Rect2( 2800, 0, 200, 70 )
+
+[sub_resource type="AtlasTexture" id=1966]
+atlas = ExtResource( 3589 )
+region = Rect2( 3000, 0, 200, 70 )
 
 [sub_resource type="AtlasTexture" id=1909]
 atlas = ExtResource( 1906 )
@@ -12286,6 +12339,10 @@ region = Rect2( 100, 0, 100, 100 )
 [sub_resource type="AtlasTexture" id=1135]
 atlas = ExtResource( 1902 )
 region = Rect2( 200, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1881]
+atlas = ExtResource( 2043 )
+region = Rect2( 0, 0, 100, 100 )
 
 [sub_resource type="AtlasTexture" id=1149]
 atlas = ExtResource( 1900 )
@@ -15105,7 +15162,7 @@ animations = [ {
 "name": "mach3jump",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1881 ), SubResource( 1882 ), SubResource( 1883 ) ],
+"frames": [ SubResource( 1951 ), SubResource( 1952 ), SubResource( 1953 ), SubResource( 1954 ), SubResource( 1955 ), SubResource( 1956 ), SubResource( 1957 ), SubResource( 1958 ), SubResource( 1959 ), SubResource( 1960 ), SubResource( 1961 ), SubResource( 1962 ), SubResource( 1963 ), SubResource( 1964 ), SubResource( 1965 ), SubResource( 1966 ) ],
 "loop": true,
 "name": "mach4",
 "speed": 60.0
@@ -19066,8 +19123,10 @@ animation = "idle"
 
 [node name="NoiseSprite" type="AnimatedSprite" parent="."]
 material = SubResource( 1573 )
+z_index = 1
 frames = SubResource( 10 )
-animation = "breakdancesuper"
+animation = "mach4"
+offset = Vector2( 0, 16 )
 
 [node name="SnickSprite" type="AnimatedSprite" parent="."]
 material = SubResource( 1573 )
