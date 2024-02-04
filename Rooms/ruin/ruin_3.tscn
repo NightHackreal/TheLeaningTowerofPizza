@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=2]
+[gd_scene load_steps=23 format=2]
 
 [ext_resource path="res://Collision/obj_solid.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Backgrounds/bg_ruin_0.png" type="Texture" id=2]
@@ -20,6 +20,7 @@
 [ext_resource path="res://Objects/Destructibles/obj_secretbigblock.tscn" type="PackedScene" id=18]
 [ext_resource path="res://Objects/Destructibles/obj_destroyable.tscn" type="PackedScene" id=19]
 [ext_resource path="res://Objects/Baddies/Enemies/obj_cheeseslime.tscn" type="PackedScene" id=20]
+[ext_resource path="res://Objects/Baddies/Enemies/obj_pepgoblin.tscn" type="PackedScene" id=21]
 
 [sub_resource type="ShaderMaterial" id=1]
 shader = ExtResource( 8 )
@@ -196,58 +197,45 @@ scale = Vector2( 2, 1 )
 
 [node name="obj_minipillar" parent="." instance=ExtResource( 12 )]
 position = Vector2( 1472, 1088 )
-z_index = 1
 Reverse = true
 
 [node name="obj_minipillar2" parent="." instance=ExtResource( 12 )]
 position = Vector2( 1504, 1088 )
-z_index = 1
 Reverse = true
 
 [node name="obj_minipillar3" parent="." instance=ExtResource( 12 )]
 position = Vector2( 1536, 1088 )
-z_index = 1
 Reverse = true
 
 [node name="obj_minipillar4" parent="." instance=ExtResource( 12 )]
 position = Vector2( 960, 960 )
-z_index = 1
 
 [node name="obj_minipillar5" parent="." instance=ExtResource( 12 )]
 position = Vector2( 992, 960 )
-z_index = 1
 
 [node name="obj_minipillar6" parent="." instance=ExtResource( 12 )]
 position = Vector2( 1216, 960 )
-z_index = 1
 
 [node name="obj_minipillar7" parent="." instance=ExtResource( 12 )]
 position = Vector2( 1248, 960 )
-z_index = 1
 
 [node name="obj_minipillar8" parent="." instance=ExtResource( 12 )]
 position = Vector2( 1280, 960 )
-z_index = 1
 
 [node name="obj_minipillar9" parent="." instance=ExtResource( 12 )]
 position = Vector2( 1312, 960 )
-z_index = 1
 
 [node name="obj_minipillar10" parent="." instance=ExtResource( 12 )]
 position = Vector2( 1344, 960 )
-z_index = 1
 
 [node name="obj_minipillar11" parent="." instance=ExtResource( 12 )]
 position = Vector2( 1376, 960 )
-z_index = 1
 
 [node name="obj_minipillar12" parent="." instance=ExtResource( 12 )]
 position = Vector2( 1408, 960 )
-z_index = 1
 
 [node name="obj_minipillar13" parent="." instance=ExtResource( 12 )]
 position = Vector2( 1440, 960 )
-z_index = 1
 
 [node name="obj_metalblock" parent="." instance=ExtResource( 13 )]
 position = Vector2( 960, 960 )
@@ -337,6 +325,24 @@ position = Vector2( 976, 800 )
 [node name="obj_collect9" parent="." instance=ExtResource( 17 )]
 position = Vector2( 976, 832 )
 
+[node name="obj_collect10" parent="." instance=ExtResource( 17 )]
+position = Vector2( 1440, 638 )
+
+[node name="obj_collect11" parent="." instance=ExtResource( 17 )]
+position = Vector2( 1440, 670 )
+
+[node name="obj_collect12" parent="." instance=ExtResource( 17 )]
+position = Vector2( 1440, 702 )
+
+[node name="obj_collect13" parent="." instance=ExtResource( 17 )]
+position = Vector2( 1441, 419 )
+
+[node name="obj_collect14" parent="." instance=ExtResource( 17 )]
+position = Vector2( 1441, 451 )
+
+[node name="obj_collect15" parent="." instance=ExtResource( 17 )]
+position = Vector2( 1441, 483 )
+
 [node name="obj_secretbigblock" parent="." instance=ExtResource( 18 )]
 position = Vector2( 1440, 128 )
 
@@ -387,3 +393,6 @@ position = Vector2( 448, 144 )
 
 [node name="obj_giantcollect" parent="." instance=ExtResource( 9 )]
 position = Vector2( 1616, 944 )
+
+[node name="obj_pepgoblin" parent="." instance=ExtResource( 21 )]
+position = Vector2( 1120, 1074 )

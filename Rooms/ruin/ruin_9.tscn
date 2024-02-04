@@ -197,7 +197,6 @@ scale = Vector2( 5, 1 )
 [node name="obj_ladder" parent="." instance=ExtResource( 12 )]
 position = Vector2( 1824, 640 )
 scale = Vector2( 1, 10 )
-z_index = -2
 
 [node name="obj_bombblock" parent="." instance=ExtResource( 13 )]
 position = Vector2( 2176, 896 )

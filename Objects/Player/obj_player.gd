@@ -130,7 +130,6 @@ func _process(delta):
 		$FakePeppinoSprite.visible = false
 		$NoiseSprite.visible = false
 		$SnickSprite.visible = false
-		$StickSprite.visible = false
 		$VigilanteSprite.visible = false
 	elif (character == "N"):
 		charactersprite = $NoiseSprite
@@ -141,7 +140,6 @@ func _process(delta):
 		$FakePeppinoSprite.visible = false
 		$NoiseSprite.visible = true
 		$SnickSprite.visible = false
-		$StickSprite.visible = false
 		$VigilanteSprite.visible = false
 	elif (character == "M"):
 		charactersprite = $PeppermanSprite
@@ -152,7 +150,6 @@ func _process(delta):
 		$FakePeppinoSprite.visible = false
 		$NoiseSprite.visible = false
 		$SnickSprite.visible = false
-		$StickSprite.visible = false
 		$VigilanteSprite.visible = false
 	elif (character == "Z"):
 		charactersprite = $PizzanoSprite
@@ -163,7 +160,6 @@ func _process(delta):
 		$FakePeppinoSprite.visible = false
 		$NoiseSprite.visible = false
 		$SnickSprite.visible = false
-		$StickSprite.visible = false
 		$VigilanteSprite.visible = false
 	elif (character == "V"):
 		charactersprite = $VigilanteSprite
@@ -174,7 +170,6 @@ func _process(delta):
 		$FakePeppinoSprite.visible = false
 		$NoiseSprite.visible = false
 		$SnickSprite.visible = false
-		$StickSprite.visible = false
 		$VigilanteSprite.visible = true
 	elif (character == "F"):
 		charactersprite = $FakePeppinoSprite
@@ -185,7 +180,6 @@ func _process(delta):
 		$FakePeppinoSprite.visible = true
 		$NoiseSprite.visible = false
 		$SnickSprite.visible = false
-		$StickSprite.visible = false
 		$VigilanteSprite.visible = false
 	elif (character == "T"):
 		charactersprite = $StickSprite
@@ -196,7 +190,6 @@ func _process(delta):
 		$FakePeppinoSprite.visible = false
 		$NoiseSprite.visible = false
 		$SnickSprite.visible = false
-		$StickSprite.visible = true
 		$VigilanteSprite.visible = false
 	elif (character == "G"):
 		charactersprite = $GustavoSprite
@@ -207,7 +200,6 @@ func _process(delta):
 		$FakePeppinoSprite.visible = false
 		$NoiseSprite.visible = false
 		$SnickSprite.visible = false
-		$StickSprite.visible = false
 		$VigilanteSprite.visible = false
 	charactersprite.material.set_shader_param("current_palette", global.peppalette)
 	charactersprite.material.set_shader_param("flash", flash)

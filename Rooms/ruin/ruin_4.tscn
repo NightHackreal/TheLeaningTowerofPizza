@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=2]
+[gd_scene load_steps=20 format=2]
 
 [ext_resource path="res://Collision/obj_solid.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Backgrounds/bg_ruin_0.png" type="Texture" id=2]
@@ -17,6 +17,7 @@
 [ext_resource path="res://Objects/Blocks/obj_ladder.tscn" type="PackedScene" id=15]
 [ext_resource path="res://Objects/Warps/obj_hallway.tscn" type="PackedScene" id=16]
 [ext_resource path="res://Objects/Baddies/Enemies/obj_pizzagoblin.tscn" type="PackedScene" id=17]
+[ext_resource path="res://Objects/Collectibles/obj_collect.tscn" type="PackedScene" id=18]
 
 [sub_resource type="ShaderMaterial" id=1]
 shader = ExtResource( 8 )
@@ -191,10 +192,27 @@ position = Vector2( 736, 624 )
 [node name="obj_ladder" parent="." instance=ExtResource( 15 )]
 position = Vector2( 448, 256 )
 scale = Vector2( 1, 10 )
-z_index = -2
 
 [node name="obj_pizzagoblin" parent="." instance=ExtResource( 17 )]
 position = Vector2( 848, 400 )
 
 [node name="obj_pizzagoblin2" parent="." instance=ExtResource( 17 )]
 position = Vector2( 992, 592 )
+
+[node name="obj_collect" parent="." instance=ExtResource( 18 )]
+position = Vector2( 203, 276 )
+
+[node name="obj_collect2" parent="." instance=ExtResource( 18 )]
+position = Vector2( 235, 276 )
+
+[node name="obj_collect3" parent="." instance=ExtResource( 18 )]
+position = Vector2( 203, 308 )
+
+[node name="obj_collect4" parent="." instance=ExtResource( 18 )]
+position = Vector2( 235, 308 )
+
+[node name="obj_collect5" parent="." instance=ExtResource( 18 )]
+position = Vector2( 203, 340 )
+
+[node name="obj_collect6" parent="." instance=ExtResource( 18 )]
+position = Vector2( 235, 340 )

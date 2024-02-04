@@ -137,7 +137,6 @@ func _process(delta):
 			var newmusic = load("res://Music/" + music + ".ogg")
 			$music.stream = newmusic
 			$music.play()
-
 func _on_RestartMusicTimer_timeout():
 	if (!$music.playing):
 		$music.play()

@@ -24,7 +24,7 @@ var option_musicvolume = 0
 
 
 # Enables the style bar from April 2019.
-# This feature is extremely broken as the amount of score it gives is stupidly high.
+# This feature is extremely broken as the amount of score it gives is stupidly high. Also, NightHack calls this the game journalist bar.
 var stylebar = false
 
 # Enables the mach1 animation seen in May 2019 builds.

@@ -1,4 +1,4 @@
-[gd_scene load_steps=5389 format=2]
+[gd_scene load_steps=5364 format=2]
 
 [ext_resource path="res://Objects/Player/sprites/idle_4.png" type="Texture" id=1]
 [ext_resource path="res://Objects/Player/sprites/idle_0.png" type="Texture" id=2]
@@ -706,22 +706,6 @@
 [ext_resource path="res://Objects/Player/sprites/mach3hitwall_2.png" type="Texture" id=704]
 [ext_resource path="res://Objects/Player/sprites/mach3hitwall_5.png" type="Texture" id=705]
 [ext_resource path="res://Objects/Player/sprites/mach3hitwall_8.png" type="Texture" id=706]
-[ext_resource path="res://Objects/Player/sprites/mach1_0.png" type="Texture" id=707]
-[ext_resource path="res://Objects/Player/sprites/mach1_3.png" type="Texture" id=708]
-[ext_resource path="res://Objects/Player/sprites/mach1_1.png" type="Texture" id=709]
-[ext_resource path="res://Objects/Player/sprites/mach1_4.png" type="Texture" id=710]
-[ext_resource path="res://Objects/Player/sprites/mach1_7.png" type="Texture" id=711]
-[ext_resource path="res://Objects/Player/sprites/mach1_8.png" type="Texture" id=712]
-[ext_resource path="res://Objects/Player/sprites/mach1_9.png" type="Texture" id=713]
-[ext_resource path="res://Objects/Player/sprites/mach1_10.png" type="Texture" id=714]
-[ext_resource path="res://Objects/Player/sprites/mach1_5.png" type="Texture" id=715]
-[ext_resource path="res://Objects/Player/sprites/mach1_11.png" type="Texture" id=716]
-[ext_resource path="res://Objects/Player/sprites/mach1_12.png" type="Texture" id=717]
-[ext_resource path="res://Objects/Player/sprites/mach1_13.png" type="Texture" id=718]
-[ext_resource path="res://Objects/Player/sprites/mach1_14.png" type="Texture" id=719]
-[ext_resource path="res://Objects/Player/sprites/mach1_15.png" type="Texture" id=720]
-[ext_resource path="res://Objects/Player/sprites/mach1_6.png" type="Texture" id=721]
-[ext_resource path="res://Objects/Player/sprites/mach1_2.png" type="Texture" id=722]
 [ext_resource path="res://Objects/Player/sprites/mach_2.png" type="Texture" id=723]
 [ext_resource path="res://Objects/Player/sprites/idle_11.png" type="Texture" id=724]
 [ext_resource path="res://Objects/Player/sprites/idle_7.png" type="Texture" id=725]
@@ -2800,150 +2784,6 @@
 [ext_resource path="res://Objects/Player/sprites/pizzano/spr_pizzano_handstand_6.png" type="Texture" id=2798]
 [ext_resource path="res://Objects/Player/sprites/pizzano/spr_pizzano_handstand_1.png" type="Texture" id=2799]
 [ext_resource path="res://Objects/Player/sprites/pizzano/spr_pizzano_handstand_7.png" type="Texture" id=2800]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idle_6.png" type="Texture" id=2801]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_96.png" type="Texture" id=2802]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim3_36.png" type="Texture" id=2803]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_33-62.png" type="Texture" id=2804]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_84.png" type="Texture" id=2805]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_132.png" type="Texture" id=2806]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_12.png" type="Texture" id=2807]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idle_5.png" type="Texture" id=2808]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_136.png" type="Texture" id=2809]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_139.png" type="Texture" id=2810]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_133-135.png" type="Texture" id=2811]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_103_110.png" type="Texture" id=2812]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_27.png" type="Texture" id=2813]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_138.png" type="Texture" id=2814]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_15-23.png" type="Texture" id=2815]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_99_106.png" type="Texture" id=2816]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_137.png" type="Texture" id=2817]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_24.png" type="Texture" id=2818]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_28.png" type="Texture" id=2819]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_11.png" type="Texture" id=2820]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_100_107.png" type="Texture" id=2821]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_101_108.png" type="Texture" id=2822]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_25.png" type="Texture" id=2823]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_26.png" type="Texture" id=2824]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_131.png" type="Texture" id=2825]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_32.png" type="Texture" id=2826]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idle_9.png" type="Texture" id=2827]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_31.png" type="Texture" id=2828]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_29.png" type="Texture" id=2829]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idle_8.png" type="Texture" id=2830]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_85.png" type="Texture" id=2831]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_30.png" type="Texture" id=2832]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_116-126.png" type="Texture" id=2833]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_5-10.png" type="Texture" id=2834]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_73_80.png" type="Texture" id=2835]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_0.png" type="Texture" id=2836]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_81.png" type="Texture" id=2837]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_64.png" type="Texture" id=2838]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_65.png" type="Texture" id=2839]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_63.png" type="Texture" id=2840]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_4.png" type="Texture" id=2841]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim3_39.png" type="Texture" id=2842]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_114.png" type="Texture" id=2843]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim3_37.png" type="Texture" id=2844]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_82.png" type="Texture" id=2845]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim1_0.png" type="Texture" id=2846]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim1_20.png" type="Texture" id=2847]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_68_75.png" type="Texture" id=2848]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim3_2.png" type="Texture" id=2849]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim1_2.png" type="Texture" id=2850]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim3_3.png" type="Texture" id=2851]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim1_1.png" type="Texture" id=2852]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_70-72_77-79.png" type="Texture" id=2853]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_127.png" type="Texture" id=2854]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim1_21.png" type="Texture" id=2855]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_128.png" type="Texture" id=2856]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim1_3.png" type="Texture" id=2857]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_66.png" type="Texture" id=2858]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim1_4-17.png" type="Texture" id=2859]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_67_74.png" type="Texture" id=2860]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim3_16.png" type="Texture" id=2861]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim3_1.png" type="Texture" id=2862]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim1_22.png" type="Texture" id=2863]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim1_19.png" type="Texture" id=2864]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_1.png" type="Texture" id=2865]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_3.png" type="Texture" id=2866]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim3_6.png" type="Texture" id=2867]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_69_76.png" type="Texture" id=2868]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim3_7-15.png" type="Texture" id=2869]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_83.png" type="Texture" id=2870]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim3_5.png" type="Texture" id=2871]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim3_4.png" type="Texture" id=2872]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_115.png" type="Texture" id=2873]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_2.png" type="Texture" id=2874]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_113.png" type="Texture" id=2875]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_129.png" type="Texture" id=2876]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim3_34.png" type="Texture" id=2877]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim3_25-26.png" type="Texture" id=2878]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim3_17-18.png" type="Texture" id=2879]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim3_28-33.png" type="Texture" id=2880]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim3_27.png" type="Texture" id=2881]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim3_20-23.png" type="Texture" id=2882]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim3_35.png" type="Texture" id=2883]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_97.png" type="Texture" id=2884]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim3_38.png" type="Texture" id=2885]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim1_18.png" type="Texture" id=2886]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim3_0.png" type="Texture" id=2887]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_105_112.png" type="Texture" id=2888]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_104_111.png" type="Texture" id=2889]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim3_24.png" type="Texture" id=2890]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_98.png" type="Texture" id=2891]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idle_2.png" type="Texture" id=2892]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idle_4.png" type="Texture" id=2893]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_86-95.png" type="Texture" id=2894]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_102_109.png" type="Texture" id=2895]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idle_1.png" type="Texture" id=2896]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idle_0.png" type="Texture" id=2897]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_13.png" type="Texture" id=2898]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_14.png" type="Texture" id=2899]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim2_130.png" type="Texture" id=2900]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idle_3.png" type="Texture" id=2901]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idle_7.png" type="Texture" id=2902]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_idleanim3_19.png" type="Texture" id=2903]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_land_6.png" type="Texture" id=2904]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_helicopter_10.png" type="Texture" id=2905]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_helicopter_6.png" type="Texture" id=2906]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_land_3.png" type="Texture" id=2907]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_helicopter_0.png" type="Texture" id=2908]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_helicopter_7.png" type="Texture" id=2909]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_helicopter_5.png" type="Texture" id=2910]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_helicopter_8.png" type="Texture" id=2911]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_helicopter_9.png" type="Texture" id=2912]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_land_2.png" type="Texture" id=2913]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_9.png" type="Texture" id=2914]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_18.png" type="Texture" id=2915]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_19.png" type="Texture" id=2916]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_2.png" type="Texture" id=2917]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_16.png" type="Texture" id=2918]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_5-8.png" type="Texture" id=2919]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_12.png" type="Texture" id=2920]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_0.png" type="Texture" id=2921]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_1.png" type="Texture" id=2922]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_4.png" type="Texture" id=2923]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_13.png" type="Texture" id=2924]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_3.png" type="Texture" id=2925]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_17.png" type="Texture" id=2926]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_10.png" type="Texture" id=2927]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_land_8-9.png" type="Texture" id=2928]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_fall_1.png" type="Texture" id=2929]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_helicopter_1.png" type="Texture" id=2930]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_14.png" type="Texture" id=2931]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_15.png" type="Texture" id=2932]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_land_5.png" type="Texture" id=2933]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_helicopter_4.png" type="Texture" id=2934]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_fall_2.png" type="Texture" id=2935]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_leave_11.png" type="Texture" id=2936]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_land_4.png" type="Texture" id=2937]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_helicopter_3.png" type="Texture" id=2938]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_land_7.png" type="Texture" id=2939]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_fall_0.png" type="Texture" id=2940]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_helicopter_2.png" type="Texture" id=2941]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_land_1.png" type="Texture" id=2942]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_land_0.png" type="Texture" id=2943]
-[ext_resource path="res://Objects/Player/sprites/stick/spr_stick_dead_0.png" type="Texture" id=2944]
 [ext_resource path="res://Objects/Player/sprites/chainsawend_0.png" type="Texture" id=2945]
 [ext_resource path="res://Objects/Player/sprites/chainsawend2_2.png" type="Texture" id=2946]
 [ext_resource path="res://Objects/Player/sprites/chainsawend2_0.png" type="Texture" id=2947]
@@ -3065,7 +2905,7 @@
 [ext_resource path="res://Objects/Player/sprites/gustavo/lonegustavo_idle_09.png" type="Texture" id=3063]
 [ext_resource path="res://Objects/Player/sprites/gustavo/lonegustavo_walk_07.png" type="Texture" id=3064]
 [ext_resource path="res://Objects/Player/sprites/slap2air_2.png" type="Texture" id=3065]
-[ext_resource path="res://Objects/Player/sprites/gustavo/lonegustavo_bump.png" type="Texture" id=3066]
+[ext_resource path="res://Objects/Player/sprites/gustavo/spritesheets/lonegus_slipandslide.png" type="Texture" id=3066]
 [ext_resource path="res://Objects/Player/sprites/slap1_1.png" type="Texture" id=3067]
 [ext_resource path="res://Objects/Player/sprites/slap1_2.png" type="Texture" id=3068]
 [ext_resource path="res://Objects/Player/sprites/slap2_3.png" type="Texture" id=3069]
@@ -3588,15 +3428,30 @@
 [ext_resource path="res://Objects/Player/sprites/diagonalupthrow_4.png" type="Texture" id=3586]
 [ext_resource path="res://Objects/Player/sprites/diagonalupthrow_1.png" type="Texture" id=3587]
 [ext_resource path="res://Objects/Player/sprites/diagonalupthrow_0.png" type="Texture" id=3588]
-[ext_resource path="res://Objects/Player/sprites/noise/noisemachrun.png" type="Texture" id=3589]
+[ext_resource path="res://Objects/Player/sprites/noise/jetpackfall.png" type="Texture" id=3589]
 [ext_resource path="res://Objects/Player/sprites/uppunch_8.png" type="Texture" id=3590]
+[ext_resource path="res://Objects/Player/sprites/noise/chainsawhit.png" type="Texture" id=3591]
 [ext_resource path="res://Objects/Player/sprites/uppunch_5.png" type="Texture" id=3592]
 [ext_resource path="res://Objects/Player/sprites/uppunch_6.png" type="Texture" id=3593]
+[ext_resource path="res://Objects/Player/sprites/noise/chainsawhitwall.png" type="Texture" id=3594]
 [ext_resource path="res://Objects/Player/sprites/uppunch_3.png" type="Texture" id=3595]
 [ext_resource path="res://Objects/Player/sprites/uppunch_4.png" type="Texture" id=3596]
+[ext_resource path="res://Objects/Player/sprites/noise/chainsawdashstart.png" type="Texture" id=3597]
 [ext_resource path="res://Objects/Player/sprites/uppunch_1.png" type="Texture" id=3598]
 [ext_resource path="res://Objects/Player/sprites/uppunch_2.png" type="Texture" id=3599]
+[ext_resource path="res://Objects/Player/sprites/noise/chainsawdash.png" type="Texture" id=3600]
 [ext_resource path="res://Objects/Player/sprites/uppunch_7.png" type="Texture" id=3601]
+[ext_resource path="res://Objects/Player/sprites/noise/jetpackspin.png" type="Texture" id=3602]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_taunt_11.png" type="Texture" id=3603]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_taunt_13.png" type="Texture" id=3604]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_taunt_14.png" type="Texture" id=3605]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/spr_playerN_taunt_12.png" type="Texture" id=3606]
+[ext_resource path="res://Objects/Player/sprites/noise/nonspritesheetsprites/walk_02.png" type="Texture" id=3607]
+[ext_resource path="res://Objects/Player/sprites/pepperman/playerP_entergate.png" type="Texture" id=3608]
+[ext_resource path="res://Objects/Player/sprites/gustavo/spritesheets/lonegus_key.png" type="Texture" id=3609]
+[ext_resource path="res://Objects/Player/sprites/gustavo/spritesheets/lonegus_crouchslip.png" type="Texture" id=3610]
+[ext_resource path="res://Objects/Player/sprites/gustavo/spritesheets/lonegus_wallsplat.png" type="Texture" id=3611]
+[ext_resource path="res://Objects/Player/sprites/gustavo/spritesheets/lonegus_gottreasure.png" type="Texture" id=3612]
 
 [sub_resource type="ShaderMaterial" id=4]
 shader = ExtResource( 1204 )
@@ -3606,6 +3461,94 @@ shader_param/current_palette = 0
 shader_param/fps = 0.0
 shader_param/flash = false
 shader_param/palette = ExtResource( 1205 )
+
+[sub_resource type="AtlasTexture" id=2000]
+atlas = ExtResource( 3608 )
+region = Rect2( 0, 0, 158, 137 )
+
+[sub_resource type="AtlasTexture" id=2001]
+atlas = ExtResource( 3608 )
+region = Rect2( 158, 0, 158, 137 )
+
+[sub_resource type="AtlasTexture" id=2002]
+atlas = ExtResource( 3608 )
+region = Rect2( 316, 0, 158, 137 )
+
+[sub_resource type="AtlasTexture" id=2003]
+atlas = ExtResource( 3608 )
+region = Rect2( 474, 0, 158, 137 )
+
+[sub_resource type="AtlasTexture" id=2004]
+atlas = ExtResource( 3608 )
+region = Rect2( 632, 0, 158, 137 )
+
+[sub_resource type="AtlasTexture" id=2005]
+atlas = ExtResource( 3608 )
+region = Rect2( 790, 0, 158, 137 )
+
+[sub_resource type="AtlasTexture" id=2006]
+atlas = ExtResource( 3608 )
+region = Rect2( 948, 0, 158, 137 )
+
+[sub_resource type="AtlasTexture" id=2007]
+atlas = ExtResource( 3608 )
+region = Rect2( 1106, 0, 158, 137 )
+
+[sub_resource type="AtlasTexture" id=2008]
+atlas = ExtResource( 3608 )
+region = Rect2( 1264, 0, 158, 137 )
+
+[sub_resource type="AtlasTexture" id=2009]
+atlas = ExtResource( 3608 )
+region = Rect2( 1422, 0, 158, 137 )
+
+[sub_resource type="AtlasTexture" id=2010]
+atlas = ExtResource( 3608 )
+region = Rect2( 1580, 0, 158, 137 )
+
+[sub_resource type="AtlasTexture" id=2011]
+atlas = ExtResource( 3608 )
+region = Rect2( 1738, 0, 158, 137 )
+
+[sub_resource type="AtlasTexture" id=2012]
+atlas = ExtResource( 3608 )
+region = Rect2( 1896, 0, 158, 137 )
+
+[sub_resource type="AtlasTexture" id=2013]
+atlas = ExtResource( 3608 )
+region = Rect2( 2054, 0, 158, 137 )
+
+[sub_resource type="AtlasTexture" id=2014]
+atlas = ExtResource( 3608 )
+region = Rect2( 2212, 0, 158, 137 )
+
+[sub_resource type="AtlasTexture" id=2015]
+atlas = ExtResource( 3608 )
+region = Rect2( 2370, 0, 158, 137 )
+
+[sub_resource type="AtlasTexture" id=2016]
+atlas = ExtResource( 3608 )
+region = Rect2( 2528, 0, 158, 137 )
+
+[sub_resource type="AtlasTexture" id=2017]
+atlas = ExtResource( 3608 )
+region = Rect2( 2686, 0, 158, 137 )
+
+[sub_resource type="AtlasTexture" id=2018]
+atlas = ExtResource( 3608 )
+region = Rect2( 2844, 0, 158, 137 )
+
+[sub_resource type="AtlasTexture" id=2019]
+atlas = ExtResource( 3608 )
+region = Rect2( 3002, 0, 158, 137 )
+
+[sub_resource type="AtlasTexture" id=2020]
+atlas = ExtResource( 3608 )
+region = Rect2( 3160, 0, 158, 137 )
+
+[sub_resource type="AtlasTexture" id=2021]
+atlas = ExtResource( 3608 )
+region = Rect2( 3318, 0, 158, 137 )
 
 [sub_resource type="SpriteFrames" id=1816]
 animations = [ {
@@ -4449,7 +4392,7 @@ animations = [ {
 "name": "taunt",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 474 ), ExtResource( 475 ), ExtResource( 473 ), ExtResource( 486 ), ExtResource( 480 ), ExtResource( 492 ), ExtResource( 476 ), ExtResource( 488 ), ExtResource( 472 ), ExtResource( 489 ), ExtResource( 490 ), ExtResource( 487 ), ExtResource( 477 ), ExtResource( 481 ), ExtResource( 491 ), ExtResource( 485 ), ExtResource( 471 ), ExtResource( 478 ), ExtResource( 479 ), ExtResource( 482 ), ExtResource( 483 ), ExtResource( 484 ) ],
+"frames": [ SubResource( 2000 ), SubResource( 2001 ), SubResource( 2002 ), SubResource( 2003 ), SubResource( 2004 ), SubResource( 2005 ), SubResource( 2006 ), SubResource( 2007 ), SubResource( 2008 ), SubResource( 2009 ), SubResource( 2010 ), SubResource( 2011 ), SubResource( 2012 ), SubResource( 2013 ), SubResource( 2014 ), SubResource( 2015 ), SubResource( 2016 ), SubResource( 2017 ), SubResource( 2018 ), SubResource( 2019 ), SubResource( 2020 ), SubResource( 2021 ) ],
 "loop": true,
 "name": "timesup",
 "speed": 60.0
@@ -5643,6 +5586,210 @@ animations = [ {
 "speed": 60.0
 } ]
 
+[sub_resource type="AtlasTexture" id=2057]
+atlas = ExtResource( 3610 )
+region = Rect2( 0, 0, 105, 100 )
+
+[sub_resource type="AtlasTexture" id=2058]
+atlas = ExtResource( 3610 )
+region = Rect2( 105, 0, 105, 100 )
+
+[sub_resource type="AtlasTexture" id=2059]
+atlas = ExtResource( 3610 )
+region = Rect2( 210, 0, 105, 100 )
+
+[sub_resource type="AtlasTexture" id=2060]
+atlas = ExtResource( 3610 )
+region = Rect2( 0, 0, 105, 100 )
+
+[sub_resource type="AtlasTexture" id=2061]
+atlas = ExtResource( 3610 )
+region = Rect2( 105, 0, 105, 100 )
+
+[sub_resource type="AtlasTexture" id=2062]
+atlas = ExtResource( 3610 )
+region = Rect2( 210, 0, 105, 100 )
+
+[sub_resource type="AtlasTexture" id=2063]
+atlas = ExtResource( 3612 )
+region = Rect2( 0, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2064]
+atlas = ExtResource( 3612 )
+region = Rect2( 144, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2065]
+atlas = ExtResource( 3612 )
+region = Rect2( 288, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2066]
+atlas = ExtResource( 3611 )
+region = Rect2( 0, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2067]
+atlas = ExtResource( 3611 )
+region = Rect2( 144, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2068]
+atlas = ExtResource( 3611 )
+region = Rect2( 288, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2069]
+atlas = ExtResource( 3611 )
+region = Rect2( 432, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2070]
+atlas = ExtResource( 3611 )
+region = Rect2( 576, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2071]
+atlas = ExtResource( 3611 )
+region = Rect2( 720, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2072]
+atlas = ExtResource( 3611 )
+region = Rect2( 864, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2073]
+atlas = ExtResource( 3609 )
+region = Rect2( 0, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2074]
+atlas = ExtResource( 3609 )
+region = Rect2( 144, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2075]
+atlas = ExtResource( 3609 )
+region = Rect2( 288, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2076]
+atlas = ExtResource( 3609 )
+region = Rect2( 432, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2077]
+atlas = ExtResource( 3609 )
+region = Rect2( 576, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2078]
+atlas = ExtResource( 3609 )
+region = Rect2( 720, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2079]
+atlas = ExtResource( 3609 )
+region = Rect2( 864, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2080]
+atlas = ExtResource( 3609 )
+region = Rect2( 1008, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2081]
+atlas = ExtResource( 3609 )
+region = Rect2( 1152, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2082]
+atlas = ExtResource( 3609 )
+region = Rect2( 1296, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2083]
+atlas = ExtResource( 3609 )
+region = Rect2( 1440, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2084]
+atlas = ExtResource( 3609 )
+region = Rect2( 1584, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2085]
+atlas = ExtResource( 3609 )
+region = Rect2( 1728, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2086]
+atlas = ExtResource( 3609 )
+region = Rect2( 1872, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2087]
+atlas = ExtResource( 3609 )
+region = Rect2( 2016, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2088]
+atlas = ExtResource( 3609 )
+region = Rect2( 2160, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2089]
+atlas = ExtResource( 3609 )
+region = Rect2( 2304, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2090]
+atlas = ExtResource( 3609 )
+region = Rect2( 2448, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2091]
+atlas = ExtResource( 3609 )
+region = Rect2( 2592, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2092]
+atlas = ExtResource( 3609 )
+region = Rect2( 2736, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2093]
+atlas = ExtResource( 3609 )
+region = Rect2( 2880, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2094]
+atlas = ExtResource( 3609 )
+region = Rect2( 3024, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2095]
+atlas = ExtResource( 3609 )
+region = Rect2( 3168, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2096]
+atlas = ExtResource( 3609 )
+region = Rect2( 3312, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2097]
+atlas = ExtResource( 3609 )
+region = Rect2( 3456, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2098]
+atlas = ExtResource( 3609 )
+region = Rect2( 3600, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2099]
+atlas = ExtResource( 3609 )
+region = Rect2( 3744, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2100]
+atlas = ExtResource( 3609 )
+region = Rect2( 3888, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2101]
+atlas = ExtResource( 3609 )
+region = Rect2( 4032, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2102]
+atlas = ExtResource( 3609 )
+region = Rect2( 4176, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2103]
+atlas = ExtResource( 3609 )
+region = Rect2( 4320, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2104]
+atlas = ExtResource( 3609 )
+region = Rect2( 4464, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2105]
+atlas = ExtResource( 3066 )
+region = Rect2( 720, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2106]
+atlas = ExtResource( 3066 )
+region = Rect2( 864, 0, 144, 115 )
+
+[sub_resource type="AtlasTexture" id=2107]
+atlas = ExtResource( 3066 )
+region = Rect2( 1008, 0, 144, 115 )
+
 [sub_resource type="SpriteFrames" id=1821]
 animations = [ {
 "frames": [ ExtResource( 258 ), ExtResource( 256 ), ExtResource( 261 ), ExtResource( 259 ), ExtResource( 268 ), ExtResource( 262 ), ExtResource( 260 ), ExtResource( 264 ), ExtResource( 267 ), ExtResource( 257 ), ExtResource( 263 ), ExtResource( 266 ), ExtResource( 265 ) ],
@@ -5860,12 +6007,12 @@ animations = [ {
 "name": "crouchjump",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 455 ), ExtResource( 454 ), ExtResource( 456 ) ],
+"frames": [ SubResource( 2057 ), SubResource( 2058 ), SubResource( 2059 ) ],
 "loop": true,
 "name": "crouchslide",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 934 ), ExtResource( 930 ), ExtResource( 972 ) ],
+"frames": [ SubResource( 2060 ), SubResource( 2061 ), SubResource( 2062 ) ],
 "loop": true,
 "name": "crouchslip",
 "speed": 60.0
@@ -5975,7 +6122,7 @@ animations = [ {
 "name": "freefall",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 1336 ), ExtResource( 1337 ), ExtResource( 1338 ) ],
+"frames": [ SubResource( 2063 ), SubResource( 2064 ), SubResource( 2065 ) ],
 "loop": true,
 "name": "gottreasure",
 "speed": 60.0
@@ -6015,7 +6162,7 @@ animations = [ {
 "name": "haulingwalk",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 3066 ) ],
+"frames": [ SubResource( 2066 ), SubResource( 2067 ), SubResource( 2068 ), SubResource( 2069 ), SubResource( 2070 ), SubResource( 2071 ), SubResource( 2072 ) ],
 "loop": true,
 "name": "hitwall",
 "speed": 60.0
@@ -6095,7 +6242,7 @@ animations = [ {
 "name": "jumpdive2",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 1497 ), ExtResource( 1500 ), ExtResource( 1516 ), ExtResource( 1513 ), ExtResource( 1498 ), ExtResource( 1499 ), ExtResource( 1518 ), ExtResource( 1515 ), ExtResource( 1504 ), ExtResource( 1501 ), ExtResource( 1493 ), ExtResource( 1511 ), ExtResource( 1505 ), ExtResource( 1514 ), ExtResource( 1517 ), ExtResource( 1503 ), ExtResource( 1502 ), ExtResource( 1491 ), ExtResource( 1512 ), ExtResource( 1506 ), ExtResource( 1510 ), ExtResource( 1496 ), ExtResource( 1507 ), ExtResource( 1508 ), ExtResource( 1492 ), ExtResource( 1495 ), ExtResource( 1509 ), ExtResource( 1494 ) ],
+"frames": [ SubResource( 2073 ), SubResource( 2074 ), SubResource( 2075 ), SubResource( 2076 ), SubResource( 2077 ), SubResource( 2078 ), SubResource( 2079 ), SubResource( 2080 ), SubResource( 2081 ), SubResource( 2082 ), SubResource( 2083 ), SubResource( 2084 ), SubResource( 2085 ), SubResource( 2086 ), SubResource( 2087 ), SubResource( 2088 ), SubResource( 2089 ), SubResource( 2090 ), SubResource( 2091 ), SubResource( 2092 ), SubResource( 2093 ), SubResource( 2094 ), SubResource( 2095 ), SubResource( 2096 ), SubResource( 2097 ), SubResource( 2098 ), SubResource( 2099 ), SubResource( 2100 ), SubResource( 2101 ), SubResource( 2102 ), SubResource( 2103 ), SubResource( 2104 ) ],
 "loop": true,
 "name": "keyget",
 "speed": 60.0
@@ -6460,7 +6607,7 @@ animations = [ {
 "name": "slapup",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 1339 ), ExtResource( 1340 ), ExtResource( 1341 ), ExtResource( 1347 ), ExtResource( 1342 ), ExtResource( 1343 ), ExtResource( 1345 ), ExtResource( 1344 ), ExtResource( 1346 ) ],
+"frames": [ SubResource( 2105 ), SubResource( 2106 ), SubResource( 2107 ), SubResource( 2106 ) ],
 "loop": true,
 "name": "slipnslide",
 "speed": 60.0
@@ -6556,929 +6703,6 @@ animations = [ {
 "speed": 60.0
 }, {
 "frames": [ ExtResource( 3189 ), ExtResource( 3186 ), ExtResource( 3187 ), ExtResource( 3190 ), ExtResource( 3180 ), ExtResource( 3182 ), ExtResource( 3183 ), ExtResource( 3181 ), ExtResource( 3188 ), ExtResource( 3185 ), ExtResource( 3184 ), ExtResource( 3172 ) ],
-"loop": true,
-"name": "suplexmash4",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1245 ), ExtResource( 1244 ), ExtResource( 1246 ), ExtResource( 1247 ), ExtResource( 1248 ), ExtResource( 1255 ), ExtResource( 1252 ), ExtResource( 1250 ) ],
-"loop": true,
-"name": "swingding",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1253 ), ExtResource( 1259 ), ExtResource( 1254 ), ExtResource( 1251 ), ExtResource( 1249 ), ExtResource( 1256 ), ExtResource( 1257 ), ExtResource( 1258 ) ],
-"loop": true,
-"name": "swingdingend",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1333 ), ExtResource( 1287 ), ExtResource( 1331 ), ExtResource( 1329 ), ExtResource( 1332 ), ExtResource( 1334 ), ExtResource( 1335 ), ExtResource( 1330 ) ],
-"loop": true,
-"name": "tackle",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 440 ), ExtResource( 437 ), ExtResource( 438 ), ExtResource( 439 ), ExtResource( 442 ), ExtResource( 444 ), ExtResource( 446 ), ExtResource( 443 ), ExtResource( 447 ), ExtResource( 445 ), ExtResource( 441 ), ExtResource( 1490 ) ],
-"loop": true,
-"name": "taunt",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 474 ), ExtResource( 475 ), ExtResource( 473 ), ExtResource( 486 ), ExtResource( 480 ), ExtResource( 492 ), ExtResource( 476 ), ExtResource( 488 ), ExtResource( 472 ), ExtResource( 489 ), ExtResource( 490 ), ExtResource( 487 ), ExtResource( 477 ), ExtResource( 481 ), ExtResource( 491 ), ExtResource( 485 ), ExtResource( 471 ), ExtResource( 478 ), ExtResource( 479 ), ExtResource( 482 ), ExtResource( 483 ), ExtResource( 484 ) ],
-"loop": true,
-"name": "timesup",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 667 ), ExtResource( 666 ), ExtResource( 664 ), ExtResource( 665 ), ExtResource( 659 ), ExtResource( 660 ), ExtResource( 663 ), ExtResource( 668 ), ExtResource( 658 ), ExtResource( 662 ), ExtResource( 661 ), ExtResource( 657 ) ],
-"loop": true,
-"name": "tumble",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 650 ), ExtResource( 637 ), ExtResource( 636 ), ExtResource( 653 ), ExtResource( 643 ), ExtResource( 651 ), ExtResource( 645 ), ExtResource( 640 ), ExtResource( 646 ), ExtResource( 634 ), ExtResource( 635 ) ],
-"loop": true,
-"name": "tumbleend",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 632 ), ExtResource( 630 ), ExtResource( 627 ), ExtResource( 631 ), ExtResource( 628 ), ExtResource( 629 ), ExtResource( 654 ), ExtResource( 656 ), ExtResource( 655 ), ExtResource( 638 ), ExtResource( 648 ), ExtResource( 647 ), ExtResource( 652 ), ExtResource( 639 ), ExtResource( 642 ), ExtResource( 641 ), ExtResource( 644 ), ExtResource( 649 ), ExtResource( 633 ) ],
-"loop": true,
-"name": "tumblestart",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1785 ), ExtResource( 1781 ), ExtResource( 1786 ) ],
-"loop": true,
-"name": "ungroundedattack",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 2005 ), ExtResource( 2006 ), ExtResource( 2014 ), ExtResource( 2020 ), ExtResource( 2015 ), ExtResource( 2022 ), ExtResource( 2021 ), ExtResource( 2016 ), ExtResource( 2019 ), ExtResource( 2017 ), ExtResource( 2018 ), ExtResource( 2007 ), ExtResource( 2008 ), ExtResource( 2009 ), ExtResource( 2011 ), ExtResource( 2013 ), ExtResource( 2012 ) ],
-"loop": true,
-"name": "uppercut",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 2010 ) ],
-"loop": true,
-"name": "uppercutend",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1265 ), ExtResource( 1261 ), ExtResource( 1262 ), ExtResource( 1271 ), ExtResource( 1263 ), ExtResource( 1260 ), ExtResource( 1268 ), ExtResource( 1266 ), ExtResource( 1272 ), ExtResource( 1267 ), ExtResource( 1264 ), ExtResource( 1270 ), ExtResource( 1269 ) ],
-"loop": true,
-"name": "uppercutfinishingblow",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 916 ), ExtResource( 921 ), ExtResource( 924 ), ExtResource( 925 ), ExtResource( 917 ), ExtResource( 920 ), ExtResource( 918 ), ExtResource( 926 ), ExtResource( 922 ), ExtResource( 923 ), ExtResource( 919 ) ],
-"loop": true,
-"name": "uppizzabox",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 942 ), ExtResource( 983 ), ExtResource( 984 ), ExtResource( 990 ), ExtResource( 976 ), ExtResource( 931 ), ExtResource( 932 ), ExtResource( 928 ), ExtResource( 954 ), ExtResource( 936 ), ExtResource( 970 ), ExtResource( 973 ), ExtResource( 937 ), ExtResource( 974 ), ExtResource( 979 ), ExtResource( 958 ), ExtResource( 960 ), ExtResource( 944 ), ExtResource( 971 ), ExtResource( 986 ), ExtResource( 956 ), ExtResource( 938 ), ExtResource( 957 ), ExtResource( 987 ), ExtResource( 975 ), ExtResource( 943 ), ExtResource( 961 ), ExtResource( 962 ), ExtResource( 963 ), ExtResource( 968 ), ExtResource( 969 ), ExtResource( 980 ), ExtResource( 988 ), ExtResource( 1011 ), ExtResource( 1026 ), ExtResource( 1014 ), ExtResource( 1016 ), ExtResource( 1012 ) ],
-"loop": true,
-"name": "victory",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1030 ), ExtResource( 1018 ), ExtResource( 1009 ), ExtResource( 1008 ), ExtResource( 1027 ), ExtResource( 1023 ), ExtResource( 1015 ), ExtResource( 1019 ), ExtResource( 1010 ), ExtResource( 1028 ), ExtResource( 1017 ), ExtResource( 1022 ), ExtResource( 1021 ), ExtResource( 1020 ), ExtResource( 1029 ), ExtResource( 1013 ), ExtResource( 1024 ), ExtResource( 1025 ) ],
-"loop": true,
-"name": "walkfront",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1043 ), ExtResource( 1042 ), ExtResource( 1047 ), ExtResource( 1040 ), ExtResource( 1046 ), ExtResource( 1045 ), ExtResource( 1041 ), ExtResource( 1044 ) ],
-"loop": true,
-"name": "walljumpend",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1031 ), ExtResource( 1036 ), ExtResource( 1032 ), ExtResource( 1038 ), ExtResource( 1034 ), ExtResource( 1037 ), ExtResource( 1035 ), ExtResource( 1039 ), ExtResource( 1033 ) ],
-"loop": true,
-"name": "walljumpstart",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 208 ), ExtResource( 215 ), ExtResource( 207 ), ExtResource( 213 ), ExtResource( 212 ), ExtResource( 209 ), ExtResource( 214 ), ExtResource( 210 ), ExtResource( 211 ), ExtResource( 206 ) ],
-"loop": true,
-"name": "winding",
-"speed": 60.0
-} ]
-
-[sub_resource type="SpriteFrames" id=1820]
-animations = [ {
-"frames": [ ExtResource( 258 ), ExtResource( 256 ), ExtResource( 261 ), ExtResource( 259 ), ExtResource( 268 ), ExtResource( 262 ), ExtResource( 260 ), ExtResource( 264 ), ExtResource( 267 ), ExtResource( 257 ), ExtResource( 263 ), ExtResource( 266 ), ExtResource( 265 ) ],
-"loop": true,
-"name": "3hpidle",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 273 ), ExtResource( 274 ), ExtResource( 270 ), ExtResource( 280 ), ExtResource( 276 ), ExtResource( 272 ), ExtResource( 275 ), ExtResource( 271 ), ExtResource( 279 ), ExtResource( 269 ), ExtResource( 277 ), ExtResource( 278 ) ],
-"loop": true,
-"name": "3hpwalk",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1753 ), ExtResource( 1754 ), ExtResource( 1756 ), ExtResource( 1758 ) ],
-"loop": true,
-"name": "airattack",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1749 ), ExtResource( 1750 ), ExtResource( 1759 ), ExtResource( 1751 ), ExtResource( 1752 ) ],
-"loop": true,
-"name": "airattackstart",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 378 ), ExtResource( 376 ), ExtResource( 379 ), ExtResource( 374 ), ExtResource( 375 ), ExtResource( 377 ) ],
-"loop": true,
-"name": "airdash1",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 382 ), ExtResource( 380 ), ExtResource( 381 ) ],
-"loop": true,
-"name": "airdash2",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1775 ), ExtResource( 1774 ), ExtResource( 1776 ), ExtResource( 1780 ), ExtResource( 1788 ) ],
-"loop": true,
-"name": "attack1",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1767 ), ExtResource( 1773 ), ExtResource( 1769 ), ExtResource( 1770 ), ExtResource( 1782 ), ExtResource( 1789 ), ExtResource( 1771 ) ],
-"loop": true,
-"name": "attack2",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1755 ), ExtResource( 1760 ), ExtResource( 1740 ), ExtResource( 1741 ), ExtResource( 1761 ), ExtResource( 1745 ), ExtResource( 1762 ), ExtResource( 1757 ), ExtResource( 1763 ), ExtResource( 1742 ), ExtResource( 1743 ), ExtResource( 1764 ), ExtResource( 1744 ), ExtResource( 1746 ), ExtResource( 1747 ), ExtResource( 1748 ) ],
-"loop": true,
-"name": "attackdash",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1777 ), ExtResource( 1787 ), ExtResource( 1783 ), ExtResource( 1766 ), ExtResource( 1778 ), ExtResource( 1791 ), ExtResource( 1784 ), ExtResource( 1768 ), ExtResource( 1790 ), ExtResource( 1779 ), ExtResource( 1772 ), ExtResource( 1765 ) ],
-"loop": true,
-"name": "backflip",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 420 ) ],
-"loop": true,
-"name": "bodyslamfall",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 417 ), ExtResource( 418 ), ExtResource( 416 ), ExtResource( 419 ), ExtResource( 421 ) ],
-"loop": true,
-"name": "bodyslamland",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 818 ), ExtResource( 812 ), ExtResource( 819 ), ExtResource( 813 ), ExtResource( 815 ), ExtResource( 800 ), ExtResource( 816 ), ExtResource( 814 ), ExtResource( 817 ) ],
-"loop": true,
-"name": "bodyslamstart",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1566 ), ExtResource( 1567 ), ExtResource( 1553 ), ExtResource( 1548 ), ExtResource( 1577 ), ExtResource( 1544 ), ExtResource( 1549 ), ExtResource( 1547 ), ExtResource( 1571 ), ExtResource( 1554 ), ExtResource( 1562 ), ExtResource( 1545 ), ExtResource( 1546 ), ExtResource( 1563 ), ExtResource( 1568 ), ExtResource( 1555 ), ExtResource( 1565 ), ExtResource( 1542 ), ExtResource( 1556 ), ExtResource( 1572 ), ExtResource( 1557 ), ExtResource( 1558 ), ExtResource( 1576 ), ExtResource( 1561 ), ExtResource( 1564 ), ExtResource( 1578 ) ],
-"loop": true,
-"name": "bombpep_end",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1559 ), ExtResource( 1575 ), ExtResource( 1582 ), ExtResource( 1573 ), ExtResource( 1550 ), ExtResource( 1560 ), ExtResource( 1551 ), ExtResource( 1574 ), ExtResource( 1569 ), ExtResource( 1581 ), ExtResource( 1543 ), ExtResource( 1570 ), ExtResource( 1552 ), ExtResource( 1579 ), ExtResource( 1580 ) ],
-"loop": true,
-"name": "bombpep_intro",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1583 ), ExtResource( 1585 ), ExtResource( 1584 ) ],
-"loop": true,
-"name": "bombpep_run",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1586 ), ExtResource( 1587 ), ExtResource( 1588 ) ],
-"loop": true,
-"name": "bombpep_runabouttoexplode",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1713 ), ExtResource( 1710 ), ExtResource( 1711 ), ExtResource( 1712 ), ExtResource( 1714 ), ExtResource( 1718 ), ExtResource( 1731 ), ExtResource( 1730 ), ExtResource( 1719 ), ExtResource( 1728 ), ExtResource( 1729 ), ExtResource( 1722 ), ExtResource( 1715 ), ExtResource( 1721 ), ExtResource( 1724 ), ExtResource( 1725 ), ExtResource( 1727 ), ExtResource( 1720 ), ExtResource( 1717 ), ExtResource( 1716 ), ExtResource( 1723 ), ExtResource( 1726 ) ],
-"loop": true,
-"name": "bossintro",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1984 ), ExtResource( 1989 ), ExtResource( 1985 ), ExtResource( 1986 ), ExtResource( 1988 ), ExtResource( 1987 ), ExtResource( 1983 ), ExtResource( 1990 ), ExtResource( 2004 ), ExtResource( 1997 ) ],
-"loop": true,
-"name": "breakdance",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1999 ), ExtResource( 2003 ), ExtResource( 2000 ), ExtResource( 2002 ), ExtResource( 2001 ) ],
-"loop": true,
-"name": "breakdancestart",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1991 ), ExtResource( 1992 ), ExtResource( 1998 ), ExtResource( 1993 ), ExtResource( 1994 ), ExtResource( 1995 ), ExtResource( 1996 ) ],
-"loop": true,
-"name": "breakdancesuper",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 684 ), ExtResource( 690 ), ExtResource( 693 ), ExtResource( 691 ), ExtResource( 692 ), ExtResource( 685 ), ExtResource( 689 ), ExtResource( 694 ), ExtResource( 686 ), ExtResource( 683 ), ExtResource( 687 ), ExtResource( 688 ) ],
-"loop": true,
-"name": "bump",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 2023 ), ExtResource( 2024 ) ],
-"loop": true,
-"name": "buttattack",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 2025 ), ExtResource( 2026 ), ExtResource( 2027 ) ],
-"loop": true,
-"name": "buttattackend",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 2028 ), ExtResource( 2029 ), ExtResource( 2030 ), ExtResource( 2032 ), ExtResource( 2033 ), ExtResource( 2031 ) ],
-"loop": true,
-"name": "buttattackstart",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 2040 ), ExtResource( 2035 ), ExtResource( 2041 ), ExtResource( 2036 ), ExtResource( 2037 ), ExtResource( 2038 ), ExtResource( 2039 ), ExtResource( 2042 ) ],
-"loop": true,
-"name": "charge",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 900 ), ExtResource( 901 ), ExtResource( 904 ), ExtResource( 903 ), ExtResource( 902 ) ],
-"loop": true,
-"name": "climbwall",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 555 ), ExtResource( 547 ), ExtResource( 558 ), ExtResource( 577 ), ExtResource( 560 ), ExtResource( 563 ), ExtResource( 561 ), ExtResource( 549 ), ExtResource( 539 ), ExtResource( 581 ), ExtResource( 556 ), ExtResource( 537 ), ExtResource( 553 ), ExtResource( 550 ), ExtResource( 552 ), ExtResource( 564 ) ],
-"loop": true,
-"name": "crawl",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1147 ), ExtResource( 1148 ), ExtResource( 1152 ), ExtResource( 1149 ), ExtResource( 1151 ), ExtResource( 1150 ) ],
-"loop": true,
-"name": "crazyrun",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 583 ), ExtResource( 595 ), ExtResource( 600 ), ExtResource( 594 ), ExtResource( 585 ), ExtResource( 587 ), ExtResource( 593 ), ExtResource( 588 ), ExtResource( 596 ), ExtResource( 590 ), ExtResource( 591 ), ExtResource( 592 ), ExtResource( 589 ), ExtResource( 597 ), ExtResource( 598 ), ExtResource( 599 ), ExtResource( 608 ), ExtResource( 605 ), ExtResource( 604 ), ExtResource( 602 ), ExtResource( 606 ), ExtResource( 609 ), ExtResource( 610 ), ExtResource( 603 ), ExtResource( 607 ), ExtResource( 565 ), ExtResource( 562 ), ExtResource( 557 ), ExtResource( 573 ), ExtResource( 538 ), ExtResource( 566 ), ExtResource( 574 ), ExtResource( 545 ), ExtResource( 567 ), ExtResource( 570 ), ExtResource( 578 ), ExtResource( 543 ), ExtResource( 572 ), ExtResource( 554 ), ExtResource( 582 ), ExtResource( 548 ), ExtResource( 536 ), ExtResource( 544 ), ExtResource( 546 ) ],
-"loop": true,
-"name": "crouch",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 551 ), ExtResource( 580 ), ExtResource( 541 ) ],
-"loop": true,
-"name": "crouchfall",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 559 ), ExtResource( 579 ), ExtResource( 542 ), ExtResource( 540 ), ExtResource( 568 ), ExtResource( 575 ), ExtResource( 569 ), ExtResource( 571 ), ExtResource( 576 ) ],
-"loop": true,
-"name": "crouchjump",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 455 ), ExtResource( 454 ), ExtResource( 456 ) ],
-"loop": true,
-"name": "crouchslide",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 934 ), ExtResource( 930 ), ExtResource( 972 ) ],
-"loop": true,
-"name": "crouchslip",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 586 ), ExtResource( 601 ), ExtResource( 584 ) ],
-"loop": true,
-"name": "crouchstart",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 2944 ) ],
-"loop": true,
-"name": "dead",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 842 ), ExtResource( 843 ), ExtResource( 844 ) ],
-"loop": true,
-"name": "dive",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 907 ), ExtResource( 908 ), ExtResource( 910 ), ExtResource( 912 ), ExtResource( 911 ), ExtResource( 913 ), ExtResource( 905 ), ExtResource( 909 ), ExtResource( 906 ), ExtResource( 914 ), ExtResource( 915 ) ],
-"loop": true,
-"name": "downpizzabox",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 462 ), ExtResource( 457 ), ExtResource( 466 ), ExtResource( 458 ), ExtResource( 468 ), ExtResource( 467 ), ExtResource( 469 ), ExtResource( 465 ), ExtResource( 464 ), ExtResource( 460 ), ExtResource( 461 ), ExtResource( 459 ), ExtResource( 470 ), ExtResource( 463 ) ],
-"loop": true,
-"name": "eatspaghetti",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 994 ), ExtResource( 992 ), ExtResource( 993 ), ExtResource( 991 ), ExtResource( 1004 ), ExtResource( 997 ), ExtResource( 1006 ), ExtResource( 996 ), ExtResource( 1007 ), ExtResource( 1002 ), ExtResource( 1003 ), ExtResource( 998 ), ExtResource( 1005 ), ExtResource( 995 ), ExtResource( 999 ), ExtResource( 1000 ), ExtResource( 1001 ), ExtResource( 966 ), ExtResource( 959 ), ExtResource( 948 ), ExtResource( 935 ), ExtResource( 985 ), ExtResource( 964 ), ExtResource( 955 ), ExtResource( 939 ), ExtResource( 940 ), ExtResource( 981 ), ExtResource( 989 ), ExtResource( 949 ), ExtResource( 945 ), ExtResource( 950 ), ExtResource( 946 ), ExtResource( 933 ), ExtResource( 941 ), ExtResource( 929 ), ExtResource( 951 ), ExtResource( 967 ), ExtResource( 927 ), ExtResource( 947 ), ExtResource( 978 ), ExtResource( 982 ), ExtResource( 977 ), ExtResource( 952 ), ExtResource( 953 ), ExtResource( 965 ) ],
-"loop": true,
-"name": "entergate",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 289 ), ExtResource( 288 ), ExtResource( 290 ), ExtResource( 291 ), ExtResource( 292 ), ExtResource( 287 ), ExtResource( 296 ), ExtResource( 294 ), ExtResource( 293 ), ExtResource( 295 ), ExtResource( 286 ) ],
-"loop": true,
-"name": "facehurt",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 285 ), ExtResource( 281 ), ExtResource( 282 ), ExtResource( 283 ), ExtResource( 284 ) ],
-"loop": true,
-"name": "facehurtup",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1693 ), ExtResource( 1688 ), ExtResource( 1698 ), ExtResource( 1707 ), ExtResource( 1690 ), ExtResource( 1703 ), ExtResource( 1692 ), ExtResource( 1694 ), ExtResource( 1709 ), ExtResource( 1708 ), ExtResource( 1699 ), ExtResource( 1697 ), ExtResource( 1702 ), ExtResource( 1704 ), ExtResource( 1700 ), ExtResource( 1695 ), ExtResource( 1701 ), ExtResource( 1689 ), ExtResource( 1691 ), ExtResource( 1705 ), ExtResource( 1706 ), ExtResource( 1696 ) ],
-"loop": true,
-"name": "faceplant",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 370 ), ExtResource( 371 ), ExtResource( 372 ) ],
-"loop": true,
-"name": "facestomp",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 2940 ), ExtResource( 2929 ), ExtResource( 2935 ) ],
-"loop": true,
-"name": "fall",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 2940 ), ExtResource( 2929 ), ExtResource( 2935 ) ],
-"loop": true,
-"name": "fall2",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 824 ), ExtResource( 827 ), ExtResource( 825 ), ExtResource( 826 ), ExtResource( 820 ), ExtResource( 821 ), ExtResource( 822 ), ExtResource( 823 ), ExtResource( 830 ), ExtResource( 832 ), ExtResource( 831 ), ExtResource( 829 ), ExtResource( 828 ) ],
-"loop": true,
-"name": "finishingblow1",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 850 ), ExtResource( 849 ), ExtResource( 848 ), ExtResource( 851 ), ExtResource( 852 ), ExtResource( 854 ), ExtResource( 855 ), ExtResource( 856 ), ExtResource( 857 ), ExtResource( 858 ), ExtResource( 853 ), ExtResource( 859 ), ExtResource( 860 ) ],
-"loop": true,
-"name": "finishingblow2",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 872 ), ExtResource( 873 ), ExtResource( 870 ), ExtResource( 871 ), ExtResource( 861 ), ExtResource( 869 ), ExtResource( 865 ), ExtResource( 862 ), ExtResource( 868 ), ExtResource( 866 ), ExtResource( 867 ), ExtResource( 863 ), ExtResource( 864 ) ],
-"loop": true,
-"name": "finishingblow3",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 874 ), ExtResource( 884 ), ExtResource( 877 ), ExtResource( 875 ), ExtResource( 880 ), ExtResource( 882 ), ExtResource( 878 ), ExtResource( 885 ), ExtResource( 886 ), ExtResource( 879 ), ExtResource( 881 ), ExtResource( 883 ), ExtResource( 876 ) ],
-"loop": true,
-"name": "finishingblow4",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 892 ), ExtResource( 895 ), ExtResource( 896 ), ExtResource( 898 ), ExtResource( 893 ), ExtResource( 899 ), ExtResource( 887 ), ExtResource( 894 ), ExtResource( 897 ), ExtResource( 891 ), ExtResource( 889 ), ExtResource( 888 ), ExtResource( 890 ) ],
-"loop": true,
-"name": "finishingblow5",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1621 ), ExtResource( 1607 ), ExtResource( 1620 ), ExtResource( 1615 ), ExtResource( 1595 ) ],
-"loop": true,
-"name": "fireass",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1627 ), ExtResource( 1630 ), ExtResource( 1624 ), ExtResource( 1625 ), ExtResource( 1628 ), ExtResource( 1589 ), ExtResource( 1592 ), ExtResource( 1590 ), ExtResource( 1591 ), ExtResource( 1610 ), ExtResource( 1600 ), ExtResource( 1613 ), ExtResource( 1596 ), ExtResource( 1593 ), ExtResource( 1598 ), ExtResource( 1612 ), ExtResource( 1614 ), ExtResource( 1609 ), ExtResource( 1597 ), ExtResource( 1603 ), ExtResource( 1594 ), ExtResource( 1604 ), ExtResource( 1605 ), ExtResource( 1606 ), ExtResource( 1611 ) ],
-"loop": true,
-"name": "fireassend",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1622 ), ExtResource( 1629 ), ExtResource( 1617 ), ExtResource( 1626 ), ExtResource( 1601 ), ExtResource( 1616 ), ExtResource( 1623 ), ExtResource( 1602 ), ExtResource( 1618 ), ExtResource( 1619 ), ExtResource( 1608 ), ExtResource( 1599 ) ],
-"loop": true,
-"name": "fireassground",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 2908 ), ExtResource( 2930 ), ExtResource( 2941 ), ExtResource( 2938 ), ExtResource( 2934 ), ExtResource( 2910 ), ExtResource( 2906 ), ExtResource( 2909 ), ExtResource( 2911 ), ExtResource( 2912 ), ExtResource( 2905 ) ],
-"loop": true,
-"name": "fly",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 2921 ), ExtResource( 2922 ), ExtResource( 2917 ), ExtResource( 2925 ), ExtResource( 2923 ), ExtResource( 2919 ), ExtResource( 2919 ), ExtResource( 2919 ), ExtResource( 2919 ), ExtResource( 2914 ), ExtResource( 2927 ), ExtResource( 2936 ), ExtResource( 2920 ), ExtResource( 2924 ), ExtResource( 2931 ), ExtResource( 2932 ), ExtResource( 2918 ), ExtResource( 2926 ), ExtResource( 2915 ), ExtResource( 2916 ) ],
-"loop": true,
-"name": "flyprep",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 368 ), ExtResource( 367 ), ExtResource( 369 ) ],
-"loop": true,
-"name": "freefall",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1336 ), ExtResource( 1337 ), ExtResource( 1338 ) ],
-"loop": true,
-"name": "gottreasure",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1982 ), ExtResource( 1980 ), ExtResource( 1981 ) ],
-"loop": true,
-"name": "groundedattack",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 767 ), ExtResource( 796 ), ExtResource( 801 ) ],
-"loop": true,
-"name": "haulingfall",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 768 ), ExtResource( 775 ) ],
-"loop": true,
-"name": "haulingidle",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 793 ), ExtResource( 803 ), ExtResource( 802 ) ],
-"loop": true,
-"name": "haulingjump",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 802 ), ExtResource( 803 ), ExtResource( 793 ) ],
-"loop": true,
-"name": "haulingland",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 791 ) ],
-"loop": true,
-"name": "haulingstart",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 798 ), ExtResource( 792 ), ExtResource( 780 ), ExtResource( 795 ), ExtResource( 799 ), ExtResource( 797 ), ExtResource( 794 ), ExtResource( 806 ), ExtResource( 804 ), ExtResource( 805 ) ],
-"loop": true,
-"name": "haulingwalk",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 703 ), ExtResource( 699 ), ExtResource( 704 ), ExtResource( 698 ), ExtResource( 697 ), ExtResource( 705 ), ExtResource( 700 ), ExtResource( 696 ), ExtResource( 706 ), ExtResource( 701 ), ExtResource( 695 ), ExtResource( 702 ) ],
-"loop": true,
-"name": "hitwall",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1308 ), ExtResource( 1309 ), ExtResource( 1310 ), ExtResource( 1306 ), ExtResource( 1307 ), ExtResource( 1293 ), ExtResource( 1291 ), ExtResource( 1295 ), ExtResource( 1294 ), ExtResource( 1300 ), ExtResource( 1290 ) ],
-"loop": true,
-"name": "hurt",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 255 ), ExtResource( 251 ), ExtResource( 252 ), ExtResource( 253 ), ExtResource( 254 ), ExtResource( 217 ), ExtResource( 218 ), ExtResource( 219 ), ExtResource( 220 ), ExtResource( 216 ), ExtResource( 230 ), ExtResource( 250 ), ExtResource( 240 ), ExtResource( 241 ), ExtResource( 249 ), ExtResource( 228 ), ExtResource( 238 ), ExtResource( 243 ), ExtResource( 246 ), ExtResource( 234 ) ],
-"loop": true,
-"name": "hurtidle",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1288 ), ExtResource( 1298 ), ExtResource( 1296 ), ExtResource( 1292 ), ExtResource( 1297 ), ExtResource( 1299 ), ExtResource( 1301 ), ExtResource( 1289 ), ExtResource( 1302 ), ExtResource( 1303 ), ExtResource( 1304 ), ExtResource( 1305 ) ],
-"loop": true,
-"name": "hurtjump",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 248 ), ExtResource( 237 ), ExtResource( 229 ), ExtResource( 231 ), ExtResource( 225 ), ExtResource( 247 ), ExtResource( 232 ), ExtResource( 221 ), ExtResource( 245 ), ExtResource( 233 ), ExtResource( 242 ), ExtResource( 235 ) ],
-"loop": true,
-"name": "hurtwalk",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 2897 ), ExtResource( 2896 ), ExtResource( 2892 ), ExtResource( 2901 ), ExtResource( 2893 ), ExtResource( 2808 ), ExtResource( 2801 ), ExtResource( 2902 ), ExtResource( 2830 ), ExtResource( 2827 ) ],
-"loop": true,
-"name": "idle",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 2846 ), ExtResource( 2852 ), ExtResource( 2850 ), ExtResource( 2857 ), ExtResource( 2859 ), ExtResource( 2859 ), ExtResource( 2859 ), ExtResource( 2859 ), ExtResource( 2859 ), ExtResource( 2859 ), ExtResource( 2859 ), ExtResource( 2859 ), ExtResource( 2859 ), ExtResource( 2859 ), ExtResource( 2859 ), ExtResource( 2859 ), ExtResource( 2859 ), ExtResource( 2859 ), ExtResource( 2886 ), ExtResource( 2864 ), ExtResource( 2847 ), ExtResource( 2855 ), ExtResource( 2863 ) ],
-"loop": true,
-"name": "idleanim1",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 2836 ), ExtResource( 2865 ), ExtResource( 2874 ), ExtResource( 2866 ), ExtResource( 2841 ), ExtResource( 2834 ), ExtResource( 2834 ), ExtResource( 2834 ), ExtResource( 2834 ), ExtResource( 2834 ), ExtResource( 2834 ), ExtResource( 2820 ), ExtResource( 2807 ), ExtResource( 2898 ), ExtResource( 2899 ), ExtResource( 2815 ), ExtResource( 2815 ), ExtResource( 2815 ), ExtResource( 2815 ), ExtResource( 2815 ), ExtResource( 2815 ), ExtResource( 2815 ), ExtResource( 2815 ), ExtResource( 2815 ), ExtResource( 2818 ), ExtResource( 2823 ), ExtResource( 2824 ), ExtResource( 2813 ), ExtResource( 2819 ), ExtResource( 2829 ), ExtResource( 2832 ), ExtResource( 2828 ), ExtResource( 2826 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2804 ), ExtResource( 2840 ), ExtResource( 2838 ), ExtResource( 2839 ), ExtResource( 2858 ), ExtResource( 2860 ), ExtResource( 2848 ), ExtResource( 2868 ), ExtResource( 2853 ), ExtResource( 2853 ), ExtResource( 2853 ), ExtResource( 2835 ), ExtResource( 2860 ), ExtResource( 2848 ), ExtResource( 2868 ), ExtResource( 2853 ), ExtResource( 2853 ), ExtResource( 2853 ), ExtResource( 2835 ), ExtResource( 2837 ), ExtResource( 2845 ), ExtResource( 2870 ), ExtResource( 2805 ), ExtResource( 2831 ), ExtResource( 2894 ), ExtResource( 2894 ), ExtResource( 2894 ), ExtResource( 2894 ), ExtResource( 2894 ), ExtResource( 2894 ), ExtResource( 2894 ), ExtResource( 2894 ), ExtResource( 2894 ), ExtResource( 2894 ), ExtResource( 2802 ), ExtResource( 2884 ), ExtResource( 2891 ), ExtResource( 2816 ), ExtResource( 2821 ), ExtResource( 2822 ), ExtResource( 2895 ), ExtResource( 2812 ), ExtResource( 2889 ), ExtResource( 2888 ), ExtResource( 2816 ), ExtResource( 2821 ), ExtResource( 2822 ), ExtResource( 2895 ), ExtResource( 2812 ), ExtResource( 2889 ), ExtResource( 2888 ), ExtResource( 2875 ), ExtResource( 2843 ), ExtResource( 2873 ), ExtResource( 2833 ), ExtResource( 2833 ), ExtResource( 2833 ), ExtResource( 2833 ), ExtResource( 2833 ), ExtResource( 2833 ), ExtResource( 2833 ), ExtResource( 2833 ), ExtResource( 2833 ), ExtResource( 2833 ), ExtResource( 2833 ), ExtResource( 2854 ), ExtResource( 2856 ), ExtResource( 2876 ), ExtResource( 2900 ), ExtResource( 2825 ), ExtResource( 2806 ), ExtResource( 2811 ), ExtResource( 2811 ), ExtResource( 2811 ), ExtResource( 2809 ), ExtResource( 2817 ), ExtResource( 2814 ), ExtResource( 2810 ) ],
-"loop": true,
-"name": "idleanim2",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 2887 ), ExtResource( 2862 ), ExtResource( 2849 ), ExtResource( 2851 ), ExtResource( 2872 ), ExtResource( 2871 ), ExtResource( 2867 ), ExtResource( 2869 ), ExtResource( 2869 ), ExtResource( 2869 ), ExtResource( 2869 ), ExtResource( 2869 ), ExtResource( 2869 ), ExtResource( 2869 ), ExtResource( 2869 ), ExtResource( 2869 ), ExtResource( 2861 ), ExtResource( 2879 ), ExtResource( 2879 ), ExtResource( 2903 ), ExtResource( 2882 ), ExtResource( 2882 ), ExtResource( 2882 ), ExtResource( 2882 ), ExtResource( 2890 ), ExtResource( 2878 ), ExtResource( 2878 ), ExtResource( 2881 ), ExtResource( 2880 ), ExtResource( 2880 ), ExtResource( 2880 ), ExtResource( 2880 ), ExtResource( 2880 ), ExtResource( 2880 ), ExtResource( 2877 ), ExtResource( 2883 ), ExtResource( 2803 ), ExtResource( 2844 ), ExtResource( 2885 ), ExtResource( 2842 ) ],
-"loop": true,
-"name": "idleanim3",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 158 ), ExtResource( 163 ), ExtResource( 164 ), ExtResource( 157 ), ExtResource( 166 ), ExtResource( 159 ), ExtResource( 160 ), ExtResource( 161 ), ExtResource( 162 ), ExtResource( 165 ), ExtResource( 155 ), ExtResource( 156 ), ExtResource( 153 ), ExtResource( 154 ), ExtResource( 152 ) ],
-"loop": true,
-"name": "idleanim4",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 187 ), ExtResource( 195 ), ExtResource( 177 ), ExtResource( 172 ), ExtResource( 181 ), ExtResource( 169 ), ExtResource( 189 ), ExtResource( 196 ), ExtResource( 168 ), ExtResource( 191 ), ExtResource( 167 ), ExtResource( 188 ), ExtResource( 174 ), ExtResource( 179 ), ExtResource( 178 ), ExtResource( 170 ), ExtResource( 171 ), ExtResource( 193 ), ExtResource( 194 ), ExtResource( 173 ), ExtResource( 175 ), ExtResource( 185 ), ExtResource( 176 ) ],
-"loop": true,
-"name": "idleanim5",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 190 ), ExtResource( 180 ), ExtResource( 182 ), ExtResource( 183 ), ExtResource( 184 ), ExtResource( 186 ), ExtResource( 192 ), ExtResource( 202 ), ExtResource( 198 ), ExtResource( 200 ), ExtResource( 203 ), ExtResource( 199 ), ExtResource( 205 ), ExtResource( 201 ), ExtResource( 204 ), ExtResource( 197 ) ],
-"loop": true,
-"name": "idleanim6",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 2913 ), ExtResource( 2942 ), ExtResource( 2943 ) ],
-"loop": true,
-"name": "jump",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 2913 ), ExtResource( 2942 ), ExtResource( 2943 ) ],
-"loop": true,
-"name": "jump2",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1802 ), ExtResource( 1801 ), ExtResource( 1795 ), ExtResource( 1799 ), ExtResource( 1797 ), ExtResource( 1794 ), ExtResource( 1792 ), ExtResource( 1800 ), ExtResource( 1796 ), ExtResource( 1803 ) ],
-"loop": true,
-"name": "jumpdive1",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1798 ), ExtResource( 1804 ), ExtResource( 1793 ) ],
-"loop": true,
-"name": "jumpdive2",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1497 ), ExtResource( 1500 ), ExtResource( 1516 ), ExtResource( 1513 ), ExtResource( 1498 ), ExtResource( 1499 ), ExtResource( 1518 ), ExtResource( 1515 ), ExtResource( 1504 ), ExtResource( 1501 ), ExtResource( 1493 ), ExtResource( 1511 ), ExtResource( 1505 ), ExtResource( 1514 ), ExtResource( 1517 ), ExtResource( 1503 ), ExtResource( 1502 ), ExtResource( 1491 ), ExtResource( 1512 ), ExtResource( 1506 ), ExtResource( 1510 ), ExtResource( 1496 ), ExtResource( 1507 ), ExtResource( 1508 ), ExtResource( 1492 ), ExtResource( 1495 ), ExtResource( 1509 ), ExtResource( 1494 ) ],
-"loop": true,
-"name": "keyget",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1472 ), ExtResource( 1462 ), ExtResource( 1463 ), ExtResource( 1479 ), ExtResource( 1475 ), ExtResource( 1488 ) ],
-"loop": true,
-"name": "knightpep_attack",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1471 ), ExtResource( 1470 ), ExtResource( 1478 ) ],
-"loop": true,
-"name": "knightpep_charge",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1480 ), ExtResource( 1466 ), ExtResource( 1467 ) ],
-"loop": true,
-"name": "knightpep_downslope",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1464 ), ExtResource( 1483 ), ExtResource( 1485 ) ],
-"loop": true,
-"name": "knightpep_fall",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1448 ), ExtResource( 1442 ), ExtResource( 1443 ), ExtResource( 1436 ), ExtResource( 1444 ), ExtResource( 1427 ), ExtResource( 1434 ), ExtResource( 1455 ), ExtResource( 1435 ), ExtResource( 1433 ), ExtResource( 1431 ), ExtResource( 1456 ), ExtResource( 1437 ), ExtResource( 1438 ), ExtResource( 1439 ), ExtResource( 1459 ), ExtResource( 1428 ), ExtResource( 1445 ), ExtResource( 1429 ), ExtResource( 1432 ), ExtResource( 1457 ), ExtResource( 1430 ), ExtResource( 1440 ), ExtResource( 1446 ), ExtResource( 1441 ), ExtResource( 1447 ), ExtResource( 1449 ), ExtResource( 1450 ), ExtResource( 1451 ), ExtResource( 1452 ), ExtResource( 1453 ), ExtResource( 1454 ) ],
-"loop": true,
-"name": "knightpep_idle",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1469 ), ExtResource( 1476 ), ExtResource( 1486 ), ExtResource( 1473 ), ExtResource( 1484 ), ExtResource( 1465 ), ExtResource( 1468 ) ],
-"loop": true,
-"name": "knightpep_jump",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1458 ), ExtResource( 1461 ) ],
-"loop": true,
-"name": "knightpep_jumpstart",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1487 ), ExtResource( 1460 ), ExtResource( 1477 ), ExtResource( 1481 ), ExtResource( 1474 ), ExtResource( 1482 ) ],
-"loop": true,
-"name": "knightpep_land",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1351 ), ExtResource( 1386 ), ExtResource( 1352 ), ExtResource( 1367 ), ExtResource( 1357 ), ExtResource( 1353 ), ExtResource( 1375 ), ExtResource( 1387 ), ExtResource( 1349 ), ExtResource( 1376 ), ExtResource( 1366 ), ExtResource( 1354 ), ExtResource( 1355 ), ExtResource( 1356 ), ExtResource( 1370 ), ExtResource( 1377 ), ExtResource( 1364 ), ExtResource( 1358 ), ExtResource( 1359 ), ExtResource( 1369 ), ExtResource( 1350 ), ExtResource( 1371 ), ExtResource( 1365 ), ExtResource( 1361 ), ExtResource( 1378 ), ExtResource( 1379 ), ExtResource( 1382 ), ExtResource( 1360 ), ExtResource( 1362 ), ExtResource( 1363 ), ExtResource( 1383 ), ExtResource( 1368 ), ExtResource( 1380 ), ExtResource( 1372 ), ExtResource( 1384 ), ExtResource( 1373 ), ExtResource( 1381 ), ExtResource( 1374 ), ExtResource( 1385 ), ExtResource( 1388 ), ExtResource( 1348 ), ExtResource( 1389 ), ExtResource( 1390 ), ExtResource( 1391 ) ],
-"loop": true,
-"name": "knightpep_start",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1395 ), ExtResource( 1392 ), ExtResource( 1393 ), ExtResource( 1394 ), ExtResource( 1417 ), ExtResource( 1418 ), ExtResource( 1409 ), ExtResource( 1397 ), ExtResource( 1424 ), ExtResource( 1405 ), ExtResource( 1425 ), ExtResource( 1398 ), ExtResource( 1420 ), ExtResource( 1400 ), ExtResource( 1407 ), ExtResource( 1426 ), ExtResource( 1415 ), ExtResource( 1414 ), ExtResource( 1410 ), ExtResource( 1421 ) ],
-"loop": true,
-"name": "knightpep_thunder",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1401 ), ExtResource( 1412 ), ExtResource( 1396 ), ExtResource( 1411 ), ExtResource( 1419 ), ExtResource( 1399 ), ExtResource( 1408 ), ExtResource( 1402 ), ExtResource( 1404 ), ExtResource( 1406 ), ExtResource( 1422 ), ExtResource( 1416 ), ExtResource( 1403 ), ExtResource( 1413 ), ExtResource( 1423 ) ],
-"loop": true,
-"name": "knightpep_walk",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1318 ) ],
-"loop": true,
-"name": "ladder",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1321 ), ExtResource( 1320 ) ],
-"loop": true,
-"name": "ladderdown",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1323 ), ExtResource( 1322 ), ExtResource( 1324 ), ExtResource( 1319 ), ExtResource( 1325 ), ExtResource( 1326 ), ExtResource( 1327 ), ExtResource( 1328 ) ],
-"loop": true,
-"name": "laddermove",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 2913 ), ExtResource( 2907 ), ExtResource( 2937 ), ExtResource( 2933 ), ExtResource( 2904 ), ExtResource( 2939 ), ExtResource( 2928 ), ExtResource( 2928 ) ],
-"loop": true,
-"name": "land",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 2913 ), ExtResource( 2907 ), ExtResource( 2937 ), ExtResource( 2933 ), ExtResource( 2904 ), ExtResource( 2939 ), ExtResource( 2928 ), ExtResource( 2928 ) ],
-"loop": true,
-"name": "land2",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 499 ), ExtResource( 500 ), ExtResource( 501 ), ExtResource( 502 ), ExtResource( 508 ), ExtResource( 506 ), ExtResource( 505 ), ExtResource( 507 ), ExtResource( 504 ), ExtResource( 503 ), ExtResource( 494 ), ExtResource( 495 ), ExtResource( 497 ), ExtResource( 496 ), ExtResource( 498 ), ExtResource( 493 ), ExtResource( 535 ), ExtResource( 511 ), ExtResource( 529 ), ExtResource( 515 ), ExtResource( 518 ), ExtResource( 512 ), ExtResource( 530 ), ExtResource( 516 ), ExtResource( 533 ), ExtResource( 527 ), ExtResource( 524 ), ExtResource( 513 ), ExtResource( 525 ), ExtResource( 509 ), ExtResource( 519 ), ExtResource( 534 ), ExtResource( 532 ), ExtResource( 526 ), ExtResource( 521 ), ExtResource( 517 ), ExtResource( 510 ), ExtResource( 522 ), ExtResource( 531 ), ExtResource( 528 ), ExtResource( 520 ), ExtResource( 523 ), ExtResource( 514 ) ],
-"loop": true,
-"name": "levelcomplete",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1317 ), ExtResource( 1316 ), ExtResource( 1313 ), ExtResource( 1314 ), ExtResource( 1315 ) ],
-"loop": true,
-"name": "lookdoor",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 727 ), ExtResource( 7 ), ExtResource( 723 ), ExtResource( 726 ), ExtResource( 728 ), ExtResource( 729 ), ExtResource( 730 ), ExtResource( 8 ) ],
-"loop": true,
-"name": "mach",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 707 ), ExtResource( 709 ), ExtResource( 722 ), ExtResource( 708 ), ExtResource( 710 ), ExtResource( 715 ), ExtResource( 721 ), ExtResource( 711 ), ExtResource( 712 ), ExtResource( 713 ), ExtResource( 714 ), ExtResource( 716 ), ExtResource( 717 ), ExtResource( 718 ), ExtResource( 719 ), ExtResource( 720 ) ],
-"loop": true,
-"name": "mach1",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 759 ), ExtResource( 760 ), ExtResource( 761 ), ExtResource( 762 ), ExtResource( 763 ), ExtResource( 764 ) ],
-"loop": true,
-"name": "mach2jump",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1147 ), ExtResource( 1148 ), ExtResource( 1152 ), ExtResource( 1149 ), ExtResource( 1151 ), ExtResource( 1150 ) ],
-"loop": true,
-"name": "mach3",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1153 ), ExtResource( 1154 ), ExtResource( 1155 ), ExtResource( 1157 ), ExtResource( 1156 ), ExtResource( 1158 ) ],
-"loop": true,
-"name": "mach3hit",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 774 ), ExtResource( 772 ), ExtResource( 769 ), ExtResource( 785 ), ExtResource( 770 ) ],
-"loop": true,
-"name": "mach3jump",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 771 ), ExtResource( 776 ), ExtResource( 773 ), ExtResource( 835 ), ExtResource( 834 ), ExtResource( 836 ) ],
-"loop": true,
-"name": "mach4",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 452 ), ExtResource( 450 ), ExtResource( 448 ), ExtResource( 453 ), ExtResource( 451 ), ExtResource( 449 ) ],
-"loop": true,
-"name": "machfreefall",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1140 ), ExtResource( 1139 ), ExtResource( 1138 ), ExtResource( 1137 ), ExtResource( 1141 ) ],
-"loop": true,
-"name": "machpunch1",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1146 ), ExtResource( 1142 ), ExtResource( 1145 ), ExtResource( 1143 ), ExtResource( 1144 ) ],
-"loop": true,
-"name": "machpunch2",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 777 ), ExtResource( 778 ), ExtResource( 779 ), ExtResource( 782 ), ExtResource( 781 ), ExtResource( 783 ), ExtResource( 784 ), ExtResource( 786 ), ExtResource( 787 ), ExtResource( 788 ), ExtResource( 789 ), ExtResource( 790 ) ],
-"loop": true,
-"name": "machroll",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1180 ), ExtResource( 1181 ), ExtResource( 1182 ) ],
-"loop": true,
-"name": "machslide",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 748 ), ExtResource( 750 ), ExtResource( 749 ), ExtResource( 757 ), ExtResource( 755 ), ExtResource( 751 ), ExtResource( 752 ), ExtResource( 756 ), ExtResource( 753 ), ExtResource( 758 ), ExtResource( 754 ) ],
-"loop": true,
-"name": "machslideboost",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 736 ), ExtResource( 741 ), ExtResource( 737 ), ExtResource( 742 ), ExtResource( 738 ), ExtResource( 746 ), ExtResource( 739 ), ExtResource( 743 ), ExtResource( 740 ), ExtResource( 747 ), ExtResource( 744 ), ExtResource( 745 ), ExtResource( 735 ) ],
-"loop": true,
-"name": "machslideboost3",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 324 ), ExtResource( 327 ), ExtResource( 326 ), ExtResource( 325 ), ExtResource( 322 ), ExtResource( 323 ) ],
-"loop": true,
-"name": "machslideend",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1176 ), ExtResource( 1171 ), ExtResource( 1172 ), ExtResource( 1174 ), ExtResource( 1177 ), ExtResource( 1173 ), ExtResource( 1175 ) ],
-"loop": true,
-"name": "machslidestart",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 28 ), ExtResource( 22 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 23 ), ExtResource( 27 ) ],
-"loop": true,
-"name": "move",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 236 ), ExtResource( 239 ), ExtResource( 226 ), ExtResource( 227 ), ExtResource( 222 ), ExtResource( 223 ), ExtResource( 244 ), ExtResource( 224 ) ],
-"loop": true,
-"name": "panic",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 2044 ), ExtResource( 2045 ), ExtResource( 2055 ), ExtResource( 2049 ), ExtResource( 2052 ), ExtResource( 2056 ), ExtResource( 2048 ), ExtResource( 2050 ), ExtResource( 2046 ), ExtResource( 2054 ), ExtResource( 2051 ), ExtResource( 2047 ), ExtResource( 2053 ) ],
-"loop": true,
-"name": "parry1",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 2060 ), ExtResource( 2058 ), ExtResource( 2064 ), ExtResource( 2059 ), ExtResource( 2065 ), ExtResource( 2066 ), ExtResource( 2068 ), ExtResource( 2061 ), ExtResource( 2067 ), ExtResource( 2057 ), ExtResource( 2062 ), ExtResource( 2069 ), ExtResource( 2063 ) ],
-"loop": true,
-"name": "parry2",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 2070 ), ExtResource( 2073 ), ExtResource( 2078 ), ExtResource( 2080 ), ExtResource( 2082 ), ExtResource( 2072 ), ExtResource( 2074 ), ExtResource( 2071 ), ExtResource( 2081 ), ExtResource( 2075 ), ExtResource( 2076 ), ExtResource( 2077 ), ExtResource( 2079 ) ],
-"loop": true,
-"name": "parry3",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1203 ), ExtResource( 1202 ), ExtResource( 1201 ) ],
-"loop": true,
-"name": "pepcooter",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 807 ) ],
-"loop": true,
-"name": "piledriver",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 840 ), ExtResource( 839 ), ExtResource( 837 ), ExtResource( 808 ), ExtResource( 811 ), ExtResource( 838 ), ExtResource( 810 ), ExtResource( 809 ) ],
-"loop": true,
-"name": "piledriverland",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1635 ), ExtResource( 1642 ), ExtResource( 1643 ), ExtResource( 1637 ), ExtResource( 1638 ), ExtResource( 1641 ), ExtResource( 1633 ), ExtResource( 1640 ), ExtResource( 1639 ), ExtResource( 1632 ), ExtResource( 1636 ), ExtResource( 1634 ) ],
-"loop": true,
-"name": "pizzaportalentrancestart",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1956 ), ExtResource( 1953 ), ExtResource( 1955 ), ExtResource( 1958 ), ExtResource( 1952 ), ExtResource( 1951 ), ExtResource( 1954 ), ExtResource( 1959 ), ExtResource( 1957 ) ],
-"loop": true,
-"name": "punch",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1129 ), ExtResource( 1130 ), ExtResource( 1133 ), ExtResource( 1134 ), ExtResource( 1128 ), ExtResource( 1132 ), ExtResource( 1135 ), ExtResource( 1136 ), ExtResource( 1131 ), ExtResource( 1125 ), ExtResource( 1126 ), ExtResource( 1127 ) ],
-"loop": true,
-"name": "rollgetup",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1735 ), ExtResource( 1732 ), ExtResource( 1737 ), ExtResource( 1738 ), ExtResource( 1739 ), ExtResource( 1733 ), ExtResource( 1734 ), ExtResource( 1736 ) ],
-"loop": true,
-"name": "running",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1164 ), ExtResource( 1165 ), ExtResource( 1161 ), ExtResource( 1162 ), ExtResource( 1169 ), ExtResource( 1159 ), ExtResource( 1163 ), ExtResource( 1168 ), ExtResource( 1167 ) ],
-"loop": true,
-"name": "secondjump1",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1170 ), ExtResource( 1160 ), ExtResource( 1166 ) ],
-"loop": true,
-"name": "secondjump2",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 335 ), ExtResource( 336 ), ExtResource( 333 ), ExtResource( 337 ), ExtResource( 334 ), ExtResource( 338 ), ExtResource( 339 ), ExtResource( 328 ), ExtResource( 329 ), ExtResource( 330 ), ExtResource( 331 ), ExtResource( 332 ) ],
-"loop": true,
-"name": "shotgun",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 619 ), ExtResource( 620 ), ExtResource( 613 ), ExtResource( 621 ), ExtResource( 622 ), ExtResource( 623 ), ExtResource( 611 ), ExtResource( 612 ), ExtResource( 615 ), ExtResource( 614 ), ExtResource( 616 ), ExtResource( 617 ) ],
-"loop": true,
-"name": "shotgun_crawl",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 669 ), ExtResource( 670 ), ExtResource( 672 ), ExtResource( 673 ), ExtResource( 671 ), ExtResource( 678 ), ExtResource( 674 ), ExtResource( 676 ), ExtResource( 677 ), ExtResource( 675 ), ExtResource( 681 ) ],
-"loop": true,
-"name": "shotgun_crouchjump1",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 679 ), ExtResource( 680 ) ],
-"loop": true,
-"name": "shotgun_crouchjump2",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 618 ) ],
-"loop": true,
-"name": "shotgun_duck",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 357 ), ExtResource( 356 ), ExtResource( 355 ) ],
-"loop": true,
-"name": "shotgun_fall",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 624 ), ExtResource( 625 ), ExtResource( 626 ) ],
-"loop": true,
-"name": "shotgun_goduck",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 342 ), ExtResource( 340 ), ExtResource( 341 ) ],
-"loop": true,
-"name": "shotgun_idle",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 360 ), ExtResource( 363 ), ExtResource( 365 ), ExtResource( 359 ), ExtResource( 361 ), ExtResource( 364 ), ExtResource( 358 ), ExtResource( 362 ) ],
-"loop": true,
-"name": "shotgun_jump",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 317 ), ExtResource( 319 ), ExtResource( 321 ), ExtResource( 320 ), ExtResource( 318 ) ],
-"loop": true,
-"name": "shotgun_land",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1519 ), ExtResource( 1520 ), ExtResource( 1521 ), ExtResource( 1522 ), ExtResource( 1523 ), ExtResource( 1524 ), ExtResource( 1525 ), ExtResource( 1526 ), ExtResource( 1527 ), ExtResource( 1528 ), ExtResource( 1532 ), ExtResource( 1539 ), ExtResource( 1530 ), ExtResource( 1538 ), ExtResource( 1533 ), ExtResource( 1531 ), ExtResource( 1541 ), ExtResource( 1540 ), ExtResource( 1537 ), ExtResource( 1529 ), ExtResource( 1534 ), ExtResource( 1536 ), ExtResource( 1535 ) ],
-"loop": true,
-"name": "shotgun_pullout",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1193 ), ExtResource( 1198 ), ExtResource( 1196 ), ExtResource( 1188 ), ExtResource( 1189 ), ExtResource( 1190 ), ExtResource( 1199 ), ExtResource( 1200 ), ExtResource( 1192 ), ExtResource( 1197 ), ExtResource( 1194 ), ExtResource( 1195 ), ExtResource( 1191 ) ],
-"loop": true,
-"name": "shotgun_suplexdash",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 344 ), ExtResource( 345 ), ExtResource( 352 ), ExtResource( 349 ), ExtResource( 351 ), ExtResource( 343 ), ExtResource( 353 ), ExtResource( 346 ), ExtResource( 348 ), ExtResource( 347 ), ExtResource( 350 ), ExtResource( 354 ) ],
-"loop": true,
-"name": "shotgun_walk",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 390 ), ExtResource( 384 ), ExtResource( 387 ), ExtResource( 385 ), ExtResource( 386 ), ExtResource( 388 ), ExtResource( 389 ), ExtResource( 391 ), ExtResource( 392 ), ExtResource( 394 ), ExtResource( 396 ), ExtResource( 393 ) ],
-"loop": true,
-"name": "shotgunjump1",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 395 ), ExtResource( 402 ), ExtResource( 400 ), ExtResource( 401 ), ExtResource( 398 ), ExtResource( 399 ), ExtResource( 397 ), ExtResource( 404 ), ExtResource( 405 ), ExtResource( 407 ), ExtResource( 406 ) ],
-"loop": true,
-"name": "shotgunjump2",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 383 ), ExtResource( 403 ) ],
-"loop": true,
-"name": "shotgunjump3",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1339 ), ExtResource( 1340 ), ExtResource( 1341 ), ExtResource( 1347 ), ExtResource( 1342 ), ExtResource( 1343 ), ExtResource( 1345 ), ExtResource( 1344 ), ExtResource( 1346 ) ],
-"loop": true,
-"name": "slipnslide",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 414 ), ExtResource( 415 ), ExtResource( 413 ) ],
-"loop": true,
-"name": "stomp",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 408 ), ExtResource( 409 ), ExtResource( 410 ), ExtResource( 411 ), ExtResource( 412 ) ],
-"loop": true,
-"name": "stompprep",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1049 ), ExtResource( 1053 ), ExtResource( 1055 ) ],
-"loop": true,
-"name": "superjump",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1120 ), ExtResource( 1116 ), ExtResource( 1118 ), ExtResource( 1117 ), ExtResource( 1119 ), ExtResource( 1087 ), ExtResource( 1097 ), ExtResource( 1112 ), ExtResource( 1095 ), ExtResource( 1080 ), ExtResource( 1084 ), ExtResource( 1091 ), ExtResource( 1105 ), ExtResource( 1088 ), ExtResource( 1102 ), ExtResource( 1114 ), ExtResource( 1111 ), ExtResource( 1090 ), ExtResource( 1081 ), ExtResource( 1092 ), ExtResource( 1094 ), ExtResource( 1107 ), ExtResource( 1089 ), ExtResource( 1106 ), ExtResource( 1101 ), ExtResource( 1093 ), ExtResource( 1096 ), ExtResource( 1110 ), ExtResource( 1098 ), ExtResource( 1108 ), ExtResource( 1099 ), ExtResource( 1082 ), ExtResource( 1083 ), ExtResource( 1104 ), ExtResource( 1113 ), ExtResource( 1109 ), ExtResource( 1115 ), ExtResource( 1100 ), ExtResource( 1085 ), ExtResource( 1086 ), ExtResource( 1103 ) ],
-"loop": true,
-"name": "superjumpland",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1079 ), ExtResource( 1076 ), ExtResource( 1074 ), ExtResource( 1072 ), ExtResource( 1073 ), ExtResource( 1075 ), ExtResource( 1077 ) ],
-"loop": true,
-"name": "superjumpleft",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1063 ), ExtResource( 1068 ), ExtResource( 1067 ), ExtResource( 1069 ), ExtResource( 1070 ), ExtResource( 1064 ), ExtResource( 1065 ), ExtResource( 1066 ) ],
-"loop": true,
-"name": "superjumpprep",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1071 ), ExtResource( 1078 ) ],
-"loop": true,
-"name": "superjumppreplight",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1050 ), ExtResource( 1059 ), ExtResource( 1051 ), ExtResource( 1060 ), ExtResource( 1061 ), ExtResource( 1062 ), ExtResource( 1052 ) ],
-"loop": true,
-"name": "superjumpright",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1646 ), ExtResource( 1645 ), ExtResource( 1644 ), ExtResource( 1647 ), ExtResource( 1648 ), ExtResource( 1649 ), ExtResource( 1650 ), ExtResource( 1654 ), ExtResource( 1651 ), ExtResource( 1652 ), ExtResource( 1653 ) ],
-"loop": true,
-"name": "supertaunt1",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1655 ), ExtResource( 1658 ), ExtResource( 1657 ), ExtResource( 1656 ), ExtResource( 1664 ), ExtResource( 1665 ), ExtResource( 1659 ), ExtResource( 1660 ), ExtResource( 1661 ), ExtResource( 1663 ), ExtResource( 1662 ) ],
-"loop": true,
-"name": "supertaunt2",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1682 ), ExtResource( 1680 ), ExtResource( 1681 ), ExtResource( 1683 ), ExtResource( 1685 ), ExtResource( 1684 ), ExtResource( 1686 ), ExtResource( 1687 ), ExtResource( 1669 ), ExtResource( 1668 ), ExtResource( 1672 ) ],
-"loop": true,
-"name": "supertaunt3",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1670 ), ExtResource( 1671 ), ExtResource( 1673 ), ExtResource( 1675 ), ExtResource( 1679 ), ExtResource( 1674 ), ExtResource( 1676 ), ExtResource( 1677 ), ExtResource( 1678 ), ExtResource( 1666 ), ExtResource( 1667 ) ],
-"loop": true,
-"name": "supertaunt4",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 14 ), ExtResource( 12 ), ExtResource( 17 ), ExtResource( 16 ), ExtResource( 11 ), ExtResource( 765 ), ExtResource( 766 ), ExtResource( 18 ), ExtResource( 15 ), ExtResource( 19 ) ],
-"loop": true,
-"name": "suplexdash",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 18 ), ExtResource( 19 ), ExtResource( 15 ) ],
-"loop": true,
-"name": "suplexdashjump",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 14 ), ExtResource( 12 ), ExtResource( 17 ), ExtResource( 16 ), ExtResource( 11 ), ExtResource( 765 ), ExtResource( 766 ) ],
-"loop": true,
-"name": "suplexdashjumpstart",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1968 ), ExtResource( 1978 ), ExtResource( 1977 ), ExtResource( 1960 ), ExtResource( 1967 ) ],
-"loop": true,
-"name": "suplexmash1",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1970 ), ExtResource( 1976 ), ExtResource( 1979 ), ExtResource( 1972 ), ExtResource( 1963 ) ],
-"loop": true,
-"name": "suplexmash2",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1971 ), ExtResource( 1961 ), ExtResource( 1966 ), ExtResource( 1973 ), ExtResource( 1964 ) ],
-"loop": true,
-"name": "suplexmash3",
-"speed": 60.0
-}, {
-"frames": [ ExtResource( 1969 ), ExtResource( 1962 ), ExtResource( 1965 ), ExtResource( 1974 ), ExtResource( 1975 ) ],
 "loop": true,
 "name": "suplexmash4",
 "speed": 60.0
@@ -8996,6 +8220,94 @@ region = Rect2( 500, 0, 100, 100 )
 atlas = ExtResource( 1825 )
 region = Rect2( 600, 0, 100, 100 )
 
+[sub_resource type="AtlasTexture" id=1951]
+atlas = ExtResource( 3600 )
+region = Rect2( 0, 0, 150, 100 )
+
+[sub_resource type="AtlasTexture" id=1952]
+atlas = ExtResource( 3600 )
+region = Rect2( 150, 0, 150, 100 )
+
+[sub_resource type="AtlasTexture" id=1953]
+atlas = ExtResource( 3600 )
+region = Rect2( 300, 0, 150, 100 )
+
+[sub_resource type="AtlasTexture" id=1954]
+atlas = ExtResource( 3600 )
+region = Rect2( 450, 0, 150, 100 )
+
+[sub_resource type="AtlasTexture" id=1955]
+atlas = ExtResource( 3600 )
+region = Rect2( 600, 0, 150, 100 )
+
+[sub_resource type="AtlasTexture" id=1956]
+atlas = ExtResource( 3600 )
+region = Rect2( 750, 0, 150, 100 )
+
+[sub_resource type="AtlasTexture" id=1957]
+atlas = ExtResource( 3597 )
+region = Rect2( 0, 0, 150, 100 )
+
+[sub_resource type="AtlasTexture" id=1958]
+atlas = ExtResource( 3597 )
+region = Rect2( 150, 0, 150, 100 )
+
+[sub_resource type="AtlasTexture" id=1959]
+atlas = ExtResource( 3597 )
+region = Rect2( 300, 0, 150, 100 )
+
+[sub_resource type="AtlasTexture" id=1960]
+atlas = ExtResource( 3597 )
+region = Rect2( 450, 0, 150, 100 )
+
+[sub_resource type="AtlasTexture" id=1961]
+atlas = ExtResource( 3597 )
+region = Rect2( 600, 0, 150, 100 )
+
+[sub_resource type="AtlasTexture" id=1962]
+atlas = ExtResource( 3597 )
+region = Rect2( 750, 0, 150, 100 )
+
+[sub_resource type="AtlasTexture" id=1963]
+atlas = ExtResource( 3591 )
+region = Rect2( 0, 0, 150, 100 )
+
+[sub_resource type="AtlasTexture" id=1964]
+atlas = ExtResource( 3591 )
+region = Rect2( 150, 0, 150, 100 )
+
+[sub_resource type="AtlasTexture" id=1965]
+atlas = ExtResource( 3591 )
+region = Rect2( 300, 0, 150, 100 )
+
+[sub_resource type="AtlasTexture" id=1966]
+atlas = ExtResource( 3594 )
+region = Rect2( 0, 0, 150, 135 )
+
+[sub_resource type="AtlasTexture" id=1967]
+atlas = ExtResource( 3594 )
+region = Rect2( 150, 0, 150, 135 )
+
+[sub_resource type="AtlasTexture" id=1968]
+atlas = ExtResource( 3594 )
+region = Rect2( 300, 0, 150, 135 )
+
+[sub_resource type="AtlasTexture" id=1969]
+atlas = ExtResource( 3594 )
+region = Rect2( 450, 0, 150, 135 )
+
+[sub_resource type="AtlasTexture" id=1970]
+atlas = ExtResource( 3594 )
+region = Rect2( 600, 0, 150, 135 )
+
+[sub_resource type="AtlasTexture" id=1971]
+atlas = ExtResource( 3594 )
+region = Rect2( 750, 0, 150, 135 )
+
+[sub_resource type="AtlasTexture" id=1972]
+atlas = ExtResource( 3594 )
+region = Rect2( 900, 0, 150, 135 )
+
 [sub_resource type="AtlasTexture" id=1574]
 atlas = ExtResource( 2043 )
 region = Rect2( 0, 0, 100, 100 )
@@ -9292,17 +8604,37 @@ region = Rect2( 100, 0, 100, 100 )
 atlas = ExtResource( 1834 )
 region = Rect2( 200, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=532]
+[sub_resource type="AtlasTexture" id=2108]
 atlas = ExtResource( 1835 )
-region = Rect2( 0, 0, 100, 100 )
+region = Rect2( 0, 0, 200, 150 )
 
-[sub_resource type="AtlasTexture" id=533]
+[sub_resource type="AtlasTexture" id=2109]
 atlas = ExtResource( 1835 )
-region = Rect2( 100, 0, 100, 100 )
+region = Rect2( 200, 0, 200, 150 )
 
-[sub_resource type="AtlasTexture" id=534]
+[sub_resource type="AtlasTexture" id=2110]
 atlas = ExtResource( 1835 )
-region = Rect2( 200, 0, 100, 100 )
+region = Rect2( 400, 0, 200, 150 )
+
+[sub_resource type="AtlasTexture" id=2111]
+atlas = ExtResource( 1835 )
+region = Rect2( 600, 0, 200, 150 )
+
+[sub_resource type="AtlasTexture" id=2112]
+atlas = ExtResource( 1835 )
+region = Rect2( 800, 0, 200, 150 )
+
+[sub_resource type="AtlasTexture" id=2113]
+atlas = ExtResource( 1835 )
+region = Rect2( 1000, 0, 200, 150 )
+
+[sub_resource type="AtlasTexture" id=2114]
+atlas = ExtResource( 1835 )
+region = Rect2( 1200, 0, 200, 150 )
+
+[sub_resource type="AtlasTexture" id=2115]
+atlas = ExtResource( 1835 )
+region = Rect2( 1400, 0, 200, 150 )
 
 [sub_resource type="AtlasTexture" id=535]
 atlas = ExtResource( 1836 )
@@ -9660,6 +8992,26 @@ region = Rect2( 500, 0, 100, 100 )
 atlas = ExtResource( 1906 )
 region = Rect2( 600, 0, 100, 100 )
 
+[sub_resource type="AtlasTexture" id=1995]
+atlas = ExtResource( 1935 )
+region = Rect2( 0, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1996]
+atlas = ExtResource( 1935 )
+region = Rect2( 100, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1997]
+atlas = ExtResource( 1935 )
+region = Rect2( 200, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1998]
+atlas = ExtResource( 1935 )
+region = Rect2( 300, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=1999]
+atlas = ExtResource( 1935 )
+region = Rect2( 400, 0, 100, 100 )
+
 [sub_resource type="AtlasTexture" id=1944]
 atlas = ExtResource( 1930 )
 region = Rect2( 0, 0, 100, 100 )
@@ -9943,30 +9295,6 @@ region = Rect2( 200, 0, 100, 100 )
 [sub_resource type="AtlasTexture" id=823]
 atlas = ExtResource( 1861 )
 region = Rect2( 300, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=834]
-atlas = ExtResource( 1855 )
-region = Rect2( 0, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=835]
-atlas = ExtResource( 1855 )
-region = Rect2( 100, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=836]
-atlas = ExtResource( 1855 )
-region = Rect2( 200, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=837]
-atlas = ExtResource( 1855 )
-region = Rect2( 300, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=838]
-atlas = ExtResource( 1855 )
-region = Rect2( 400, 0, 100, 100 )
-
-[sub_resource type="AtlasTexture" id=839]
-atlas = ExtResource( 1855 )
-region = Rect2( 500, 0, 100, 100 )
 
 [sub_resource type="AtlasTexture" id=824]
 atlas = ExtResource( 1857 )
@@ -11472,6 +10800,22 @@ region = Rect2( 100, 0, 100, 100 )
 atlas = ExtResource( 1879 )
 region = Rect2( 200, 0, 100, 100 )
 
+[sub_resource type="AtlasTexture" id=1973]
+atlas = ExtResource( 3589 )
+region = Rect2( 0, 0, 135, 123 )
+
+[sub_resource type="AtlasTexture" id=1974]
+atlas = ExtResource( 3589 )
+region = Rect2( 135, 0, 135, 123 )
+
+[sub_resource type="AtlasTexture" id=1975]
+atlas = ExtResource( 3589 )
+region = Rect2( 270, 0, 135, 123 )
+
+[sub_resource type="AtlasTexture" id=1976]
+atlas = ExtResource( 3589 )
+region = Rect2( 405, 0, 135, 123 )
+
 [sub_resource type="AtlasTexture" id=878]
 atlas = ExtResource( 1872 )
 region = Rect2( 0, 0, 100, 100 )
@@ -11492,65 +10836,65 @@ region = Rect2( 300, 0, 100, 100 )
 atlas = ExtResource( 1872 )
 region = Rect2( 400, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=883]
-atlas = ExtResource( 1881 )
-region = Rect2( 0, 0, 100, 100 )
+[sub_resource type="AtlasTexture" id=1977]
+atlas = ExtResource( 3602 )
+region = Rect2( 0, 0, 135, 123 )
 
-[sub_resource type="AtlasTexture" id=884]
-atlas = ExtResource( 1881 )
-region = Rect2( 100, 0, 100, 100 )
+[sub_resource type="AtlasTexture" id=1978]
+atlas = ExtResource( 3602 )
+region = Rect2( 135, 0, 135, 123 )
 
-[sub_resource type="AtlasTexture" id=885]
-atlas = ExtResource( 1881 )
-region = Rect2( 200, 0, 100, 100 )
+[sub_resource type="AtlasTexture" id=1979]
+atlas = ExtResource( 3602 )
+region = Rect2( 270, 0, 135, 123 )
 
-[sub_resource type="AtlasTexture" id=886]
-atlas = ExtResource( 1881 )
-region = Rect2( 300, 0, 100, 100 )
+[sub_resource type="AtlasTexture" id=1980]
+atlas = ExtResource( 3602 )
+region = Rect2( 405, 0, 135, 123 )
 
-[sub_resource type="AtlasTexture" id=887]
-atlas = ExtResource( 1881 )
-region = Rect2( 400, 0, 100, 100 )
+[sub_resource type="AtlasTexture" id=1981]
+atlas = ExtResource( 3602 )
+region = Rect2( 540, 0, 135, 123 )
 
-[sub_resource type="AtlasTexture" id=888]
-atlas = ExtResource( 1881 )
-region = Rect2( 500, 0, 100, 100 )
+[sub_resource type="AtlasTexture" id=1982]
+atlas = ExtResource( 3602 )
+region = Rect2( 675, 0, 135, 123 )
 
-[sub_resource type="AtlasTexture" id=889]
+[sub_resource type="AtlasTexture" id=1983]
 atlas = ExtResource( 1881 )
-region = Rect2( 600, 0, 100, 100 )
+region = Rect2( 0, 0, 135, 123 )
 
-[sub_resource type="AtlasTexture" id=890]
+[sub_resource type="AtlasTexture" id=1984]
 atlas = ExtResource( 1881 )
-region = Rect2( 700, 0, 100, 100 )
+region = Rect2( 135, 0, 135, 123 )
 
-[sub_resource type="AtlasTexture" id=891]
+[sub_resource type="AtlasTexture" id=1985]
 atlas = ExtResource( 1881 )
-region = Rect2( 800, 0, 100, 100 )
+region = Rect2( 270, 0, 135, 123 )
 
-[sub_resource type="AtlasTexture" id=892]
+[sub_resource type="AtlasTexture" id=1986]
 atlas = ExtResource( 1881 )
-region = Rect2( 900, 0, 100, 100 )
+region = Rect2( 405, 0, 135, 123 )
 
-[sub_resource type="AtlasTexture" id=893]
+[sub_resource type="AtlasTexture" id=1987]
 atlas = ExtResource( 1881 )
-region = Rect2( 1000, 0, 100, 100 )
+region = Rect2( 540, 0, 135, 123 )
 
-[sub_resource type="AtlasTexture" id=894]
+[sub_resource type="AtlasTexture" id=1988]
 atlas = ExtResource( 1881 )
-region = Rect2( 1100, 0, 100, 100 )
+region = Rect2( 675, 0, 135, 123 )
 
-[sub_resource type="AtlasTexture" id=895]
+[sub_resource type="AtlasTexture" id=1989]
 atlas = ExtResource( 1881 )
-region = Rect2( 1200, 0, 100, 100 )
+region = Rect2( 810, 0, 135, 123 )
 
-[sub_resource type="AtlasTexture" id=896]
+[sub_resource type="AtlasTexture" id=1990]
 atlas = ExtResource( 1881 )
-region = Rect2( 1300, 0, 100, 100 )
+region = Rect2( 945, 0, 135, 123 )
 
-[sub_resource type="AtlasTexture" id=897]
+[sub_resource type="AtlasTexture" id=1991]
 atlas = ExtResource( 1881 )
-region = Rect2( 1400, 0, 100, 100 )
+region = Rect2( 1080, 0, 135, 123 )
 
 [sub_resource type="AtlasTexture" id=721]
 atlas = ExtResource( 1854 )
@@ -12192,69 +11536,17 @@ region = Rect2( 400, 0, 100, 100 )
 atlas = ExtResource( 1888 )
 region = Rect2( 500, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=1951]
-atlas = ExtResource( 3589 )
-region = Rect2( 200, 0, 200, 70 )
+[sub_resource type="AtlasTexture" id=1992]
+atlas = ExtResource( 2043 )
+region = Rect2( 0, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=1952]
-atlas = ExtResource( 3589 )
-region = Rect2( 0, 0, 200, 70 )
+[sub_resource type="AtlasTexture" id=1993]
+atlas = ExtResource( 2043 )
+region = Rect2( 100, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=1953]
-atlas = ExtResource( 3589 )
-region = Rect2( 400, 0, 200, 70 )
-
-[sub_resource type="AtlasTexture" id=1954]
-atlas = ExtResource( 3589 )
-region = Rect2( 600, 0, 200, 70 )
-
-[sub_resource type="AtlasTexture" id=1955]
-atlas = ExtResource( 3589 )
-region = Rect2( 800, 0, 200, 70 )
-
-[sub_resource type="AtlasTexture" id=1956]
-atlas = ExtResource( 3589 )
-region = Rect2( 1000, 0, 200, 70 )
-
-[sub_resource type="AtlasTexture" id=1957]
-atlas = ExtResource( 3589 )
-region = Rect2( 1200, 0, 200, 70 )
-
-[sub_resource type="AtlasTexture" id=1958]
-atlas = ExtResource( 3589 )
-region = Rect2( 1400, 0, 200, 70 )
-
-[sub_resource type="AtlasTexture" id=1959]
-atlas = ExtResource( 3589 )
-region = Rect2( 1600, 0, 200, 70 )
-
-[sub_resource type="AtlasTexture" id=1960]
-atlas = ExtResource( 3589 )
-region = Rect2( 1800, 0, 200, 70 )
-
-[sub_resource type="AtlasTexture" id=1961]
-atlas = ExtResource( 3589 )
-region = Rect2( 2000, 0, 200, 70 )
-
-[sub_resource type="AtlasTexture" id=1962]
-atlas = ExtResource( 3589 )
-region = Rect2( 2200, 0, 200, 70 )
-
-[sub_resource type="AtlasTexture" id=1963]
-atlas = ExtResource( 3589 )
-region = Rect2( 2400, 0, 200, 70 )
-
-[sub_resource type="AtlasTexture" id=1964]
-atlas = ExtResource( 3589 )
-region = Rect2( 2600, 0, 200, 70 )
-
-[sub_resource type="AtlasTexture" id=1965]
-atlas = ExtResource( 3589 )
-region = Rect2( 2800, 0, 200, 70 )
-
-[sub_resource type="AtlasTexture" id=1966]
-atlas = ExtResource( 3589 )
-region = Rect2( 3000, 0, 200, 70 )
+[sub_resource type="AtlasTexture" id=1994]
+atlas = ExtResource( 2043 )
+region = Rect2( 200, 0, 100, 100 )
 
 [sub_resource type="AtlasTexture" id=1909]
 atlas = ExtResource( 1906 )
@@ -12312,21 +11604,25 @@ region = Rect2( 500, 0, 100, 100 )
 atlas = ExtResource( 1906 )
 region = Rect2( 600, 0, 100, 100 )
 
-[sub_resource type="AtlasTexture" id=1129]
+[sub_resource type="AtlasTexture" id=2116]
 atlas = ExtResource( 1898 )
-region = Rect2( 0, 0, 100, 100 )
+region = Rect2( 0, 0, 150, 100 )
 
-[sub_resource type="AtlasTexture" id=1130]
+[sub_resource type="AtlasTexture" id=2117]
 atlas = ExtResource( 1898 )
-region = Rect2( 100, 0, 100, 100 )
+region = Rect2( 150, 0, 150, 100 )
 
-[sub_resource type="AtlasTexture" id=1131]
+[sub_resource type="AtlasTexture" id=2118]
 atlas = ExtResource( 1898 )
-region = Rect2( 200, 0, 100, 100 )
+region = Rect2( 300, 0, 150, 100 )
 
-[sub_resource type="AtlasTexture" id=1132]
+[sub_resource type="AtlasTexture" id=2119]
 atlas = ExtResource( 1898 )
-region = Rect2( 300, 0, 100, 100 )
+region = Rect2( 450, 0, 150, 100 )
+
+[sub_resource type="AtlasTexture" id=2120]
+atlas = ExtResource( 1898 )
+region = Rect2( 600, 0, 150, 100 )
 
 [sub_resource type="AtlasTexture" id=1133]
 atlas = ExtResource( 1902 )
@@ -12939,6 +12235,30 @@ region = Rect2( 900, 0, 100, 100 )
 [sub_resource type="AtlasTexture" id=1236]
 atlas = ExtResource( 1914 )
 region = Rect2( 1000, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=2121]
+atlas = ExtResource( 1912 )
+region = Rect2( 600, 0, 200, 150 )
+
+[sub_resource type="AtlasTexture" id=2122]
+atlas = ExtResource( 1912 )
+region = Rect2( 400, 0, 200, 150 )
+
+[sub_resource type="AtlasTexture" id=2123]
+atlas = ExtResource( 1912 )
+region = Rect2( 200, 0, 200, 150 )
+
+[sub_resource type="AtlasTexture" id=2124]
+atlas = ExtResource( 1912 )
+region = Rect2( 0, 0, 200, 150 )
+
+[sub_resource type="AtlasTexture" id=2125]
+atlas = ExtResource( 1913 )
+region = Rect2( 0, 0, 200, 150 )
+
+[sub_resource type="AtlasTexture" id=2126]
+atlas = ExtResource( 1913 )
+region = Rect2( 200, 0, 200, 150 )
 
 [sub_resource type="AtlasTexture" id=1618]
 atlas = ExtResource( 2086 )
@@ -14782,6 +14102,26 @@ animations = [ {
 "name": "buttattackstart",
 "speed": 60.0
 }, {
+"frames": [ SubResource( 1951 ), SubResource( 1952 ), SubResource( 1953 ), SubResource( 1954 ), SubResource( 1955 ), SubResource( 1956 ) ],
+"loop": true,
+"name": "chainsawdash",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1957 ), SubResource( 1958 ), SubResource( 1959 ), SubResource( 1960 ), SubResource( 1961 ), SubResource( 1962 ) ],
+"loop": true,
+"name": "chainsawdashstart",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1963 ), SubResource( 1964 ), SubResource( 1965 ) ],
+"loop": true,
+"name": "chainsawhit",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1966 ), SubResource( 1967 ), SubResource( 1968 ), SubResource( 1969 ), SubResource( 1970 ), SubResource( 1971 ), SubResource( 1972 ) ],
+"loop": true,
+"name": "chainsawhitwall",
+"speed": 60.0
+}, {
 "frames": [ SubResource( 1574 ), SubResource( 1575 ), SubResource( 1576 ) ],
 "loop": true,
 "name": "charge",
@@ -14847,7 +14187,7 @@ animations = [ {
 "name": "dead",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 532 ), SubResource( 533 ), SubResource( 534 ) ],
+"frames": [ SubResource( 2108 ), SubResource( 2109 ), SubResource( 2110 ), SubResource( 2111 ), SubResource( 2112 ), SubResource( 2113 ), SubResource( 2114 ), SubResource( 2115 ) ],
 "loop": true,
 "name": "dive",
 "speed": 60.0
@@ -14897,7 +14237,7 @@ animations = [ {
 "name": "finishingblow1",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 3402 ), ExtResource( 3400 ), ExtResource( 3401 ), ExtResource( 3396 ), ExtResource( 3399 ), ExtResource( 3397 ), ExtResource( 3398 ) ],
+"frames": [ SubResource( 1995 ), SubResource( 1996 ), SubResource( 1997 ), SubResource( 1998 ), SubResource( 1999 ), SubResource( 1999 ) ],
 "loop": true,
 "name": "finishingblow2",
 "speed": 60.0
@@ -14962,7 +14302,7 @@ animations = [ {
 "name": "haulingland",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 834 ), SubResource( 835 ), SubResource( 836 ), SubResource( 837 ), SubResource( 838 ), SubResource( 839 ) ],
+"frames": [ ExtResource( 1859 ) ],
 "loop": true,
 "name": "haulingstart",
 "speed": 60.0
@@ -15042,12 +14382,22 @@ animations = [ {
 "name": "jetpackboostdown",
 "speed": 60.0
 }, {
+"frames": [ SubResource( 1973 ), SubResource( 1974 ), SubResource( 1975 ), SubResource( 1976 ) ],
+"loop": true,
+"name": "jetpackfall",
+"speed": 60.0
+}, {
 "frames": [ SubResource( 878 ), SubResource( 879 ), SubResource( 880 ), SubResource( 881 ), SubResource( 882 ) ],
 "loop": true,
 "name": "jetpackslide",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 883 ), SubResource( 884 ), SubResource( 885 ), SubResource( 886 ), SubResource( 887 ), SubResource( 888 ), SubResource( 889 ), SubResource( 890 ), SubResource( 891 ), SubResource( 892 ), SubResource( 893 ), SubResource( 894 ), SubResource( 895 ), SubResource( 896 ), SubResource( 897 ) ],
+"frames": [ SubResource( 1977 ), SubResource( 1978 ), SubResource( 1979 ), SubResource( 1980 ), SubResource( 1981 ), SubResource( 1982 ) ],
+"loop": true,
+"name": "jetpackspin",
+"speed": 60.0
+}, {
+"frames": [ SubResource( 1983 ), SubResource( 1984 ), SubResource( 1985 ), SubResource( 1986 ), SubResource( 1987 ), SubResource( 1988 ), SubResource( 1989 ), SubResource( 1990 ), SubResource( 1991 ) ],
 "loop": true,
 "name": "jetpackstart",
 "speed": 60.0
@@ -15057,7 +14407,7 @@ animations = [ {
 "name": "jump",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 3392 ), ExtResource( 3384 ), ExtResource( 3382 ), ExtResource( 3383 ), ExtResource( 3383 ), ExtResource( 3383 ), ExtResource( 3385 ), ExtResource( 3389 ), ExtResource( 3388 ), ExtResource( 3386 ), ExtResource( 3387 ), ExtResource( 3387 ), ExtResource( 3387 ), ExtResource( 3387 ), ExtResource( 3392 ), ExtResource( 3384 ), ExtResource( 3382 ), ExtResource( 3383 ), ExtResource( 3383 ), ExtResource( 3383 ), ExtResource( 3385 ), ExtResource( 3389 ), ExtResource( 3388 ), ExtResource( 3386 ), ExtResource( 3387 ), ExtResource( 3392 ), ExtResource( 3384 ), ExtResource( 3382 ), ExtResource( 3383 ), ExtResource( 3383 ), ExtResource( 3383 ) ],
+"frames": [ ExtResource( 3392 ), ExtResource( 3384 ), ExtResource( 3382 ), ExtResource( 3383 ), ExtResource( 3383 ), ExtResource( 3383 ), ExtResource( 3385 ), ExtResource( 3389 ), ExtResource( 3388 ), ExtResource( 3386 ), ExtResource( 3387 ), ExtResource( 3387 ), ExtResource( 3387 ), ExtResource( 3387 ), ExtResource( 3392 ), ExtResource( 3384 ), ExtResource( 3382 ), ExtResource( 3383 ), ExtResource( 3383 ), ExtResource( 3383 ), ExtResource( 3385 ), ExtResource( 3389 ), ExtResource( 3388 ), ExtResource( 3386 ), ExtResource( 3387 ), ExtResource( 3387 ), ExtResource( 3387 ), ExtResource( 3387 ), ExtResource( 3392 ), ExtResource( 3384 ), ExtResource( 3382 ), ExtResource( 3383 ), ExtResource( 3383 ), ExtResource( 3383 ) ],
 "loop": true,
 "name": "keyget",
 "speed": 60.0
@@ -15162,7 +14512,7 @@ animations = [ {
 "name": "mach3jump",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1951 ), SubResource( 1952 ), SubResource( 1953 ), SubResource( 1954 ), SubResource( 1955 ), SubResource( 1956 ), SubResource( 1957 ), SubResource( 1958 ), SubResource( 1959 ), SubResource( 1960 ), SubResource( 1961 ), SubResource( 1962 ), SubResource( 1963 ), SubResource( 1964 ), SubResource( 1965 ), SubResource( 1966 ) ],
+"frames": [ SubResource( 1992 ), SubResource( 1993 ), SubResource( 1994 ) ],
 "loop": true,
 "name": "mach4",
 "speed": 60.0
@@ -15177,7 +14527,7 @@ animations = [ {
 "name": "machpunch2",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 1129 ), SubResource( 1130 ), SubResource( 1131 ), SubResource( 1132 ) ],
+"frames": [ SubResource( 2116 ), SubResource( 2117 ), SubResource( 2118 ), SubResource( 2119 ), SubResource( 2120 ) ],
 "loop": true,
 "name": "machroll",
 "speed": 60.0
@@ -15297,12 +14647,12 @@ animations = [ {
 "name": "rollgetup",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 3402 ), ExtResource( 3400 ), ExtResource( 3401 ), ExtResource( 3396 ) ],
+"frames": [ SubResource( 2121 ), SubResource( 2122 ), SubResource( 2123 ), SubResource( 2124 ) ],
 "loop": true,
 "name": "secondjump1",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 3399 ), ExtResource( 3397 ), ExtResource( 3398 ) ],
+"frames": [ SubResource( 2125 ), SubResource( 2126 ) ],
 "loop": true,
 "name": "secondjump2",
 "speed": 60.0
@@ -15502,7 +14852,7 @@ animations = [ {
 "name": "tackle",
 "speed": 60.0
 }, {
-"frames": [ SubResource( 692 ), SubResource( 693 ), SubResource( 694 ), SubResource( 695 ), SubResource( 696 ), SubResource( 697 ), SubResource( 698 ), SubResource( 699 ), SubResource( 700 ), SubResource( 701 ), SubResource( 702 ), ExtResource( 3403 ), ExtResource( 1894 ) ],
+"frames": [ SubResource( 692 ), SubResource( 693 ), SubResource( 694 ), SubResource( 695 ), SubResource( 696 ), SubResource( 697 ), SubResource( 698 ), SubResource( 699 ), SubResource( 700 ), SubResource( 701 ), SubResource( 702 ), ExtResource( 3403 ), ExtResource( 1894 ), ExtResource( 3603 ), ExtResource( 3606 ), ExtResource( 3604 ), ExtResource( 3605 ), ExtResource( 3607 ) ],
 "loop": true,
 "name": "taunt",
 "speed": 60.0
@@ -15676,6 +15026,18 @@ region = Rect2( 0, 0, 100, 100 )
 [sub_resource type="AtlasTexture" id=1725]
 atlas = ExtResource( 1829 )
 region = Rect2( 100, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=532]
+atlas = ExtResource( 1835 )
+region = Rect2( 0, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=533]
+atlas = ExtResource( 1835 )
+region = Rect2( 100, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=534]
+atlas = ExtResource( 1835 )
+region = Rect2( 200, 0, 100, 100 )
 
 [sub_resource type="AtlasTexture" id=614]
 atlas = ExtResource( 1847 )
@@ -15969,6 +15331,30 @@ region = Rect2( 600, 0, 100, 100 )
 atlas = ExtResource( 1859 )
 region = Rect2( 700, 0, 100, 100 )
 
+[sub_resource type="AtlasTexture" id=834]
+atlas = ExtResource( 1855 )
+region = Rect2( 0, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=835]
+atlas = ExtResource( 1855 )
+region = Rect2( 100, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=836]
+atlas = ExtResource( 1855 )
+region = Rect2( 200, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=837]
+atlas = ExtResource( 1855 )
+region = Rect2( 300, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=838]
+atlas = ExtResource( 1855 )
+region = Rect2( 400, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=839]
+atlas = ExtResource( 1855 )
+region = Rect2( 500, 0, 100, 100 )
+
 [sub_resource type="AtlasTexture" id=840]
 atlas = ExtResource( 1865 )
 region = Rect2( 0, 0, 100, 100 )
@@ -16080,6 +15466,66 @@ region = Rect2( 2300, 0, 100, 100 )
 [sub_resource type="AtlasTexture" id=1750]
 atlas = ExtResource( 1868 )
 region = Rect2( 2400, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=883]
+atlas = ExtResource( 1881 )
+region = Rect2( 0, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=884]
+atlas = ExtResource( 1881 )
+region = Rect2( 100, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=885]
+atlas = ExtResource( 1881 )
+region = Rect2( 200, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=886]
+atlas = ExtResource( 1881 )
+region = Rect2( 300, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=887]
+atlas = ExtResource( 1881 )
+region = Rect2( 400, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=888]
+atlas = ExtResource( 1881 )
+region = Rect2( 500, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=889]
+atlas = ExtResource( 1881 )
+region = Rect2( 600, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=890]
+atlas = ExtResource( 1881 )
+region = Rect2( 700, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=891]
+atlas = ExtResource( 1881 )
+region = Rect2( 800, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=892]
+atlas = ExtResource( 1881 )
+region = Rect2( 900, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=893]
+atlas = ExtResource( 1881 )
+region = Rect2( 1000, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=894]
+atlas = ExtResource( 1881 )
+region = Rect2( 1100, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=895]
+atlas = ExtResource( 1881 )
+region = Rect2( 1200, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=896]
+atlas = ExtResource( 1881 )
+region = Rect2( 1300, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=897]
+atlas = ExtResource( 1881 )
+region = Rect2( 1400, 0, 100, 100 )
 
 [sub_resource type="AtlasTexture" id=734]
 atlas = ExtResource( 1854 )
@@ -19095,9 +18541,10 @@ script = ExtResource( 55 )
 
 [node name="PeppermanSprite" type="AnimatedSprite" parent="."]
 material = SubResource( 4 )
-position = Vector2( 0, -20 )
+position = Vector2( 0, -13 )
+z_index = 1
 frames = SubResource( 1816 )
-animation = "idle"
+animation = "crazyrun"
 
 [node name="PeppinoSprite" type="AnimatedSprite" parent="."]
 material = SubResource( 4 )
@@ -19110,12 +18557,6 @@ position = Vector2( 0, -6 )
 frames = SubResource( 1821 )
 animation = "bump"
 
-[node name="StickSprite" type="AnimatedSprite" parent="."]
-material = SubResource( 4 )
-position = Vector2( 0, -6 )
-frames = SubResource( 1820 )
-animation = "fly"
-
 [node name="FakePeppinoSprite" type="AnimatedSprite" parent="."]
 material = SubResource( 4 )
 frames = SubResource( 1815 )
@@ -19125,8 +18566,7 @@ animation = "idle"
 material = SubResource( 1573 )
 z_index = 1
 frames = SubResource( 10 )
-animation = "mach4"
-offset = Vector2( 0, 16 )
+animation = "jetpackfall"
 
 [node name="SnickSprite" type="AnimatedSprite" parent="."]
 material = SubResource( 1573 )
