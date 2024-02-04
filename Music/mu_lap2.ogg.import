@@ -11,5 +11,5 @@ dest_files=[ "res://.import/mu_lap2.ogg-99f55b290a1ae884be5b05d6e9c83bf9.oggstr"
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0

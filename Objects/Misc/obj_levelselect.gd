@@ -7,10 +7,11 @@ var world_array = [
 	["WORLD 1"],
 	["WORLD 2"],
 	["WORLD 3"],
-	["WORLD 4"],
-	["TOP"],
-	["EXIT"],
-	["WORLD EXTRAS"],
+	# There's only three worlds currently present, uncomment these when the levels for these worlds actually exist.
+	#["WORLD 4"],
+	#["TOP"],
+	#["EXIT"],
+	#["WORLD EXTRAS"],
 ]
 
 var level_array = [

@@ -11,5 +11,5 @@ dest_files=[ "res://.import/mu_vigilanteescape.ogg-6706b1cdf865e67b90812cae6f2eb
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0

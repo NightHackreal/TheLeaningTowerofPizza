@@ -11,5 +11,5 @@ dest_files=[ "res://.import/mu_vigilantelap.ogg-bb4ac2879ff2b72bf4da6a16883c9c81
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0

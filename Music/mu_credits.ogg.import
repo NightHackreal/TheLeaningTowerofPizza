@@ -11,5 +11,5 @@ dest_files=[ "res://.import/mu_credits.ogg-226923fa98d32af837dd80eabf12e676.oggs
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0

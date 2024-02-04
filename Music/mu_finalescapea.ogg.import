@@ -11,5 +11,5 @@ dest_files=[ "res://.import/mu_finalescapea.ogg-c475ccf510bfefa357227b667e276162
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0

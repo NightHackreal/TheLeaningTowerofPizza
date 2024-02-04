@@ -36,6 +36,9 @@ var shoulderbash = false
 # Enables the early 2019 grab.
 var oldgrab = false
 
+# Lunge attack/pummel. Don't know how else to implement this as a move so it's like this for now. -basiccube
+var pummel = false
+
 var minutes = 0
 var seconds = 59
 var laps = 0
@@ -165,4 +168,5 @@ enum states {
 	portal,
 	parry,
 	spin,
+	pummel,
 }

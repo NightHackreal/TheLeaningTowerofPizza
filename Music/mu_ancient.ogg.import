@@ -11,5 +11,5 @@ dest_files=[ "res://.import/mu_ancient.ogg-c194024f179608a04b611b2b46af6695.oggs
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0

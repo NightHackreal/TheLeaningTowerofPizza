@@ -11,5 +11,5 @@ dest_files=[ "res://.import/mu_pizzanolap.ogg-a383910bef60f18897d4634a5c31ad8b.o
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0

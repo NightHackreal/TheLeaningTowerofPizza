@@ -11,5 +11,5 @@ dest_files=[ "res://.import/mu_bonus.ogg-75374361bb109171f7fb6c9972554e83.oggstr
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0

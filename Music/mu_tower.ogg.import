@@ -11,5 +11,5 @@ dest_files=[ "res://.import/mu_tower.ogg-963840808968263849d6fc63ad78449a.oggstr
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0

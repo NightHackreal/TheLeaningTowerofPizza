@@ -11,5 +11,5 @@ dest_files=[ "res://.import/mu_ufoescape.ogg-9f9c7263cce4394270fe8415ebad2e08.og
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0

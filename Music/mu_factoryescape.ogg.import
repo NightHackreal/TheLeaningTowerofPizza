@@ -11,5 +11,5 @@ dest_files=[ "res://.import/mu_factoryescape.ogg-48b462cf684526128e80537aabaf4e5
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0

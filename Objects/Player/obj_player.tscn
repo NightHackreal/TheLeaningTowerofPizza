@@ -1,4 +1,4 @@
-[gd_scene load_steps=5364 format=2]
+[gd_scene load_steps=5384 format=2]
 
 [ext_resource path="res://Objects/Player/sprites/idle_4.png" type="Texture" id=1]
 [ext_resource path="res://Objects/Player/sprites/idle_0.png" type="Texture" id=2]
@@ -706,6 +706,22 @@
 [ext_resource path="res://Objects/Player/sprites/mach3hitwall_2.png" type="Texture" id=704]
 [ext_resource path="res://Objects/Player/sprites/mach3hitwall_5.png" type="Texture" id=705]
 [ext_resource path="res://Objects/Player/sprites/mach3hitwall_8.png" type="Texture" id=706]
+[ext_resource path="res://Objects/Player/sprites/lunge_1.png" type="Texture" id=707]
+[ext_resource path="res://Objects/Player/sprites/lunge_14.png" type="Texture" id=708]
+[ext_resource path="res://Objects/Player/sprites/lunge_2.png" type="Texture" id=709]
+[ext_resource path="res://Objects/Player/sprites/lunge_4.png" type="Texture" id=710]
+[ext_resource path="res://Objects/Player/sprites/lunge_3.png" type="Texture" id=711]
+[ext_resource path="res://Objects/Player/sprites/lunge_12.png" type="Texture" id=712]
+[ext_resource path="res://Objects/Player/sprites/lunge_16.png" type="Texture" id=713]
+[ext_resource path="res://Objects/Player/sprites/lunge_18.png" type="Texture" id=714]
+[ext_resource path="res://Objects/Player/sprites/lunge_6.png" type="Texture" id=715]
+[ext_resource path="res://Objects/Player/sprites/lunge_7.png" type="Texture" id=716]
+[ext_resource path="res://Objects/Player/sprites/lunge_10.png" type="Texture" id=717]
+[ext_resource path="res://Objects/Player/sprites/lunge_11.png" type="Texture" id=718]
+[ext_resource path="res://Objects/Player/sprites/lunge_19.png" type="Texture" id=719]
+[ext_resource path="res://Objects/Player/sprites/lunge_5.png" type="Texture" id=720]
+[ext_resource path="res://Objects/Player/sprites/lunge_13.png" type="Texture" id=721]
+[ext_resource path="res://Objects/Player/sprites/lunge_15.png" type="Texture" id=722]
 [ext_resource path="res://Objects/Player/sprites/mach_2.png" type="Texture" id=723]
 [ext_resource path="res://Objects/Player/sprites/idle_11.png" type="Texture" id=724]
 [ext_resource path="res://Objects/Player/sprites/idle_7.png" type="Texture" id=725]
@@ -2784,6 +2800,10 @@
 [ext_resource path="res://Objects/Player/sprites/pizzano/spr_pizzano_handstand_6.png" type="Texture" id=2798]
 [ext_resource path="res://Objects/Player/sprites/pizzano/spr_pizzano_handstand_1.png" type="Texture" id=2799]
 [ext_resource path="res://Objects/Player/sprites/pizzano/spr_pizzano_handstand_7.png" type="Texture" id=2800]
+[ext_resource path="res://Objects/Player/sprites/lunge_8.png" type="Texture" id=2801]
+[ext_resource path="res://Objects/Player/sprites/lunge_0.png" type="Texture" id=2802]
+[ext_resource path="res://Objects/Player/sprites/lunge_9.png" type="Texture" id=2803]
+[ext_resource path="res://Objects/Player/sprites/lunge_17.png" type="Texture" id=2804]
 [ext_resource path="res://Objects/Player/sprites/chainsawend_0.png" type="Texture" id=2945]
 [ext_resource path="res://Objects/Player/sprites/chainsawend2_2.png" type="Texture" id=2946]
 [ext_resource path="res://Objects/Player/sprites/chainsawend2_0.png" type="Texture" id=2947]
@@ -4900,7 +4920,7 @@ animations = [ {
 "name": "hurtwalk",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ), ExtResource( 13 ), ExtResource( 6 ), ExtResource( 9 ), ExtResource( 9 ), ExtResource( 6 ), ExtResource( 1 ), ExtResource( 3 ), ExtResource( 3 ), ExtResource( 725 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 21 ), ExtResource( 21 ), ExtResource( 20 ), ExtResource( 20 ), ExtResource( 20 ), ExtResource( 20 ), ExtResource( 724 ), ExtResource( 10 ) ],
+"frames": [ ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ), ExtResource( 13 ), ExtResource( 6 ), ExtResource( 9 ), ExtResource( 9 ), ExtResource( 6 ), ExtResource( 1 ), ExtResource( 3 ), ExtResource( 3 ), ExtResource( 725 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 21 ), ExtResource( 21 ), ExtResource( 20 ), ExtResource( 20 ), ExtResource( 20 ), ExtResource( 20 ), ExtResource( 724 ), ExtResource( 10 ) ],
 "loop": true,
 "name": "idle",
 "speed": 60.0
@@ -5048,6 +5068,11 @@ animations = [ {
 "frames": [ ExtResource( 1317 ), ExtResource( 1316 ), ExtResource( 1313 ), ExtResource( 1314 ), ExtResource( 1315 ) ],
 "loop": true,
 "name": "lookdoor",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 2802 ), ExtResource( 707 ), ExtResource( 709 ), ExtResource( 711 ), ExtResource( 710 ), ExtResource( 720 ), ExtResource( 715 ), ExtResource( 716 ), ExtResource( 2801 ), ExtResource( 2803 ), ExtResource( 717 ), ExtResource( 718 ), ExtResource( 712 ), ExtResource( 721 ), ExtResource( 708 ), ExtResource( 722 ), ExtResource( 713 ), ExtResource( 2804 ), ExtResource( 714 ), ExtResource( 719 ) ],
+"loop": true,
+"name": "lunge",
 "speed": 60.0
 }, {
 "frames": [ ExtResource( 727 ), ExtResource( 7 ), ExtResource( 723 ), ExtResource( 726 ), ExtResource( 728 ), ExtResource( 729 ), ExtResource( 730 ), ExtResource( 8 ) ],
@@ -18549,7 +18574,7 @@ animation = "crazyrun"
 [node name="PeppinoSprite" type="AnimatedSprite" parent="."]
 material = SubResource( 4 )
 frames = SubResource( 1 )
-animation = "breakdancesmash"
+animation = "pepcooter"
 
 [node name="GustavoSprite" type="AnimatedSprite" parent="."]
 material = SubResource( 4 )

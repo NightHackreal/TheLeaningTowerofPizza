@@ -342,20 +342,27 @@ func scr_enemy_land():
 		state = global.states.idle
 		
 func scr_enemy_hit():
-	if (straightthrow):
-		velocity.y = 0
-	if (velocity.y < 0 && $Sprite.frame != 2 && $Sprite.animation != spr_flying):
-		$Sprite.animation = spr_hit
-	elif (velocity.y < 0):
-		$Sprite.animation = spr_flying
-	elif ($Sprite.animation == spr_flying):
-		$Sprite.animation = spr_stunfalltrans
-	elif ($Sprite.frame == 4 && $Sprite.animation == spr_stunfalltrans):
-		$Sprite.animation = spr_stunfall
-	if (is_on_floor() && floor(velocity.y) >= 0):
-		utils.instance_create(global_position.x, global_position.y, "res://Objects/Visuals/obj_landcloud.tscn")
-		state = global.states.stun
-		$Sprite.frame = 0
+	velocity.x = 0
+	velocity.y = 0
+	match global.heatstylethreshold:
+		0:
+			stunned -= 1
+		1:
+			stunned -= 1.5
+		2:
+			stunned -= 1.65
+		3:
+			stunned -= 1.8
+	if ($Sprite.frame == $Sprite.frames.get_frame_count($Sprite.animation) - 1 && stunned < 0):
+		if (!is_in_group("obj_ancho") && !is_in_group("obj_pizzaboy")):
+			velocity.y = -4
+		else:
+			velocity.y = 0
+		$Sprite.animation = spr_walk
+		state = global.states.walk
+		if (!is_in_group("obj_spitcheese")):
+			movespeed = 1
+	$Sprite.animation = spr_stunfall
 	$Sprite.speed_scale = 0.35
 	
 func scr_enemy_grabbed():

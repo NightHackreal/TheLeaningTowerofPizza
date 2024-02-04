@@ -11,5 +11,5 @@ dest_files=[ "res://.import/mu_noiseescape.ogg-03f2207fc21632492f200c6ed31b5c5d.
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0

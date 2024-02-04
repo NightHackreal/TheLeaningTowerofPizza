@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://Objects/Warps/obj_spawnpoint.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Collision/obj_solid.tscn" type="PackedScene" id=2]
@@ -9,18 +9,27 @@
 [ext_resource path="res://Objects/Level/obj_camlimit_top.tscn" type="PackedScene" id=7]
 [ext_resource path="res://Objects/Visuals/obj_background.tscn" type="PackedScene" id=8]
 [ext_resource path="res://Rooms/rm_testing.gd" type="Script" id=9]
-[ext_resource path="res://Objects/Level/obj_hungrypillar.tscn" type="PackedScene" id=10]
-[ext_resource path="res://Backgrounds/bg_mainmenu_0.png" type="Texture" id=11]
+[ext_resource path="res://Objects/Baddies/Enemies/obj_forknight.tscn" type="PackedScene" id=10]
+[ext_resource path="res://Backgrounds/bg_dungeontomato2_0.png" type="Texture" id=11]
 [ext_resource path="res://Backgrounds/bg_dungeon3_0.png" type="Texture" id=12]
-[ext_resource path="res://Backgrounds/bg_secret_0.png" type="Texture" id=13]
+[ext_resource path="res://Backgrounds/bg_dungeontomato_0.png" type="Texture" id=13]
+[ext_resource path="res://Objects/Baddies/Enemies/obj_cheeseslime.tscn" type="PackedScene" id=14]
+[ext_resource path="res://Objects/Baddies/Enemies/obj_pizzaboy.tscn" type="PackedScene" id=15]
 
 [node name="rm_testing" type="Node2D"]
 script = ExtResource( 9 )
 
+[node name="obj_pizzaboy" parent="." instance=ExtResource( 15 )]
+position = Vector2( 2448, 656 )
+
+[node name="obj_pizzaboy2" parent="." instance=ExtResource( 15 )]
+position = Vector2( 2800, 656 )
+
 [node name="Background" parent="." instance=ExtResource( 8 )]
 Layer1 = ExtResource( 12 )
+LayerSky = ExtResource( 13 )
 LayerH1 = ExtResource( 11 )
-LayerScroll = ExtResource( 13 )
+LayerSky_order = -1002
 LayerScroll_order = -1001
 
 [node name="obj_camlimit_left" parent="." instance=ExtResource( 4 )]
@@ -31,7 +40,7 @@ LayerScroll_order = -1001
 position = Vector2( 0, 800 )
 
 [node name="obj_camlimit_right" parent="." instance=ExtResource( 5 )]
-position = Vector2( 1800, 0 )
+position = Vector2( 3800, 0 )
 
 [node name="obj_spawnpoint" parent="." instance=ExtResource( 1 )]
 position = Vector2( 144, 480 )
@@ -45,34 +54,33 @@ scale = Vector2( 2, 18 )
 
 [node name="obj_solid3" parent="." instance=ExtResource( 2 )]
 position = Vector2( 0, 704 )
-scale = Vector2( 57, 4 )
+scale = Vector2( 100, 4 )
 
 [node name="obj_solid4" parent="." instance=ExtResource( 2 )]
-position = Vector2( 1728, 0 )
-scale = Vector2( 3, 20 )
+position = Vector2( 3104, 0 )
+scale = Vector2( 3, 22 )
 
 [node name="obj_solid5" parent="." instance=ExtResource( 2 )]
 position = Vector2( 64, 0 )
-scale = Vector2( 52, 2 )
-
-[node name="obj_solid6" parent="." instance=ExtResource( 2 )]
-position = Vector2( 1536, 640 )
-scale = Vector2( 9, 2 )
-
-[node name="obj_solid7" parent="." instance=ExtResource( 2 )]
-position = Vector2( 1024, 512 )
-scale = Vector2( 9, 6 )
-
-[node name="obj_solid8" parent="." instance=ExtResource( 2 )]
-position = Vector2( 640, 256 )
-scale = Vector2( 7, 10 )
-__meta__ = {
-"_editor_description_": ""
-}
+scale = Vector2( 100, 2 )
 
 [node name="obj_exitgate" parent="." instance=ExtResource( 3 )]
 position = Vector2( 192, 448 )
 
-[node name="obj_hungrypillar" parent="." instance=ExtResource( 10 )]
-position = Vector2( 1728, 416 )
-scale = Vector2( -1, 1 )
+[node name="obj_cheeseslime" parent="." instance=ExtResource( 14 )]
+position = Vector2( 672, 656 )
+
+[node name="obj_cheeseslime2" parent="." instance=ExtResource( 14 )]
+position = Vector2( 1024, 656 )
+
+[node name="obj_cheeseslime3" parent="." instance=ExtResource( 14 )]
+position = Vector2( 1360, 656 )
+
+[node name="obj_cheeseslime4" parent="." instance=ExtResource( 14 )]
+position = Vector2( 1568, 656 )
+
+[node name="obj_forknight" parent="." instance=ExtResource( 10 )]
+position = Vector2( 1824, 656 )
+
+[node name="obj_forknight2" parent="." instance=ExtResource( 10 )]
+position = Vector2( 2112, 656 )

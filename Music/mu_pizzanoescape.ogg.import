@@ -11,5 +11,5 @@ dest_files=[ "res://.import/mu_pizzanoescape.ogg-0ca94df75c845e35c314c11ccc4c2ff
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0

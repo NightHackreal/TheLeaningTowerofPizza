@@ -11,5 +11,5 @@ dest_files=[ "res://.import/mu_waterescape.ogg-5e04dbbbe884b2c6e00f0f0690f6ebf2.
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0

@@ -2,7 +2,7 @@
 
 [ext_resource path="res://Objects/Baddies/obj_baddie.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Objects/Baddies/Sprites/noisey/noisey_walk_1.png" type="Texture" id=2]
-[ext_resource path="res://Objects/Baddies/Enemies/obj_forknight.gd" type="Script" id=3]
+[ext_resource path="res://Objects/Baddies/Enemies/obj_noisey.gd" type="Script" id=3]
 [ext_resource path="res://Objects/Baddies/Sprites/noisey/noisey_walk_2.png" type="Texture" id=4]
 [ext_resource path="res://Objects/Baddies/Sprites/noisey/noisey_walk_3.png" type="Texture" id=5]
 [ext_resource path="res://Objects/Baddies/sprites/noisey/noisey_dead_0.png" type="Texture" id=6]

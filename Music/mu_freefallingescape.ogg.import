@@ -11,5 +11,5 @@ dest_files=[ "res://.import/mu_freefallingescape.ogg-c989b44fc8c2a67caf4f002275e
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0

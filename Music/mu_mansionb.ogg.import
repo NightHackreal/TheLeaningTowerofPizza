@@ -11,5 +11,5 @@ dest_files=[ "res://.import/mu_mansionb.ogg-ab6c263b0049053a0cfdf0050def830f.ogg
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0

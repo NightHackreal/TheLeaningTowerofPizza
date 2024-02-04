@@ -11,5 +11,5 @@ dest_files=[ "res://.import/mu_noiselap2.ogg-4965184877a485e9506c3535982cc97a.og
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
