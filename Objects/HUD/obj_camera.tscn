@@ -1,3 +1,8 @@
+
+[gd_scene load_steps=305 format=2]
+
+[ext_resource path="res://Objects/HUD/obj_camera.gd" type="Script" id=1]
+[ext_resource path="res://Objects/HUD/sprites/speedbar_4.png" type="Texture" id=2]
 [gd_scene load_steps=304 format=2]
 
 [ext_resource path="res://Objects/HUD/obj_camera.gd" type="Script" id=1]
@@ -292,6 +297,11 @@
 [ext_resource path="res://Objects/HUD/sprites/noise/noiseHUD_happy_0.png" type="Texture" id=290]
 [ext_resource path="res://Objects/HUD/sprites/noise/noiseHUD_mach3_1.png" type="Texture" id=291]
 [ext_resource path="res://Objects/HUD/sprites/noise/noiseHUD_mach1_2.png" type="Texture" id=292]
+[ext_resource path="res://Objects/HUD/sprites/rank_1.png" type="Texture" id=293]
+[ext_resource path="res://Objects/HUD/sprites/rank_0.png" type="Texture" id=294]
+[ext_resource path="res://Objects/HUD/sprites/rank_4.png" type="Texture" id=295]
+[ext_resource path="res://Objects/HUD/sprites/rank_2.png" type="Texture" id=296]
+[ext_resource path="res://Objects/HUD/sprites/rank_3.png" type="Texture" id=297]
 [ext_resource path="res://Objects/HUD/sprites/speedbar_4.png" type="Texture" id=293]
 
 [sub_resource type="ShaderMaterial" id=4]
@@ -674,10 +684,21 @@ animations = [ {
 "name": "max",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 5 ), ExtResource( 8 ), ExtResource( 7 ), ExtResource( 6 ), ExtResource( 293 ), ExtResource( 9 ) ],
+moveset-and-boss-shit
+"frames": [ ExtResource( 5 ), ExtResource( 8 ), ExtResource( 7 ), ExtResource( 6 ), ExtResource( 2 ), ExtResource( 9 ) ],
+=======
+"frames": [ ExtResource( 5 ), ExtResource( 8 ), ExtResource( 7 ), ExtResource( 6 ), ExtResource( 293 ), ExtResource( 9 ) ],main
 "loop": true,
 "name": "normal",
 "speed": 60.0
+} ]
+
+[sub_resource type="SpriteFrames" id=9]
+animations = [ {
+"frames": [ ExtResource( 294 ), ExtResource( 293 ), ExtResource( 296 ), ExtResource( 297 ), ExtResource( 295 ) ],
+"loop": true,
+"name": "ranks",
+"speed": 5.0
 } ]
 
 [sub_resource type="SpriteFrames" id=2]
@@ -732,6 +753,13 @@ centered = false
 position = Vector2( -437, -218 )
 frames = SubResource( 1 )
 animation = "normal"
+speed_scale = 0.0
+centered = false
+
+[node name="Rank" type="AnimatedSprite" parent="."]
+position = Vector2( -312, -256 )
+frames = SubResource( 9 )
+animation = "ranks"
 speed_scale = 0.0
 centered = false
 

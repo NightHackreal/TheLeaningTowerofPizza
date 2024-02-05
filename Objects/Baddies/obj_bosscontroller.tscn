@@ -1,6 +1,100 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Objects/Baddies/obj_bosscontroller.gd" type="Script" id=1]
+[ext_resource path="res://Objects/HUD/sprites/heatmeter.png" type="Texture" id=2]
+[ext_resource path="res://Objects/HUD/sprites/heatmeterbar_fill.png" type="Texture" id=3]
+[ext_resource path="res://Objects/HUD/font.tres" type="BitmapFont" id=4]
+[ext_resource path="res://Objects/Baddies/sprites/boss/versusflame_0.png" type="Texture" id=5]
+[ext_resource path="res://Shaders/TextureScroll.tres" type="Shader" id=6]
+[ext_resource path="res://Objects/Baddies/sprites/boss/vspeppino_0.png" type="Texture" id=7]
+[ext_resource path="res://Objects/Baddies/sprites/boss/vsnoise_0.png" type="Texture" id=8]
+[ext_resource path="res://Objects/Baddies/sprites/boss/vstitle_0.png" type="Texture" id=9]
+
+[sub_resource type="ShaderMaterial" id=1]
+shader = ExtResource( 6 )
+shader_param/motion = Vector2( 0, 100 )
+shader_param/scale = 1.0
+shader_param/offset = Vector2( 0, 0 )
 
 [node name="obj_bosscontroller" type="Node2D"]
+z_index = 1000
 script = ExtResource( 1 )
+
+[node name="PlayerHP" type="TextureProgress" parent="."]
+margin_left = 60.0
+margin_top = 180.0
+margin_right = 188.0
+margin_bottom = 187.0
+max_value = 1500.0
+texture_under = ExtResource( 2 )
+texture_progress = ExtResource( 3 )
+nine_patch_stretch = true
+
+[node name="BossHP" type="TextureProgress" parent="."]
+margin_left = 772.0
+margin_top = 180.0
+margin_right = 900.0
+margin_bottom = 187.0
+max_value = 3000.0
+texture_under = ExtResource( 2 )
+texture_progress = ExtResource( 3 )
+nine_patch_stretch = true
+
+[node name="RoundText" type="Label" parent="."]
+visible = false
+margin_top = 78.0
+margin_right = 960.0
+margin_bottom = 110.0
+rect_min_size = Vector2( 960, 32 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = ExtResource( 4 )
+text = "ROUND 1"
+align = 1
+valign = 2
+uppercase = true
+
+[node name="Timer" type="Label" parent="."]
+visible = false
+margin_top = 78.0
+margin_right = 960.0
+margin_bottom = 110.0
+rect_min_size = Vector2( 960, 32 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = ExtResource( 4 )
+text = "0:45"
+align = 1
+valign = 2
+uppercase = true
+
+[node name="TimerTimer" type="Timer" parent="."]
+one_shot = true
+
+[node name="EndTimer" type="Timer" parent="."]
+wait_time = 4.0
+one_shot = true
+
+[node name="Intro" type="Node2D" parent="."]
+visible = false
+
+[node name="Flames" type="Sprite" parent="Intro"]
+material = SubResource( 1 )
+texture = ExtResource( 5 )
+centered = false
+
+[node name="Peppino" type="Sprite" parent="Intro"]
+position = Vector2( -415, 183 )
+texture = ExtResource( 7 )
+centered = false
+
+[node name="Boss" type="Sprite" parent="Intro"]
+position = Vector2( 960, 183 )
+texture = ExtResource( 8 )
+centered = false
+
+[node name="VersusTitle" type="Sprite" parent="Intro"]
+position = Vector2( 0, -400 )
+texture = ExtResource( 9 )
+centered = false
+
+[connection signal="timeout" from="TimerTimer" to="." method="_on_TimerTimer_timeout"]
+[connection signal="timeout" from="EndTimer" to="." method="_on_EndTimer_timeout"]

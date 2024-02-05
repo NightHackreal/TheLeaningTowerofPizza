@@ -145,8 +145,7 @@ position = Vector2( 1536, 448 )
 position = Vector2( 2080, 336 )
 
 [node name="obj_noisesatelite" parent="." instance=ExtResource( 3 )]
-position = Vector2( 2104, 328 )
-scale = Vector2( -1, 1 )
+position = Vector2( 2080, 376 )
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 

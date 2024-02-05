@@ -168,5 +168,17 @@ enum states {
 	portal,
 	parry,
 	spin,
+moveset-and-boss-shit
+	actor,
+}
+
+enum bossstates {
+	arenaintro,
+	arenaroundstart,
+	arenaround,
+	transitioncutscene,
+	victory,
+	gameover,
 	pummel,
+main
 }

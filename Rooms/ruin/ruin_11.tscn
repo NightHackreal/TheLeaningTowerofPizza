@@ -576,4 +576,4 @@ content = ExtResource( 22 )
 position = Vector2( 736, 448 )
 
 [node name="obj_noisesatelite" parent="." instance=ExtResource( 13 )]
-position = Vector2( 711, 456 )
+position = Vector2( 608, 504 )
