@@ -9,29 +9,29 @@ var world_array = [
 	["WORLD 3"],
 	["BOSSES"],
 	# There's only 3 worlds right now - uncomment these when these worlds are added in. -basiccube
+	# There's only three worlds currently present, uncomment these when the levels for these worlds actually exist.
 	#["WORLD 4"],
 	#["TOP"],
 	#["EXIT"],
 	#["WORLD EXTRAS"],
 ]
 
-# Some of these levels don't yet exist - only uncomment when they start existing. -basiccube
 var level_array = [
 	[
 		["YE OLDE LEFTOVERSE", "ancient", "ancient_1"],
-		#["HYDRO HYJINKS", "water", "water_1"],
+		["HYDRO HYJINKS", "water", "water_1"],
 		["MECHANICAL MADNESS", "factory", "factory_1"],
-		#["RETIREMENT HOME", "mansion", "mansion_1"],
+		["RETIREMENT HOME", "mansion", "mansion_1"],
 	],
 	[
 		["PIZZALAND", "circus", "circus_1"],
-		#["HYDRO HYJINKS", "water", "water_1"],
-		["MECHANICAL MADNESS", "factory", "factory_1"],
-		#["RETIREMENT HOME", "mansion", "mansion_1"],
+		["FREEFALLIN'", "freefall", "freefall_1"],
+		["OLIVE INTERGALACTIC", "ufo", "ufo_1"],
+		["HAAAIIIYYYAAAHHH!!!", "kungfu", "kungfu_1"],
 	],
 	[
 		["TRICKY TREAT", "trickytreat", "trickytreat_1"],
-		["ENTRANCE", "entrance", "entrance_1"],
+		["JOHN GUTTER", "entrance", "entrance_1"],
 		["PIZZASCAPE", "medieval", "medieval_1"],
 		["THE ANCIENT CHEESE", "ruin", "ruin_1"],
 		["BLOODSAUCE DUNGEON", "dungeon", "dungeon_1"],

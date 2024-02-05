@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/mu_mansionescape.ogg-047ecf97df3be97d33d960c697d726e4.oggstr"
+
+[deps]
+
+source_file="res://Music/mu_mansionescape.ogg"
+dest_files=[ "res://.import/mu_mansionescape.ogg-047ecf97df3be97d33d960c697d726e4.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

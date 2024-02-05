@@ -342,20 +342,27 @@ func scr_enemy_land():
 		state = global.states.idle
 		
 func scr_enemy_hit():
-	if (straightthrow):
-		velocity.y = 0
-	if (velocity.y < 0 && $Sprite.frame != 2 && $Sprite.animation != spr_flying):
-		$Sprite.animation = spr_hit
-	elif (velocity.y < 0):
-		$Sprite.animation = spr_flying
-	elif ($Sprite.animation == spr_flying):
-		$Sprite.animation = spr_stunfalltrans
-	elif ($Sprite.frame == 4 && $Sprite.animation == spr_stunfalltrans):
-		$Sprite.animation = spr_stunfall
-	if (is_on_floor() && floor(velocity.y) >= 0):
-		utils.instance_create(global_position.x, global_position.y, "res://Objects/Visuals/obj_landcloud.tscn")
-		state = global.states.stun
-		$Sprite.frame = 0
+	velocity.x = 0
+	velocity.y = 0
+	match global.heatstylethreshold:
+		0:
+			stunned -= 1
+		1:
+			stunned -= 1.5
+		2:
+			stunned -= 1.65
+		3:
+			stunned -= 1.8
+	if ($Sprite.frame == $Sprite.frames.get_frame_count($Sprite.animation) - 1 && stunned < 0):
+		if (!is_in_group("obj_ancho") && !is_in_group("obj_pizzaboy")):
+			velocity.y = -4
+		else:
+			velocity.y = 0
+		$Sprite.animation = spr_walk
+		state = global.states.walk
+		if (!is_in_group("obj_spitcheese")):
+			movespeed = 1
+	$Sprite.animation = spr_stunfall
 	$Sprite.speed_scale = 0.35
 	
 func scr_enemy_grabbed():
@@ -369,7 +376,8 @@ func scr_enemy_grabbed():
 			position.x = obj_player.position.x + (obj_player.xscale * 35)
 			position.y = (obj_player.position.y - 15)
 		else:
-			position.y = (obj_player.position.y - 45)
+			position.x = obj_player.position.x + (obj_player.xscale * 35)
+			position.y = (obj_player.position.y - 15)
 		xscale = (-obj_player.xscale)
 	if (!(obj_player.state == global.states.grab || obj_player.state == global.states.finishingblow || obj_player.state == global.states.grabbing || obj_player.state == global.states.throw || obj_player.state == global.states.slam || obj_player.state == global.states.punch || obj_player.state == global.states.superslam || obj_player.state == global.states.backkick || obj_player.state == global.states.uppunch || obj_player.state == global.states.shoulder)):
 		position.x = (obj_player.position.x + (50 * obj_player.xscale))
@@ -478,9 +486,9 @@ func scr_enemy_grabbed():
 			position.x = (obj_player.position.x + (5 * obj_player.xscale))
 			position.y = (obj_player.position.y - 55)
 		else:
-			z_index = 7
+			z_index = 8
 			position.x = (obj_player.position.x + (5 * obj_player.xscale))
-			position.y = (obj_player.position.y - 10)
+			position.y = (obj_player.position.y - 55)
 	if (obj_player.sprite_index == "piledriverland" && $Sprite.frame == $Sprite.frames.get_frame_count($Sprite.animation) - 1):
 		obj_player.state = global.states.jump
 		obj_player.velocity.y = -8

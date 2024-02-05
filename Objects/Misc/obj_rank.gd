@@ -26,7 +26,9 @@ func _process(delta):
 		if (global.rank == "d"):
 			$Sprite.animation = "rankD"
 	else:
-		if (global.rank == "s" || global.rank == "p"):
+		if (global.rank == "p"):
+			$Sprite.animation = "rankNP"
+		if (global.rank == "s"):
 			$Sprite.animation = "rankNS"
 		if (global.rank == "a"):
 			$Sprite.animation = "rankNA"

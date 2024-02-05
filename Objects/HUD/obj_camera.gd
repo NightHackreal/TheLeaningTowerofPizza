@@ -89,16 +89,25 @@ func _process(delta):
 		if (obj_player.character == "P"):
 			facehud = $PeppinoHUD
 			$PeppinoHUD.visible = true
+			$GustavoHUD.visible = false
+			$NoiseHUD.visible = false
+			$VigilanteHUD.visible = false
+		if (obj_player.character == "G"):
+			facehud = $GustavoHUD
+			$PeppinoHUD.visible = false
+			$GustavoHUD.visible = true
 			$NoiseHUD.visible = false
 			$VigilanteHUD.visible = false
 		elif (obj_player.character == "N"):
 			facehud = $NoiseHUD
 			$PeppinoHUD.visible = false
+			$GustavoHUD.visible = false
 			$NoiseHUD.visible = true
 			$VigilanteHUD.visible = false
 		elif (obj_player.character == "V"):
 			facehud = $VigilanteHUD
 			$PeppinoHUD.visible = false
+			$GustavoHUD.visible = false
 			$NoiseHUD.visible = false
 			$VigilanteHUD.visible = true
 		facehud.playing = true

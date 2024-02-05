@@ -31,6 +31,24 @@ func destroy():
 		global.panic = true
 		utils.instance_create(global_position.x, global_position.y + 600, "res://Objects/Visuals/obj_itspizzatime.tscn")
 		match global.targetLevel:
+			"tower":
+				global.minutes = 3
+				global.seconds = 40
+			"water":
+				global.minutes = 3
+				global.seconds = 55
+			"factory":
+				global.minutes = 2
+				global.seconds = 55
+			"mansion":
+				global.minutes = 2
+				global.seconds = 45
+			"circus":
+				global.minutes = 2
+				global.seconds = 30
+			"exit":
+				global.minutes = 10
+				global.seconds = 00
 			"entrance":
 				global.minutes = 3
 				global.seconds = 15

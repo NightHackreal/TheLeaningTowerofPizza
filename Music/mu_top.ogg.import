@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/mu_top.ogg-b39a6bd9deef4a2b5262e54f11ac9e95.oggstr"
+
+[deps]
+
+source_file="res://Music/mu_top.ogg"
+dest_files=[ "res://.import/mu_top.ogg-b39a6bd9deef4a2b5262e54f11ac9e95.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

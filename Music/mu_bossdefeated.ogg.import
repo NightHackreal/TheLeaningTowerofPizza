@@ -11,5 +11,5 @@ dest_files=[ "res://.import/mu_bossdefeated.ogg-2709fbd1df3e92b797627b9813432bb5
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0

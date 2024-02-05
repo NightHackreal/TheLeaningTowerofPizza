@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/mu_ufo.ogg-2134d94920a2a36a2256dcb64752661c.oggstr"
+
+[deps]
+
+source_file="res://Music/mu_ufo.ogg"
+dest_files=[ "res://.import/mu_ufo.ogg-2134d94920a2a36a2256dcb64752661c.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

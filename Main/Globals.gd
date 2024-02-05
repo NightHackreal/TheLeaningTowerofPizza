@@ -24,7 +24,7 @@ var option_musicvolume = 0
 
 
 # Enables the style bar from April 2019.
-# This feature is extremely broken as the amount of score it gives is stupidly high.
+# This feature is extremely broken as the amount of score it gives is stupidly high. Also, NightHack calls this the game journalist bar.
 var stylebar = false
 
 # Enables the mach1 animation seen in May 2019 builds.
@@ -35,6 +35,9 @@ var shoulderbash = false
 
 # Enables the early 2019 grab.
 var oldgrab = false
+
+# Lunge attack/pummel. Don't know how else to implement this as a move so it's like this for now. -basiccube
+var pummel = false
 
 var minutes = 0
 var seconds = 59
@@ -165,6 +168,7 @@ enum states {
 	portal,
 	parry,
 	spin,
+moveset-and-boss-shit
 	actor,
 }
 
@@ -175,4 +179,6 @@ enum bossstates {
 	transitioncutscene,
 	victory,
 	gameover,
+	pummel,
+main
 }

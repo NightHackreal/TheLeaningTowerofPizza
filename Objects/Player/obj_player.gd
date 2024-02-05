@@ -123,6 +123,7 @@ func _process(delta):
 	sprite_index = charactersprite.animation
 	if (character == "P"):
 		charactersprite = $PeppinoSprite
+		$GustavoSprite.visible = false
 		$PeppermanSprite.visible = false
 		$PeppinoSprite.visible = true
 		$PizzanoSprite.visible = false
@@ -132,6 +133,7 @@ func _process(delta):
 		$VigilanteSprite.visible = false
 	elif (character == "N"):
 		charactersprite = $NoiseSprite
+		$GustavoSprite.visible = false
 		$PeppermanSprite.visible = false
 		$PeppinoSprite.visible = false
 		$PizzanoSprite.visible = false
@@ -141,16 +143,17 @@ func _process(delta):
 		$VigilanteSprite.visible = false
 	elif (character == "M"):
 		charactersprite = $PeppermanSprite
+		$GustavoSprite.visible = false
 		$PeppermanSprite.visible = true
 		$PeppinoSprite.visible = false
 		$PizzanoSprite.visible = false
 		$FakePeppinoSprite.visible = false
 		$NoiseSprite.visible = false
-		$NoisetteSprite.visible = false
 		$SnickSprite.visible = false
 		$VigilanteSprite.visible = false
 	elif (character == "Z"):
 		charactersprite = $PizzanoSprite
+		$GustavoSprite.visible = false
 		$PeppermanSprite.visible = false
 		$PeppinoSprite.visible = false
 		$PizzanoSprite.visible = true
@@ -160,6 +163,7 @@ func _process(delta):
 		$VigilanteSprite.visible = false
 	elif (character == "V"):
 		charactersprite = $VigilanteSprite
+		$GustavoSprite.visible = false
 		$PeppermanSprite.visible = false
 		$PeppinoSprite.visible = false
 		$PizzanoSprite.visible = false
@@ -169,10 +173,31 @@ func _process(delta):
 		$VigilanteSprite.visible = true
 	elif (character == "F"):
 		charactersprite = $FakePeppinoSprite
+		$GustavoSprite.visible = false
 		$PeppermanSprite.visible = false
 		$PeppinoSprite.visible = false
 		$PizzanoSprite.visible = false
 		$FakePeppinoSprite.visible = true
+		$NoiseSprite.visible = false
+		$SnickSprite.visible = false
+		$VigilanteSprite.visible = false
+	elif (character == "T"):
+		charactersprite = $StickSprite
+		$GustavoSprite.visible = false
+		$PeppermanSprite.visible = false
+		$PeppinoSprite.visible = false
+		$PizzanoSprite.visible = false
+		$FakePeppinoSprite.visible = false
+		$NoiseSprite.visible = false
+		$SnickSprite.visible = false
+		$VigilanteSprite.visible = false
+	elif (character == "G"):
+		charactersprite = $GustavoSprite
+		$GustavoSprite.visible = true
+		$PeppermanSprite.visible = false
+		$PeppinoSprite.visible = false
+		$PizzanoSprite.visible = false
+		$FakePeppinoSprite.visible = false
 		$NoiseSprite.visible = false
 		$SnickSprite.visible = false
 		$VigilanteSprite.visible = false
@@ -222,6 +247,8 @@ func _process(delta):
 							elif (rng == 4):
 								charactersprite.animation = "suplexmash4"
 							elif (rng == 5):
+								charactersprite.animation = "suplexmash5"
+							elif (rng == 6):
 								charactersprite.animation = "punch"
 							state = global.states.tackle
 							movespeed = 3
@@ -288,6 +315,93 @@ func _process(delta):
 					destructible.velocity.x = ((xscale) * 15)
 					destructible.velocity.y = -6
 					destructible.state = global.states.stun
+				if (state == global.states.pummel && charactersprite.frame == charactersprite.frames.get_frame_count(charactersprite.animation) - 3):
+					utils.playsound("Punch")
+					global.hit += 1
+					global.combotime += 30
+					global.heattime = 60
+					utils.instance_create(destructible.global_position.x, destructible.global_position.y, "res://Objects/Visuals/obj_slapstar.tscn")
+					utils.instance_create(destructible.global_position.x, destructible.global_position.y, "res://Objects/Visuals/obj_slapstar.tscn")
+					utils.instance_create(destructible.global_position.x, destructible.global_position.y, "res://Objects/Visuals/obj_slapstar.tscn")
+					utils.instance_create(destructible.global_position.x, destructible.global_position.y, "res://Objects/Baddies/obj_baddiegibs.tscn")
+					utils.instance_create(destructible.global_position.x, destructible.global_position.y, "res://Objects/Baddies/obj_baddiegibs.tscn")
+					utils.instance_create(destructible.global_position.x, destructible.global_position.y, "res://Objects/Baddies/obj_baddiegibs.tscn")
+					for i in get_tree().get_nodes_in_group("obj_camera"):
+						i.shake_mag = 3
+						i.shake_mag_acc = (3 / 30)
+					destructible.bangeffecttimer.wait_time = 0.05
+					destructible.bangeffecttimer.start()
+					if (destructible.is_in_group("obj_pizzaball")):
+						global.golfhit += 1
+					destructible.macheffecttimer.wait_time = 0.083
+					destructible.macheffecttimer.start()
+					print("Bagel")
+					if (destructible.hp >= 1):
+						destructible.hp -= 1
+						destructible.stunned = 200
+						destructible.velocity.x = 0
+						destructible.velocity.y = 0
+						destructible.state = global.states.hit
+					else:
+						destructible.thrown = true
+						destructible.stunned = 200
+						destructible.velocity.x = ((xscale) * 15)
+						destructible.velocity.y = -6
+						destructible.state = global.states.stun
+					var rng = utils.randi_range(1, 5)
+					if (rng == 1):
+						charactersprite.animation = "suplexmash1"
+					elif (rng == 2):
+						charactersprite.animation = "suplexmash2"
+					elif (rng == 3):
+						charactersprite.animation = "suplexmash3"
+					elif (rng == 4):
+						charactersprite.animation = "suplexmash4"
+					elif (rng == 5):
+						charactersprite.animation = "suplexmash5"
+					elif (rng == 6):
+						charactersprite.animation = "punch"
+					charactersprite.frame = 0
+					state = global.states.pummel
+				if (state == global.states.handstandjump && global.pummel):
+					utils.playsound("Punch")
+					global.hit += 1
+					global.combotime += 30
+					global.heattime = 60
+					utils.instance_create(destructible.global_position.x, destructible.global_position.y, "res://Objects/Visuals/obj_slapstar.tscn")
+					utils.instance_create(destructible.global_position.x, destructible.global_position.y, "res://Objects/Visuals/obj_slapstar.tscn")
+					utils.instance_create(destructible.global_position.x, destructible.global_position.y, "res://Objects/Visuals/obj_slapstar.tscn")
+					utils.instance_create(destructible.global_position.x, destructible.global_position.y, "res://Objects/Baddies/obj_baddiegibs.tscn")
+					utils.instance_create(destructible.global_position.x, destructible.global_position.y, "res://Objects/Baddies/obj_baddiegibs.tscn")
+					utils.instance_create(destructible.global_position.x, destructible.global_position.y, "res://Objects/Baddies/obj_baddiegibs.tscn")
+					for i in get_tree().get_nodes_in_group("obj_camera"):
+						i.shake_mag = 3
+						i.shake_mag_acc = (3 / 30)
+					destructible.bangeffecttimer.wait_time = 0.05
+					destructible.bangeffecttimer.start()
+					if (destructible.is_in_group("obj_pizzaball")):
+						global.golfhit += 1
+					destructible.macheffecttimer.wait_time = 0.083
+					destructible.macheffecttimer.start()
+					destructible.hp -= 1
+					destructible.stunned = 200
+					destructible.velocity.x = 0
+					destructible.velocity.y = 0
+					destructible.state = global.states.hit
+					var rng = utils.randi_range(1, 5)
+					if (rng == 1):
+						charactersprite.animation = "suplexmash1"
+					elif (rng == 2):
+						charactersprite.animation = "suplexmash2"
+					elif (rng == 3):
+						charactersprite.animation = "suplexmash3"
+					elif (rng == 4):
+						charactersprite.animation = "suplexmash4"
+					elif (rng == 5):
+						charactersprite.animation = "suplexmash5"
+					elif (rng == 6):
+						charactersprite.animation = "punch"
+					state = global.states.pummel
 				if (state == global.states.faceplant || state == global.states.machroll || state == global.states.spin || (state == global.states.punch && charactersprite.animation != "uppercut" && charactersprite.animation != "uppercutend" && charactersprite.animation != "machspin" && charactersprite.animation != "machspinstart")):
 					utils.playsound("Punch")
 					global.hit += 1
@@ -550,6 +664,8 @@ func _process(delta):
 			scr_player_superslam()
 		global.states.finishingblow:
 			scr_player_finishingblow()
+		global.states.pummel:
+			scr_player_pummel()
 		global.states.ladder:
 			scr_player_ladder()
 		global.states.tackle:
@@ -701,6 +817,8 @@ func _physics_process(delta):
 	
 	if state != global.states.titlescreen && state != global.states.gameover && state != global.states.ejected && charactersprite.animation != "ungroundedattack" && charactersprite.animation != "groundedattack" && charactersprite.animation != "bodyslamstart":
 		if state != global.states.backbreaker && state != global.states.finishingblow && !(state == global.states.handstandjump && global.oldgrab) && state != global.states.portal && state != global.states.gottreasure && state != global.states.Sjumpland && state != global.states.ladder && state != global.states.keyget && (state != global.states.door && (charactersprite.animation != "downpizzabox" && charactersprite.animation != "uppizzabox")):
+	if state != global.states.titlescreen && state != global.states.gameover && state != global.states.ejected && charactersprite.animation != "ungroundedattack" && charactersprite.animation != "groundedattack":
+		if state != global.states.backbreaker && state != global.states.finishingblow && !(state == global.states.handstandjump && global.oldgrab) && !(state == global.states.handstandjump && global.pummel) && state != global.states.portal && state != global.states.gottreasure && state != global.states.Sjumpland && state != global.states.ladder && state != global.states.keyget && (state != global.states.door && (charactersprite.animation != "downpizzabox" && charactersprite.animation != "uppizzabox")):
 			if (velocity.y < 30):
 				velocity.y += grav
 		velocity = move_and_slide_with_snap(velocity, snap_vector, FLOOR_NORMAL, true, 4, 1)
@@ -1023,10 +1141,17 @@ func scr_player_normal():
 		$SuplexDash.play()
 		state = global.states.handstandjump
 		if (shotgunAnim == 0):
-			charactersprite.animation = "suplexdash"
+			if (global.pummel):
+				charactersprite.animation = "lunge"
+			else:
+				charactersprite.animation = "suplexdash"
 		else:
 			charactersprite.animation = "shotgun_suplexdash"
-		movespeed = 6
+		if (global.pummel):
+			if (movespeed < 5):
+				movespeed = 5
+		else:
+			movespeed = 6
 	if (Input.is_action_just_pressed("key_grab") && character == "P" && global.shoulderbash && !Input.is_action_pressed("key_up")):
 		suplexmove = 1
 		$SuplexDash.play()
@@ -1035,12 +1160,14 @@ func scr_player_normal():
 		charactersprite.animation = "attackdash"
 		movespeed = 6
 	if (Input.is_action_just_pressed("key_grab") && character == "N"):
-		$NoiseSpin.play()
 		$SuplexDash.play()
-		state = global.states.spin
-		charactersprite.animation = "spin"
-		movespeed = 15
-	if (Input.is_action_just_pressed("key_shoot") && character == "P" && shotgunAnim == 0 && !Input.is_action_pressed("key_up")):
+		state = global.states.handstandjump
+		if (shotgunAnim == 0):
+			charactersprite.animation = "suplexdash"
+		else:
+			charactersprite.animation = "shotgun_suplexdash"
+		movespeed = 6
+	if (Input.is_action_just_pressed("key_shoot") && shotgunAnim == 0 && !Input.is_action_pressed("key_up")):
 		utils.playsound("Breakdance")
 		movespeed = 9
 		state = global.states.punch
@@ -1058,8 +1185,7 @@ func scr_player_normal():
 		if (character == "P"):
 			charactersprite.animation = "uppercut"
 		elif (character == "N"):
-			$NoiseSpin.play()
-			charactersprite.animation = "machspinstart"
+			charactersprite.animation = "uppercut"
 		velocity.y = -14
 		movespeed = 2
 		utils.instance_create(position.x, position.y, "res://Objects/Visuals/obj_highjumpcloud2.tscn")
@@ -1207,11 +1333,19 @@ func scr_player_jump():
 		state = global.states.freefallland
 	if (Input.is_action_just_pressed("key_grab") && character == "P" && ((global.shoulderbash && Input.is_action_pressed("key_up")) || !global.shoulderbash) && suplexmove == 0):
 		suplexmove = 1
+		flash = true
 		$SuplexDash.play()
 		state = global.states.handstandjump
-		charactersprite.animation = "suplexdashjumpstart"
-		velocity.y = -4
-		movespeed = 6
+		if (global.pummel):
+			charactersprite.animation = "lunge"
+		else:
+			charactersprite.animation = "suplexdashjumpstart"
+			velocity.y = -4
+		if (global.pummel):
+			if (movespeed < 5):
+				movespeed = 5
+		else:
+			movespeed = 6
 	if (Input.is_action_just_pressed("key_grab") && character == "P" && global.shoulderbash && !Input.is_action_pressed("key_up") && suplexmove == 0):
 		suplexmove = 1
 		$SuplexDash.play()
@@ -1221,11 +1355,12 @@ func scr_player_jump():
 		velocity.y = -4
 		movespeed = 6
 	if (Input.is_action_just_pressed("key_grab") && character == "N"):
-		$NoiseSpin.play()
+		suplexmove = 1
 		$SuplexDash.play()
-		state = global.states.spin
-		charactersprite.animation = "spin"
-		movespeed = 15
+		state = global.states.handstandjump
+		charactersprite.animation = "suplexdashjumpstart"
+		velocity.y = -4
+		movespeed = 6
 	if (Input.is_action_just_pressed("key_shoot") && shotgunAnim == 0 && !Input.is_action_pressed("key_up")):
 		utils.playsound("Breakdance")
 		velocity.y = -4
@@ -1626,28 +1761,33 @@ func scr_player_handstandjump():
 	velocity.x = (xscale * movespeed)
 	momemtum = 1
 	dir = xscale
-	if (!global.oldgrab):
-		if (movespeed < 10 && is_on_floor()):
-			movespeed += 0.5
-		elif (!is_on_floor()):
-			movespeed = 10
+	if (!global.pummel):
+		if (!global.oldgrab):
+			if (movespeed < 10 && is_on_floor()):
+				movespeed += 0.5
+			elif (!is_on_floor()):
+				movespeed = 10
+		else:
+			velocity.y = 0
+			if (charactersprite.frame < 2):
+				movespeed = 12
+			if (charactersprite.frame > 7):
+				movespeed -= 0.1
+			if (charactersprite.animation != "suplexdash"):
+				charactersprite.animation = "suplexdash"
 	else:
 		velocity.y = 0
-		if (charactersprite.frame < 2):
-			movespeed = 12
-		if (charactersprite.frame > 7):
-			movespeed -= 0.1
-		if (charactersprite.animation != "suplexdash"):
-			charactersprite.animation = "suplexdash"
+		if (movespeed < 12):
+			movespeed += 0.8
 	if (!Input.is_action_pressed("key_jump") && jumpstop == 0 && velocity.y < 0.5 && stompAnim == 0):
 		velocity.y /= 10
 		jumpstop = 1
 	if (move != xscale && move != 0 && !global.oldgrab):
 		state = global.states.normal
-	if ((is_last_frame() || charactersprite.animation == "suplexdashjump" || charactersprite.animation == "suplexdashjumpstart") && ((is_on_floor() && !global.oldgrab && !Input.is_action_pressed("key_dash")) || global.oldgrab) && velocity.y >= 0):
+	if ((is_last_frame() || charactersprite.animation == "suplexdashjump" || charactersprite.animation == "suplexdashjumpstart") && ((is_on_floor() && !global.oldgrab && !Input.is_action_pressed("key_dash")) || global.oldgrab || (!Input.is_action_pressed("key_dash") && !global.oldgrab && global.pummel)) && velocity.y >= 0):
 		charactersprite.speed_scale = 0.35
 		state = global.states.normal
-	if ((is_last_frame() || charactersprite.animation == "suplexdashjump" || charactersprite.animation == "suplexdashjumpstart") && is_on_floor() && Input.is_action_pressed("key_dash") && !global.oldgrab):
+	if ((is_last_frame() || charactersprite.animation == "suplexdashjump" || charactersprite.animation == "suplexdashjumpstart") && ((is_on_floor() && Input.is_action_pressed("key_dash") && !global.oldgrab) || (Input.is_action_pressed("key_dash") && !global.oldgrab && global.pummel))):
 		charactersprite.speed_scale = 0.35
 		mach2 = 35
 		state = global.states.mach2
@@ -1671,7 +1811,7 @@ func scr_player_handstandjump():
 		charactersprite.animation = "suplexdashjumpstart"
 	if (Input.is_action_just_pressed("key_jump") && !global.oldgrab):
 		input_buffer_jump = 0
-	if (is_on_floor() && !global.oldgrab && input_buffer_jump < 8):
+	if (is_on_floor() && !global.oldgrab && !global.pummel && input_buffer_jump < 8):
 		charactersprite.animation = "suplexdashjumpstart"
 		$Jump.play()
 		utils.instance_create(position.x, position.y, "res://Objects/Visuals/obj_highjumpcloud2.tscn")
@@ -1693,8 +1833,10 @@ func scr_player_handstandjump():
 				i.sprite.flip_h = false
 			elif xscale == -1:
 				i.sprite.flip_h = true
-	if (!global.oldgrab):
+	if (!global.oldgrab && !global.pummel):
 		charactersprite.speed_scale = 0.35
+	elif (global.pummel):
+		charactersprite.speed_scale = 0.5
 	else:
 		charactersprite.speed_scale = 0.4
 	if (Input.is_action_just_pressed("key_grab") && character == "P" && !global.oldgrab):
@@ -1882,7 +2024,12 @@ func scr_player_mach1():
 		state = global.states.normal
 		movespeed = 0
 	if (!global.may2019run):
-		charactersprite.speed_scale = 0.5
+		if (movespeed < 4):
+			charactersprite.speed_scale = 0.1
+		elif (movespeed >= 4 && movespeed < 6):
+			charactersprite.speed_scale = 0.25
+		elif (movespeed >= 6):
+			charactersprite.speed_scale = 0.4
 	else:
 		charactersprite.speed_scale = 0.45
 	if (!utils.instance_exists("obj_dashcloud") && is_on_floor()):
@@ -2710,13 +2857,22 @@ func scr_player_finishingblow():
 		movespeed -= 0.5
 	if (is_last_frame()):
 		state = global.states.normal
-	if (charactersprite.frame == 6 && (!utils.instance_exists("obj_swordhitbox"))):
+	if (charactersprite.frame == 2 && (!utils.instance_exists("obj_swordhitbox"))):
 		utils.playsound("Punch")
 		utils.playsound("KillingBlow")
 		utils.instance_create((global_position.x + 50), global_position.y, "res://Objects/Hitboxes/obj_swordhitbox.tscn")
 	if (charactersprite.frame == 0 && (!utils.instance_exists("obj_swordhitbox")) && charactersprite.animation == "swingdingend"):
 		utils.playsound("KillingBlow")
 		utils.instance_create((global_position.x + 50), global_position.y, "res://Objects/Hitboxes/obj_swordhitbox.tscn")
+	charactersprite.speed_scale = 0.35
+	landAnim = 0
+	
+func scr_player_pummel():
+	velocity.x = 0
+	velocity.y = 0
+	movespeed = 0
+	if (is_last_frame()):
+		state = global.states.normal
 	charactersprite.speed_scale = 0.35
 	landAnim = 0
 	

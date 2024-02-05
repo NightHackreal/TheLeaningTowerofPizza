@@ -1,4 +1,6 @@
+
 [gd_scene load_steps=102 format=2]
+[gd_scene load_steps=100 format=2]
 
 [ext_resource path="res://Objects/HUD/obj_tv.gd" type="Script" id=1]
 [ext_resource path="res://Objects/HUD/sprites/tv/tvdefault_0.png" type="Texture" id=2]
@@ -68,11 +70,9 @@
 [ext_resource path="res://Objects/HUD/sprites/tv/tvescape_5.png" type="Texture" id=66]
 [ext_resource path="res://Objects/HUD/sprites/tv/tvescape_0.png" type="Texture" id=67]
 [ext_resource path="res://Objects/HUD/sprites/tv/tvescape_3.png" type="Texture" id=68]
-[ext_resource path="res://Objects/HUD/sprites/tv/tvexit_1.png" type="Texture" id=69]
 [ext_resource path="res://Objects/HUD/sprites/tv/tvknight_0.png" type="Texture" id=70]
 [ext_resource path="res://Objects/HUD/sprites/tv/tvhurt_1.png" type="Texture" id=71]
 [ext_resource path="res://Objects/HUD/sprites/tv/tvhurt_0.png" type="Texture" id=72]
-[ext_resource path="res://Objects/HUD/sprites/tv/tvexit_0.png" type="Texture" id=73]
 [ext_resource path="res://Objects/HUD/sprites/tv/tvnoise_2.png" type="Texture" id=74]
 [ext_resource path="res://Objects/HUD/sprites/tv/tvnoise_0.png" type="Texture" id=75]
 [ext_resource path="res://Objects/HUD/sprites/tv/tvnoise_1.png" type="Texture" id=76]
@@ -150,7 +150,7 @@ animations = [ {
 "name": "escape",
 "speed": 60.0
 }, {
-"frames": [ ExtResource( 73 ), ExtResource( 69 ) ],
+"frames": [ ExtResource( 67 ), ExtResource( 65 ), ExtResource( 63 ), ExtResource( 68 ), ExtResource( 64 ), ExtResource( 66 ), ExtResource( 21 ), ExtResource( 59 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 46 ), ExtResource( 48 ), ExtResource( 57 ), ExtResource( 38 ), ExtResource( 34 ), ExtResource( 41 ), ExtResource( 32 ), ExtResource( 58 ), ExtResource( 28 ), ExtResource( 40 ), ExtResource( 42 ), ExtResource( 50 ), ExtResource( 36 ), ExtResource( 29 ), ExtResource( 61 ), ExtResource( 23 ), ExtResource( 60 ), ExtResource( 30 ), ExtResource( 33 ), ExtResource( 27 ), ExtResource( 44 ), ExtResource( 31 ), ExtResource( 37 ), ExtResource( 43 ), ExtResource( 51 ), ExtResource( 54 ), ExtResource( 47 ), ExtResource( 53 ), ExtResource( 45 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 49 ), ExtResource( 22 ), ExtResource( 35 ), ExtResource( 62 ), ExtResource( 39 ), ExtResource( 52 ), ExtResource( 26 ) ],
 "loop": true,
 "name": "exit",
 "speed": 60.0

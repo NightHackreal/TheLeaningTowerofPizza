@@ -175,7 +175,7 @@ func heatdown():
 		obj.resettimer.start()
 		
 func is_prank():
-	if (!global.combodropped && global.secretfound >= 6 && global.laps > 0):
+	if (!global.combodropped && global.secretfound >= 0 && global.laps > 0):
 		return true
 	else:
 		return false

@@ -11,5 +11,5 @@ dest_files=[ "res://.import/mu_pizzatimedemo0.ogg-b93dd1dc7329d99845cd4643e2c925
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0

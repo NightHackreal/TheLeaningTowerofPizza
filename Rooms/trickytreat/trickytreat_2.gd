@@ -6,9 +6,9 @@ func _ready():
 		utils.get_player().backtohubstarty = 1234
 		global.leveltorestart = "trickytreat"
 		global.roomtorestart = "trickytreat_1"
-		global.collect = 2800
+		global.collect = 3000
 		global.secretfound = 6
 		global.laps = 1
 		global.timeattack = true
-		global.taminutes = 0
-		global.taseconds = 25
+		global.taminutes = 1
+		global.taseconds = 15

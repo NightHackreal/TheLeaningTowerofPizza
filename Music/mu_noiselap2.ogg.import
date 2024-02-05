@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/mu_noiselap2.ogg-4965184877a485e9506c3535982cc97a.oggstr"
+
+[deps]
+
+source_file="res://Music/mu_noiselap2.ogg"
+dest_files=[ "res://.import/mu_noiselap2.ogg-4965184877a485e9506c3535982cc97a.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

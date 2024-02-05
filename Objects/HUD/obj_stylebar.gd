@@ -48,21 +48,21 @@ func _process(delta):
 			$Threshold3Fill.value = 0
 			$Threshold4Fill.value = 0
 		2:
-			global.multiplier = 3
+			global.multiplier = 4
 			$Threshold0Fill.value = 55
 			$Threshold1Fill.value = 55
 			$Threshold2Fill.value = global.style
 			$Threshold3Fill.value = 0
 			$Threshold4Fill.value = 0
 		3:
-			global.multiplier = 4
+			global.multiplier = 8
 			$Threshold0Fill.value = 55
 			$Threshold1Fill.value = 55
 			$Threshold2Fill.value = 55
 			$Threshold3Fill.value = global.style
 			$Threshold4Fill.value = 0
 		4:
-			global.multiplier = 5
+			global.multiplier = 16
 			$Threshold0Fill.value = 55
 			$Threshold1Fill.value = 55
 			$Threshold2Fill.value = 55

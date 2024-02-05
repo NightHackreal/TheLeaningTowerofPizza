@@ -11,5 +11,5 @@ dest_files=[ "res://.import/mu_peppermanlap.ogg-8bb517ff6b4872ce8beea8f400f5bdcb
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0

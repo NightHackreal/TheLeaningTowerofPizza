@@ -52,6 +52,12 @@ func _process(delta):
 					obj.showtext = true
 					obj.resettimer.wait_time = 0.03
 					obj.resettimer.start()
+			"tower":
+				for obj in get_tree().get_nodes_in_group("obj_tv"):
+					obj.message = "THE PIZZA TOWER"
+					obj.showtext = true
+					obj.resettimer.wait_time = 0.03
+					obj.resettimer.start()
 			"water":
 				for obj in get_tree().get_nodes_in_group("obj_tv"):
 					obj.message = "HYDRO HYJINKS"
@@ -84,7 +90,7 @@ func _process(delta):
 					obj.resettimer.start()
 			"kungfu":
 				for obj in get_tree().get_nodes_in_group("obj_tv"):
-					obj.message = "HAAAIIIYYYAAAHHH!!!"
+					obj.message = "ACTION IN THE STREETS"
 					obj.showtext = true
 					obj.resettimer.wait_time = 0.03
 					obj.resettimer.start()
