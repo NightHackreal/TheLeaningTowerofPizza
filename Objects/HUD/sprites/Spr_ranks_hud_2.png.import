@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bg_bossroom.png-dc6d87af0551142f827a23811cb45ff8.stex"
+path="res://.import/Spr_ranks_hud_2.png-141e048c7f8bc17f48eb5792c309ea48.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Backgrounds/bg_bossroom.png"
-dest_files=[ "res://.import/bg_bossroom.png-dc6d87af0551142f827a23811cb45ff8.stex" ]
+source_file="res://Objects/HUD/sprites/Spr_ranks_hud_2.png"
+dest_files=[ "res://.import/Spr_ranks_hud_2.png-141e048c7f8bc17f48eb5792c309ea48.stex" ]
 
 [params]
 
@@ -19,7 +19,7 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
-flags/repeat=1
+flags/repeat=0
 flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false

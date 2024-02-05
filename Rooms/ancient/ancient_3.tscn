@@ -104,8 +104,8 @@ position = Vector2( 703, 385 )
 scale = Vector2( -2, 2 )
 
 [node name="obj_slope3" parent="." instance=ExtResource( 10 )]
-position = Vector2( 1504, 257 )
-scale = Vector2( -6, 6 )
+position = Vector2( 1473, 257 )
+scale = Vector2( -5, 6 )
 
 [node name="obj_collect" parent="." instance=ExtResource( 9 )]
 position = Vector2( 519, 276 )
@@ -153,7 +153,7 @@ scale = Vector2( 195, 3 )
 position = Vector2( 1222, 211 )
 
 [node name="obj_forknight2" parent="." instance=ExtResource( 12 )]
-position = Vector2( 1553, 403 )
+position = Vector2( 1522, 403 )
 
 [node name="obj_cheeseslime" parent="." instance=ExtResource( 11 )]
 position = Vector2( 1065, 212 )

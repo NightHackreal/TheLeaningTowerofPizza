@@ -507,8 +507,8 @@ func _process(delta):
 				var baddie = collision.collider
 				if (baddie.state != global.states.grabbed && !cutscene):
 					if (instakillmove == 1):
-						if (state == global.states.mach3 && charactersprite.animation == "mach4" && charactersprite.animation != "mach4hit"):
-							charactersprite.animation = "mach4hit"
+						if (state == global.states.mach3 && charactersprite.animation != "mach3hit"):
+							charactersprite.animation = "mach3hit"
 						if (state == global.states.mach2 && is_on_floor()):
 							machpunchAnim = 1
 						utils.playsound("Punch")
@@ -698,8 +698,6 @@ func _process(delta):
 			scr_player_parry()
 		global.states.spin:
 			scr_player_spin()
-		global.states.actor:
-			scr_player_actor()
 	scr_playersounds()
 	if (global.combo >= global.combomilestone && state != global.states.backbreaker):
 		supercharged = true
@@ -780,12 +778,12 @@ func _process(delta):
 		ladderbuffer = 0
 	if state != global.states.jump:
 		stompAnim = 0
-	if ((state == global.states.mach3 || state == global.states.machroll || state == global.states.handstandjump || state == global.states.shoulderbash || state == global.states.punch || state == global.states.spin || (state == global.states.machslide && charactersprite.animation == "machslideboost3")) && (!utils.instance_exists("obj_mach3effect"))):
+	if ((state == global.states.mach3 || state == global.states.mach2 || state == global.states.climbwall || state == global.states.machroll || state == global.states.handstandjump || state == global.states.shoulderbash || state == global.states.punch || state == global.states.spin || state == global.states.machslide) && (!utils.instance_exists("obj_mach3effect"))):
 		toomuchalarm1 = 6
 		utils.instance_create(global_position.x, global_position.y, "res://Objects/Visuals/obj_mach3effect.tscn")
 	if (toomuchalarm1 > 0):
 		toomuchalarm1 -= 1
-		if (toomuchalarm1 <= 0 && (state == global.states.mach3 || state == global.states.machroll || state == global.states.handstandjump || state == global.states.shoulderbash || state == global.states.punch || state == global.states.spin || (state == global.states.machslide && charactersprite.animation == "machslideboost3"))):
+		if (toomuchalarm1 <= 0 && (state == global.states.mach3 || state == global.states.mach2 || state == global.states.climbwall || state == global.states.machroll || state == global.states.handstandjump || state == global.states.shoulderbash || state == global.states.punch || state == global.states.spin || state == global.states.machslide)):
 			utils.instance_create(global_position.x, global_position.y, "res://Objects/Visuals/obj_mach3effect.tscn")
 			toomuchalarm1 = 6
 	if (!$CrouchCheck.is_colliding()):
@@ -815,8 +813,6 @@ func _physics_process(delta):
 						velocity.y = 0
 				snap_vector = Vector2.DOWN * 20
 	
-	if state != global.states.titlescreen && state != global.states.gameover && state != global.states.ejected && charactersprite.animation != "ungroundedattack" && charactersprite.animation != "groundedattack" && charactersprite.animation != "bodyslamstart":
-		if state != global.states.backbreaker && state != global.states.finishingblow && !(state == global.states.handstandjump && global.oldgrab) && state != global.states.portal && state != global.states.gottreasure && state != global.states.Sjumpland && state != global.states.ladder && state != global.states.keyget && (state != global.states.door && (charactersprite.animation != "downpizzabox" && charactersprite.animation != "uppizzabox")):
 	if state != global.states.titlescreen && state != global.states.gameover && state != global.states.ejected && charactersprite.animation != "ungroundedattack" && charactersprite.animation != "groundedattack":
 		if state != global.states.backbreaker && state != global.states.finishingblow && !(state == global.states.handstandjump && global.oldgrab) && !(state == global.states.handstandjump && global.pummel) && state != global.states.portal && state != global.states.gottreasure && state != global.states.Sjumpland && state != global.states.ladder && state != global.states.keyget && (state != global.states.door && (charactersprite.animation != "downpizzabox" && charactersprite.animation != "uppizzabox")):
 			if (velocity.y < 30):
@@ -1096,10 +1092,7 @@ func scr_player_normal():
 		state = global.states.jump
 	if (Input.is_action_just_pressed("key_jump") && is_on_floor() && !Input.is_action_pressed("key_down")):
 		$Jump.play()
-		if (move == 0):
-			charactersprite.animation = "jump"
-		if (move != 0):
-			charactersprite.animation = "jump2"
+		charactersprite.animation = "jump"
 		if (shotgunAnim == 1):
 			charactersprite.animation = "shotgun_jump"
 		utils.instance_create(position.x, position.y, "res://Objects/Visuals/obj_highjumpcloud2.tscn")
@@ -1111,6 +1104,22 @@ func scr_player_normal():
 		velocity.y = -11
 		state = global.states.jump
 		jumpAnim = 1
+	if (is_on_floor() && input_buffer_jump < 8 && !Input.is_action_pressed("key_down") && !Input.is_action_pressed("key_dash") && velocity.y >= 0):
+		$Jump.play()
+		charactersprite.animation = "jump"
+		if (shotgunAnim == 1):
+			charactersprite.animation = "shotgun_jump"
+		utils.instance_create(position.x, position.y, "res://Objects/Visuals/obj_highjumpcloud2.tscn")
+		for i in get_tree().get_nodes_in_group("obj_highjumpcloud2"):
+			if xscale == 1:
+				i.sprite.flip_h = false
+			elif xscale == -1:
+				i.sprite.flip_h = true
+		stompAnim = 0
+		velocity.y = -11
+		state = global.states.jump
+		jumpAnim = 1
+		jumpstop = 0
 	if ((Input.is_action_pressed("key_down") && is_on_floor()) || ($CrouchCheck.is_colliding() && is_on_floor())):
 		state = global.states.crouch
 		landAnim = 0
@@ -1202,7 +1211,7 @@ func scr_player_normal():
 			var bulletid2 = utils.instance_create(global_position.x + (xscale * 20), global_position.y + 20, "res://Objects/Misc/obj_shotgunbullet.tscn")
 			bulletid2.spdh = -4
 	if (Input.is_action_pressed("key_dash") && !is_on_wall() && !is_colliding_with_wall()):
-		movespeed = 0
+		movespeed = 6
 		charactersprite.animation = "mach1"
 		jumpAnim = 1
 		state = global.states.mach1
@@ -1223,16 +1232,16 @@ func scr_player_jump():
 		dir = xscale
 		movespeed = 2
 		facehurt = 0
-	if (move != xscale && momemtum == 1 && movespeed != 0):
+	if (move != xscale):
 		movespeed = 2
 	if (movespeed == 0):
 		momemtum = 0
 	if (move != 0 && movespeed < 6):
-		movespeed += 0.25
+		movespeed += 0.5
 	if (movespeed > 6):
-		movespeed -= 0.05
-	if (is_colliding_with_wall() && move != 0):
-		movespeed -= 0.05
+		movespeed -= 0.1
+	if (is_on_wall() && move != 0 && movespeed < 2):
+		movespeed = 0
 	if (dir != xscale):
 		dir = xscale
 	landAnim = 1
@@ -1246,10 +1255,7 @@ func scr_player_jump():
 		jumpstop = 1
 	if (is_on_floor() && input_buffer_jump < 8 && !Input.is_action_pressed("key_down") && !Input.is_action_pressed("key_dash") && velocity.y >= 0 && (!((charactersprite.animation == "facestomp" || charactersprite.animation == "freefall")))):
 		$Jump.play()
-		if (move == 0):
-			charactersprite.animation = "jump"
-		if (move != 0):
-			charactersprite.animation = "jump2"
+		charactersprite.animation = "jump"
 		if (shotgunAnim == 1):
 			charactersprite.animation = "shotgun_jump"
 		utils.instance_create(position.x, position.y, "res://Objects/Visuals/obj_highjumpcloud2.tscn")
@@ -1287,8 +1293,6 @@ func scr_player_jump():
 				charactersprite.animation = "shotgun_fall"
 			if (charactersprite.animation == "jump"):
 				charactersprite.animation = "fall"
-			if (charactersprite.animation == "jump2"):
-				charactersprite.animation = "fall2"
 			if (charactersprite.animation == "shotgunjump1"):
 				charactersprite.animation = "shotgunjump2"
 	if (stompAnim == 1):
@@ -1298,7 +1302,7 @@ func scr_player_jump():
 		if (shotgunAnim == 0):
 			state = global.states.freefallprep
 			charactersprite.animation = "bodyslamstart"
-			flash = true
+			velocity.y = -5
 		else:
 			state = global.states.freefallprep
 			charactersprite.animation = "shotgunjump1"
@@ -1389,7 +1393,7 @@ func scr_player_jump():
 	if (!Input.is_action_pressed("key_dash") && move != xscale):
 		mach2 = 0
 	if (Input.is_action_pressed("key_dash") && is_on_floor() && fallinganimation < 40):
-		mach2 = 0
+		movespeed = 6
 		charactersprite.animation = "mach1"
 		jumpAnim = 1
 		state = global.states.mach1
@@ -1551,7 +1555,7 @@ func scr_player_crouchjump():
 	
 func scr_player_freefallprep():
 	var move = ((-int(Input.is_action_pressed("key_left"))) + int(Input.is_action_pressed("key_right")))
-	if (!is_on_floor() && charactersprite.animation != "bodyslamstart"):
+	if (!is_on_floor()):
 		velocity.x = (move * movespeed)
 		if (move != xscale && momemtum == 1 && movespeed != 0):
 			movespeed -= 0.05
@@ -1576,9 +1580,6 @@ func scr_player_freefallprep():
 			momemtum = 0
 		if (move != 0):
 			xscale = move
-	else:
-		velocity.x = 0
-		velocity.y = 0
 	charactersprite.speed_scale = 0.5
 	if (is_last_frame()):
 		velocity.y += 14
@@ -1789,11 +1790,9 @@ func scr_player_handstandjump():
 		state = global.states.normal
 	if ((is_last_frame() || charactersprite.animation == "suplexdashjump" || charactersprite.animation == "suplexdashjumpstart") && ((is_on_floor() && Input.is_action_pressed("key_dash") && !global.oldgrab) || (Input.is_action_pressed("key_dash") && !global.oldgrab && global.pummel))):
 		charactersprite.speed_scale = 0.35
-		mach2 = 35
 		state = global.states.mach2
 	if (Input.is_action_just_pressed("key_jump") && is_on_floor() && global.oldgrab):
 		movespeed = 10
-		mach2 = 35
 		charactersprite.animation = "mach2jump"
 		utils.instance_create(position.x, position.y, "res://Objects/Visuals/obj_jumpdust.tscn")
 		state = global.states.mach2
@@ -1880,7 +1879,6 @@ func scr_player_shoulderbash():
 		charactersprite.animation = "machslidestart"
 	if (((is_last_frame() && charactersprite.animation == "attackdash") || charactersprite.animation == "mach2jump") && is_on_floor() && Input.is_action_pressed("key_dash")):
 		charactersprite.speed_scale = 0.35
-		mach2 = 35
 		state = global.states.mach2
 	if (is_last_frame() && charactersprite.animation == "airattackstart"):
 		charactersprite.animation = "airattack"
@@ -1893,7 +1891,6 @@ func scr_player_shoulderbash():
 	if (is_on_floor() && (charactersprite.animation == "airattack" || charactersprite.animation == "airattackstart")):
 		if (Input.is_action_pressed("key_dash")):
 			charactersprite.speed_scale = 0.35
-			mach2 = 35
 			state = global.states.mach2
 		else:
 			charactersprite.speed_scale = 0.35
@@ -1981,27 +1978,25 @@ func scr_player_mach1():
 		mach2 = 0
 		state = global.states.normal
 		movespeed = 0
-	if (movespeed <= 8):
-		movespeed += 0.25
 	machhitAnim = 0
 	crouchslideAnim = 1
 	velocity.x = (xscale * movespeed)
 	if (xscale == 1 && move == -1):
-		charactersprite.frame = 0
+		charactersprite.animation = "mach1"
 		momemtum = 0
 		mach2 = 0
-		movespeed = 0
+		movespeed = 6
 		xscale = -1
 	if (xscale == -1 && move == 1):
-		charactersprite.frame = 0
+		charactersprite.animation = "mach1"
 		momemtum = 0
 		mach2 = 0
-		movespeed = 0
+		movespeed = 6
 		xscale = 1
 	if (is_on_floor()):
-		if (mach2 < 35):
-			mach2 += 1
-		if (mach2 >= 35):
+		if (movespeed <= 8):
+			movespeed += 0.075
+		if (movespeed >= 8):
 			state = global.states.mach2
 			utils.instance_create(position.x, position.y, "res://Objects/Visuals/obj_jumpdust.tscn")
 			for i in get_tree().get_nodes_in_group("obj_jumpdust"):
@@ -2049,13 +2044,12 @@ func scr_player_mach1():
 		dir = xscale
 		momemtum = 1
 		velocity.y = -11
-		state = global.states.jump
 		jumpAnim = 1
 	if (Input.is_action_pressed("key_down") && !is_on_floor()):
 		if (shotgunAnim == 0):
 			state = global.states.freefallprep
 			charactersprite.animation = "bodyslamstart"
-			flash = true
+			velocity.y = -5
 		else:
 			state = global.states.freefallprep
 			charactersprite.animation = "shotgunjump1"
@@ -2080,7 +2074,6 @@ func scr_player_mach2():
 	if (windingAnim < 2000):
 		windingAnim += 1
 	velocity.x = (xscale * movespeed)
-	movespeed = 10
 	crouchslideAnim = 1
 	if (!Input.is_action_pressed("key_jump") && jumpstop == 0 && velocity.y < 0.5):
 		velocity.y /= 10
@@ -2092,16 +2085,9 @@ func scr_player_mach2():
 		$Jump.play()
 		velocity.y = -11
 	if (is_on_floor() && velocity.y >= 0):
-		if (machpunchAnim == 0 && charactersprite.animation != "mach" && charactersprite.animation != "machhit"):
-			if (charactersprite.animation != "rollgetup"):
-				if (character == "P"):
-					var machsprrng = utils.randi_range(0, 1)
-					if (machsprrng == 0):
-						charactersprite.animation = "mach"
-					else:
-						charactersprite.animation = "machhit"
-				else:
-					charactersprite.animation = "mach"
+		if (machpunchAnim == 0 && charactersprite.animation != "mach" && charactersprite.animation != "mach3" && charactersprite.animation != "machhit"):
+			if (charactersprite.animation != "machhit" && charactersprite.animation != "rollgetup"):
+				charactersprite.animation = "mach"
 		if (machpunchAnim == 1):
 			if (punch == 0):
 				charactersprite.animation = "machpunch1"
@@ -2116,9 +2102,9 @@ func scr_player_mach2():
 	if (!is_on_floor()):
 		machpunchAnim = 0
 	if (is_on_floor()):
-		if (mach2 < 100):
-			mach2 += 1.5
-		if (mach2 >= 100):
+		if (movespeed < 12):
+			movespeed += 0.1
+		if (movespeed >= 12):
 			movespeed = 12
 			machhitAnim = 0
 			state = global.states.mach3
@@ -2128,11 +2114,11 @@ func scr_player_mach2():
 			utils.instance_create(position.x, position.y, "res://Objects/Visuals/obj_jumpdust.tscn")
 	if (Input.is_action_just_pressed("key_jump")):
 		input_buffer_jump = 0
-	if (Input.is_action_pressed("key_down") && is_on_floor()):
+	if (Input.is_action_pressed("key_down")):
 		utils.instance_create(position.x, position.y, "res://Objects/Visuals/obj_jumpdust.tscn")
-		charactersprite.animation = "crouchslip"
 		flash = false
-		state = global.states.crouchslide
+		state = global.states.machroll
+		velocity.y = 10
 	if (!is_on_floor() && is_wallclimbable() && (charactersprite.animation != "walljumpstart" || (charactersprite.animation == "walljumpstart" && charactersprite.frame > 2))):
 		wallspeed = movespeed
 		state = global.states.climbwall
@@ -2150,14 +2136,7 @@ func scr_player_mach2():
 			elif xscale == -1:
 				i.sprite.flip_h = true
 	if (is_on_floor() && is_last_frame() && charactersprite.animation == "rollgetup"):
-		if (character == "P"):
-			var machsprrng = utils.randi_range(0, 1)
-			if (machsprrng == 0):
-				charactersprite.animation = "mach"
-			else:
-				charactersprite.animation = "machhit"
-		else:
-			charactersprite.animation = "mach"
+		charactersprite.animation = "mach"
 	if (!is_on_floor() && charactersprite.animation != "secondjump2" && charactersprite.animation != "machspin" && charactersprite.animation != "mach2jump" && charactersprite.animation != "walljumpstart" && charactersprite.animation != "walljumpend"):
 		charactersprite.animation = "secondjump1"
 	if (is_last_frame() && charactersprite.animation == "secondjump1"):
@@ -2167,12 +2146,10 @@ func scr_player_mach2():
 	if (!Input.is_action_pressed("key_dash") && move != xscale && is_on_floor()):
 		state = global.states.machslide
 		$MachSlide.play()
-		mach2 = 0
 		charactersprite.animation = "machslidestart"
 	if (move == (-xscale) && is_on_floor()):
 		$MachSlideBoost.play()
 		state = global.states.machslide
-		mach2 = 35
 		charactersprite.animation = "machslideboost"
 	if (move == xscale && !Input.is_action_pressed("key_dash") && is_on_floor()):
 		state = global.states.normal
@@ -2189,13 +2166,13 @@ func scr_player_mach3():
 	velocity.x = (xscale * movespeed)
 	mach2 = 100
 	momemtum = 1
-	if (movespeed < 20 && move == xscale):
-		movespeed += 0.05
+	if (movespeed < 24 && move == xscale):
+		movespeed += 0.1
 		if (!utils.instance_exists("obj_crazyruneffect")):
 			utils.instance_create(position.x, position.y, "res://Objects/Visuals/obj_crazyruneffect.tscn")
 	elif (movespeed > 12 && move != xscale):
-		movespeed -= 0.05
-	if (charactersprite.animation == "mach4"):
+		movespeed -= 0.1
+	if (charactersprite.animation == "crazyrun"):
 		if (flamecloud_buffer > 0):
 			flamecloud_buffer -= 1
 		else:
@@ -2209,25 +2186,27 @@ func scr_player_mach3():
 		jumpstop = 0
 	if (input_buffer_jump < 8 && is_on_floor() && (!(move == 1 && xscale == -1)) && (!(move == -1 && xscale == 1))):
 		$Jump.play()
-		if (charactersprite.animation == "mach4"):
-			charactersprite.animation = "mach4jump"
+		charactersprite.animation = "mach3jump"
 		velocity.y = -11
-	if (charactersprite.animation == "mach4jump" && is_last_frame()):
+	if (charactersprite.animation == "mach3jump" && is_last_frame()):
 		charactersprite.animation = "mach4"
-	if (is_last_frame() && (charactersprite.animation == "rollgetup")):
-		charactersprite.animation = "mach3"
-	if (is_last_frame() && (charactersprite.animation == "mach4hit")):
+	if (is_last_frame() && (charactersprite.animation == "rollgetup" || charactersprite.animation == "mach3hit")):
 		charactersprite.animation = "mach4"
 	if (charactersprite.animation == "mach2jump" && is_on_floor() && velocity.y >= 0):
-		charactersprite.animation = "mach3"
-	if (movespeed > 16 && charactersprite.animation != "mach4" && charactersprite.animation != "mach4jump" && charactersprite.animation != "mach4hit"):
-		flash = true
 		charactersprite.animation = "mach4"
-	elif (movespeed <= 16 && (charactersprite.animation == "mach4" || charactersprite.animation == "mach4jump" || charactersprite.animation == "mach4hit")):
-		charactersprite.animation = "mach3"
-	if (charactersprite.animation == "mach4" && !utils.instance_exists("obj_crazyrunothereffect")):
+	if (movespeed > 20 && charactersprite.animation != "crazyrun"):
+		flash = true
+		charactersprite.animation = "crazyrun"
+	elif (movespeed <= 20 && charactersprite.animation == "crazyrun"):
+		charactersprite.animation = "mach4"
+	if (charactersprite.animation == "crazyrun" && !utils.instance_exists("obj_crazyrunothereffect")):
 		utils.instance_create(position.x, position.y, "res://Objects/Visuals/obj_crazyrunothereffect.tscn")
-	charactersprite.speed_scale = 0.4
+	if (charactersprite.animation == "mach4"):
+		charactersprite.speed_scale = 0.4
+	if (charactersprite.animation == "crazyrun"):
+		charactersprite.speed_scale = 0.75
+	if (charactersprite.animation == "rollgetup" || charactersprite.animation == "mach3hit"):
+		charactersprite.speed_scale = 0.4
 	if (Input.is_action_just_pressed("key_jump")):
 		input_buffer_jump = 0
 	if (Input.is_action_pressed("key_up")):
@@ -2248,10 +2227,10 @@ func scr_player_mach3():
 		state = global.states.machroll
 		velocity.y = 10
 	if (!is_on_floor() && is_wallclimbable()):
-		wallspeed = movespeed
+		wallspeed = 10
 		state = global.states.climbwall
 	if (is_on_floor() && is_wallclimbable() && $SlopeCheck.is_colliding()):
-		wallspeed = movespeed
+		wallspeed = 10
 		state = global.states.climbwall
 	if (is_on_floor() && (is_colliding_with_wall() && charactersprite.animation != "machslideboost" && charactersprite.animation != "machslideboost3") && !$SlopeCheck.is_colliding()):
 		charactersprite.animation = "hitwall"
@@ -2274,7 +2253,7 @@ func scr_player_mach3():
 		velocity.y = -3
 		mach2 = 0
 		utils.instance_create(position.x + 10, position.y + 10, "res://Objects/Visuals/obj_bumpeffect.tscn")
-	if (!utils.instance_exists("obj_chargeeffect") && (charactersprite.animation == "mach4" || charactersprite.animation == "mach4hit" || charactersprite.animation == "mach4jump")):
+	if (!utils.instance_exists("obj_chargeeffect")):
 		utils.instance_create(position.x, position.y, "res://Objects/Visuals/obj_chargeeffect.tscn")
 	if (!utils.instance_exists("obj_superdashcloud") && is_on_floor()):
 		utils.instance_create(position.x, position.y, "res://Objects/Visuals/obj_superdashcloud.tscn")
@@ -2311,19 +2290,18 @@ func scr_player_machslide():
 		$DestructibleArea.scale.x *= -1
 		$WallClimbCheck.scale.x *= -1
 		xscale *= -1
+		movespeed = 8
 		state = global.states.mach2
-		utils.instance_create(position.x, position.y, "res://Objects/Visuals/obj_jumpdust.tscn")
 	if (is_last_frame() && charactersprite.animation == "machslideboost3"):
 		velocity.x = 0
-		charactersprite.animation = "mach3"
+		charactersprite.animation = "mach4"
 		$SolidCheck.scale.x *= -1
 		$SolidCheck2.scale.x *= -1
 		$DestructibleArea.scale.x *= -1
 		$WallClimbCheck.scale.x *= -1
 		xscale *= -1
-		state = global.states.mach3
 		movespeed = 12
-		utils.instance_create(position.x, position.y, "res://Objects/Visuals/obj_jumpdust.tscn")
+		state = global.states.mach3
 	if (charactersprite.animation == "crouchslide" && movespeed == 0 && is_on_floor()):
 		facehurt = 1
 		state = global.states.normal
@@ -2359,9 +2337,8 @@ func scr_player_climbwall():
 		windingAnim += 1
 	suplexmove = 0
 	velocity.y = (-wallspeed)
-	mach2 = 35
-	if (wallspeed > 0):
-		wallspeed -= 0.5
+	if (wallspeed < 24 && move == xscale):
+		wallspeed += 0.05
 	crouchslideAnim = 1
 	charactersprite.animation = "climbwall"
 	if (!Input.is_action_pressed("key_dash") || (move != xscale && move != 0)):
@@ -2375,13 +2352,17 @@ func scr_player_climbwall():
 	if (!is_colliding_wallclimb()):
 		utils.instance_create(position.x, position.y, "res://Objects/Visuals/obj_jumpdust.tscn")
 		velocity.y = 0
-		state = global.states.mach2
-		mach2 = 35
+		if (movespeed >= 8 && movespeed < 12):
+			state = global.states.mach2
+		elif (movespeed >= 12):
+			state = global.states.mach3
+			charactersprite.animation = "mach4"
+		else:
+			state = global.states.normal
 	if (Input.is_action_just_pressed("key_jump")):
-		movespeed = 10
-		mach2 = 35
+		movespeed = 8
 		charactersprite.animation = "walljumpstart"
-		velocity.y = -9
+		velocity.y = -11
 		xscale *= -1
 		jumpstop = 0
 		state = global.states.mach2
@@ -3417,10 +3398,6 @@ func scr_player_spin():
 			elif xscale == -1:
 				i.sprite.flip_h = true
 	charactersprite.speed_scale = 0.35
-	
-func scr_player_actor():
-	cutscene = true
-	movespeed = 0
 
 # scr_playerreset
 # Resets player variables and all global variables
@@ -3557,13 +3534,13 @@ func scr_playersounds():
 		$Mach2.play()
 	elif ((charactersprite.animation != "mach" && charactersprite.animation != "machhit") && state != global.states.climbwall):
 		$Mach2.stop()
-	if ((state == global.states.mach3 || charactersprite.animation == "machslideboost3") && charactersprite.animation != "mach4" && !$Mach3.playing):
+	if ((state == global.states.mach3 || charactersprite.animation == "machslideboost3") && charactersprite.animation != "crazyrun" && !$Mach3.playing):
 		$Mach3.play()
-	elif ((state != global.states.mach3 && charactersprite.animation != "machslideboost3") || charactersprite.animation == "mach4"):
+	elif ((state != global.states.mach3 && charactersprite.animation != "machslideboost3") || charactersprite.animation == "crazyrun"):
 		$Mach3.stop()
-	if (charactersprite.animation == "mach4" && !$Mach4.playing):
+	if (charactersprite.animation == "crazyrun" && !$Mach4.playing):
 		$Mach4.play()
-	elif (charactersprite.animation != "mach4"):
+	elif (charactersprite.animation != "crazyrun"):
 		$Mach4.stop()
 	if (state == global.states.knightpepslopes && !$KnightSlide.playing):
 		$KnightSlide.play()
@@ -3590,10 +3567,6 @@ func scr_playersounds():
 		$Tumble3.stop()
 	if ($SuplexDash.playing && state != global.states.handstandjump && state != global.states.shoulderbash && state != global.states.punch && state != global.states.spin && (state != global.states.mach2 && charactersprite.animation != "machspin")):
 		$SuplexDash.stop()
-	if (!$Climb.playing && charactersprite.animation == "laddermove"):
-		$Climb.play()
-	elif ($Climb.playing && charactersprite.animation != "laddermove"):
-		$Climb.stop()
 
 # Timer functions
 

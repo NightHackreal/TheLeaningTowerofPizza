@@ -15,6 +15,6 @@ func _process(delta):
 		$Sprite.flip_h = false
 	elif (utils.get_player().xscale == -1):
 		$Sprite.flip_h = true
-	if (utils.get_player().state != global.states.mach3 && utils.get_player().sprite_index != "mach4" && utils.get_player().sprite_index != "mach4hit" && utils.get_player().sprite_index != "mach4jump"):
+	if (utils.get_player().state != global.states.mach3):
 		queue_free()
 	position = utils.get_player().position

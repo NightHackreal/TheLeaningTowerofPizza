@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/rank_1.png-046fb13d5ccb60b7997cf1ac4fb770d6.stex"
+path="res://.import/mach4_3.png-253e1444b6aa0db66e314eb861391045.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Objects/HUD/sprites/rank_1.png"
-dest_files=[ "res://.import/rank_1.png-046fb13d5ccb60b7997cf1ac4fb770d6.stex" ]
+source_file="res://Objects/Player/sprites/mach4_3.png"
+dest_files=[ "res://.import/mach4_3.png-253e1444b6aa0db66e314eb861391045.stex" ]
 
 [params]
 

@@ -30,9 +30,10 @@ animations = [ {
 } ]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 28, 36 )
+extents = Vector2( 28.25, 39 )
 
 [node name="obj_noisesatelite" type="KinematicBody2D" groups=["obj_hungrypillar"]]
+position = Vector2( 2, -78 )
 collision_layer = 4
 script = ExtResource( 18 )
 
@@ -41,9 +42,7 @@ position = Vector2( -21, 59 )
 frames = SubResource( 2 )
 animation = "noisesatelite"
 centered = false
-offset = Vector2( 0, 4 )
 
 [node name="Collision" type="CollisionShape2D" parent="."]
-position = Vector2( 28, 68 )
 position = Vector2( 26, 117 )
 shape = SubResource( 1 )

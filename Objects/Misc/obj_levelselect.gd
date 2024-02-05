@@ -7,8 +7,6 @@ var world_array = [
 	["WORLD 1"],
 	["WORLD 2"],
 	["WORLD 3"],
-	["BOSSES"],
-	# There's only 3 worlds right now - uncomment these when these worlds are added in. -basiccube
 	# There's only three worlds currently present, uncomment these when the levels for these worlds actually exist.
 	#["WORLD 4"],
 	#["TOP"],
@@ -35,9 +33,6 @@ var level_array = [
 		["PIZZASCAPE", "medieval", "medieval_1"],
 		["THE ANCIENT CHEESE", "ruin", "ruin_1"],
 		["BLOODSAUCE DUNGEON", "dungeon", "dungeon_1"],
-	],
-	[
-		["PEPPERMAN", "", "boss_pepperman_arena"],
 	],
 ]
 

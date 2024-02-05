@@ -85,4 +85,5 @@ position = Vector2( 832, 128 )
 position = Vector2( 1209, 264 )
 
 [node name="obj_noisesatelite" parent="." instance=ExtResource( 5 )]
-position = Vector2( 1248, 344 )
+position = Vector2( 1214, 296 )
+scale = Vector2( -1, 1 )
